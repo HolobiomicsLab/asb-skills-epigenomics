@@ -1,0 +1,17 @@
+{
+  "intent": "INT-ASB-042",
+  "source_repository": "HolobiomicsLab/asb-skill-collections",
+  "source_commit": "f554641c24ea7c60bbaa5322ec8a56b1a6bd30db",
+  "source_ref": "main after PR #58",
+  "paths": [
+    "collections/epigenomics",
+    "packs/epigenomics",
+    "staged-collections/epigenomics",
+    "LICENSE",
+    "LICENSING.md"
+  ],
+  "method": "git filter-repo --path (history preserved; blobs unchanged)",
+  "blob_count": 791,
+  "listing_sha256": "64389a570a7a70c142acdfad4fef76907618cf8b431b5b30333318dadccafbcd",
+  "generated_at": "2026-09-17T04:44:16Z"
+}
