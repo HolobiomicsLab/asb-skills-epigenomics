@@ -1,0 +1,5025 @@
+{
+  "auto_merges_applied": false,
+  "components_ge_0_90": 193,
+  "components_ge_0_95": 14,
+  "input_digests": {
+    "coverage_summary_sha256": "d7359e4dd5f0f00769f09c62c84048bf064e212d9707ea12d6411b0e6391d50a",
+    "outputs": 2295
+  },
+  "model": "BAAI/bge-small-en-v1.5",
+  "pairs_0_90_to_0_95": [
+    {
+      "left": {
+        "canonical_slug": "genome-assembly-polishing",
+        "merge_kind": "single",
+        "output_id": "genome-assembly-polishing"
+      },
+      "right": {
+        "canonical_slug": "long-read-genome-assembly",
+        "merge_kind": "single",
+        "output_id": "long-read-genome-assembly"
+      },
+      "run": "asbb_subwave1_2026-09__coll_nanopore_cq",
+      "score": 0.949934
+    },
+    {
+      "left": {
+        "canonical_slug": "genomic-sequence-data-preparation",
+        "merge_kind": "single",
+        "output_id": "genomic-sequence-data-preparation"
+      },
+      "right": {
+        "canonical_slug": "one-hot-dna-sequence-encoding",
+        "merge_kind": "single",
+        "output_id": "one-hot-dna-sequence-encoding"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_deepc_cq",
+      "score": 0.946737
+    },
+    {
+      "left": {
+        "canonical_slug": "haplotype-assembly-benchmarking",
+        "merge_kind": "single",
+        "output_id": "haplotype-assembly-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "long-read-haplotype-assembly",
+        "merge_kind": "single",
+        "output_id": "long-read-haplotype-assembly"
+      },
+      "run": "asbb_subwave1_2026-09__coll_spechap_cq",
+      "score": 0.946294
+    },
+    {
+      "left": {
+        "canonical_slug": "transcription-factor-cofactor-motif-annotation",
+        "merge_kind": "single",
+        "output_id": "transcription-factor-cofactor-motif-annotation"
+      },
+      "right": {
+        "canonical_slug": "transcription-factor-motif-database-matching",
+        "merge_kind": "single",
+        "output_id": "transcription-factor-motif-database-matching"
+      },
+      "run": "asbb_subwave1_2026-09__coll_deep_sequence_and_shape_motif_desso_cq",
+      "score": 0.945783
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-validated-roc-auc-evaluation",
+        "merge_kind": "single",
+        "output_id": "cross-validated-roc-auc-evaluation"
+      },
+      "right": {
+        "canonical_slug": "roc-auc-model-evaluation",
+        "merge_kind": "single",
+        "output_id": "roc-auc-model-evaluation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_imeges_cq",
+      "score": 0.944948
+    },
+    {
+      "left": {
+        "canonical_slug": "cluster-solution-stability-assessment",
+        "merge_kind": "single",
+        "output_id": "cluster-solution-stability-assessment"
+      },
+      "right": {
+        "canonical_slug": "sriq-cluster-stability-analysis",
+        "merge_kind": "single",
+        "output_id": "sriq-cluster-stability-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_sriq_cq",
+      "score": 0.94463
+    },
+    {
+      "left": {
+        "canonical_slug": "cell-line-specific-enhancer-model-interpretation",
+        "merge_kind": "single",
+        "output_id": "cell-line-specific-enhancer-model-interpretation"
+      },
+      "right": {
+        "canonical_slug": "cross-cell-line-enhancer-prediction",
+        "merge_kind": "single",
+        "output_id": "cross-cell-line-enhancer-prediction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_enhancer_mdlf_cq",
+      "score": 0.944438
+    },
+    {
+      "left": {
+        "canonical_slug": "calibrated-methylation-data-analysis",
+        "merge_kind": "single",
+        "output_id": "calibrated-methylation-data-analysis"
+      },
+      "right": {
+        "canonical_slug": "methylation-level-correction-evaluation",
+        "merge_kind": "single",
+        "output_id": "methylation-level-correction-evaluation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methylcal_cq",
+      "score": 0.94432
+    },
+    {
+      "left": {
+        "canonical_slug": "chromatin-interaction-prediction-evaluation",
+        "merge_kind": "single",
+        "output_id": "chromatin-interaction-prediction-evaluation"
+      },
+      "right": {
+        "canonical_slug": "variant-effect-prediction-from-chromatin-interaction-models",
+        "merge_kind": "single",
+        "output_id": "variant-effect-prediction-from-chromatin-interaction-models"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_deepc_cq",
+      "score": 0.943987
+    },
+    {
+      "left": {
+        "canonical_slug": "consensus-partitioning-analysis",
+        "merge_kind": "single",
+        "output_id": "consensus-partitioning-analysis"
+      },
+      "right": {
+        "canonical_slug": "consensus-partitioning-method-benchmarking",
+        "merge_kind": "single",
+        "output_id": "consensus-partitioning-method-benchmarking"
+      },
+      "run": "asbb_subwave1_2026-09__coll_cola_cq",
+      "score": 0.943343
+    },
+    {
+      "left": {
+        "canonical_slug": "atac-seq-peak-liftover",
+        "merge_kind": "single",
+        "output_id": "atac-seq-peak-liftover"
+      },
+      "right": {
+        "canonical_slug": "atac-seq-peak-query-processing",
+        "merge_kind": "single",
+        "output_id": "atac-seq-peak-query-processing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_adaliftover_cq",
+      "score": 0.942992
+    },
+    {
+      "left": {
+        "canonical_slug": "chromatin-loop-calling-from-schic",
+        "merge_kind": "single",
+        "output_id": "chromatin-loop-calling-from-schic"
+      },
+      "right": {
+        "canonical_slug": "chromatin-loop-calling-statistical-testing",
+        "merge_kind": "single",
+        "output_id": "chromatin-loop-calling-statistical-testing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_snaphic_cq",
+      "score": 0.942292
+    },
+    {
+      "left": {
+        "canonical_slug": "cnn-super-enhancer-classification",
+        "merge_kind": "single",
+        "output_id": "cnn-super-enhancer-classification"
+      },
+      "right": {
+        "canonical_slug": "super-enhancer-typical-enhancer-sequence-classification",
+        "merge_kind": "single",
+        "output_id": "super-enhancer-typical-enhancer-sequence-classification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_deepse_cq",
+      "score": 0.940709
+    },
+    {
+      "left": {
+        "canonical_slug": "gamma-mixture-distribution-fitting",
+        "merge_kind": "single",
+        "output_id": "gamma-mixture-distribution-fitting"
+      },
+      "right": {
+        "canonical_slug": "gamma-mixture-expression-prior-application",
+        "merge_kind": "single",
+        "output_id": "gamma-mixture-expression-prior-application"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_scpower_cq",
+      "score": 0.940626
+    },
+    {
+      "left": {
+        "canonical_slug": "cluster-scalability-throughput-analysis",
+        "merge_kind": "single",
+        "output_id": "cluster-scalability-throughput-analysis"
+      },
+      "right": {
+        "canonical_slug": "distributed-cluster-throughput-measurement",
+        "merge_kind": "single",
+        "output_id": "distributed-cluster-throughput-measurement"
+      },
+      "run": "asbb_subwave1_2026-09__coll_bispark_cq",
+      "score": 0.939948
+    },
+    {
+      "left": {
+        "canonical_slug": "adjusted-mutual-information-evaluation",
+        "merge_kind": "single",
+        "output_id": "adjusted-mutual-information-evaluation"
+      },
+      "right": {
+        "canonical_slug": "adjusted-mutual-information-partition-comparison",
+        "merge_kind": "single",
+        "output_id": "adjusted-mutual-information-partition-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dedoc2_cq",
+      "score": 0.939025
+    },
+    {
+      "left": {
+        "canonical_slug": "mapping-efficiency-accuracy-evaluation",
+        "merge_kind": "single",
+        "output_id": "mapping-efficiency-accuracy-evaluation"
+      },
+      "right": {
+        "canonical_slug": "mapping-efficiency-benchmarking",
+        "merge_kind": "single",
+        "output_id": "mapping-efficiency-benchmarking"
+      },
+      "run": "asbb_subwave1_2026-09__coll_msuite_cq",
+      "score": 0.938993
+    },
+    {
+      "left": {
+        "canonical_slug": "genomic-indel-feature-preparation",
+        "merge_kind": "single",
+        "output_id": "genomic-indel-feature-preparation"
+      },
+      "right": {
+        "canonical_slug": "indel-training-data-preparation",
+        "merge_kind": "single",
+        "output_id": "indel-training-data-preparation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_tivan_indel_cq",
+      "score": 0.938906
+    },
+    {
+      "left": {
+        "canonical_slug": "degenerate-motif-enumeration",
+        "merge_kind": "single",
+        "output_id": "degenerate-motif-enumeration"
+      },
+      "right": {
+        "canonical_slug": "iupac-degenerate-motif-discovery",
+        "merge_kind": "single",
+        "output_id": "iupac-degenerate-motif-discovery"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dinamo_cq",
+      "score": 0.938877
+    },
+    {
+      "left": {
+        "canonical_slug": "partition-concordance-evaluation",
+        "merge_kind": "single",
+        "output_id": "partition-concordance-evaluation"
+      },
+      "right": {
+        "canonical_slug": "partition-jaccard-concordance-comparison",
+        "merge_kind": "single",
+        "output_id": "partition-jaccard-concordance-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_cola_cq",
+      "score": 0.938166
+    },
+    {
+      "left": {
+        "canonical_slug": "gene-level-alignment-score-aggregation",
+        "merge_kind": "single",
+        "output_id": "gene-level-alignment-score-aggregation"
+      },
+      "right": {
+        "canonical_slug": "gene-region-alignment-score-ranking",
+        "merge_kind": "single",
+        "output_id": "gene-region-alignment-score-ranking"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epialign_cq",
+      "score": 0.937922
+    },
+    {
+      "left": {
+        "canonical_slug": "contact-map-prediction-evaluation",
+        "merge_kind": "single",
+        "output_id": "contact-map-prediction-evaluation"
+      },
+      "right": {
+        "canonical_slug": "dna-contact-map-prediction-inference",
+        "merge_kind": "single",
+        "output_id": "dna-contact-map-prediction-inference"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_dnalongbench_cq",
+      "score": 0.937843
+    },
+    {
+      "left": {
+        "canonical_slug": "dna-shape-feature-generation",
+        "merge_kind": "single",
+        "output_id": "dna-shape-feature-generation"
+      },
+      "right": {
+        "canonical_slug": "dna-shape-feature-input-handling",
+        "merge_kind": "single",
+        "output_id": "dna-shape-feature-input-handling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_deep_sequence_and_shape_motif_desso_cq",
+      "score": 0.937719
+    },
+    {
+      "left": {
+        "canonical_slug": "bivalent-chromatin-mark-interpretation",
+        "merge_kind": "single",
+        "output_id": "bivalent-chromatin-mark-interpretation"
+      },
+      "right": {
+        "canonical_slug": "bivalent-chromatin-state-annotation",
+        "merge_kind": "single",
+        "output_id": "bivalent-chromatin-state-annotation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_seqcode_cq",
+      "score": 0.937579
+    },
+    {
+      "left": {
+        "canonical_slug": "bacterial-genome-assembly-spades",
+        "merge_kind": "single",
+        "output_id": "bacterial-genome-assembly-spades"
+      },
+      "right": {
+        "canonical_slug": "bacterial-genome-de-novo-assembly",
+        "merge_kind": "single",
+        "output_id": "bacterial-genome-de-novo-assembly"
+      },
+      "run": "asbb_subwave1_2026-09__coll_rims_seq_cq",
+      "score": 0.937101
+    },
+    {
+      "left": {
+        "canonical_slug": "genome-wide-differential-region-validation",
+        "merge_kind": "single",
+        "output_id": "genome-wide-differential-region-validation"
+      },
+      "right": {
+        "canonical_slug": "genomic-region-span-verification",
+        "merge_kind": "single",
+        "output_id": "genomic-region-span-verification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_histonehmm_cq",
+      "score": 0.93688
+    },
+    {
+      "left": {
+        "canonical_slug": "cpg-methylation-percentage-calculation",
+        "merge_kind": "single",
+        "output_id": "cpg-methylation-percentage-calculation"
+      },
+      "right": {
+        "canonical_slug": "cpg-methylation-table-processing",
+        "merge_kind": "single",
+        "output_id": "cpg-methylation-table-processing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_absp_cq",
+      "score": 0.936515
+    },
+    {
+      "left": {
+        "canonical_slug": "random-forest-binding-prediction",
+        "merge_kind": "single",
+        "output_id": "random-forest-binding-prediction"
+      },
+      "right": {
+        "canonical_slug": "random-forest-dna-affinity-regression",
+        "merge_kind": "single",
+        "output_id": "random-forest-dna-affinity-regression"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dnaffinity_cq",
+      "score": 0.93651
+    },
+    {
+      "left": {
+        "canonical_slug": "cnn-sgrna-activity-prediction",
+        "merge_kind": "single",
+        "output_id": "cnn-sgrna-activity-prediction"
+      },
+      "right": {
+        "canonical_slug": "sgrna-activity-score-regression-prediction",
+        "merge_kind": "single",
+        "output_id": "sgrna-activity-score-regression-prediction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_iepicas_dl_cq",
+      "score": 0.936353
+    },
+    {
+      "left": {
+        "canonical_slug": "dna-motif-generalization",
+        "merge_kind": "single",
+        "output_id": "dna-motif-generalization"
+      },
+      "right": {
+        "canonical_slug": "synthetic-dna-sequence-motif-implantation",
+        "merge_kind": "single",
+        "output_id": "synthetic-dna-sequence-motif-implantation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dinamo_cq",
+      "score": 0.935993
+    },
+    {
+      "left": {
+        "canonical_slug": "precision-and-true-positive-benchmark-evaluation",
+        "merge_kind": "single",
+        "output_id": "precision-and-true-positive-benchmark-evaluation"
+      },
+      "right": {
+        "canonical_slug": "precision-benchmark-comparison-across-species",
+        "merge_kind": "single",
+        "output_id": "precision-benchmark-comparison-across-species"
+      },
+      "run": "asbb_subwave1_2026-09__coll_adaliftover_cq",
+      "score": 0.935893
+    },
+    {
+      "left": {
+        "canonical_slug": "epigenomic-feature-annotation",
+        "merge_kind": "single",
+        "output_id": "epigenomic-feature-annotation"
+      },
+      "right": {
+        "canonical_slug": "epigenomic-significance-scoring",
+        "merge_kind": "single",
+        "output_id": "epigenomic-significance-scoring"
+      },
+      "run": "asbb_subwave1_2026-09__coll_smite_cq",
+      "score": 0.935407
+    },
+    {
+      "left": {
+        "canonical_slug": "dna-motif-generalization",
+        "merge_kind": "single",
+        "output_id": "dna-motif-generalization"
+      },
+      "right": {
+        "canonical_slug": "dna-motif-overrepresentation-analysis",
+        "merge_kind": "single",
+        "output_id": "dna-motif-overrepresentation-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dinamo_cq",
+      "score": 0.935299
+    },
+    {
+      "left": {
+        "canonical_slug": "nucleosome-occupancy-profiling",
+        "merge_kind": "single",
+        "output_id": "nucleosome-occupancy-profiling"
+      },
+      "right": {
+        "canonical_slug": "nucleosome-positioning-benchmarking-against-chemical-cleavage-annotations",
+        "merge_kind": "single",
+        "output_id": "nucleosome-positioning-benchmarking-against-chemical-cleavage-annotations"
+      },
+      "run": "asbb_subwave1_2026-09__coll_robocop_cq",
+      "score": 0.935222
+    },
+    {
+      "left": {
+        "canonical_slug": "bayesian-transcriptional-regulator-ranking",
+        "merge_kind": "single",
+        "output_id": "bayesian-transcriptional-regulator-ranking"
+      },
+      "right": {
+        "canonical_slug": "transcriptional-regulator-ranking-from-bit-scores",
+        "merge_kind": "single",
+        "output_id": "transcriptional-regulator-ranking-from-bit-scores"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_bit_cq",
+      "score": 0.93499
+    },
+    {
+      "left": {
+        "canonical_slug": "bag-of-motifs-count-matrix-construction",
+        "merge_kind": "single",
+        "output_id": "bag-of-motifs-count-matrix-construction"
+      },
+      "right": {
+        "canonical_slug": "bag-of-motifs-count-representation",
+        "merge_kind": "single",
+        "output_id": "bag-of-motifs-count-representation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_bag_of_motifs_bom_cq",
+      "score": 0.934957
+    },
+    {
+      "left": {
+        "canonical_slug": "atac-seq-peak-liftover",
+        "merge_kind": "single",
+        "output_id": "atac-seq-peak-liftover"
+      },
+      "right": {
+        "canonical_slug": "cross-species-chip-seq-peak-liftover",
+        "merge_kind": "single",
+        "output_id": "cross-species-chip-seq-peak-liftover"
+      },
+      "run": "asbb_subwave1_2026-09__coll_adaliftover_cq",
+      "score": 0.934719
+    },
+    {
+      "left": {
+        "canonical_slug": "calibrated-methylation-data-analysis",
+        "merge_kind": "single",
+        "output_id": "calibrated-methylation-data-analysis"
+      },
+      "right": {
+        "canonical_slug": "differential-methylation-classification",
+        "merge_kind": "single",
+        "output_id": "differential-methylation-classification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methylcal_cq",
+      "score": 0.934608
+    },
+    {
+      "left": {
+        "canonical_slug": "m5c-methylation-motif-discovery",
+        "merge_kind": "single",
+        "output_id": "m5c-methylation-motif-discovery"
+      },
+      "right": {
+        "canonical_slug": "methylated-motif-discovery-from-c-to-t-deamination",
+        "merge_kind": "single",
+        "output_id": "methylated-motif-discovery-from-c-to-t-deamination"
+      },
+      "run": "asbb_subwave1_2026-09__coll_rims_seq_cq",
+      "score": 0.934444
+    },
+    {
+      "left": {
+        "canonical_slug": "random-forest-classifier-application",
+        "merge_kind": "single",
+        "output_id": "random-forest-classifier-application"
+      },
+      "right": {
+        "canonical_slug": "random-forest-enhancer-classification",
+        "merge_kind": "single",
+        "output_id": "random-forest-enhancer-classification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_cipher_cq",
+      "score": 0.934346
+    },
+    {
+      "left": {
+        "canonical_slug": "grouped-sample-methylation-comparison",
+        "merge_kind": "single",
+        "output_id": "grouped-sample-methylation-comparison"
+      },
+      "right": {
+        "canonical_slug": "two-group-student-t-test-methylation-comparison",
+        "merge_kind": "single",
+        "output_id": "two-group-student-t-test-methylation-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_absp_cq",
+      "score": 0.934222
+    },
+    {
+      "left": {
+        "canonical_slug": "cell-line-specific-model-training",
+        "merge_kind": "single",
+        "output_id": "cell-line-specific-model-training"
+      },
+      "right": {
+        "canonical_slug": "cross-cell-line-model-generalization",
+        "merge_kind": "single",
+        "output_id": "cross-cell-line-model-generalization"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_deepse_cq",
+      "score": 0.934213
+    },
+    {
+      "left": {
+        "canonical_slug": "binomial-test-with-bonferroni-correction",
+        "merge_kind": "single",
+        "output_id": "binomial-test-with-bonferroni-correction"
+      },
+      "right": {
+        "canonical_slug": "bonferroni-multiple-testing-correction",
+        "merge_kind": "single",
+        "output_id": "bonferroni-multiple-testing-correction--c5141cf3432496d0"
+      },
+      "run": "asbb_subwave1_2026-09__coll_asymmetron_cq",
+      "score": 0.934024
+    },
+    {
+      "left": {
+        "canonical_slug": "motif-discovery-differential-enrichment",
+        "merge_kind": "single",
+        "output_id": "motif-discovery-differential-enrichment"
+      },
+      "right": {
+        "canonical_slug": "motif-significance-evalue-filtering",
+        "merge_kind": "single",
+        "output_id": "motif-significance-evalue-filtering"
+      },
+      "run": "asbb_subwave_2026-08-31__coll_csdma_cq",
+      "score": 0.9335
+    },
+    {
+      "left": {
+        "canonical_slug": "grouped-sample-methylation-comparison",
+        "merge_kind": "single",
+        "output_id": "grouped-sample-methylation-comparison"
+      },
+      "right": {
+        "canonical_slug": "read-to-reference-alignment-for-methylation-analysis",
+        "merge_kind": "single",
+        "output_id": "read-to-reference-alignment-for-methylation-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_absp_cq",
+      "score": 0.93345
+    },
+    {
+      "left": {
+        "canonical_slug": "cell-line-enhancer-sequence-processing",
+        "merge_kind": "single",
+        "output_id": "cell-line-enhancer-sequence-processing"
+      },
+      "right": {
+        "canonical_slug": "cell-line-specific-enhancer-model-interpretation",
+        "merge_kind": "single",
+        "output_id": "cell-line-specific-enhancer-model-interpretation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_enhancer_mdlf_cq",
+      "score": 0.933355
+    },
+    {
+      "left": {
+        "canonical_slug": "binomial-strand-orientation-testing",
+        "merge_kind": "single",
+        "output_id": "binomial-strand-orientation-testing"
+      },
+      "right": {
+        "canonical_slug": "two-tailed-binomial-orientation-testing",
+        "merge_kind": "single",
+        "output_id": "two-tailed-binomial-orientation-testing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_asymmetron_cq",
+      "score": 0.933337
+    },
+    {
+      "left": {
+        "canonical_slug": "gamma-mixture-distribution-fitting",
+        "merge_kind": "single",
+        "output_id": "gamma-mixture-distribution-fitting"
+      },
+      "right": {
+        "canonical_slug": "zero-inflated-gamma-mixture-fitting",
+        "merge_kind": "single",
+        "output_id": "zero-inflated-gamma-mixture-fitting"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_scpower_cq",
+      "score": 0.932707
+    },
+    {
+      "left": {
+        "canonical_slug": "null-distribution-z-score-computation",
+        "merge_kind": "single",
+        "output_id": "null-distribution-z-score-computation"
+      },
+      "right": {
+        "canonical_slug": "z-score-significance-assessment",
+        "merge_kind": "single",
+        "output_id": "z-score-significance-assessment"
+      },
+      "run": "asbb_subwave1_2026-09__coll_bootranges_cq",
+      "score": 0.932398
+    },
+    {
+      "left": {
+        "canonical_slug": "genomic-sequence-anchor-alignment",
+        "merge_kind": "single",
+        "output_id": "genomic-sequence-anchor-alignment"
+      },
+      "right": {
+        "canonical_slug": "genomic-sequence-extraction-around-anchor-motifs",
+        "merge_kind": "single",
+        "output_id": "genomic-sequence-extraction-around-anchor-motifs"
+      },
+      "run": "asbb_subwave1_2026-09__coll_mepp_cq",
+      "score": 0.932023
+    },
+    {
+      "left": {
+        "canonical_slug": "precision-recall-benchmark-evaluation",
+        "merge_kind": "single",
+        "output_id": "precision-recall-benchmark-evaluation"
+      },
+      "right": {
+        "canonical_slug": "precision-recall-performance-metrics-computation",
+        "merge_kind": "single",
+        "output_id": "precision-recall-performance-metrics-computation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_centre_cq",
+      "score": 0.931811
+    },
+    {
+      "left": {
+        "canonical_slug": "liftover-precision-benchmarking",
+        "merge_kind": "single",
+        "output_id": "liftover-precision-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "precision-and-true-positive-benchmark-evaluation",
+        "merge_kind": "single",
+        "output_id": "precision-and-true-positive-benchmark-evaluation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_adaliftover_cq",
+      "score": 0.931593
+    },
+    {
+      "left": {
+        "canonical_slug": "chipseq-spikein-normalization",
+        "merge_kind": "single",
+        "output_id": "chipseq-spikein-normalization"
+      },
+      "right": {
+        "canonical_slug": "spikein-normalization-strategy-comparison",
+        "merge_kind": "single",
+        "output_id": "spikein-normalization-strategy-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_spikchip_cq",
+      "score": 0.931345
+    },
+    {
+      "left": {
+        "canonical_slug": "dna-shape-feature-generation",
+        "merge_kind": "single",
+        "output_id": "dna-shape-feature-generation"
+      },
+      "right": {
+        "canonical_slug": "dna-shape-motif-discovery",
+        "merge_kind": "single",
+        "output_id": "dna-shape-motif-discovery"
+      },
+      "run": "asbb_subwave1_2026-09__coll_deep_sequence_and_shape_motif_desso_cq",
+      "score": 0.931198
+    },
+    {
+      "left": {
+        "canonical_slug": "peak-caller-benchmarking",
+        "merge_kind": "single",
+        "output_id": "peak-caller-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "peak-caller-scaling-visualization",
+        "merge_kind": "single",
+        "output_id": "peak-caller-scaling-visualization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_pycallingcards_cq",
+      "score": 0.931183
+    },
+    {
+      "left": {
+        "canonical_slug": "bayesian-epiallele-model-fitting",
+        "merge_kind": "single",
+        "output_id": "bayesian-epiallele-model-fitting"
+      },
+      "right": {
+        "canonical_slug": "bayesian-latent-variable-model-fitting",
+        "merge_kind": "single",
+        "output_id": "bayesian-latent-variable-model-fitting"
+      },
+      "run": "asbb_subwave1_2026-09__coll_bayesian_epiallele_detection_bed_cq",
+      "score": 0.931032
+    },
+    {
+      "left": {
+        "canonical_slug": "tab-delimited-transcriptome-table-generation",
+        "merge_kind": "single",
+        "output_id": "tab-delimited-transcriptome-table-generation"
+      },
+      "right": {
+        "canonical_slug": "tabular-transcriptomic-data-serialization",
+        "merge_kind": "single",
+        "output_id": "tabular-transcriptomic-data-serialization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_contort_cq",
+      "score": 0.930911
+    },
+    {
+      "left": {
+        "canonical_slug": "tfbs-cross-matching-between-transcription-factors",
+        "merge_kind": "single",
+        "output_id": "tfbs-cross-matching-between-transcription-factors"
+      },
+      "right": {
+        "canonical_slug": "transcription-factor-motif-database-matching",
+        "merge_kind": "single",
+        "output_id": "transcription-factor-motif-database-matching"
+      },
+      "run": "asbb_subwave1_2026-09__coll_deep_sequence_and_shape_motif_desso_cq",
+      "score": 0.93009
+    },
+    {
+      "left": {
+        "canonical_slug": "bisulfite-methylation-bed-formatting",
+        "merge_kind": "single",
+        "output_id": "bisulfite-methylation-bed-formatting"
+      },
+      "right": {
+        "canonical_slug": "bisulfite-methylation-data-deconvolution",
+        "merge_kind": "single",
+        "output_id": "bisulfite-methylation-data-deconvolution"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dxm_cq",
+      "score": 0.929906
+    },
+    {
+      "left": {
+        "canonical_slug": "methylation-level-correction-evaluation",
+        "merge_kind": "single",
+        "output_id": "methylation-level-correction-evaluation"
+      },
+      "right": {
+        "canonical_slug": "methylation-standard-control-calibration",
+        "merge_kind": "single",
+        "output_id": "methylation-standard-control-calibration"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methylcal_cq",
+      "score": 0.929891
+    },
+    {
+      "left": {
+        "canonical_slug": "gene-overlap-enrichment-analysis",
+        "merge_kind": "single",
+        "output_id": "gene-overlap-enrichment-analysis"
+      },
+      "right": {
+        "canonical_slug": "genomicranges-overlap-annotation",
+        "merge_kind": "single",
+        "output_id": "genomicranges-overlap-annotation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_histonehmm_cq",
+      "score": 0.92988
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-assay-chromatin-accessibility-comparison",
+        "merge_kind": "single",
+        "output_id": "cross-assay-chromatin-accessibility-comparison"
+      },
+      "right": {
+        "canonical_slug": "cross-assay-open-chromatin-benchmarking",
+        "merge_kind": "single",
+        "output_id": "cross-assay-open-chromatin-benchmarking"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epicompare_cq",
+      "score": 0.929619
+    },
+    {
+      "left": {
+        "canonical_slug": "bivariate-hidden-markov-model-differential-calling",
+        "merge_kind": "single",
+        "output_id": "bivariate-hidden-markov-model-differential-calling"
+      },
+      "right": {
+        "canonical_slug": "bivariate-hidden-markov-model-fitting",
+        "merge_kind": "single",
+        "output_id": "bivariate-hidden-markov-model-fitting"
+      },
+      "run": "asbb_subwave1_2026-09__coll_histonehmm_cq",
+      "score": 0.929117
+    },
+    {
+      "left": {
+        "canonical_slug": "chromatin-state-annotation",
+        "merge_kind": "single",
+        "output_id": "chromatin-state-annotation"
+      },
+      "right": {
+        "canonical_slug": "chromatin-state-weight-scoring",
+        "merge_kind": "single",
+        "output_id": "chromatin-state-weight-scoring"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epialign_cq",
+      "score": 0.928782
+    },
+    {
+      "left": {
+        "canonical_slug": "dna-methylation-read-alignment-benchmarking",
+        "merge_kind": "single",
+        "output_id": "dna-methylation-read-alignment-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "methylation-alignment-mode-comparison",
+        "merge_kind": "single",
+        "output_id": "methylation-alignment-mode-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_msuite_cq",
+      "score": 0.928682
+    },
+    {
+      "left": {
+        "canonical_slug": "chromatin-state-annotation",
+        "merge_kind": "single",
+        "output_id": "chromatin-state-annotation"
+      },
+      "right": {
+        "canonical_slug": "chromatin-state-sequence-compression",
+        "merge_kind": "single",
+        "output_id": "chromatin-state-sequence-compression"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epialign_cq",
+      "score": 0.928582
+    },
+    {
+      "left": {
+        "canonical_slug": "methylation-group-comparison-statistics",
+        "merge_kind": "single",
+        "output_id": "methylation-group-comparison-statistics"
+      },
+      "right": {
+        "canonical_slug": "two-group-student-t-test-methylation-comparison",
+        "merge_kind": "single",
+        "output_id": "two-group-student-t-test-methylation-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_absp_cq",
+      "score": 0.928468
+    },
+    {
+      "left": {
+        "canonical_slug": "coverage-based-hic-normalization",
+        "merge_kind": "single",
+        "output_id": "coverage-based-hic-normalization"
+      },
+      "right": {
+        "canonical_slug": "hi-c-coverage-bias-normalization",
+        "merge_kind": "single",
+        "output_id": "hi-c-coverage-bias-normalization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_covnorm_cq",
+      "score": 0.928436
+    },
+    {
+      "left": {
+        "canonical_slug": "graph-neural-network-architecture-implementation",
+        "merge_kind": "single",
+        "output_id": "graph-neural-network-architecture-implementation"
+      },
+      "right": {
+        "canonical_slug": "graph-neural-network-pretraining",
+        "merge_kind": "single",
+        "output_id": "graph-neural-network-pretraining"
+      },
+      "run": "asbb_subwave1_2026-09__coll_giloop_cq",
+      "score": 0.928211
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-assay-peak-overlap-tabulation",
+        "merge_kind": "single",
+        "output_id": "cross-assay-peak-overlap-tabulation"
+      },
+      "right": {
+        "canonical_slug": "cross-dataset-peak-overlap-analysis",
+        "merge_kind": "single",
+        "output_id": "cross-dataset-peak-overlap-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epicompare_cq",
+      "score": 0.928103
+    },
+    {
+      "left": {
+        "canonical_slug": "simulated-annealing-model-regularization",
+        "merge_kind": "single",
+        "output_id": "simulated-annealing-model-regularization"
+      },
+      "right": {
+        "canonical_slug": "simulated-annealing-parameter-optimization",
+        "merge_kind": "single",
+        "output_id": "simulated-annealing-parameter-optimization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_genexpi_cq",
+      "score": 0.928015
+    },
+    {
+      "left": {
+        "canonical_slug": "lncrna-genomic-triplex-prediction",
+        "merge_kind": "single",
+        "output_id": "lncrna-genomic-triplex-prediction"
+      },
+      "right": {
+        "canonical_slug": "triplex-prediction-parameter-sweep",
+        "merge_kind": "single",
+        "output_id": "triplex-prediction-parameter-sweep"
+      },
+      "run": "asbb_subwave1_2026-09__coll_i3plex_cq",
+      "score": 0.927768
+    },
+    {
+      "left": {
+        "canonical_slug": "tf-pathway-interaction-network-extraction",
+        "merge_kind": "single",
+        "output_id": "tf-pathway-interaction-network-extraction"
+      },
+      "right": {
+        "canonical_slug": "transcription-factor-pathway-interaction-analysis",
+        "merge_kind": "single",
+        "output_id": "transcription-factor-pathway-interaction-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_tsminer_cq",
+      "score": 0.927678
+    },
+    {
+      "left": {
+        "canonical_slug": "great-genomic-region-enrichment",
+        "merge_kind": "single",
+        "output_id": "great-genomic-region-enrichment"
+      },
+      "right": {
+        "canonical_slug": "region-to-gene-annotation",
+        "merge_kind": "single",
+        "output_id": "region-to-gene-annotation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_cistopic_cq",
+      "score": 0.927615
+    },
+    {
+      "left": {
+        "canonical_slug": "cell-coverage-outlier-filtering",
+        "merge_kind": "single",
+        "output_id": "cell-coverage-outlier-filtering"
+      },
+      "right": {
+        "canonical_slug": "pearson-correlation-outlier-cell-filtering",
+        "merge_kind": "single",
+        "output_id": "pearson-correlation-outlier-cell-filtering"
+      },
+      "run": "asbb_subwave1_2026-09__coll_chromscape_cq",
+      "score": 0.927357
+    },
+    {
+      "left": {
+        "canonical_slug": "bayesian-epiallele-model-fitting",
+        "merge_kind": "single",
+        "output_id": "bayesian-epiallele-model-fitting"
+      },
+      "right": {
+        "canonical_slug": "rrbs-epiallele-inference",
+        "merge_kind": "single",
+        "output_id": "rrbs-epiallele-inference"
+      },
+      "run": "asbb_subwave1_2026-09__coll_bayesian_epiallele_detection_bed_cq",
+      "score": 0.926751
+    },
+    {
+      "left": {
+        "canonical_slug": "genomic-range-enrichment-analysis",
+        "merge_kind": "single",
+        "output_id": "genomic-range-enrichment-analysis"
+      },
+      "right": {
+        "canonical_slug": "genomic-range-overlap-statistics",
+        "merge_kind": "single",
+        "output_id": "genomic-range-overlap-statistics"
+      },
+      "run": "asbb_subwave1_2026-09__coll_bootranges_cq",
+      "score": 0.926617
+    },
+    {
+      "left": {
+        "canonical_slug": "expression-probability-model-validation",
+        "merge_kind": "single",
+        "output_id": "expression-probability-model-validation"
+      },
+      "right": {
+        "canonical_slug": "expression-probability-prediction",
+        "merge_kind": "single",
+        "output_id": "expression-probability-prediction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_scpower_cq",
+      "score": 0.926344
+    },
+    {
+      "left": {
+        "canonical_slug": "bivariate-hidden-markov-model-differential-calling",
+        "merge_kind": "single",
+        "output_id": "bivariate-hidden-markov-model-differential-calling"
+      },
+      "right": {
+        "canonical_slug": "hmm-differential-call-post-processing",
+        "merge_kind": "single",
+        "output_id": "hmm-differential-call-post-processing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_histonehmm_cq",
+      "score": 0.925931
+    },
+    {
+      "left": {
+        "canonical_slug": "chromatin-interaction-loop-calling",
+        "merge_kind": "single",
+        "output_id": "chromatin-interaction-loop-calling"
+      },
+      "right": {
+        "canonical_slug": "chromatin-peak-calling",
+        "merge_kind": "single",
+        "output_id": "chromatin-peak-calling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_chia_pipe_cq",
+      "score": 0.925908
+    },
+    {
+      "left": {
+        "canonical_slug": "chromatin-interaction-data-processing",
+        "merge_kind": "single",
+        "output_id": "chromatin-interaction-data-processing"
+      },
+      "right": {
+        "canonical_slug": "cross-assay-chromatin-interaction-comparison",
+        "merge_kind": "single",
+        "output_id": "cross-assay-chromatin-interaction-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_chia_pipe_cq",
+      "score": 0.925869
+    },
+    {
+      "left": {
+        "canonical_slug": "enhancer-target-pair-classification",
+        "merge_kind": "single",
+        "output_id": "enhancer-target-pair-classification"
+      },
+      "right": {
+        "canonical_slug": "gradient-boosting-enhancer-target-prediction",
+        "merge_kind": "single",
+        "output_id": "gradient-boosting-enhancer-target-prediction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_centre_cq",
+      "score": 0.925716
+    },
+    {
+      "left": {
+        "canonical_slug": "dna-mechanical-property-feature-classification",
+        "merge_kind": "single",
+        "output_id": "dna-mechanical-property-feature-classification"
+      },
+      "right": {
+        "canonical_slug": "dna-physical-property-feature-preparation",
+        "merge_kind": "single",
+        "output_id": "dna-physical-property-feature-preparation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dnaffinity_cq",
+      "score": 0.92553
+    },
+    {
+      "left": {
+        "canonical_slug": "hic-contact-map-downsampling-and-realignment",
+        "merge_kind": "single",
+        "output_id": "hic-contact-map-downsampling-and-realignment"
+      },
+      "right": {
+        "canonical_slug": "hic-contact-map-target-processing",
+        "merge_kind": "single",
+        "output_id": "hic-contact-map-target-processing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_deepc_cq",
+      "score": 0.925514
+    },
+    {
+      "left": {
+        "canonical_slug": "rnaseq-quality-control-assessment",
+        "merge_kind": "single",
+        "output_id": "rnaseq-quality-control-assessment"
+      },
+      "right": {
+        "canonical_slug": "rnaseq-read-quantification",
+        "merge_kind": "single",
+        "output_id": "rnaseq-read-quantification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_cipher_cq",
+      "score": 0.924946
+    },
+    {
+      "left": {
+        "canonical_slug": "genomic-range-enrichment-analysis",
+        "merge_kind": "single",
+        "output_id": "genomic-range-enrichment-analysis"
+      },
+      "right": {
+        "canonical_slug": "genomic-range-simulation-under-null",
+        "merge_kind": "single",
+        "output_id": "genomic-range-simulation-under-null"
+      },
+      "run": "asbb_subwave1_2026-09__coll_bootranges_cq",
+      "score": 0.924829
+    },
+    {
+      "left": {
+        "canonical_slug": "alignment-score-distribution-comparison",
+        "merge_kind": "single",
+        "output_id": "alignment-score-distribution-comparison"
+      },
+      "right": {
+        "canonical_slug": "permutation-based-alignment-score-normalization",
+        "merge_kind": "single",
+        "output_id": "permutation-based-alignment-score-normalization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epialign_cq",
+      "score": 0.924633
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-tissue-epigenome-comparison",
+        "merge_kind": "single",
+        "output_id": "cross-tissue-epigenome-comparison"
+      },
+      "right": {
+        "canonical_slug": "roadmap-epigenome-sample-comparison",
+        "merge_kind": "single",
+        "output_id": "roadmap-epigenome-sample-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epialign_cq",
+      "score": 0.924629
+    },
+    {
+      "left": {
+        "canonical_slug": "consensus-partition-stability-metrics",
+        "merge_kind": "single",
+        "output_id": "consensus-partition-stability-metrics"
+      },
+      "right": {
+        "canonical_slug": "consensus-partitioning-analysis",
+        "merge_kind": "single",
+        "output_id": "consensus-partitioning-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_cola_cq",
+      "score": 0.924536
+    },
+    {
+      "left": {
+        "canonical_slug": "strand-asymmetry-estimation-of-consecutive-motif-occurrences",
+        "merge_kind": "single",
+        "output_id": "strand-asymmetry-estimation-of-consecutive-motif-occurrences"
+      },
+      "right": {
+        "canonical_slug": "tfbs-motif-overlap-strand-asymmetry-estimation",
+        "merge_kind": "single",
+        "output_id": "tfbs-motif-overlap-strand-asymmetry-estimation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_asymmetron_cq",
+      "score": 0.924403
+    },
+    {
+      "left": {
+        "canonical_slug": "enrichment-based-absolute-methylation-estimation",
+        "merge_kind": "single",
+        "output_id": "enrichment-based-absolute-methylation-estimation"
+      },
+      "right": {
+        "canonical_slug": "methylation-quantification-from-enrichment-data",
+        "merge_kind": "single",
+        "output_id": "methylation-quantification-from-enrichment-data"
+      },
+      "run": "asbb_subwave1_2026-09__coll_medipipe_cq",
+      "score": 0.924379
+    },
+    {
+      "left": {
+        "canonical_slug": "gene-regulatory-ode-parameter-fitting",
+        "merge_kind": "single",
+        "output_id": "gene-regulatory-ode-parameter-fitting"
+      },
+      "right": {
+        "canonical_slug": "ode-model-parameter-fitting",
+        "merge_kind": "single",
+        "output_id": "ode-model-parameter-fitting"
+      },
+      "run": "asbb_subwave1_2026-09__coll_genexpi_cq",
+      "score": 0.924361
+    },
+    {
+      "left": {
+        "canonical_slug": "cpg-methylation-computation-from-trace-files",
+        "merge_kind": "single",
+        "output_id": "cpg-methylation-computation-from-trace-files"
+      },
+      "right": {
+        "canonical_slug": "cpg-methylation-table-processing",
+        "merge_kind": "single",
+        "output_id": "cpg-methylation-table-processing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_absp_cq",
+      "score": 0.924354
+    },
+    {
+      "left": {
+        "canonical_slug": "scatac-seq-celltyping-benchmark-evaluation",
+        "merge_kind": "single",
+        "output_id": "scatac-seq-celltyping-benchmark-evaluation"
+      },
+      "right": {
+        "canonical_slug": "scatac-seq-gene-score-analysis",
+        "merge_kind": "single",
+        "output_id": "scatac-seq-gene-score-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_cellcano_cq",
+      "score": 0.924276
+    },
+    {
+      "left": {
+        "canonical_slug": "motif-enrichment-analysis-across-peak-callers",
+        "merge_kind": "single",
+        "output_id": "motif-enrichment-analysis-across-peak-callers"
+      },
+      "right": {
+        "canonical_slug": "motif-family-enrichment-testing",
+        "merge_kind": "single",
+        "output_id": "motif-family-enrichment-testing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_hpeak_cq",
+      "score": 0.924123
+    },
+    {
+      "left": {
+        "canonical_slug": "calibrated-methylation-data-analysis",
+        "merge_kind": "single",
+        "output_id": "calibrated-methylation-data-analysis"
+      },
+      "right": {
+        "canonical_slug": "dna-methylation-pcr-bias-calibration",
+        "merge_kind": "single",
+        "output_id": "dna-methylation-pcr-bias-calibration"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methylcal_cq",
+      "score": 0.924012
+    },
+    {
+      "left": {
+        "canonical_slug": "time-course-expression-data-analysis",
+        "merge_kind": "single",
+        "output_id": "time-course-expression-data-analysis"
+      },
+      "right": {
+        "canonical_slug": "time-course-expression-smoothing",
+        "merge_kind": "single",
+        "output_id": "time-course-expression-smoothing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_genexpi_cq",
+      "score": 0.923956
+    },
+    {
+      "left": {
+        "canonical_slug": "chromatin-loop-transitivity-and-redundancy-analysis",
+        "merge_kind": "single",
+        "output_id": "chromatin-loop-transitivity-and-redundancy-analysis"
+      },
+      "right": {
+        "canonical_slug": "short-range-chromatin-loop-verification",
+        "merge_kind": "single",
+        "output_id": "short-range-chromatin-loop-verification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_chia_pet2_cq",
+      "score": 0.923951
+    },
+    {
+      "left": {
+        "canonical_slug": "hic-contact-map-downsampling-and-realignment",
+        "merge_kind": "single",
+        "output_id": "hic-contact-map-downsampling-and-realignment"
+      },
+      "right": {
+        "canonical_slug": "hic-contact-map-percentile-normalization",
+        "merge_kind": "single",
+        "output_id": "hic-contact-map-percentile-normalization"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_deepc_cq",
+      "score": 0.923864
+    },
+    {
+      "left": {
+        "canonical_slug": "rna-dna-triplex-prediction-benchmarking",
+        "merge_kind": "single",
+        "output_id": "rna-dna-triplex-prediction-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "triplex-prediction-parameter-sweep",
+        "merge_kind": "single",
+        "output_id": "triplex-prediction-parameter-sweep"
+      },
+      "run": "asbb_subwave1_2026-09__coll_i3plex_cq",
+      "score": 0.923858
+    },
+    {
+      "left": {
+        "canonical_slug": "historical-qc-atlas-benchmark-comparison",
+        "merge_kind": "single",
+        "output_id": "historical-qc-atlas-benchmark-comparison"
+      },
+      "right": {
+        "canonical_slug": "quality-atlas-benchmark-comparison",
+        "merge_kind": "single",
+        "output_id": "quality-atlas-benchmark-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_chilin_cq",
+      "score": 0.923628
+    },
+    {
+      "left": {
+        "canonical_slug": "gene-annotation-strand-orientation-mapping",
+        "merge_kind": "single",
+        "output_id": "gene-annotation-strand-orientation-mapping"
+      },
+      "right": {
+        "canonical_slug": "strand-orientation-assignment-of-genomic-intervals",
+        "merge_kind": "single",
+        "output_id": "strand-orientation-assignment-of-genomic-intervals"
+      },
+      "run": "asbb_subwave1_2026-09__coll_asymmetron_cq",
+      "score": 0.923621
+    },
+    {
+      "left": {
+        "canonical_slug": "deep-learning-training-log-management",
+        "merge_kind": "single",
+        "output_id": "deep-learning-training-log-management"
+      },
+      "right": {
+        "canonical_slug": "training-log-and-metrics-recording",
+        "merge_kind": "single",
+        "output_id": "training-log-and-metrics-recording"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_deepse_cq",
+      "score": 0.92328
+    },
+    {
+      "left": {
+        "canonical_slug": "variational-autoencoder-implementation",
+        "merge_kind": "single",
+        "output_id": "variational-autoencoder-implementation"
+      },
+      "right": {
+        "canonical_slug": "variational-autoencoder-latent-feature-extraction",
+        "merge_kind": "single",
+        "output_id": "variational-autoencoder-latent-feature-extraction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_scale_cq",
+      "score": 0.92298
+    },
+    {
+      "left": {
+        "canonical_slug": "genbank-genome-library-construction",
+        "merge_kind": "single",
+        "output_id": "genbank-genome-library-construction"
+      },
+      "right": {
+        "canonical_slug": "genbank-sequence-library-generation",
+        "merge_kind": "single",
+        "output_id": "genbank-sequence-library-generation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_delila_py_cq",
+      "score": 0.92292
+    },
+    {
+      "left": {
+        "canonical_slug": "dna-shape-contribution-analysis",
+        "merge_kind": "single",
+        "output_id": "dna-shape-contribution-analysis"
+      },
+      "right": {
+        "canonical_slug": "dna-shape-motif-discovery",
+        "merge_kind": "single",
+        "output_id": "dna-shape-motif-discovery"
+      },
+      "run": "asbb_subwave1_2026-09__coll_deep_sequence_and_shape_motif_desso_cq",
+      "score": 0.922841
+    },
+    {
+      "left": {
+        "canonical_slug": "chromatin-state-annotation",
+        "merge_kind": "single",
+        "output_id": "chromatin-state-annotation"
+      },
+      "right": {
+        "canonical_slug": "chromatin-state-frequency-vector-comparison",
+        "merge_kind": "single",
+        "output_id": "chromatin-state-frequency-vector-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epialign_cq",
+      "score": 0.922417
+    },
+    {
+      "left": {
+        "canonical_slug": "hic-fragment-filtering",
+        "merge_kind": "single",
+        "output_id": "hic-fragment-filtering"
+      },
+      "right": {
+        "canonical_slug": "linked-read-fragment-filtering",
+        "merge_kind": "single",
+        "output_id": "linked-read-fragment-filtering"
+      },
+      "run": "asbb_subwave1_2026-09__coll_spechap_cq",
+      "score": 0.922399
+    },
+    {
+      "left": {
+        "canonical_slug": "bayesian-posterior-postprocessing-inla",
+        "merge_kind": "single",
+        "output_id": "bayesian-posterior-postprocessing-inla"
+      },
+      "right": {
+        "canonical_slug": "inla-approximate-bayesian-inference",
+        "merge_kind": "single",
+        "output_id": "inla-approximate-bayesian-inference"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methylcal_cq",
+      "score": 0.922359
+    },
+    {
+      "left": {
+        "canonical_slug": "unet-image-branch-training",
+        "merge_kind": "single",
+        "output_id": "unet-image-branch-training"
+      },
+      "right": {
+        "canonical_slug": "unet-image-encoder-coding",
+        "merge_kind": "single",
+        "output_id": "unet-image-encoder-coding"
+      },
+      "run": "asbb_subwave1_2026-09__coll_giloop_cq",
+      "score": 0.922318
+    },
+    {
+      "left": {
+        "canonical_slug": "bag-of-motifs-gradient-boosted-tree-model-training",
+        "merge_kind": "single",
+        "output_id": "bag-of-motifs-gradient-boosted-tree-model-training"
+      },
+      "right": {
+        "canonical_slug": "gradient-boosted-tree-classifier-training",
+        "merge_kind": "single",
+        "output_id": "gradient-boosted-tree-classifier-training"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_bag_of_motifs_bom_cq",
+      "score": 0.921924
+    },
+    {
+      "left": {
+        "canonical_slug": "spearman-correlation-regression-scoring",
+        "merge_kind": "single",
+        "output_id": "spearman-correlation-regression-scoring"
+      },
+      "right": {
+        "canonical_slug": "spearman-correlation-statistical-testing",
+        "merge_kind": "single",
+        "output_id": "spearman-correlation-statistical-testing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_iepicas_dl_cq",
+      "score": 0.921814
+    },
+    {
+      "left": {
+        "canonical_slug": "chromatin-feature-prediction-model-training",
+        "merge_kind": "single",
+        "output_id": "chromatin-feature-prediction-model-training"
+      },
+      "right": {
+        "canonical_slug": "chromatin-interaction-prediction-evaluation",
+        "merge_kind": "single",
+        "output_id": "chromatin-interaction-prediction-evaluation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_deepc_cq",
+      "score": 0.921683
+    },
+    {
+      "left": {
+        "canonical_slug": "expression-probability-estimation-from-gamma-mixed-fits",
+        "merge_kind": "single",
+        "output_id": "expression-probability-estimation-from-gamma-mixed-fits"
+      },
+      "right": {
+        "canonical_slug": "gamma-mixture-expression-prior-application",
+        "merge_kind": "single",
+        "output_id": "gamma-mixture-expression-prior-application"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_scpower_cq",
+      "score": 0.921591
+    },
+    {
+      "left": {
+        "canonical_slug": "scatac-seq-cell-type-prediction",
+        "merge_kind": "single",
+        "output_id": "scatac-seq-cell-type-prediction"
+      },
+      "right": {
+        "canonical_slug": "scatac-seq-celltyping-benchmark-evaluation",
+        "merge_kind": "single",
+        "output_id": "scatac-seq-celltyping-benchmark-evaluation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_cellcano_cq",
+      "score": 0.921589
+    },
+    {
+      "left": {
+        "canonical_slug": "genome-index-preparation-three-letter-conversion",
+        "merge_kind": "single",
+        "output_id": "genome-index-preparation-three-letter-conversion"
+      },
+      "right": {
+        "canonical_slug": "three-letter-reference-genome-conversion",
+        "merge_kind": "single",
+        "output_id": "three-letter-reference-genome-conversion"
+      },
+      "run": "asbb_subwave1_2026-09__coll_bispark_cq",
+      "score": 0.921466
+    },
+    {
+      "left": {
+        "canonical_slug": "genomic-distance-background-modeling",
+        "merge_kind": "single",
+        "output_id": "genomic-distance-background-modeling"
+      },
+      "right": {
+        "canonical_slug": "genomic-distance-binning-analysis",
+        "merge_kind": "single",
+        "output_id": "genomic-distance-binning-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_covnorm_cq",
+      "score": 0.921447
+    },
+    {
+      "left": {
+        "canonical_slug": "chromatin-interaction-data-processing",
+        "merge_kind": "single",
+        "output_id": "chromatin-interaction-data-processing"
+      },
+      "right": {
+        "canonical_slug": "chromatin-interaction-loop-calling",
+        "merge_kind": "single",
+        "output_id": "chromatin-interaction-loop-calling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_chia_pipe_cq",
+      "score": 0.921042
+    },
+    {
+      "left": {
+        "canonical_slug": "pca-dimensionality-reduction-scchipsq",
+        "merge_kind": "single",
+        "output_id": "pca-dimensionality-reduction-scchipsq"
+      },
+      "right": {
+        "canonical_slug": "pca-dimensionality-reduction-single-cell",
+        "merge_kind": "single",
+        "output_id": "pca-dimensionality-reduction-single-cell"
+      },
+      "run": "asbb_subwave1_2026-09__coll_chromscape_cq",
+      "score": 0.92093
+    },
+    {
+      "left": {
+        "canonical_slug": "promoter-motif-scanning",
+        "merge_kind": "single",
+        "output_id": "promoter-motif-scanning"
+      },
+      "right": {
+        "canonical_slug": "transcription-factor-binding-site-mapping",
+        "merge_kind": "single",
+        "output_id": "transcription-factor-binding-site-mapping"
+      },
+      "run": "asbb_subwave1_2026-09__coll_luxr_cq",
+      "score": 0.920926
+    },
+    {
+      "left": {
+        "canonical_slug": "paired-cluster-marker-gene-comparison",
+        "merge_kind": "single",
+        "output_id": "paired-cluster-marker-gene-comparison"
+      },
+      "right": {
+        "canonical_slug": "single-cell-cluster-marker-gene-identification",
+        "merge_kind": "single",
+        "output_id": "single-cell-cluster-marker-gene-identification"
+      },
+      "run": "asbb_subwave_2026-08-31__coll_sccatch_cq",
+      "score": 0.920696
+    },
+    {
+      "left": {
+        "canonical_slug": "epigenetic-feature-ablation-analysis",
+        "merge_kind": "single",
+        "output_id": "epigenetic-feature-ablation-analysis"
+      },
+      "right": {
+        "canonical_slug": "epigenetic-feature-matrix-encoding",
+        "merge_kind": "single",
+        "output_id": "epigenetic-feature-matrix-encoding"
+      },
+      "run": "asbb_subwave1_2026-09__coll_iepicas_dl_cq",
+      "score": 0.920674
+    },
+    {
+      "left": {
+        "canonical_slug": "motif-similarity-clustering",
+        "merge_kind": "single",
+        "output_id": "motif-similarity-clustering"
+      },
+      "right": {
+        "canonical_slug": "transcription-factor-motif-database-matching",
+        "merge_kind": "single",
+        "output_id": "transcription-factor-motif-database-matching"
+      },
+      "run": "asbb_subwave1_2026-09__coll_deep_sequence_and_shape_motif_desso_cq",
+      "score": 0.920594
+    },
+    {
+      "left": {
+        "canonical_slug": "ode-parameter-fitting-simulated-annealing",
+        "merge_kind": "single",
+        "output_id": "ode-parameter-fitting-simulated-annealing"
+      },
+      "right": {
+        "canonical_slug": "simulated-annealing-parameter-optimization",
+        "merge_kind": "single",
+        "output_id": "simulated-annealing-parameter-optimization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_genexpi_cq",
+      "score": 0.92059
+    },
+    {
+      "left": {
+        "canonical_slug": "crup-enhancer-promoter-probability-extraction",
+        "merge_kind": "single",
+        "output_id": "crup-enhancer-promoter-probability-extraction"
+      },
+      "right": {
+        "canonical_slug": "promoter-probability-derivation",
+        "merge_kind": "single",
+        "output_id": "promoter-probability-derivation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_centre_cq",
+      "score": 0.920585
+    },
+    {
+      "left": {
+        "canonical_slug": "genomic-interval-chain-liftover",
+        "merge_kind": "single",
+        "output_id": "genomic-interval-chain-liftover"
+      },
+      "right": {
+        "canonical_slug": "genomic-interval-operations",
+        "merge_kind": "single",
+        "output_id": "genomic-interval-operations"
+      },
+      "run": "asbb_subwave1_2026-09__coll_adaliftover_cq",
+      "score": 0.920183
+    },
+    {
+      "left": {
+        "canonical_slug": "cfmedip-methylation-quantification",
+        "merge_kind": "single",
+        "output_id": "cfmedip-methylation-quantification"
+      },
+      "right": {
+        "canonical_slug": "methylation-quantification-from-enrichment-data",
+        "merge_kind": "single",
+        "output_id": "methylation-quantification-from-enrichment-data"
+      },
+      "run": "asbb_subwave1_2026-09__coll_medipipe_cq",
+      "score": 0.920159
+    },
+    {
+      "left": {
+        "canonical_slug": "linked-read-methylation-extraction",
+        "merge_kind": "single",
+        "output_id": "linked-read-methylation-extraction"
+      },
+      "right": {
+        "canonical_slug": "strand-merged-methylation-calling",
+        "merge_kind": "single",
+        "output_id": "strand-merged-methylation-calling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dmrfinder_cq",
+      "score": 0.920141
+    },
+    {
+      "left": {
+        "canonical_slug": "nucleosome-positioning-aupr-evaluation",
+        "merge_kind": "single",
+        "output_id": "nucleosome-positioning-aupr-evaluation"
+      },
+      "right": {
+        "canonical_slug": "nucleosome-positioning-benchmarking-against-chemical-cleavage-annotations",
+        "merge_kind": "single",
+        "output_id": "nucleosome-positioning-benchmarking-against-chemical-cleavage-annotations"
+      },
+      "run": "asbb_subwave1_2026-09__coll_robocop_cq",
+      "score": 0.919994
+    },
+    {
+      "left": {
+        "canonical_slug": "bisulfite-free-read-alignment",
+        "merge_kind": "single",
+        "output_id": "bisulfite-free-read-alignment"
+      },
+      "right": {
+        "canonical_slug": "wgbs-read-alignment-bisulfite-mode",
+        "merge_kind": "single",
+        "output_id": "wgbs-read-alignment-bisulfite-mode"
+      },
+      "run": "asbb_subwave1_2026-09__coll_msuite_cq",
+      "score": 0.919927
+    },
+    {
+      "left": {
+        "canonical_slug": "scatac-seq-cell-type-prediction",
+        "merge_kind": "single",
+        "output_id": "scatac-seq-cell-type-prediction"
+      },
+      "right": {
+        "canonical_slug": "scatac-seq-gene-score-analysis",
+        "merge_kind": "single",
+        "output_id": "scatac-seq-gene-score-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_cellcano_cq",
+      "score": 0.919676
+    },
+    {
+      "left": {
+        "canonical_slug": "tissue-specific-gene-enrichment-analysis",
+        "merge_kind": "single",
+        "output_id": "tissue-specific-gene-enrichment-analysis"
+      },
+      "right": {
+        "canonical_slug": "tissue-specific-gene-set-annotation",
+        "merge_kind": "single",
+        "output_id": "tissue-specific-gene-set-annotation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epialign_cq",
+      "score": 0.919673
+    },
+    {
+      "left": {
+        "canonical_slug": "benchmark-sensitivity-evaluation",
+        "merge_kind": "single",
+        "output_id": "benchmark-sensitivity-evaluation"
+      },
+      "right": {
+        "canonical_slug": "sensitivity-curve-analysis-across-cutoffs",
+        "merge_kind": "single",
+        "output_id": "sensitivity-curve-analysis-across-cutoffs"
+      },
+      "run": "asbb_subwave1_2026-09__coll_tsminer_cq",
+      "score": 0.919576
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-tool-chromatin-loop-reproducibility-comparison",
+        "merge_kind": "single",
+        "output_id": "cross-tool-chromatin-loop-reproducibility-comparison"
+      },
+      "right": {
+        "canonical_slug": "short-range-chromatin-loop-verification",
+        "merge_kind": "single",
+        "output_id": "short-range-chromatin-loop-verification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_chia_pet2_cq",
+      "score": 0.919532
+    },
+    {
+      "left": {
+        "canonical_slug": "enhancer-disconnection-analysis",
+        "merge_kind": "single",
+        "output_id": "enhancer-disconnection-analysis"
+      },
+      "right": {
+        "canonical_slug": "enhancer-disconnection-gof-lof-gene-scoring",
+        "merge_kind": "single",
+        "output_id": "enhancer-disconnection-gof-lof-gene-scoring"
+      },
+      "run": "asbb_subwave1_2026-09__coll_postre_cq",
+      "score": 0.919393
+    },
+    {
+      "left": {
+        "canonical_slug": "motif-frequency-summarization",
+        "merge_kind": "single",
+        "output_id": "motif-frequency-summarization"
+      },
+      "right": {
+        "canonical_slug": "motif-similarity-clustering",
+        "merge_kind": "single",
+        "output_id": "motif-similarity-clustering"
+      },
+      "run": "asbb_subwave1_2026-09__coll_deep_sequence_and_shape_motif_desso_cq",
+      "score": 0.919369
+    },
+    {
+      "left": {
+        "canonical_slug": "epiallele-entropy-quantification",
+        "merge_kind": "single",
+        "output_id": "epiallele-entropy-quantification"
+      },
+      "right": {
+        "canonical_slug": "shannon-entropy-computation-from-probability-distributions",
+        "merge_kind": "single",
+        "output_id": "shannon-entropy-computation-from-probability-distributions"
+      },
+      "run": "asbb_subwave1_2026-09__coll_bayesian_epiallele_detection_bed_cq",
+      "score": 0.919262
+    },
+    {
+      "left": {
+        "canonical_slug": "roc-auc-classification-scoring",
+        "merge_kind": "single",
+        "output_id": "roc-auc-classification-scoring"
+      },
+      "right": {
+        "canonical_slug": "roc-auc-cross-validation-evaluation",
+        "merge_kind": "single",
+        "output_id": "roc-auc-cross-validation-evaluation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_iepicas_dl_cq",
+      "score": 0.919192
+    },
+    {
+      "left": {
+        "canonical_slug": "histone-modification-differential-region-calling",
+        "merge_kind": "single",
+        "output_id": "histone-modification-differential-region-calling"
+      },
+      "right": {
+        "canonical_slug": "histone-modification-peak-calling-comparison",
+        "merge_kind": "single",
+        "output_id": "histone-modification-peak-calling-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_histonehmm_cq",
+      "score": 0.919137
+    },
+    {
+      "left": {
+        "canonical_slug": "transcription-factor-activity-inference",
+        "merge_kind": "single",
+        "output_id": "transcription-factor-activity-inference"
+      },
+      "right": {
+        "canonical_slug": "transcription-factor-pathway-interaction-analysis",
+        "merge_kind": "single",
+        "output_id": "transcription-factor-pathway-interaction-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_tsminer_cq",
+      "score": 0.919092
+    },
+    {
+      "left": {
+        "canonical_slug": "epigenomic-peak-file-benchmarking",
+        "merge_kind": "single",
+        "output_id": "epigenomic-peak-file-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "epigenomic-peak-quality-control",
+        "merge_kind": "single",
+        "output_id": "epigenomic-peak-quality-control"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epicompare_cq",
+      "score": 0.919055
+    },
+    {
+      "left": {
+        "canonical_slug": "dna-shape-contribution-analysis",
+        "merge_kind": "single",
+        "output_id": "dna-shape-contribution-analysis"
+      },
+      "right": {
+        "canonical_slug": "dna-shape-feature-input-handling",
+        "merge_kind": "single",
+        "output_id": "dna-shape-feature-input-handling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_deep_sequence_and_shape_motif_desso_cq",
+      "score": 0.91905
+    },
+    {
+      "left": {
+        "canonical_slug": "tf-pathway-mutual-interaction-scoring",
+        "merge_kind": "single",
+        "output_id": "tf-pathway-mutual-interaction-scoring"
+      },
+      "right": {
+        "canonical_slug": "transcription-factor-pathway-interaction-analysis",
+        "merge_kind": "single",
+        "output_id": "transcription-factor-pathway-interaction-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_tsminer_cq",
+      "score": 0.919036
+    },
+    {
+      "left": {
+        "canonical_slug": "chromatin-state-frequency-vector-comparison",
+        "merge_kind": "single",
+        "output_id": "chromatin-state-frequency-vector-comparison"
+      },
+      "right": {
+        "canonical_slug": "chromatin-state-weight-scoring",
+        "merge_kind": "single",
+        "output_id": "chromatin-state-weight-scoring"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epialign_cq",
+      "score": 0.918977
+    },
+    {
+      "left": {
+        "canonical_slug": "random-forest-dna-affinity-regression",
+        "merge_kind": "single",
+        "output_id": "random-forest-dna-affinity-regression"
+      },
+      "right": {
+        "canonical_slug": "transcription-factor-affinity-regression",
+        "merge_kind": "single",
+        "output_id": "transcription-factor-affinity-regression"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dnaffinity_cq",
+      "score": 0.918815
+    },
+    {
+      "left": {
+        "canonical_slug": "weighted-similarity-domain-matching",
+        "merge_kind": "single",
+        "output_id": "weighted-similarity-domain-matching"
+      },
+      "right": {
+        "canonical_slug": "weighted-similarity-scoring",
+        "merge_kind": "single",
+        "output_id": "weighted-similarity-scoring"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dedoc2_cq",
+      "score": 0.918673
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-cell-line-model-generalization",
+        "merge_kind": "single",
+        "output_id": "cross-cell-line-model-generalization"
+      },
+      "right": {
+        "canonical_slug": "cross-cell-line-performance-comparison",
+        "merge_kind": "single",
+        "output_id": "cross-cell-line-performance-comparison"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_deepse_cq",
+      "score": 0.918068
+    },
+    {
+      "left": {
+        "canonical_slug": "gradient-based-saliency-score-computation",
+        "merge_kind": "single",
+        "output_id": "gradient-based-saliency-score-computation"
+      },
+      "right": {
+        "canonical_slug": "sliding-window-saliency-averaging",
+        "merge_kind": "single",
+        "output_id": "sliding-window-saliency-averaging"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_deepc_cq",
+      "score": 0.918023
+    },
+    {
+      "left": {
+        "canonical_slug": "cpg-methylation-table-processing",
+        "merge_kind": "single",
+        "output_id": "cpg-methylation-table-processing"
+      },
+      "right": {
+        "canonical_slug": "grouped-sample-methylation-comparison",
+        "merge_kind": "single",
+        "output_id": "grouped-sample-methylation-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_absp_cq",
+      "score": 0.917907
+    },
+    {
+      "left": {
+        "canonical_slug": "cell-type-label-supervised-feature-ranking",
+        "merge_kind": "single",
+        "output_id": "cell-type-label-supervised-feature-ranking"
+      },
+      "right": {
+        "canonical_slug": "pseudo-label-cell-type-classification",
+        "merge_kind": "single",
+        "output_id": "pseudo-label-cell-type-classification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_cellcano_cq",
+      "score": 0.917878
+    },
+    {
+      "left": {
+        "canonical_slug": "motif-peak-position-identification",
+        "merge_kind": "single",
+        "output_id": "motif-peak-position-identification"
+      },
+      "right": {
+        "canonical_slug": "motif-positional-enrichment-profiling",
+        "merge_kind": "single",
+        "output_id": "motif-positional-enrichment-profiling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_mepp_cq",
+      "score": 0.917456
+    },
+    {
+      "left": {
+        "canonical_slug": "cell-line-enhancer-sequence-processing",
+        "merge_kind": "single",
+        "output_id": "cell-line-enhancer-sequence-processing"
+      },
+      "right": {
+        "canonical_slug": "cross-cell-line-enhancer-prediction",
+        "merge_kind": "single",
+        "output_id": "cross-cell-line-enhancer-prediction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_enhancer_mdlf_cq",
+      "score": 0.917427
+    },
+    {
+      "left": {
+        "canonical_slug": "bisulfite-sequencing-methylation-data-gathering",
+        "merge_kind": "single",
+        "output_id": "bisulfite-sequencing-methylation-data-gathering"
+      },
+      "right": {
+        "canonical_slug": "read-to-reference-alignment-for-methylation-analysis",
+        "merge_kind": "single",
+        "output_id": "read-to-reference-alignment-for-methylation-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_absp_cq",
+      "score": 0.917206
+    },
+    {
+      "left": {
+        "canonical_slug": "dimensionality-reduction-runtime-benchmarking",
+        "merge_kind": "single",
+        "output_id": "dimensionality-reduction-runtime-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "single-cell-dimensionality-reduction-benchmarking",
+        "merge_kind": "single",
+        "output_id": "single-cell-dimensionality-reduction-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_snapatac_cq",
+      "score": 0.917069
+    },
+    {
+      "left": {
+        "canonical_slug": "cpg-methylation-computation-from-trace-files",
+        "merge_kind": "single",
+        "output_id": "cpg-methylation-computation-from-trace-files"
+      },
+      "right": {
+        "canonical_slug": "cpg-methylation-percentage-calculation",
+        "merge_kind": "single",
+        "output_id": "cpg-methylation-percentage-calculation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_absp_cq",
+      "score": 0.916822
+    },
+    {
+      "left": {
+        "canonical_slug": "chromatin-contact-significance-calling",
+        "merge_kind": "single",
+        "output_id": "chromatin-contact-significance-calling"
+      },
+      "right": {
+        "canonical_slug": "chromatin-contact-table-processing",
+        "merge_kind": "single",
+        "output_id": "chromatin-contact-table-processing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_covnorm_cq",
+      "score": 0.916677
+    },
+    {
+      "left": {
+        "canonical_slug": "cpg-methylation-table-processing",
+        "merge_kind": "single",
+        "output_id": "cpg-methylation-table-processing"
+      },
+      "right": {
+        "canonical_slug": "read-to-reference-alignment-for-methylation-analysis",
+        "merge_kind": "single",
+        "output_id": "read-to-reference-alignment-for-methylation-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_absp_cq",
+      "score": 0.916649
+    },
+    {
+      "left": {
+        "canonical_slug": "gene-score-matrix-processing",
+        "merge_kind": "single",
+        "output_id": "gene-score-matrix-processing"
+      },
+      "right": {
+        "canonical_slug": "scatac-seq-gene-score-analysis",
+        "merge_kind": "single",
+        "output_id": "scatac-seq-gene-score-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_cellcano_cq",
+      "score": 0.916556
+    },
+    {
+      "left": {
+        "canonical_slug": "gene-overlap-enrichment-analysis",
+        "merge_kind": "single",
+        "output_id": "gene-overlap-enrichment-analysis"
+      },
+      "right": {
+        "canonical_slug": "x-inactivated-gene-enrichment-quantification",
+        "merge_kind": "single",
+        "output_id": "x-inactivated-gene-enrichment-quantification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_histonehmm_cq",
+      "score": 0.916496
+    },
+    {
+      "left": {
+        "canonical_slug": "consensus-partition-stability-metrics",
+        "merge_kind": "single",
+        "output_id": "consensus-partition-stability-metrics"
+      },
+      "right": {
+        "canonical_slug": "consensus-partitioning-method-benchmarking",
+        "merge_kind": "single",
+        "output_id": "consensus-partitioning-method-benchmarking"
+      },
+      "run": "asbb_subwave1_2026-09__coll_cola_cq",
+      "score": 0.916446
+    },
+    {
+      "left": {
+        "canonical_slug": "hidden-markov-model-occupancy-inference",
+        "merge_kind": "single",
+        "output_id": "hidden-markov-model-occupancy-inference"
+      },
+      "right": {
+        "canonical_slug": "hmm-based-occupancy-modeling",
+        "merge_kind": "single",
+        "output_id": "hmm-based-occupancy-modeling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_robocop_cq",
+      "score": 0.916396
+    },
+    {
+      "left": {
+        "canonical_slug": "genomic-interval-aggregation",
+        "merge_kind": "single",
+        "output_id": "genomic-interval-aggregation"
+      },
+      "right": {
+        "canonical_slug": "genomic-interval-coverage-calculation",
+        "merge_kind": "single",
+        "output_id": "genomic-interval-coverage-calculation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_recognicer_cq",
+      "score": 0.91619
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-cell-line-enhancer-prediction",
+        "merge_kind": "single",
+        "output_id": "cross-cell-line-enhancer-prediction"
+      },
+      "right": {
+        "canonical_slug": "enhancer-sequence-classification",
+        "merge_kind": "single",
+        "output_id": "enhancer-sequence-classification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_enhancer_mdlf_cq",
+      "score": 0.916142
+    },
+    {
+      "left": {
+        "canonical_slug": "nanopore-event-table-to-translocation-time-conversion",
+        "merge_kind": "single",
+        "output_id": "nanopore-event-table-to-translocation-time-conversion"
+      },
+      "right": {
+        "canonical_slug": "nanopore-translocation-time-novelty-detection",
+        "merge_kind": "single",
+        "output_id": "nanopore-translocation-time-novelty-detection"
+      },
+      "run": "asbb_subwave1_2026-09__coll_gofae_dnd_cq",
+      "score": 0.916078
+    },
+    {
+      "left": {
+        "canonical_slug": "negative-binomial-pseudobulk-count-simulation",
+        "merge_kind": "single",
+        "output_id": "negative-binomial-pseudobulk-count-simulation"
+      },
+      "right": {
+        "canonical_slug": "pseudobulk-negative-binomial-power-modeling",
+        "merge_kind": "single",
+        "output_id": "pseudobulk-negative-binomial-power-modeling"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_scpower_cq",
+      "score": 0.915876
+    },
+    {
+      "left": {
+        "canonical_slug": "clone-methylation-status-thresholding",
+        "merge_kind": "single",
+        "output_id": "clone-methylation-status-thresholding"
+      },
+      "right": {
+        "canonical_slug": "grouped-sample-methylation-comparison",
+        "merge_kind": "single",
+        "output_id": "grouped-sample-methylation-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_absp_cq",
+      "score": 0.915833
+    },
+    {
+      "left": {
+        "canonical_slug": "calibrated-methylation-data-analysis",
+        "merge_kind": "single",
+        "output_id": "calibrated-methylation-data-analysis"
+      },
+      "right": {
+        "canonical_slug": "random-effects-model-specification-methylation",
+        "merge_kind": "single",
+        "output_id": "random-effects-model-specification-methylation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methylcal_cq",
+      "score": 0.915564
+    },
+    {
+      "left": {
+        "canonical_slug": "lncrna-genomic-triplex-prediction",
+        "merge_kind": "single",
+        "output_id": "lncrna-genomic-triplex-prediction"
+      },
+      "right": {
+        "canonical_slug": "rna-dna-triplex-prediction-benchmarking",
+        "merge_kind": "single",
+        "output_id": "rna-dna-triplex-prediction-benchmarking"
+      },
+      "run": "asbb_subwave1_2026-09__coll_i3plex_cq",
+      "score": 0.915393
+    },
+    {
+      "left": {
+        "canonical_slug": "ht-selex-cross-cycle-enrichment-correlation-analysis",
+        "merge_kind": "single",
+        "output_id": "ht-selex-cross-cycle-enrichment-correlation-analysis"
+      },
+      "right": {
+        "canonical_slug": "selex-cycle-enrichment-consistency-filtering",
+        "merge_kind": "single",
+        "output_id": "selex-cycle-enrichment-consistency-filtering"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dnaffinity_cq",
+      "score": 0.915269
+    },
+    {
+      "left": {
+        "canonical_slug": "bayesian-inla-model-fitting-in-r",
+        "merge_kind": "single",
+        "output_id": "bayesian-inla-model-fitting-in-r"
+      },
+      "right": {
+        "canonical_slug": "inla-approximate-bayesian-inference",
+        "merge_kind": "single",
+        "output_id": "inla-approximate-bayesian-inference"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methylcal_cq",
+      "score": 0.915056
+    },
+    {
+      "left": {
+        "canonical_slug": "chip-seq-peak-calling-for-loop-anchors",
+        "merge_kind": "single",
+        "output_id": "chip-seq-peak-calling-for-loop-anchors"
+      },
+      "right": {
+        "canonical_slug": "macs2-chip-seq-peak-calling",
+        "merge_kind": "single",
+        "output_id": "macs2-chip-seq-peak-calling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_chia_pet2_cq",
+      "score": 0.914916
+    },
+    {
+      "left": {
+        "canonical_slug": "information-content-motif-filtering",
+        "merge_kind": "single",
+        "output_id": "information-content-motif-filtering"
+      },
+      "right": {
+        "canonical_slug": "motif-frequency-summarization",
+        "merge_kind": "single",
+        "output_id": "motif-frequency-summarization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_deep_sequence_and_shape_motif_desso_cq",
+      "score": 0.914802
+    },
+    {
+      "left": {
+        "canonical_slug": "chip-seq-read-count-binning",
+        "merge_kind": "single",
+        "output_id": "chip-seq-read-count-binning"
+      },
+      "right": {
+        "canonical_slug": "genomic-binning-read-counting",
+        "merge_kind": "single",
+        "output_id": "genomic-binning-read-counting"
+      },
+      "run": "asbb_subwave1_2026-09__coll_histonehmm_cq",
+      "score": 0.914652
+    },
+    {
+      "left": {
+        "canonical_slug": "alignment-score-distribution-comparison",
+        "merge_kind": "single",
+        "output_id": "alignment-score-distribution-comparison"
+      },
+      "right": {
+        "canonical_slug": "pairwise-local-alignment-score-computation",
+        "merge_kind": "single",
+        "output_id": "pairwise-local-alignment-score-computation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epialign_cq",
+      "score": 0.914573
+    },
+    {
+      "left": {
+        "canonical_slug": "benchmark-method-comparison-reporting",
+        "merge_kind": "single",
+        "output_id": "benchmark-method-comparison-reporting"
+      },
+      "right": {
+        "canonical_slug": "cross-validation-performance-evaluation",
+        "merge_kind": "single",
+        "output_id": "cross-validation-performance-evaluation"
+      },
+      "run": "asbb_subwave_2026-08-31__coll_csdma_cq",
+      "score": 0.914353
+    },
+    {
+      "left": {
+        "canonical_slug": "copy-number-alteration-differential-expression-analysis",
+        "merge_kind": "single",
+        "output_id": "copy-number-alteration-differential-expression-analysis"
+      },
+      "right": {
+        "canonical_slug": "copy-number-alteration-pathway-interpretation",
+        "merge_kind": "single",
+        "output_id": "copy-number-alteration-pathway-interpretation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_iedge_cq",
+      "score": 0.91397
+    },
+    {
+      "left": {
+        "canonical_slug": "bam-read-duplicate-removal",
+        "merge_kind": "single",
+        "output_id": "bam-read-duplicate-removal"
+      },
+      "right": {
+        "canonical_slug": "chip-seq-duplicate-read-removal",
+        "merge_kind": "single",
+        "output_id": "chip-seq-duplicate-read-removal"
+      },
+      "run": "asbb_subwave1_2026-09__coll_histonehmm_cq",
+      "score": 0.913954
+    },
+    {
+      "left": {
+        "canonical_slug": "epigenomic-peak-file-granges-handling",
+        "merge_kind": "single",
+        "output_id": "epigenomic-peak-file-granges-handling"
+      },
+      "right": {
+        "canonical_slug": "epigenomic-peak-granges-manipulation",
+        "merge_kind": "single",
+        "output_id": "epigenomic-peak-granges-manipulation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epicompare_cq",
+      "score": 0.913568
+    },
+    {
+      "left": {
+        "canonical_slug": "bisulfite-sequencing-methylation-data-gathering",
+        "merge_kind": "single",
+        "output_id": "bisulfite-sequencing-methylation-data-gathering"
+      },
+      "right": {
+        "canonical_slug": "grouped-sample-methylation-comparison",
+        "merge_kind": "single",
+        "output_id": "grouped-sample-methylation-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_absp_cq",
+      "score": 0.913535
+    },
+    {
+      "left": {
+        "canonical_slug": "dna-methylation-pcr-bias-calibration",
+        "merge_kind": "single",
+        "output_id": "dna-methylation-pcr-bias-calibration"
+      },
+      "right": {
+        "canonical_slug": "methylation-standard-control-calibration",
+        "merge_kind": "single",
+        "output_id": "methylation-standard-control-calibration"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methylcal_cq",
+      "score": 0.9134
+    },
+    {
+      "left": {
+        "canonical_slug": "binary-and-multiclass-cell-type-classification",
+        "merge_kind": "single",
+        "output_id": "binary-and-multiclass-cell-type-classification"
+      },
+      "right": {
+        "canonical_slug": "cell-type-classification-performance-evaluation",
+        "merge_kind": "single",
+        "output_id": "cell-type-classification-performance-evaluation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_bag_of_motifs_bom_cq",
+      "score": 0.913296
+    },
+    {
+      "left": {
+        "canonical_slug": "methylated-core-signature-extraction",
+        "merge_kind": "single",
+        "output_id": "methylated-core-signature-extraction"
+      },
+      "right": {
+        "canonical_slug": "phased-methylation-core-identification",
+        "merge_kind": "single",
+        "output_id": "phased-methylation-core-identification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methcoresprofiler_cq",
+      "score": 0.913215
+    },
+    {
+      "left": {
+        "canonical_slug": "genomic-sequence-extraction-around-anchor-motifs",
+        "merge_kind": "single",
+        "output_id": "genomic-sequence-extraction-around-anchor-motifs"
+      },
+      "right": {
+        "canonical_slug": "genomic-sequence-motif-scanning",
+        "merge_kind": "single",
+        "output_id": "genomic-sequence-motif-scanning"
+      },
+      "run": "asbb_subwave1_2026-09__coll_mepp_cq",
+      "score": 0.913128
+    },
+    {
+      "left": {
+        "canonical_slug": "copy-number-alteration-driver-prioritization",
+        "merge_kind": "single",
+        "output_id": "copy-number-alteration-driver-prioritization"
+      },
+      "right": {
+        "canonical_slug": "copy-number-alteration-signature-testing",
+        "merge_kind": "single",
+        "output_id": "copy-number-alteration-signature-testing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_iedge_cq",
+      "score": 0.913115
+    },
+    {
+      "left": {
+        "canonical_slug": "fastq-quality-metrics-computation",
+        "merge_kind": "single",
+        "output_id": "fastq-quality-metrics-computation"
+      },
+      "right": {
+        "canonical_slug": "sample-fastq-data-handling",
+        "merge_kind": "single",
+        "output_id": "sample-fastq-data-handling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_systempiper_cq",
+      "score": 0.913009
+    },
+    {
+      "left": {
+        "canonical_slug": "workflow-failure-detection-and-intervention-handling",
+        "merge_kind": "single",
+        "output_id": "workflow-failure-detection-and-intervention-handling"
+      },
+      "right": {
+        "canonical_slug": "workflow-task-success-verification",
+        "merge_kind": "single",
+        "output_id": "workflow-task-success-verification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_watchdog_cq",
+      "score": 0.912939
+    },
+    {
+      "left": {
+        "canonical_slug": "bisulfite-sequencing-methylation-data-gathering",
+        "merge_kind": "single",
+        "output_id": "bisulfite-sequencing-methylation-data-gathering"
+      },
+      "right": {
+        "canonical_slug": "cpg-methylation-table-processing",
+        "merge_kind": "single",
+        "output_id": "cpg-methylation-table-processing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_absp_cq",
+      "score": 0.912898
+    },
+    {
+      "left": {
+        "canonical_slug": "hic-contact-map-percentile-normalization",
+        "merge_kind": "single",
+        "output_id": "hic-contact-map-percentile-normalization"
+      },
+      "right": {
+        "canonical_slug": "hic-contact-map-target-processing",
+        "merge_kind": "single",
+        "output_id": "hic-contact-map-target-processing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_deepc_cq",
+      "score": 0.91289
+    },
+    {
+      "left": {
+        "canonical_slug": "forward-reverse-strand-methylation-parsing",
+        "merge_kind": "single",
+        "output_id": "forward-reverse-strand-methylation-parsing"
+      },
+      "right": {
+        "canonical_slug": "read-to-reference-alignment-for-methylation-analysis",
+        "merge_kind": "single",
+        "output_id": "read-to-reference-alignment-for-methylation-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_absp_cq",
+      "score": 0.912819
+    },
+    {
+      "left": {
+        "canonical_slug": "long-read-haplotype-assembly",
+        "merge_kind": "single",
+        "output_id": "long-read-haplotype-assembly"
+      },
+      "right": {
+        "canonical_slug": "short-read-simulation-from-variant-haplotypes",
+        "merge_kind": "single",
+        "output_id": "short-read-simulation-from-variant-haplotypes"
+      },
+      "run": "asbb_subwave1_2026-09__coll_spechap_cq",
+      "score": 0.91262
+    },
+    {
+      "left": {
+        "canonical_slug": "coverage-based-hic-normalization",
+        "merge_kind": "single",
+        "output_id": "coverage-based-hic-normalization"
+      },
+      "right": {
+        "canonical_slug": "hic-distance-dependent-background-normalization",
+        "merge_kind": "single",
+        "output_id": "hic-distance-dependent-background-normalization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_covnorm_cq",
+      "score": 0.912552
+    },
+    {
+      "left": {
+        "canonical_slug": "cnn-sgrna-activity-prediction",
+        "merge_kind": "single",
+        "output_id": "cnn-sgrna-activity-prediction"
+      },
+      "right": {
+        "canonical_slug": "sgrna-activity-label-binarization",
+        "merge_kind": "single",
+        "output_id": "sgrna-activity-label-binarization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_iepicas_dl_cq",
+      "score": 0.91242
+    },
+    {
+      "left": {
+        "canonical_slug": "hic-compartment-score-quantile-normalization-across-replicates",
+        "merge_kind": "single",
+        "output_id": "hic-compartment-score-quantile-normalization-across-replicates"
+      },
+      "right": {
+        "canonical_slug": "quantile-normalization-of-compartment-scores",
+        "merge_kind": "single",
+        "output_id": "quantile-normalization-of-compartment-scores"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dchic_cq",
+      "score": 0.912305
+    },
+    {
+      "left": {
+        "canonical_slug": "iupac-degenerate-motif-discovery",
+        "merge_kind": "single",
+        "output_id": "iupac-degenerate-motif-discovery"
+      },
+      "right": {
+        "canonical_slug": "iupac-motif-lattice-simplification",
+        "merge_kind": "single",
+        "output_id": "iupac-motif-lattice-simplification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dinamo_cq",
+      "score": 0.912281
+    },
+    {
+      "left": {
+        "canonical_slug": "tfbs-motif-overlap-strand-asymmetry-estimation",
+        "merge_kind": "single",
+        "output_id": "tfbs-motif-overlap-strand-asymmetry-estimation"
+      },
+      "right": {
+        "canonical_slug": "transcriptional-strand-asymmetry-estimation",
+        "merge_kind": "single",
+        "output_id": "transcriptional-strand-asymmetry-estimation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_asymmetron_cq",
+      "score": 0.912279
+    },
+    {
+      "left": {
+        "canonical_slug": "gene-expression-subgroup-clustering",
+        "merge_kind": "single",
+        "output_id": "gene-expression-subgroup-clustering"
+      },
+      "right": {
+        "canonical_slug": "genomic-subgroup-classification",
+        "merge_kind": "single",
+        "output_id": "genomic-subgroup-classification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_cola_cq",
+      "score": 0.912057
+    },
+    {
+      "left": {
+        "canonical_slug": "chipseq-genome-wide-binned-read-counting",
+        "merge_kind": "single",
+        "output_id": "chipseq-genome-wide-binned-read-counting"
+      },
+      "right": {
+        "canonical_slug": "genomic-bin-read-counting",
+        "merge_kind": "single",
+        "output_id": "genomic-bin-read-counting"
+      },
+      "run": "asbb_subwave1_2026-09__coll_spikchip_cq",
+      "score": 0.911919
+    },
+    {
+      "left": {
+        "canonical_slug": "dna-physical-property-feature-preparation",
+        "merge_kind": "single",
+        "output_id": "dna-physical-property-feature-preparation"
+      },
+      "right": {
+        "canonical_slug": "kmer-feature-extraction-from-dna-physical-properties",
+        "merge_kind": "single",
+        "output_id": "kmer-feature-extraction-from-dna-physical-properties"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dnaffinity_cq",
+      "score": 0.911838
+    },
+    {
+      "left": {
+        "canonical_slug": "genomic-interval-granges-manipulation",
+        "merge_kind": "single",
+        "output_id": "genomic-interval-granges-manipulation"
+      },
+      "right": {
+        "canonical_slug": "genomic-interval-operations",
+        "merge_kind": "single",
+        "output_id": "genomic-interval-operations"
+      },
+      "run": "asbb_subwave1_2026-09__coll_adaliftover_cq",
+      "score": 0.911774
+    },
+    {
+      "left": {
+        "canonical_slug": "gene-expression-matrix-mean-centering",
+        "merge_kind": "single",
+        "output_id": "gene-expression-matrix-mean-centering"
+      },
+      "right": {
+        "canonical_slug": "mean-centered-transcriptomic-data-handling",
+        "merge_kind": "single",
+        "output_id": "mean-centered-transcriptomic-data-handling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_contort_cq",
+      "score": 0.911622
+    },
+    {
+      "left": {
+        "canonical_slug": "cell-taxonomy-reference-database-construction",
+        "merge_kind": "single",
+        "output_id": "cell-taxonomy-reference-database-construction"
+      },
+      "right": {
+        "canonical_slug": "cellmatch-reference-mapping",
+        "merge_kind": "single",
+        "output_id": "cellmatch-reference-mapping"
+      },
+      "run": "asbb_subwave_2026-08-31__coll_sccatch_cq",
+      "score": 0.911592
+    },
+    {
+      "left": {
+        "canonical_slug": "genomic-landmark-position-histogramming",
+        "merge_kind": "single",
+        "output_id": "genomic-landmark-position-histogramming"
+      },
+      "right": {
+        "canonical_slug": "poi-position-histogram-quantification",
+        "merge_kind": "single",
+        "output_id": "poi-position-histogram-quantification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dgw_cq",
+      "score": 0.911474
+    },
+    {
+      "left": {
+        "canonical_slug": "binomial-strand-orientation-testing",
+        "merge_kind": "single",
+        "output_id": "binomial-strand-orientation-testing"
+      },
+      "right": {
+        "canonical_slug": "strand-orientation-assignment-of-genomic-intervals",
+        "merge_kind": "single",
+        "output_id": "strand-orientation-assignment-of-genomic-intervals"
+      },
+      "run": "asbb_subwave1_2026-09__coll_asymmetron_cq",
+      "score": 0.911408
+    },
+    {
+      "left": {
+        "canonical_slug": "dna-foundation-model-finetuning",
+        "merge_kind": "single",
+        "output_id": "dna-foundation-model-finetuning"
+      },
+      "right": {
+        "canonical_slug": "dna-sequence-multitask-regression",
+        "merge_kind": "single",
+        "output_id": "dna-sequence-multitask-regression"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_dnalongbench_cq",
+      "score": 0.911003
+    },
+    {
+      "left": {
+        "canonical_slug": "haplotype-assembly-benchmarking",
+        "merge_kind": "single",
+        "output_id": "haplotype-assembly-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "short-read-simulation-from-variant-haplotypes",
+        "merge_kind": "single",
+        "output_id": "short-read-simulation-from-variant-haplotypes"
+      },
+      "run": "asbb_subwave1_2026-09__coll_spechap_cq",
+      "score": 0.910786
+    },
+    {
+      "left": {
+        "canonical_slug": "long-read-fragment-extraction-pacbio",
+        "merge_kind": "single",
+        "output_id": "long-read-fragment-extraction-pacbio"
+      },
+      "right": {
+        "canonical_slug": "sequencing-fragment-extraction",
+        "merge_kind": "single",
+        "output_id": "sequencing-fragment-extraction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_spechap_cq",
+      "score": 0.910747
+    },
+    {
+      "left": {
+        "canonical_slug": "gata1-motif-enrichment-visualization",
+        "merge_kind": "single",
+        "output_id": "gata1-motif-enrichment-visualization"
+      },
+      "right": {
+        "canonical_slug": "gata1-tal1-motif-spacing-analysis",
+        "merge_kind": "single",
+        "output_id": "gata1-tal1-motif-spacing-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_mepp_cq",
+      "score": 0.910744
+    },
+    {
+      "left": {
+        "canonical_slug": "pairwise-local-alignment-score-computation",
+        "merge_kind": "single",
+        "output_id": "pairwise-local-alignment-score-computation"
+      },
+      "right": {
+        "canonical_slug": "permutation-based-alignment-score-normalization",
+        "merge_kind": "single",
+        "output_id": "permutation-based-alignment-score-normalization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epialign_cq",
+      "score": 0.910728
+    },
+    {
+      "left": {
+        "canonical_slug": "pretrained-random-forest-loop-scoring",
+        "merge_kind": "single",
+        "output_id": "pretrained-random-forest-loop-scoring"
+      },
+      "right": {
+        "canonical_slug": "random-forest-model-training-hic",
+        "merge_kind": "single",
+        "output_id": "random-forest-model-training-hic"
+      },
+      "run": "asbb_subwave1_2026-09__coll_peakachu_cq",
+      "score": 0.910452
+    },
+    {
+      "left": {
+        "canonical_slug": "enhancer-probability-prediction",
+        "merge_kind": "single",
+        "output_id": "enhancer-probability-prediction"
+      },
+      "right": {
+        "canonical_slug": "gradient-boosting-enhancer-target-prediction",
+        "merge_kind": "single",
+        "output_id": "gradient-boosting-enhancer-target-prediction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_centre_cq",
+      "score": 0.910445
+    },
+    {
+      "left": {
+        "canonical_slug": "extra-trees-classifier-training",
+        "merge_kind": "single",
+        "output_id": "extra-trees-classifier-training"
+      },
+      "right": {
+        "canonical_slug": "tree-ensemble-classifier-training",
+        "merge_kind": "single",
+        "output_id": "tree-ensemble-classifier-training"
+      },
+      "run": "asbb_subwave_2026-08-31__coll_csdma_cq",
+      "score": 0.910442
+    },
+    {
+      "left": {
+        "canonical_slug": "differential-peak-motif-verification",
+        "merge_kind": "single",
+        "output_id": "differential-peak-motif-verification"
+      },
+      "right": {
+        "canonical_slug": "tf-motif-enrichment-analysis",
+        "merge_kind": "single",
+        "output_id": "tf-motif-enrichment-analysis--3e4820a4fad46bdf"
+      },
+      "run": "asbb_subwave1_2026-09__coll_pycallingcards_cq",
+      "score": 0.910402
+    },
+    {
+      "left": {
+        "canonical_slug": "rnaseq-design-matrix-construction",
+        "merge_kind": "single",
+        "output_id": "rnaseq-design-matrix-construction"
+      },
+      "right": {
+        "canonical_slug": "rnaseq-read-quantification",
+        "merge_kind": "single",
+        "output_id": "rnaseq-read-quantification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_cipher_cq",
+      "score": 0.910402
+    },
+    {
+      "left": {
+        "canonical_slug": "bed-like-methylation-file-conversion",
+        "merge_kind": "single",
+        "output_id": "bed-like-methylation-file-conversion"
+      },
+      "right": {
+        "canonical_slug": "bisulfite-methylation-bed-formatting",
+        "merge_kind": "single",
+        "output_id": "bisulfite-methylation-bed-formatting"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dxm_cq",
+      "score": 0.910014
+    },
+    {
+      "left": {
+        "canonical_slug": "hic-read-depth-downsampling",
+        "merge_kind": "single",
+        "output_id": "hic-read-depth-downsampling"
+      },
+      "right": {
+        "canonical_slug": "sequencing-depth-downsampling",
+        "merge_kind": "semantic_auto",
+        "output_id": "sequencing-depth-downsampling--2ef7682135974888"
+      },
+      "run": "asbb_subwave1_2026-09__coll_cscoretool_m_cq",
+      "score": 0.910005
+    },
+    {
+      "left": {
+        "canonical_slug": "methylated-core-signature-extraction",
+        "merge_kind": "single",
+        "output_id": "methylated-core-signature-extraction"
+      },
+      "right": {
+        "canonical_slug": "methylation-core-statistical-annotation",
+        "merge_kind": "single",
+        "output_id": "methylation-core-statistical-annotation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methcoresprofiler_cq",
+      "score": 0.909865
+    },
+    {
+      "left": {
+        "canonical_slug": "genomic-tile-standard-error-computation",
+        "merge_kind": "single",
+        "output_id": "genomic-tile-standard-error-computation"
+      },
+      "right": {
+        "canonical_slug": "genomic-tiled-model-fitting",
+        "merge_kind": "single",
+        "output_id": "genomic-tiled-model-fitting"
+      },
+      "run": "asbb_subwave1_2026-09__coll_fastgenogam_cq",
+      "score": 0.909802
+    },
+    {
+      "left": {
+        "canonical_slug": "delila-book-regeneration-from-filtered-sequences",
+        "merge_kind": "single",
+        "output_id": "delila-book-regeneration-from-filtered-sequences"
+      },
+      "right": {
+        "canonical_slug": "delila-sequence-book-extraction",
+        "merge_kind": "single",
+        "output_id": "delila-sequence-book-extraction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_delila_py_cq",
+      "score": 0.909733
+    },
+    {
+      "left": {
+        "canonical_slug": "pathway-geneset-mapping",
+        "merge_kind": "single",
+        "output_id": "pathway-geneset-mapping"
+      },
+      "right": {
+        "canonical_slug": "transcription-factor-pathway-interaction-analysis",
+        "merge_kind": "single",
+        "output_id": "transcription-factor-pathway-interaction-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_tsminer_cq",
+      "score": 0.909086
+    },
+    {
+      "left": {
+        "canonical_slug": "methylation-subpopulation-deconvolution",
+        "merge_kind": "single",
+        "output_id": "methylation-subpopulation-deconvolution"
+      },
+      "right": {
+        "canonical_slug": "viterbi-decoding-of-binary-methylation-vectors",
+        "merge_kind": "single",
+        "output_id": "viterbi-decoding-of-binary-methylation-vectors"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dxm_cq",
+      "score": 0.909013
+    },
+    {
+      "left": {
+        "canonical_slug": "bias-correction-evaluation",
+        "merge_kind": "single",
+        "output_id": "bias-correction-evaluation"
+      },
+      "right": {
+        "canonical_slug": "fragment-bias-correction",
+        "merge_kind": "single",
+        "output_id": "fragment-bias-correction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_express_cq",
+      "score": 0.908925
+    },
+    {
+      "left": {
+        "canonical_slug": "spark-distributed-job-execution",
+        "merge_kind": "single",
+        "output_id": "spark-distributed-job-execution"
+      },
+      "right": {
+        "canonical_slug": "spark-rdd-distributed-processing",
+        "merge_kind": "single",
+        "output_id": "spark-rdd-distributed-processing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_bispark_cq",
+      "score": 0.908913
+    },
+    {
+      "left": {
+        "canonical_slug": "cell-line-specific-enhancer-model-interpretation",
+        "merge_kind": "single",
+        "output_id": "cell-line-specific-enhancer-model-interpretation"
+      },
+      "right": {
+        "canonical_slug": "enhancer-sequence-classification",
+        "merge_kind": "single",
+        "output_id": "enhancer-sequence-classification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_enhancer_mdlf_cq",
+      "score": 0.908899
+    },
+    {
+      "left": {
+        "canonical_slug": "genomic-range-overlap-statistics",
+        "merge_kind": "single",
+        "output_id": "genomic-range-overlap-statistics"
+      },
+      "right": {
+        "canonical_slug": "genomic-range-simulation-under-null",
+        "merge_kind": "single",
+        "output_id": "genomic-range-simulation-under-null"
+      },
+      "run": "asbb_subwave1_2026-09__coll_bootranges_cq",
+      "score": 0.908846
+    },
+    {
+      "left": {
+        "canonical_slug": "nextflow-workflow-execution",
+        "merge_kind": "single",
+        "output_id": "nextflow-workflow-execution"
+      },
+      "right": {
+        "canonical_slug": "workflow-runtime-profiling",
+        "merge_kind": "single",
+        "output_id": "workflow-runtime-profiling--d5474f29b99c5f20"
+      },
+      "run": "asbb_subwave1_2026-09__coll_cipher_cq",
+      "score": 0.908834
+    },
+    {
+      "left": {
+        "canonical_slug": "baseline-classifier-benchmarking",
+        "merge_kind": "single",
+        "output_id": "baseline-classifier-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "baseline-model-benchmark-comparison",
+        "merge_kind": "single",
+        "output_id": "baseline-model-benchmark-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_iepicas_dl_cq",
+      "score": 0.908679
+    },
+    {
+      "left": {
+        "canonical_slug": "bisulfite-methylation-bed-formatting",
+        "merge_kind": "single",
+        "output_id": "bisulfite-methylation-bed-formatting"
+      },
+      "right": {
+        "canonical_slug": "dmr-statistical-calling-from-bisulfite-methylation-counts",
+        "merge_kind": "single",
+        "output_id": "dmr-statistical-calling-from-bisulfite-methylation-counts"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dxm_cq",
+      "score": 0.908634
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-method-loop-set-overlap-analysis",
+        "merge_kind": "single",
+        "output_id": "cross-method-loop-set-overlap-analysis"
+      },
+      "right": {
+        "canonical_slug": "loop-set-overlap-validation-analysis",
+        "merge_kind": "single",
+        "output_id": "loop-set-overlap-validation-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_peakachu_cq",
+      "score": 0.908611
+    },
+    {
+      "left": {
+        "canonical_slug": "methylation-core-statistical-annotation",
+        "merge_kind": "single",
+        "output_id": "methylation-core-statistical-annotation"
+      },
+      "right": {
+        "canonical_slug": "repeated-random-sampling-of-methylation-reads",
+        "merge_kind": "single",
+        "output_id": "repeated-random-sampling-of-methylation-reads"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methcoresprofiler_cq",
+      "score": 0.90852
+    },
+    {
+      "left": {
+        "canonical_slug": "motif-family-enrichment-testing",
+        "merge_kind": "single",
+        "output_id": "motif-family-enrichment-testing"
+      },
+      "right": {
+        "canonical_slug": "transcription-factor-motif-scanning",
+        "merge_kind": "single",
+        "output_id": "transcription-factor-motif-scanning"
+      },
+      "run": "asbb_subwave1_2026-09__coll_hpeak_cq",
+      "score": 0.908514
+    },
+    {
+      "left": {
+        "canonical_slug": "epigenomic-query-search-horizontal-alignment",
+        "merge_kind": "single",
+        "output_id": "epigenomic-query-search-horizontal-alignment"
+      },
+      "right": {
+        "canonical_slug": "pairwise-epigenome-local-alignment",
+        "merge_kind": "single",
+        "output_id": "pairwise-epigenome-local-alignment"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epialign_cq",
+      "score": 0.908504
+    },
+    {
+      "left": {
+        "canonical_slug": "image-based-loop-prediction-model-training",
+        "merge_kind": "single",
+        "output_id": "image-based-loop-prediction-model-training"
+      },
+      "right": {
+        "canonical_slug": "unet-image-based-loop-classifier-training",
+        "merge_kind": "single",
+        "output_id": "unet-image-based-loop-classifier-training"
+      },
+      "run": "asbb_subwave1_2026-09__coll_giloop_cq",
+      "score": 0.908489
+    },
+    {
+      "left": {
+        "canonical_slug": "bisulfite-sequencing-methylation-data-gathering",
+        "merge_kind": "single",
+        "output_id": "bisulfite-sequencing-methylation-data-gathering"
+      },
+      "right": {
+        "canonical_slug": "methylation-group-comparison-statistics",
+        "merge_kind": "single",
+        "output_id": "methylation-group-comparison-statistics"
+      },
+      "run": "asbb_subwave1_2026-09__coll_absp_cq",
+      "score": 0.908479
+    },
+    {
+      "left": {
+        "canonical_slug": "genome-browser-track-retrieval",
+        "merge_kind": "single",
+        "output_id": "genome-browser-track-retrieval"
+      },
+      "right": {
+        "canonical_slug": "ucsc-genome-annotation-retrieval",
+        "merge_kind": "single",
+        "output_id": "ucsc-genome-annotation-retrieval"
+      },
+      "run": "asbb_subwave1_2026-09__coll_seqcode_cq",
+      "score": 0.908237
+    },
+    {
+      "left": {
+        "canonical_slug": "genomic-sequence-data-preparation",
+        "merge_kind": "single",
+        "output_id": "genomic-sequence-data-preparation"
+      },
+      "right": {
+        "canonical_slug": "per-chromosome-genomic-array-io",
+        "merge_kind": "single",
+        "output_id": "per-chromosome-genomic-array-io"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_deepc_cq",
+      "score": 0.907832
+    },
+    {
+      "left": {
+        "canonical_slug": "dual-mean-threshold-imputation-filtering",
+        "merge_kind": "single",
+        "output_id": "dual-mean-threshold-imputation-filtering"
+      },
+      "right": {
+        "canonical_slug": "imputation-method-benchmarking",
+        "merge_kind": "single",
+        "output_id": "imputation-method-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_scale_cq",
+      "score": 0.907819
+    },
+    {
+      "left": {
+        "canonical_slug": "spikein-normalization-strategy-comparison",
+        "merge_kind": "single",
+        "output_id": "spikein-normalization-strategy-comparison"
+      },
+      "right": {
+        "canonical_slug": "spikein-read-ratio-scaling-factor-calculation",
+        "merge_kind": "single",
+        "output_id": "spikein-read-ratio-scaling-factor-calculation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_spikchip_cq",
+      "score": 0.907786
+    },
+    {
+      "left": {
+        "canonical_slug": "xml-workflow-configuration",
+        "merge_kind": "single",
+        "output_id": "xml-workflow-configuration"
+      },
+      "right": {
+        "canonical_slug": "xml-workflow-placeholder-expansion",
+        "merge_kind": "single",
+        "output_id": "xml-workflow-placeholder-expansion"
+      },
+      "run": "asbb_subwave1_2026-09__coll_watchdog_cq",
+      "score": 0.907734
+    },
+    {
+      "left": {
+        "canonical_slug": "chromosome-cluster-nesting-analysis",
+        "merge_kind": "single",
+        "output_id": "chromosome-cluster-nesting-analysis"
+      },
+      "right": {
+        "canonical_slug": "hierarchical-chromosome-cluster-functional-annotation",
+        "merge_kind": "single",
+        "output_id": "hierarchical-chromosome-cluster-functional-annotation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_bhi_cect_cq",
+      "score": 0.907716
+    },
+    {
+      "left": {
+        "canonical_slug": "euler-ode-integration",
+        "merge_kind": "single",
+        "output_id": "euler-ode-integration"
+      },
+      "right": {
+        "canonical_slug": "ode-model-parameter-fitting",
+        "merge_kind": "single",
+        "output_id": "ode-model-parameter-fitting"
+      },
+      "run": "asbb_subwave1_2026-09__coll_genexpi_cq",
+      "score": 0.907675
+    },
+    {
+      "left": {
+        "canonical_slug": "beta-binomial-differential-methylation-testing",
+        "merge_kind": "single",
+        "output_id": "beta-binomial-differential-methylation-testing"
+      },
+      "right": {
+        "canonical_slug": "pairwise-group-methylation-comparison",
+        "merge_kind": "single",
+        "output_id": "pairwise-group-methylation-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dmrfinder_cq",
+      "score": 0.90765
+    },
+    {
+      "left": {
+        "canonical_slug": "two-tailed-binomial-orientation-testing",
+        "merge_kind": "single",
+        "output_id": "two-tailed-binomial-orientation-testing"
+      },
+      "right": {
+        "canonical_slug": "two-tailed-binomial-pvalue-calculation",
+        "merge_kind": "single",
+        "output_id": "two-tailed-binomial-pvalue-calculation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_asymmetron_cq",
+      "score": 0.907636
+    },
+    {
+      "left": {
+        "canonical_slug": "liftover-precision-benchmarking",
+        "merge_kind": "single",
+        "output_id": "liftover-precision-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "precision-benchmark-comparison-across-species",
+        "merge_kind": "single",
+        "output_id": "precision-benchmark-comparison-across-species"
+      },
+      "run": "asbb_subwave1_2026-09__coll_adaliftover_cq",
+      "score": 0.907596
+    },
+    {
+      "left": {
+        "canonical_slug": "spark-rdd-distributed-processing",
+        "merge_kind": "single",
+        "output_id": "spark-rdd-distributed-processing"
+      },
+      "right": {
+        "canonical_slug": "spark-rdd-pipeline-execution",
+        "merge_kind": "single",
+        "output_id": "spark-rdd-pipeline-execution"
+      },
+      "run": "asbb_subwave1_2026-09__coll_bispark_cq",
+      "score": 0.907551
+    },
+    {
+      "left": {
+        "canonical_slug": "bisulfite-sequencing-methylation-call-interpretation",
+        "merge_kind": "single",
+        "output_id": "bisulfite-sequencing-methylation-call-interpretation"
+      },
+      "right": {
+        "canonical_slug": "linked-read-methylation-extraction",
+        "merge_kind": "single",
+        "output_id": "linked-read-methylation-extraction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dmrfinder_cq",
+      "score": 0.907551
+    },
+    {
+      "left": {
+        "canonical_slug": "gene-region-alignment-score-ranking",
+        "merge_kind": "single",
+        "output_id": "gene-region-alignment-score-ranking"
+      },
+      "right": {
+        "canonical_slug": "pairwise-local-alignment-score-computation",
+        "merge_kind": "single",
+        "output_id": "pairwise-local-alignment-score-computation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epialign_cq",
+      "score": 0.907536
+    },
+    {
+      "left": {
+        "canonical_slug": "genomic-interval-overlap-merging",
+        "merge_kind": "single",
+        "output_id": "genomic-interval-overlap-merging"
+      },
+      "right": {
+        "canonical_slug": "genomic-region-overlap-querying",
+        "merge_kind": "single",
+        "output_id": "genomic-region-overlap-querying"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epiregio_cq",
+      "score": 0.907443
+    },
+    {
+      "left": {
+        "canonical_slug": "sobel-mediation-testing",
+        "merge_kind": "single",
+        "output_id": "sobel-mediation-testing"
+      },
+      "right": {
+        "canonical_slug": "statistical-mediation-testing",
+        "merge_kind": "single",
+        "output_id": "statistical-mediation-testing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_iedge_cq",
+      "score": 0.907291
+    },
+    {
+      "left": {
+        "canonical_slug": "hypergeometric-driver-gene-enrichment-testing",
+        "merge_kind": "single",
+        "output_id": "hypergeometric-driver-gene-enrichment-testing"
+      },
+      "right": {
+        "canonical_slug": "hypergeometric-pathway-enrichment-analysis",
+        "merge_kind": "single",
+        "output_id": "hypergeometric-pathway-enrichment-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_iedge_cq",
+      "score": 0.907105
+    },
+    {
+      "left": {
+        "canonical_slug": "cpg-methylation-computation-from-trace-files",
+        "merge_kind": "single",
+        "output_id": "cpg-methylation-computation-from-trace-files"
+      },
+      "right": {
+        "canonical_slug": "methylation-group-comparison-statistics",
+        "merge_kind": "single",
+        "output_id": "methylation-group-comparison-statistics"
+      },
+      "run": "asbb_subwave1_2026-09__coll_absp_cq",
+      "score": 0.907056
+    },
+    {
+      "left": {
+        "canonical_slug": "graph-neural-network-architecture-implementation",
+        "merge_kind": "single",
+        "output_id": "graph-neural-network-architecture-implementation"
+      },
+      "right": {
+        "canonical_slug": "graph-neural-network-training-on-hic-data",
+        "merge_kind": "single",
+        "output_id": "graph-neural-network-training-on-hic-data"
+      },
+      "run": "asbb_subwave1_2026-09__coll_giloop_cq",
+      "score": 0.907034
+    },
+    {
+      "left": {
+        "canonical_slug": "bisulfite-sequencing-methylation-call-interpretation",
+        "merge_kind": "single",
+        "output_id": "bisulfite-sequencing-methylation-call-interpretation"
+      },
+      "right": {
+        "canonical_slug": "strand-merged-methylation-calling",
+        "merge_kind": "single",
+        "output_id": "strand-merged-methylation-calling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dmrfinder_cq",
+      "score": 0.907012
+    },
+    {
+      "left": {
+        "canonical_slug": "bayesian-hyperparameter-optimization",
+        "merge_kind": "single",
+        "output_id": "bayesian-hyperparameter-optimization"
+      },
+      "right": {
+        "canonical_slug": "cnn-model-training-with-bayesian-hyperparameter-optimization",
+        "merge_kind": "single",
+        "output_id": "cnn-model-training-with-bayesian-hyperparameter-optimization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_iepicas_dl_cq",
+      "score": 0.906988
+    },
+    {
+      "left": {
+        "canonical_slug": "genbank-annotation-matching",
+        "merge_kind": "single",
+        "output_id": "genbank-annotation-matching"
+      },
+      "right": {
+        "canonical_slug": "gene-annotation-expression-matching",
+        "merge_kind": "single",
+        "output_id": "gene-annotation-expression-matching"
+      },
+      "run": "asbb_subwave1_2026-09__coll_contort_cq",
+      "score": 0.906957
+    },
+    {
+      "left": {
+        "canonical_slug": "chromatin-state-annotation",
+        "merge_kind": "single",
+        "output_id": "chromatin-state-annotation"
+      },
+      "right": {
+        "canonical_slug": "epigenomic-annotation-data-processing",
+        "merge_kind": "single",
+        "output_id": "epigenomic-annotation-data-processing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epialign_cq",
+      "score": 0.906802
+    },
+    {
+      "left": {
+        "canonical_slug": "pairwise-local-alignment-score-computation",
+        "merge_kind": "single",
+        "output_id": "pairwise-local-alignment-score-computation"
+      },
+      "right": {
+        "canonical_slug": "smith-waterman-local-alignment-implementation",
+        "merge_kind": "single",
+        "output_id": "smith-waterman-local-alignment-implementation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epialign_cq",
+      "score": 0.90667
+    },
+    {
+      "left": {
+        "canonical_slug": "imbalanced-class-resampling",
+        "merge_kind": "single",
+        "output_id": "imbalanced-class-resampling"
+      },
+      "right": {
+        "canonical_slug": "imbalanced-dataset-resampling-with-rose",
+        "merge_kind": "single",
+        "output_id": "imbalanced-dataset-resampling-with-rose"
+      },
+      "run": "asbb_subwave1_2026-09__coll_imeges_cq",
+      "score": 0.906607
+    },
+    {
+      "left": {
+        "canonical_slug": "simulated-mediation-recovery-evaluation",
+        "merge_kind": "single",
+        "output_id": "simulated-mediation-recovery-evaluation"
+      },
+      "right": {
+        "canonical_slug": "statistical-mediation-testing",
+        "merge_kind": "single",
+        "output_id": "statistical-mediation-testing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_iedge_cq",
+      "score": 0.906595
+    },
+    {
+      "left": {
+        "canonical_slug": "chip-seq-histone-modification-data-processing",
+        "merge_kind": "single",
+        "output_id": "chip-seq-histone-modification-data-processing"
+      },
+      "right": {
+        "canonical_slug": "histone-modification-peak-profile-processing",
+        "merge_kind": "single",
+        "output_id": "histone-modification-peak-profile-processing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dgw_cq",
+      "score": 0.906459
+    },
+    {
+      "left": {
+        "canonical_slug": "cpg-methylation-count-extraction",
+        "merge_kind": "single",
+        "output_id": "cpg-methylation-count-extraction"
+      },
+      "right": {
+        "canonical_slug": "differential-methylation-region-testing",
+        "merge_kind": "single",
+        "output_id": "differential-methylation-region-testing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dmrfinder_cq",
+      "score": 0.906439
+    },
+    {
+      "left": {
+        "canonical_slug": "cfmedip-methylation-quantification",
+        "merge_kind": "single",
+        "output_id": "cfmedip-methylation-quantification"
+      },
+      "right": {
+        "canonical_slug": "enrichment-based-absolute-methylation-estimation",
+        "merge_kind": "single",
+        "output_id": "enrichment-based-absolute-methylation-estimation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_medipipe_cq",
+      "score": 0.906396
+    },
+    {
+      "left": {
+        "canonical_slug": "chromatin-state-frequency-vector-comparison",
+        "merge_kind": "single",
+        "output_id": "chromatin-state-frequency-vector-comparison"
+      },
+      "right": {
+        "canonical_slug": "chromatin-state-sequence-compression",
+        "merge_kind": "single",
+        "output_id": "chromatin-state-sequence-compression"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epialign_cq",
+      "score": 0.906258
+    },
+    {
+      "left": {
+        "canonical_slug": "roc-auc-baseline-comparison",
+        "merge_kind": "single",
+        "output_id": "roc-auc-baseline-comparison"
+      },
+      "right": {
+        "canonical_slug": "roc-auc-reproducibility-evaluation",
+        "merge_kind": "single",
+        "output_id": "roc-auc-reproducibility-evaluation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_covnorm_cq",
+      "score": 0.906226
+    },
+    {
+      "left": {
+        "canonical_slug": "cell-type-epiallele-trajectory-comparison",
+        "merge_kind": "single",
+        "output_id": "cell-type-epiallele-trajectory-comparison"
+      },
+      "right": {
+        "canonical_slug": "epiallele-family-trajectory-comparison",
+        "merge_kind": "single",
+        "output_id": "epiallele-family-trajectory-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methcoresprofiler_cq",
+      "score": 0.906153
+    },
+    {
+      "left": {
+        "canonical_slug": "clustering-reproducibility-evaluation",
+        "merge_kind": "single",
+        "output_id": "clustering-reproducibility-evaluation"
+      },
+      "right": {
+        "canonical_slug": "clustering-separation-benchmarking-across-methods",
+        "merge_kind": "single",
+        "output_id": "clustering-separation-benchmarking-across-methods"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_snapatac_cq",
+      "score": 0.906143
+    },
+    {
+      "left": {
+        "canonical_slug": "roc-auc-curve-analysis",
+        "merge_kind": "single",
+        "output_id": "roc-auc-curve-analysis"
+      },
+      "right": {
+        "canonical_slug": "roc-auc-evaluation-of-tf-prediction",
+        "merge_kind": "single",
+        "output_id": "roc-auc-evaluation-of-tf-prediction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_tsminer_cq",
+      "score": 0.906113
+    },
+    {
+      "left": {
+        "canonical_slug": "differential-methylation-classification",
+        "merge_kind": "single",
+        "output_id": "differential-methylation-classification"
+      },
+      "right": {
+        "canonical_slug": "methylation-level-correction-evaluation",
+        "merge_kind": "single",
+        "output_id": "methylation-level-correction-evaluation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methylcal_cq",
+      "score": 0.906065
+    },
+    {
+      "left": {
+        "canonical_slug": "transfer-learning-model-retraining",
+        "merge_kind": "single",
+        "output_id": "transfer-learning-model-retraining"
+      },
+      "right": {
+        "canonical_slug": "transfer-learning-weight-seeding",
+        "merge_kind": "single",
+        "output_id": "transfer-learning-weight-seeding"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_deepc_cq",
+      "score": 0.905985
+    },
+    {
+      "left": {
+        "canonical_slug": "nearest-neighbor-cell-clustering",
+        "merge_kind": "single",
+        "output_id": "nearest-neighbor-cell-clustering"
+      },
+      "right": {
+        "canonical_slug": "single-cell-clustering-analysis",
+        "merge_kind": "single",
+        "output_id": "single-cell-clustering-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_copy_scat_cq",
+      "score": 0.905932
+    },
+    {
+      "left": {
+        "canonical_slug": "methylation-core-statistical-annotation",
+        "merge_kind": "single",
+        "output_id": "methylation-core-statistical-annotation"
+      },
+      "right": {
+        "canonical_slug": "phased-methylation-core-identification",
+        "merge_kind": "single",
+        "output_id": "phased-methylation-core-identification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methcoresprofiler_cq",
+      "score": 0.905927
+    },
+    {
+      "left": {
+        "canonical_slug": "binomial-strand-orientation-testing",
+        "merge_kind": "single",
+        "output_id": "binomial-strand-orientation-testing"
+      },
+      "right": {
+        "canonical_slug": "chip-seq-peak-strand-orientation-analysis",
+        "merge_kind": "single",
+        "output_id": "chip-seq-peak-strand-orientation-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_asymmetron_cq",
+      "score": 0.905867
+    },
+    {
+      "left": {
+        "canonical_slug": "consensus-clustering-epigenomic-subpopulations",
+        "merge_kind": "single",
+        "output_id": "consensus-clustering-epigenomic-subpopulations"
+      },
+      "right": {
+        "canonical_slug": "hierarchical-clustering-of-epigenomic-profiles",
+        "merge_kind": "single",
+        "output_id": "hierarchical-clustering-of-epigenomic-profiles"
+      },
+      "run": "asbb_subwave1_2026-09__coll_chromscape_cq",
+      "score": 0.905861
+    },
+    {
+      "left": {
+        "canonical_slug": "fragment-extraction-from-aligned-reads",
+        "merge_kind": "single",
+        "output_id": "fragment-extraction-from-aligned-reads"
+      },
+      "right": {
+        "canonical_slug": "sequencing-read-alignment",
+        "merge_kind": "single",
+        "output_id": "sequencing-read-alignment"
+      },
+      "run": "asbb_subwave1_2026-09__coll_spechap_cq",
+      "score": 0.905753
+    },
+    {
+      "left": {
+        "canonical_slug": "motif-enrichment-analysis-across-peak-callers",
+        "merge_kind": "single",
+        "output_id": "motif-enrichment-analysis-across-peak-callers"
+      },
+      "right": {
+        "canonical_slug": "transcription-factor-motif-scanning",
+        "merge_kind": "single",
+        "output_id": "transcription-factor-motif-scanning"
+      },
+      "run": "asbb_subwave1_2026-09__coll_hpeak_cq",
+      "score": 0.905686
+    },
+    {
+      "left": {
+        "canonical_slug": "long-read-haplotype-assembly",
+        "merge_kind": "single",
+        "output_id": "long-read-haplotype-assembly"
+      },
+      "right": {
+        "canonical_slug": "sequencing-read-alignment",
+        "merge_kind": "single",
+        "output_id": "sequencing-read-alignment"
+      },
+      "run": "asbb_subwave1_2026-09__coll_spechap_cq",
+      "score": 0.905665
+    },
+    {
+      "left": {
+        "canonical_slug": "methylation-level-correction-evaluation",
+        "merge_kind": "single",
+        "output_id": "methylation-level-correction-evaluation"
+      },
+      "right": {
+        "canonical_slug": "methylation-level-numerical-inversion",
+        "merge_kind": "single",
+        "output_id": "methylation-level-numerical-inversion"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methylcal_cq",
+      "score": 0.905661
+    },
+    {
+      "left": {
+        "canonical_slug": "rnaseq-design-matrix-construction",
+        "merge_kind": "single",
+        "output_id": "rnaseq-design-matrix-construction"
+      },
+      "right": {
+        "canonical_slug": "rnaseq-quality-control-assessment",
+        "merge_kind": "single",
+        "output_id": "rnaseq-quality-control-assessment"
+      },
+      "run": "asbb_subwave1_2026-09__coll_cipher_cq",
+      "score": 0.905643
+    },
+    {
+      "left": {
+        "canonical_slug": "nucleosome-dyad-prediction-from-mnase-seq",
+        "merge_kind": "single",
+        "output_id": "nucleosome-dyad-prediction-from-mnase-seq"
+      },
+      "right": {
+        "canonical_slug": "nucleosome-positioning-benchmarking-against-chemical-cleavage-annotations",
+        "merge_kind": "single",
+        "output_id": "nucleosome-positioning-benchmarking-against-chemical-cleavage-annotations"
+      },
+      "run": "asbb_subwave1_2026-09__coll_robocop_cq",
+      "score": 0.90545
+    },
+    {
+      "left": {
+        "canonical_slug": "genome-tiling-chunk-overhang-configuration",
+        "merge_kind": "single",
+        "output_id": "genome-tiling-chunk-overhang-configuration"
+      },
+      "right": {
+        "canonical_slug": "tiling-chunked-genome-fitting",
+        "merge_kind": "single",
+        "output_id": "tiling-chunked-genome-fitting"
+      },
+      "run": "asbb_subwave1_2026-09__coll_fastgenogam_cq",
+      "score": 0.905433
+    },
+    {
+      "left": {
+        "canonical_slug": "bivariate-hidden-markov-model-fitting",
+        "merge_kind": "single",
+        "output_id": "bivariate-hidden-markov-model-fitting"
+      },
+      "right": {
+        "canonical_slug": "univariate-hmm-fitting-for-chip-seq",
+        "merge_kind": "single",
+        "output_id": "univariate-hmm-fitting-for-chip-seq"
+      },
+      "run": "asbb_subwave1_2026-09__coll_histonehmm_cq",
+      "score": 0.905362
+    },
+    {
+      "left": {
+        "canonical_slug": "benchmark-table-compilation",
+        "merge_kind": "single",
+        "output_id": "benchmark-table-compilation"
+      },
+      "right": {
+        "canonical_slug": "desktop-hardware-benchmarking",
+        "merge_kind": "single",
+        "output_id": "desktop-hardware-benchmarking"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dinamo_cq",
+      "score": 0.905324
+    },
+    {
+      "left": {
+        "canonical_slug": "methylation-variability-quantification",
+        "merge_kind": "single",
+        "output_id": "methylation-variability-quantification"
+      },
+      "right": {
+        "canonical_slug": "wgbs-methylation-profiling",
+        "merge_kind": "single",
+        "output_id": "wgbs-methylation-profiling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_hot_cq",
+      "score": 0.905128
+    },
+    {
+      "left": {
+        "canonical_slug": "drug-response-biomarker-identification",
+        "merge_kind": "single",
+        "output_id": "drug-response-biomarker-identification"
+      },
+      "right": {
+        "canonical_slug": "partial-correlation-drug-response-analysis",
+        "merge_kind": "single",
+        "output_id": "partial-correlation-drug-response-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_rephine_cq",
+      "score": 0.905104
+    },
+    {
+      "left": {
+        "canonical_slug": "expression-matrix-preprocessing",
+        "merge_kind": "single",
+        "output_id": "expression-matrix-preprocessing"
+      },
+      "right": {
+        "canonical_slug": "gene-expression-matrix-processing",
+        "merge_kind": "single",
+        "output_id": "gene-expression-matrix-processing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_cola_cq",
+      "score": 0.904951
+    },
+    {
+      "left": {
+        "canonical_slug": "read-depth-sensitivity-assessment",
+        "merge_kind": "single",
+        "output_id": "read-depth-sensitivity-assessment"
+      },
+      "right": {
+        "canonical_slug": "sequencing-depth-normalization",
+        "merge_kind": "single",
+        "output_id": "sequencing-depth-normalization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_seqcode_cq",
+      "score": 0.904911
+    },
+    {
+      "left": {
+        "canonical_slug": "nucleosome-dyad-prediction-from-mnase-seq",
+        "merge_kind": "single",
+        "output_id": "nucleosome-dyad-prediction-from-mnase-seq"
+      },
+      "right": {
+        "canonical_slug": "nucleosome-occupancy-profiling",
+        "merge_kind": "single",
+        "output_id": "nucleosome-occupancy-profiling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_robocop_cq",
+      "score": 0.904829
+    },
+    {
+      "left": {
+        "canonical_slug": "expression-probability-estimation-from-gamma-mixed-fits",
+        "merge_kind": "single",
+        "output_id": "expression-probability-estimation-from-gamma-mixed-fits"
+      },
+      "right": {
+        "canonical_slug": "expression-probability-model-validation",
+        "merge_kind": "single",
+        "output_id": "expression-probability-model-validation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_scpower_cq",
+      "score": 0.904724
+    },
+    {
+      "left": {
+        "canonical_slug": "cnn-variant-effect-prediction",
+        "merge_kind": "single",
+        "output_id": "cnn-variant-effect-prediction"
+      },
+      "right": {
+        "canonical_slug": "pretrained-cnn-variant-scoring",
+        "merge_kind": "single",
+        "output_id": "pretrained-cnn-variant-scoring"
+      },
+      "run": "asbb_subwave1_2026-09__coll_deepfun_cq",
+      "score": 0.904691
+    },
+    {
+      "left": {
+        "canonical_slug": "long-read-fragment-extraction-pacbio",
+        "merge_kind": "single",
+        "output_id": "long-read-fragment-extraction-pacbio"
+      },
+      "right": {
+        "canonical_slug": "read-fragment-extraction-from-bam",
+        "merge_kind": "single",
+        "output_id": "read-fragment-extraction-from-bam"
+      },
+      "run": "asbb_subwave1_2026-09__coll_spechap_cq",
+      "score": 0.904643
+    },
+    {
+      "left": {
+        "canonical_slug": "cnn-model-training-with-bayesian-hyperparameter-optimization",
+        "merge_kind": "single",
+        "output_id": "cnn-model-training-with-bayesian-hyperparameter-optimization"
+      },
+      "right": {
+        "canonical_slug": "deep-learning-model-inference-cnn",
+        "merge_kind": "single",
+        "output_id": "deep-learning-model-inference-cnn"
+      },
+      "run": "asbb_subwave1_2026-09__coll_iepicas_dl_cq",
+      "score": 0.90446
+    },
+    {
+      "left": {
+        "canonical_slug": "workflow-management-system-execution",
+        "merge_kind": "single",
+        "output_id": "workflow-management-system-execution"
+      },
+      "right": {
+        "canonical_slug": "xml-workflow-configuration",
+        "merge_kind": "single",
+        "output_id": "xml-workflow-configuration"
+      },
+      "run": "asbb_subwave1_2026-09__coll_watchdog_cq",
+      "score": 0.904431
+    },
+    {
+      "left": {
+        "canonical_slug": "scatac-seq-celltyping-benchmark-evaluation",
+        "merge_kind": "single",
+        "output_id": "scatac-seq-celltyping-benchmark-evaluation"
+      },
+      "right": {
+        "canonical_slug": "single-cell-celltyping-accuracy-benchmarking",
+        "merge_kind": "single",
+        "output_id": "single-cell-celltyping-accuracy-benchmarking"
+      },
+      "run": "asbb_subwave1_2026-09__coll_cellcano_cq",
+      "score": 0.904405
+    },
+    {
+      "left": {
+        "canonical_slug": "ht-selex-affinity-regression",
+        "merge_kind": "single",
+        "output_id": "ht-selex-affinity-regression"
+      },
+      "right": {
+        "canonical_slug": "ht-selex-enrichment-data-preparation",
+        "merge_kind": "single",
+        "output_id": "ht-selex-enrichment-data-preparation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dnaffinity_cq",
+      "score": 0.904288
+    },
+    {
+      "left": {
+        "canonical_slug": "chipseq-count-based-gam-fitting",
+        "merge_kind": "single",
+        "output_id": "chipseq-count-based-gam-fitting"
+      },
+      "right": {
+        "canonical_slug": "genome-wide-gam-smoothing-fit",
+        "merge_kind": "single",
+        "output_id": "genome-wide-gam-smoothing-fit"
+      },
+      "run": "asbb_subwave1_2026-09__coll_fastgenogam_cq",
+      "score": 0.904143
+    },
+    {
+      "left": {
+        "canonical_slug": "dna-motif-generalization",
+        "merge_kind": "single",
+        "output_id": "dna-motif-generalization"
+      },
+      "right": {
+        "canonical_slug": "iupac-degenerate-motif-discovery",
+        "merge_kind": "single",
+        "output_id": "iupac-degenerate-motif-discovery"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dinamo_cq",
+      "score": 0.904104
+    },
+    {
+      "left": {
+        "canonical_slug": "hash-partitioning-load-balancing",
+        "merge_kind": "single",
+        "output_id": "hash-partitioning-load-balancing"
+      },
+      "right": {
+        "canonical_slug": "rdd-portable-hash-partitioning",
+        "merge_kind": "single",
+        "output_id": "rdd-portable-hash-partitioning"
+      },
+      "run": "asbb_subwave1_2026-09__coll_bispark_cq",
+      "score": 0.90408
+    },
+    {
+      "left": {
+        "canonical_slug": "fimo-motif-scanning",
+        "merge_kind": "single",
+        "output_id": "fimo-motif-scanning--5894d4d08cf0ce4c"
+      },
+      "right": {
+        "canonical_slug": "motif-count-feature-engineering",
+        "merge_kind": "single",
+        "output_id": "motif-count-feature-engineering"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_bag_of_motifs_bom_cq",
+      "score": 0.90406
+    },
+    {
+      "left": {
+        "canonical_slug": "sgrna-activity-label-binarization",
+        "merge_kind": "single",
+        "output_id": "sgrna-activity-label-binarization"
+      },
+      "right": {
+        "canonical_slug": "sgrna-activity-score-regression-prediction",
+        "merge_kind": "single",
+        "output_id": "sgrna-activity-score-regression-prediction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_iepicas_dl_cq",
+      "score": 0.904021
+    },
+    {
+      "left": {
+        "canonical_slug": "cnn-model-training-with-bayesian-hyperparameter-optimization",
+        "merge_kind": "single",
+        "output_id": "cnn-model-training-with-bayesian-hyperparameter-optimization"
+      },
+      "right": {
+        "canonical_slug": "cnn-regression-model-training",
+        "merge_kind": "single",
+        "output_id": "cnn-regression-model-training"
+      },
+      "run": "asbb_subwave1_2026-09__coll_iepicas_dl_cq",
+      "score": 0.903971
+    },
+    {
+      "left": {
+        "canonical_slug": "contingency-table-probability-estimation",
+        "merge_kind": "single",
+        "output_id": "contingency-table-probability-estimation"
+      },
+      "right": {
+        "canonical_slug": "joint-probability-estimation",
+        "merge_kind": "single",
+        "output_id": "joint-probability-estimation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dinamo_cq",
+      "score": 0.903857
+    },
+    {
+      "left": {
+        "canonical_slug": "chip-seq-motif-prediction",
+        "merge_kind": "single",
+        "output_id": "chip-seq-motif-prediction"
+      },
+      "right": {
+        "canonical_slug": "chip-seq-peak-motif-classification",
+        "merge_kind": "single",
+        "output_id": "chip-seq-peak-motif-classification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_deep_sequence_and_shape_motif_desso_cq",
+      "score": 0.903789
+    },
+    {
+      "left": {
+        "canonical_slug": "cis-driver-gene-rank-derivation",
+        "merge_kind": "single",
+        "output_id": "cis-driver-gene-rank-derivation"
+      },
+      "right": {
+        "canonical_slug": "cis-gene-rank-stratification",
+        "merge_kind": "single",
+        "output_id": "cis-gene-rank-stratification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_iedge_cq",
+      "score": 0.903579
+    },
+    {
+      "left": {
+        "canonical_slug": "chipseq-differential-modification-gene-mapping",
+        "merge_kind": "single",
+        "output_id": "chipseq-differential-modification-gene-mapping"
+      },
+      "right": {
+        "canonical_slug": "chipseq-differential-region-intersection",
+        "merge_kind": "single",
+        "output_id": "chipseq-differential-region-intersection"
+      },
+      "run": "asbb_subwave1_2026-09__coll_histonehmm_cq",
+      "score": 0.90356
+    },
+    {
+      "left": {
+        "canonical_slug": "ranked-transcription-factor-list-overlap-analysis",
+        "merge_kind": "single",
+        "output_id": "ranked-transcription-factor-list-overlap-analysis"
+      },
+      "right": {
+        "canonical_slug": "transcription-factor-rank-benchmarking",
+        "merge_kind": "single",
+        "output_id": "transcription-factor-rank-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_bit_cq",
+      "score": 0.903389
+    },
+    {
+      "left": {
+        "canonical_slug": "five-fold-cross-validation-model-training",
+        "merge_kind": "single",
+        "output_id": "five-fold-cross-validation-model-training"
+      },
+      "right": {
+        "canonical_slug": "per-tissue-cross-validation-evaluation",
+        "merge_kind": "single",
+        "output_id": "per-tissue-cross-validation-evaluation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_tivan_indel_cq",
+      "score": 0.903277
+    },
+    {
+      "left": {
+        "canonical_slug": "kegg-pathway-annotation-mapping",
+        "merge_kind": "single",
+        "output_id": "kegg-pathway-annotation-mapping"
+      },
+      "right": {
+        "canonical_slug": "pathway-enrichment-analysis",
+        "merge_kind": "single",
+        "output_id": "pathway-enrichment-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_tsminer_cq",
+      "score": 0.903204
+    },
+    {
+      "left": {
+        "canonical_slug": "peak-caller-algorithm-dispatch",
+        "merge_kind": "single",
+        "output_id": "peak-caller-algorithm-dispatch"
+      },
+      "right": {
+        "canonical_slug": "peak-calling-algorithm-selection",
+        "merge_kind": "single",
+        "output_id": "peak-calling-algorithm-selection"
+      },
+      "run": "asbb_subwave1_2026-09__coll_neat_cq",
+      "score": 0.903203
+    },
+    {
+      "left": {
+        "canonical_slug": "calibrated-methylation-data-analysis",
+        "merge_kind": "single",
+        "output_id": "calibrated-methylation-data-analysis"
+      },
+      "right": {
+        "canonical_slug": "imprinting-dmr-methylation-analysis",
+        "merge_kind": "single",
+        "output_id": "imprinting-dmr-methylation-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methylcal_cq",
+      "score": 0.903137
+    },
+    {
+      "left": {
+        "canonical_slug": "spark-distributed-data-load-balancing",
+        "merge_kind": "single",
+        "output_id": "spark-distributed-data-load-balancing"
+      },
+      "right": {
+        "canonical_slug": "spark-rdd-distributed-processing",
+        "merge_kind": "single",
+        "output_id": "spark-rdd-distributed-processing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_bispark_cq",
+      "score": 0.902977
+    },
+    {
+      "left": {
+        "canonical_slug": "methylation-alignment-mode-comparison",
+        "merge_kind": "single",
+        "output_id": "methylation-alignment-mode-comparison"
+      },
+      "right": {
+        "canonical_slug": "methylation-density-comparison-analysis",
+        "merge_kind": "single",
+        "output_id": "methylation-density-comparison-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_msuite_cq",
+      "score": 0.902843
+    },
+    {
+      "left": {
+        "canonical_slug": "methylation-core-cross-tool-comparison",
+        "merge_kind": "single",
+        "output_id": "methylation-core-cross-tool-comparison"
+      },
+      "right": {
+        "canonical_slug": "phased-methylation-core-identification",
+        "merge_kind": "single",
+        "output_id": "phased-methylation-core-identification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methcoresprofiler_cq",
+      "score": 0.90282
+    },
+    {
+      "left": {
+        "canonical_slug": "methylation-group-comparison-statistics",
+        "merge_kind": "single",
+        "output_id": "methylation-group-comparison-statistics"
+      },
+      "right": {
+        "canonical_slug": "read-to-reference-alignment-for-methylation-analysis",
+        "merge_kind": "single",
+        "output_id": "read-to-reference-alignment-for-methylation-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_absp_cq",
+      "score": 0.902682
+    },
+    {
+      "left": {
+        "canonical_slug": "fragment-extraction-from-aligned-reads",
+        "merge_kind": "single",
+        "output_id": "fragment-extraction-from-aligned-reads"
+      },
+      "right": {
+        "canonical_slug": "sequencing-fragment-extraction",
+        "merge_kind": "single",
+        "output_id": "sequencing-fragment-extraction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_spechap_cq",
+      "score": 0.902644
+    },
+    {
+      "left": {
+        "canonical_slug": "cnn-regression-model-training",
+        "merge_kind": "single",
+        "output_id": "cnn-regression-model-training"
+      },
+      "right": {
+        "canonical_slug": "deep-learning-model-inference-cnn",
+        "merge_kind": "single",
+        "output_id": "deep-learning-model-inference-cnn"
+      },
+      "run": "asbb_subwave1_2026-09__coll_iepicas_dl_cq",
+      "score": 0.902615
+    },
+    {
+      "left": {
+        "canonical_slug": "expression-probability-estimation-from-gamma-mixed-fits",
+        "merge_kind": "single",
+        "output_id": "expression-probability-estimation-from-gamma-mixed-fits"
+      },
+      "right": {
+        "canonical_slug": "gamma-mixture-distribution-fitting",
+        "merge_kind": "single",
+        "output_id": "gamma-mixture-distribution-fitting"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_scpower_cq",
+      "score": 0.902613
+    },
+    {
+      "left": {
+        "canonical_slug": "ode-based-gene-regulation-model-fitting",
+        "merge_kind": "single",
+        "output_id": "ode-based-gene-regulation-model-fitting"
+      },
+      "right": {
+        "canonical_slug": "ode-model-parameter-fitting",
+        "merge_kind": "single",
+        "output_id": "ode-model-parameter-fitting"
+      },
+      "run": "asbb_subwave1_2026-09__coll_genexpi_cq",
+      "score": 0.902342
+    },
+    {
+      "left": {
+        "canonical_slug": "tab-delimited-transcriptome-table-generation",
+        "merge_kind": "single",
+        "output_id": "tab-delimited-transcriptome-table-generation"
+      },
+      "right": {
+        "canonical_slug": "transcriptomic-matrix-tab-delimited-formatting",
+        "merge_kind": "single",
+        "output_id": "transcriptomic-matrix-tab-delimited-formatting"
+      },
+      "run": "asbb_subwave1_2026-09__coll_contort_cq",
+      "score": 0.90218
+    },
+    {
+      "left": {
+        "canonical_slug": "epigenomic-annotation-data-processing",
+        "merge_kind": "single",
+        "output_id": "epigenomic-annotation-data-processing"
+      },
+      "right": {
+        "canonical_slug": "roadmap-epigenome-sample-comparison",
+        "merge_kind": "single",
+        "output_id": "roadmap-epigenome-sample-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epialign_cq",
+      "score": 0.902148
+    },
+    {
+      "left": {
+        "canonical_slug": "chip-seq-peak-calling",
+        "merge_kind": "single",
+        "output_id": "chip-seq-peak-calling--8607454362b9598f"
+      },
+      "right": {
+        "canonical_slug": "peak-caller-benchmark-comparison",
+        "merge_kind": "single",
+        "output_id": "peak-caller-benchmark-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_hpeak_cq",
+      "score": 0.902108
+    },
+    {
+      "left": {
+        "canonical_slug": "dna-mechanical-property-feature-classification",
+        "merge_kind": "single",
+        "output_id": "dna-mechanical-property-feature-classification"
+      },
+      "right": {
+        "canonical_slug": "kmer-feature-extraction-from-dna-physical-properties",
+        "merge_kind": "single",
+        "output_id": "kmer-feature-extraction-from-dna-physical-properties"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dnaffinity_cq",
+      "score": 0.901973
+    },
+    {
+      "left": {
+        "canonical_slug": "eclip-enriched-window-feature-quantification",
+        "merge_kind": "single",
+        "output_id": "eclip-enriched-window-feature-quantification"
+      },
+      "right": {
+        "canonical_slug": "eclip-significant-window-filtering",
+        "merge_kind": "single",
+        "output_id": "eclip-significant-window-filtering"
+      },
+      "run": "asbb_subwave1_2026-09__coll_skipper_cq",
+      "score": 0.901773
+    },
+    {
+      "left": {
+        "canonical_slug": "gene-identifier-mapping-for-enrichment",
+        "merge_kind": "single",
+        "output_id": "gene-identifier-mapping-for-enrichment"
+      },
+      "right": {
+        "canonical_slug": "gene-ontology-enrichment-analysis",
+        "merge_kind": "single",
+        "output_id": "gene-ontology-enrichment-analysis--b056e50d15cd61ba"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_bit_cq",
+      "score": 0.90174
+    },
+    {
+      "left": {
+        "canonical_slug": "genomic-bed-data-loading",
+        "merge_kind": "single",
+        "output_id": "genomic-bed-data-loading"
+      },
+      "right": {
+        "canonical_slug": "tfrecord-data-loading-for-genomic-tasks",
+        "merge_kind": "single",
+        "output_id": "tfrecord-data-loading-for-genomic-tasks"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_dnalongbench_cq",
+      "score": 0.901726
+    },
+    {
+      "left": {
+        "canonical_slug": "pathway-geneset-mapping",
+        "merge_kind": "single",
+        "output_id": "pathway-geneset-mapping"
+      },
+      "right": {
+        "canonical_slug": "tf-pathway-interaction-network-extraction",
+        "merge_kind": "single",
+        "output_id": "tf-pathway-interaction-network-extraction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_tsminer_cq",
+      "score": 0.90172
+    },
+    {
+      "left": {
+        "canonical_slug": "chipseq-differential-region-intersection",
+        "merge_kind": "single",
+        "output_id": "chipseq-differential-region-intersection"
+      },
+      "right": {
+        "canonical_slug": "genome-wide-differential-region-validation",
+        "merge_kind": "single",
+        "output_id": "genome-wide-differential-region-validation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_histonehmm_cq",
+      "score": 0.901619
+    },
+    {
+      "left": {
+        "canonical_slug": "chipseq-overrepresented-motif-discovery",
+        "merge_kind": "single",
+        "output_id": "chipseq-overrepresented-motif-discovery"
+      },
+      "right": {
+        "canonical_slug": "iupac-degenerate-motif-discovery",
+        "merge_kind": "single",
+        "output_id": "iupac-degenerate-motif-discovery"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dinamo_cq",
+      "score": 0.901571
+    },
+    {
+      "left": {
+        "canonical_slug": "liftover-mapping-rate-precision-comparison",
+        "merge_kind": "single",
+        "output_id": "liftover-mapping-rate-precision-comparison"
+      },
+      "right": {
+        "canonical_slug": "precision-benchmark-comparison-across-species",
+        "merge_kind": "single",
+        "output_id": "precision-benchmark-comparison-across-species"
+      },
+      "run": "asbb_subwave1_2026-09__coll_adaliftover_cq",
+      "score": 0.901561
+    },
+    {
+      "left": {
+        "canonical_slug": "bisulfite-methylation-data-deconvolution",
+        "merge_kind": "single",
+        "output_id": "bisulfite-methylation-data-deconvolution"
+      },
+      "right": {
+        "canonical_slug": "methylation-subpopulation-deconvolution",
+        "merge_kind": "single",
+        "output_id": "methylation-subpopulation-deconvolution"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dxm_cq",
+      "score": 0.901459
+    },
+    {
+      "left": {
+        "canonical_slug": "chromatin-feature-prediction-model-training",
+        "merge_kind": "single",
+        "output_id": "chromatin-feature-prediction-model-training"
+      },
+      "right": {
+        "canonical_slug": "variant-effect-prediction-from-chromatin-interaction-models",
+        "merge_kind": "single",
+        "output_id": "variant-effect-prediction-from-chromatin-interaction-models"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_deepc_cq",
+      "score": 0.901378
+    },
+    {
+      "left": {
+        "canonical_slug": "differential-gene-expression-analysis",
+        "merge_kind": "single",
+        "output_id": "differential-gene-expression-analysis--ae832575a983d053"
+      },
+      "right": {
+        "canonical_slug": "gene-expression-data-simulation",
+        "merge_kind": "single",
+        "output_id": "gene-expression-data-simulation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_iedge_cq",
+      "score": 0.901307
+    },
+    {
+      "left": {
+        "canonical_slug": "sequencing-fragment-extraction",
+        "merge_kind": "single",
+        "output_id": "sequencing-fragment-extraction"
+      },
+      "right": {
+        "canonical_slug": "sequencing-read-alignment",
+        "merge_kind": "single",
+        "output_id": "sequencing-read-alignment"
+      },
+      "run": "asbb_subwave1_2026-09__coll_spechap_cq",
+      "score": 0.901155
+    },
+    {
+      "left": {
+        "canonical_slug": "mnase-seq-fragment-length-classification",
+        "merge_kind": "single",
+        "output_id": "mnase-seq-fragment-length-classification"
+      },
+      "right": {
+        "canonical_slug": "mnase-seq-timecourse-analysis",
+        "merge_kind": "single",
+        "output_id": "mnase-seq-timecourse-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_robocop_cq",
+      "score": 0.901121
+    },
+    {
+      "left": {
+        "canonical_slug": "enhancer-target-generic-feature-computation",
+        "merge_kind": "single",
+        "output_id": "enhancer-target-generic-feature-computation"
+      },
+      "right": {
+        "canonical_slug": "enhancer-target-pair-classification",
+        "merge_kind": "single",
+        "output_id": "enhancer-target-pair-classification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_centre_cq",
+      "score": 0.901114
+    },
+    {
+      "left": {
+        "canonical_slug": "chromosome-cluster-nesting-analysis",
+        "merge_kind": "single",
+        "output_id": "chromosome-cluster-nesting-analysis"
+      },
+      "right": {
+        "canonical_slug": "recursive-bisection-cluster-nesting-analysis",
+        "merge_kind": "single",
+        "output_id": "recursive-bisection-cluster-nesting-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_bhi_cect_cq",
+      "score": 0.901067
+    },
+    {
+      "left": {
+        "canonical_slug": "holdout-chromosome-pearson-correlation-analysis",
+        "merge_kind": "single",
+        "output_id": "holdout-chromosome-pearson-correlation-analysis"
+      },
+      "right": {
+        "canonical_slug": "per-chromosome-genomic-array-io",
+        "merge_kind": "single",
+        "output_id": "per-chromosome-genomic-array-io"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_deepc_cq",
+      "score": 0.90097
+    },
+    {
+      "left": {
+        "canonical_slug": "kaplan-meier-survival-curve-estimation",
+        "merge_kind": "single",
+        "output_id": "kaplan-meier-survival-curve-estimation"
+      },
+      "right": {
+        "canonical_slug": "survival-curve-visualization",
+        "merge_kind": "single",
+        "output_id": "survival-curve-visualization"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_eccdnadb_cq",
+      "score": 0.900868
+    },
+    {
+      "left": {
+        "canonical_slug": "dual-orientation-motif-scoring",
+        "merge_kind": "single",
+        "output_id": "dual-orientation-motif-scoring"
+      },
+      "right": {
+        "canonical_slug": "motif-peak-position-identification",
+        "merge_kind": "single",
+        "output_id": "motif-peak-position-identification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_mepp_cq",
+      "score": 0.900865
+    },
+    {
+      "left": {
+        "canonical_slug": "distance-dependent-background-removal",
+        "merge_kind": "single",
+        "output_id": "distance-dependent-background-removal"
+      },
+      "right": {
+        "canonical_slug": "hic-distance-dependent-background-normalization",
+        "merge_kind": "single",
+        "output_id": "hic-distance-dependent-background-normalization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_covnorm_cq",
+      "score": 0.900736
+    },
+    {
+      "left": {
+        "canonical_slug": "long-range-genomic-sequence-modeling",
+        "merge_kind": "single",
+        "output_id": "long-range-genomic-sequence-modeling"
+      },
+      "right": {
+        "canonical_slug": "tfrecord-data-loading-for-genomic-tasks",
+        "merge_kind": "single",
+        "output_id": "tfrecord-data-loading-for-genomic-tasks"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_dnalongbench_cq",
+      "score": 0.900715
+    },
+    {
+      "left": {
+        "canonical_slug": "genomic-feature-interval-derivation",
+        "merge_kind": "single",
+        "output_id": "genomic-feature-interval-derivation"
+      },
+      "right": {
+        "canonical_slug": "genomic-interval-overlap-comparison",
+        "merge_kind": "single",
+        "output_id": "genomic-interval-overlap-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_seqcode_cq",
+      "score": 0.900705
+    },
+    {
+      "left": {
+        "canonical_slug": "clone-methylation-status-thresholding",
+        "merge_kind": "single",
+        "output_id": "clone-methylation-status-thresholding"
+      },
+      "right": {
+        "canonical_slug": "read-to-reference-alignment-for-methylation-analysis",
+        "merge_kind": "single",
+        "output_id": "read-to-reference-alignment-for-methylation-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_absp_cq",
+      "score": 0.900702
+    },
+    {
+      "left": {
+        "canonical_slug": "alignment-runtime-benchmarking",
+        "merge_kind": "single",
+        "output_id": "alignment-runtime-benchmarking--32e35ba9b9762eba"
+      },
+      "right": {
+        "canonical_slug": "smith-waterman-local-alignment-implementation",
+        "merge_kind": "single",
+        "output_id": "smith-waterman-local-alignment-implementation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epialign_cq",
+      "score": 0.9006
+    }
+  ],
+  "pairs_ge_0_95": [
+    {
+      "left": {
+        "canonical_slug": "dna-kmer-sequence-embedding",
+        "merge_kind": "single",
+        "output_id": "dna-kmer-sequence-embedding"
+      },
+      "right": {
+        "canonical_slug": "dna2vec-kmer-sequence-embedding",
+        "merge_kind": "single",
+        "output_id": "dna2vec-kmer-sequence-embedding"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_deepse_cq",
+      "score": 0.968428
+    },
+    {
+      "left": {
+        "canonical_slug": "gene-regulatory-ode-parameter-fitting",
+        "merge_kind": "single",
+        "output_id": "gene-regulatory-ode-parameter-fitting"
+      },
+      "right": {
+        "canonical_slug": "ode-based-gene-regulation-model-fitting",
+        "merge_kind": "single",
+        "output_id": "ode-based-gene-regulation-model-fitting"
+      },
+      "run": "asbb_subwave1_2026-09__coll_genexpi_cq",
+      "score": 0.967896
+    },
+    {
+      "left": {
+        "canonical_slug": "de-novo-methylated-motif-discovery",
+        "merge_kind": "single",
+        "output_id": "de-novo-methylated-motif-discovery"
+      },
+      "right": {
+        "canonical_slug": "methylated-motif-discovery-from-c-to-t-deamination",
+        "merge_kind": "single",
+        "output_id": "methylated-motif-discovery-from-c-to-t-deamination"
+      },
+      "run": "asbb_subwave1_2026-09__coll_rims_seq_cq",
+      "score": 0.967481
+    },
+    {
+      "left": {
+        "canonical_slug": "dna-shape-contribution-analysis",
+        "merge_kind": "single",
+        "output_id": "dna-shape-contribution-analysis"
+      },
+      "right": {
+        "canonical_slug": "dna-shape-feature-generation",
+        "merge_kind": "single",
+        "output_id": "dna-shape-feature-generation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_deep_sequence_and_shape_motif_desso_cq",
+      "score": 0.960276
+    },
+    {
+      "left": {
+        "canonical_slug": "grouped-sample-methylation-comparison",
+        "merge_kind": "single",
+        "output_id": "grouped-sample-methylation-comparison"
+      },
+      "right": {
+        "canonical_slug": "methylation-group-comparison-statistics",
+        "merge_kind": "single",
+        "output_id": "methylation-group-comparison-statistics"
+      },
+      "run": "asbb_subwave1_2026-09__coll_absp_cq",
+      "score": 0.959381
+    },
+    {
+      "left": {
+        "canonical_slug": "calibrated-methylation-data-analysis",
+        "merge_kind": "single",
+        "output_id": "calibrated-methylation-data-analysis"
+      },
+      "right": {
+        "canonical_slug": "methylation-standard-control-calibration",
+        "merge_kind": "single",
+        "output_id": "methylation-standard-control-calibration"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methylcal_cq",
+      "score": 0.957537
+    },
+    {
+      "left": {
+        "canonical_slug": "blacklisted-genomic-region-removal",
+        "merge_kind": "single",
+        "output_id": "blacklisted-genomic-region-removal"
+      },
+      "right": {
+        "canonical_slug": "genomic-blacklist-region-filtering",
+        "merge_kind": "single",
+        "output_id": "genomic-blacklist-region-filtering"
+      },
+      "run": "asbb_subwave1_2026-09__coll_epicompare_cq",
+      "score": 0.956618
+    },
+    {
+      "left": {
+        "canonical_slug": "tf-pathway-interaction-network-extraction",
+        "merge_kind": "single",
+        "output_id": "tf-pathway-interaction-network-extraction"
+      },
+      "right": {
+        "canonical_slug": "tf-pathway-mutual-interaction-scoring",
+        "merge_kind": "single",
+        "output_id": "tf-pathway-mutual-interaction-scoring"
+      },
+      "run": "asbb_subwave1_2026-09__coll_tsminer_cq",
+      "score": 0.955598
+    },
+    {
+      "left": {
+        "canonical_slug": "transcription-factor-affinity-feature-engineering",
+        "merge_kind": "single",
+        "output_id": "transcription-factor-affinity-feature-engineering"
+      },
+      "right": {
+        "canonical_slug": "transcription-factor-affinity-regression",
+        "merge_kind": "single",
+        "output_id": "transcription-factor-affinity-regression"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dnaffinity_cq",
+      "score": 0.955555
+    },
+    {
+      "left": {
+        "canonical_slug": "de-novo-methylated-motif-discovery",
+        "merge_kind": "single",
+        "output_id": "de-novo-methylated-motif-discovery"
+      },
+      "right": {
+        "canonical_slug": "m5c-methylation-motif-discovery",
+        "merge_kind": "single",
+        "output_id": "m5c-methylation-motif-discovery"
+      },
+      "run": "asbb_subwave1_2026-09__coll_rims_seq_cq",
+      "score": 0.955427
+    },
+    {
+      "left": {
+        "canonical_slug": "gene-expression-time-series-smoothing",
+        "merge_kind": "single",
+        "output_id": "gene-expression-time-series-smoothing"
+      },
+      "right": {
+        "canonical_slug": "time-course-expression-smoothing",
+        "merge_kind": "single",
+        "output_id": "time-course-expression-smoothing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_genexpi_cq",
+      "score": 0.95444
+    },
+    {
+      "left": {
+        "canonical_slug": "liftover-mapping-rate-precision-comparison",
+        "merge_kind": "single",
+        "output_id": "liftover-mapping-rate-precision-comparison"
+      },
+      "right": {
+        "canonical_slug": "liftover-precision-benchmarking",
+        "merge_kind": "single",
+        "output_id": "liftover-precision-benchmarking"
+      },
+      "run": "asbb_subwave1_2026-09__coll_adaliftover_cq",
+      "score": 0.954415
+    },
+    {
+      "left": {
+        "canonical_slug": "bws-imprinting-dmr-methylation-calling",
+        "merge_kind": "single",
+        "output_id": "bws-imprinting-dmr-methylation-calling"
+      },
+      "right": {
+        "canonical_slug": "imprinting-dmr-methylation-analysis",
+        "merge_kind": "single",
+        "output_id": "imprinting-dmr-methylation-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_methylcal_cq",
+      "score": 0.953735
+    },
+    {
+      "left": {
+        "canonical_slug": "enhancer-promoter-chromatin-loop-linking",
+        "merge_kind": "single",
+        "output_id": "enhancer-promoter-chromatin-loop-linking"
+      },
+      "right": {
+        "canonical_slug": "enhancer-promoter-expression-linking",
+        "merge_kind": "single",
+        "output_id": "enhancer-promoter-expression-linking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_snaphic_cq",
+      "score": 0.952102
+    },
+    {
+      "left": {
+        "canonical_slug": "replicate-consistency-assessment-via-peak-overlap-and-correlation",
+        "merge_kind": "single",
+        "output_id": "replicate-consistency-assessment-via-peak-overlap-and-correlation"
+      },
+      "right": {
+        "canonical_slug": "replicate-consistency-correlation-analysis",
+        "merge_kind": "single",
+        "output_id": "replicate-consistency-correlation-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_chilin_cq",
+      "score": 0.951571
+    }
+  ],
+  "runs": 92,
+  "skills": 2295,
+  "surplus_leaves": {
+    "ge_0_90": 314,
+    "ge_0_95": 15
+  },
+  "thresholds": {
+    "auto_merge": 0.95,
+    "embed_view": "name_tools",
+    "pair_scope": "same_run_full_pairwise",
+    "suggest": 0.9
+  },
+  "view": "/Users/nothiasl/git/asb-wt-filtered-view/outputs/asbb_classA_papers_2026-09-17_filtered/epigenomics/corpus"
+}

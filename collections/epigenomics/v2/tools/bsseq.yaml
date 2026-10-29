@@ -1,0 +1,17 @@
+name: bsseq
+slug: bsseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- as implemented in the R/Bioconductor package bsseq [8]
+derived_from:
+- doi: 10.1186/s12859-017-1909-0
+  title: 'DMRfinder: efficiently identifying differentially methylated regions from MethylC-seq data'
+source_repos:
+- https://github.com/jsh58/DMRfinder
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jsh58/DMRfinder

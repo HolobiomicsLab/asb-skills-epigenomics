@@ -1,0 +1,17 @@
+name: sangeranalyseR
+slug: sangeranalyser
+version_used: null
+edam_topics: []
+evidence_spans:
+- If the trimming method based on Phred quality scores is too aggressive, consider lowering the minimum base-calling error probability threshold `th_quality_error`
+derived_from:
+- doi: 10.1093/bioinformatics/btad008
+  title: 'ABSP: an automated R tool to efficiently analyze region-specific CpG methylation from bisulfite sequencing PCR'
+source_repos:
+- https://github.com/ABSP-methylation-tool/ABSP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ABSP-methylation-tool/ABSP

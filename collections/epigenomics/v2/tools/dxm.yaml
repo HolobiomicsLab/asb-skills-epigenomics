@@ -1,0 +1,20 @@
+name: DXM
+slug: dxm
+version_used: null
+edam_topics: []
+evidence_spans:
+- Deconvolves processed methylation sequencing data.
+- dxm_solveMethylation
+- dxm_solveMethylation -i sampleInput.bed -c 400 -o testSample
+- we have developed a computational approach, DXM, to deconvolve the methylation profiles of major allelic subpopulations from the bisulfite sequencing data of a heterogeneous sample
+derived_from:
+- doi: 10.1093/nar/gkab516
+  title: Determining subpopulation methylation profiles from bisulfite sequencing data of heterogeneous samples using DXM
+source_repos:
+- https://github.com/edwardslab-wustl/dxm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/edwardslab-wustl/dxm

@@ -1,0 +1,18 @@
+name: GILoop
+slug: giloop
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we propose GILoop, a dual-branch neural network that learns from both representations to identify genome-wide CTCF-mediated loops.
+- _No usage/docs found._
+derived_from:
+- doi: 10.1016/j.isci.2022.105535
+  title: 'GILoop: Robust chromatin loop calling across multiple sequencing depths on Hi-C data'
+source_repos:
+- https://github.com/fzbio/GILoop
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fzbio/GILoop

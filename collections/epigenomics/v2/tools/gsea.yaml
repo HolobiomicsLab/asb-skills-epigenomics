@@ -1,0 +1,21 @@
+name: GSEA
+slug: gsea
+version_used: null
+edam_topics: []
+evidence_spans:
+- The gene sets required for GSEA were formed based on the GO annotation of human genes provided by the GO consortium websites (32).
+- When Preg is binary (0 or 1), ES(TR) reduces to the original gene set enrichment analysis (GSEA) ES
+derived_from:
+- doi: 10.1093/nar/gkaa004
+  title: 'BHi-Cect: a top-down algorithm for identifying the multi-scale hierarchical structure of chromosomes'
+- doi: 10.1016/j.gpb.2019.09.008
+  title: '<i>RePhine</i>: An Integrative Method for Identification of Drug Response-Related Transcriptional Regulators'
+source_repos:
+- https://github.com/princeps091-binf/BHi-Cect
+- https://github.com/coexps/Rephine
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/princeps091-binf/BHi-Cect

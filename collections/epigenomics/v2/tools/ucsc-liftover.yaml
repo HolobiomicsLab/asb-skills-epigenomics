@@ -1,0 +1,18 @@
+name: UCSC liftOver
+slug: ucsc-liftover
+version_used: null
+edam_topics: []
+evidence_spans:
+- AdaLiftOver builds on the UCSC liftOver framework to extend the query regions and prioritizes the resulting candidate target regions
+- builds on the UCSC liftOver framework to extend the query regions
+derived_from:
+- doi: 10.1093/bioinformatics/btad149
+  title: 'AdaLiftOver: high-resolution identification of orthologous regulatory elements with Adaptive liftOver'
+source_repos:
+- https://github.com/keleslab/AdaLiftOver
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/keleslab/AdaLiftOver

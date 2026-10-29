@@ -1,0 +1,17 @@
+name: ChIA-PET Utilities (CPU)
+slug: chia-pet-utilities-cpu
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1126/sciadv.aay2078
+  title: 'ChIA-PIPE: A fully automated pipeline for comprehensive ChIA-PET data analysis and visualization'
+source_repos:
+- https://github.com/cheehongsg/CPU
+- https://github.com/TheJacksonLaboratory/ChIA-PIPE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cheehongsg/CPU

@@ -1,0 +1,17 @@
+name: dmlc/xgboost
+slug: dmlc-xgboost
+version_used: null
+edam_topics: []
+evidence_spans:
+- dmlc/xgboost
+derived_from:
+- doi: 10.1038/s41467-019-13929-1
+  title: Combined burden and functional impact tests for cancer driver discovery using DriverPower
+source_repos:
+- https://github.com/smshuai/DriverPower
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/smshuai/DriverPower

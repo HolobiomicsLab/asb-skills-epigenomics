@@ -1,0 +1,18 @@
+name: DGW
+slug: dgw
+version_used: null
+edam_topics: []
+evidence_spans:
+- Dynamic Genome Warping (DGW) is an open source clustering and alignment tool for epigenomic marks.
+- 'DGW consists of two modules: a worker module, which performs the computationally intensive tasks, and an explorer module'
+derived_from:
+- doi: 10.1186/s12859-016-1306-0
+  title: 'DGW: an exploratory data analysis tool for clustering and visualisation of epigenomic marks'
+source_repos:
+- https://github.com/lukauskas/dgw
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lukauskas/dgw

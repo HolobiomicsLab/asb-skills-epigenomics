@@ -1,0 +1,17 @@
+name: click
+slug: click
+version_used: 7.1.2
+edam_topics: []
+evidence_spans:
+- 8. click 7.1.2
+derived_from:
+- doi: 10.1038/s41467-023-40658-3
+  title: 'SnapFISH: a computational pipeline to identify chromatin loops from multiplexed DNA FISH data'
+source_repos:
+- https://github.com/HuMingLab/SnapFISH
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HuMingLab/SnapFISH

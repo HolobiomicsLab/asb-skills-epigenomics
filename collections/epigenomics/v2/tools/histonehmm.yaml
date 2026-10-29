@@ -1,0 +1,18 @@
+name: histoneHMM
+slug: histonehmm
+version_used: null
+edam_topics: []
+evidence_spans:
+- we introduce histoneHMM, a powerful bivariate Hidden Markov Model for the differential analysis of histone modifications with broad genomic footprints
+- devtools::install_github("matthiasheinig/histoneHMM")
+derived_from:
+- doi: 10.1186/s12859-015-0491-6
+  title: 'histoneHMM: Differential analysis of histone modifications with broad genomic footprints'
+source_repos:
+- https://github.com/matthiasheinig/histoneHMM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/matthiasheinig/histoneHMM

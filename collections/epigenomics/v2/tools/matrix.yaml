@@ -1,0 +1,28 @@
+name: Matrix
+slug: matrix
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`r CRANpkg("Matrix")` is used for efficient matrix operations.'
+- install.packages(c('readr','caret','Matrix','igraph','RSpectra','dplyr','data.tree'))
+- '- `Matrix (Depends)`'
+derived_from:
+- doi: 10.1093/bioinformatics/btad149
+  title: 'AdaLiftOver: high-resolution identification of orthologous regulatory elements with Adaptive liftOver'
+- doi: 10.1093/nar/gkaa004
+  title: 'BHi-Cect: a top-down algorithm for identifying the multi-scale hierarchical structure of chromosomes'
+- doi: 10.1186/s12859-018-2238-7
+  title: 'GenoGAM 2.0: scalable and efficient implementation of genome-wide generalized additive models for gigabase-scale genomes'
+- doi: 10.1038/nmeth.4401
+  title: 'chromVAR: inferring transcription-factor-associated accessibility from single-cell epigenomic data'
+source_repos:
+- https://github.com/keleslab/AdaLiftOver
+- https://github.com/princeps091-binf/BHi-Cect
+- https://github.com/gstricker/fastGenoGAM
+- https://github.com/GreenleafLab/chromVAR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/keleslab/AdaLiftOver

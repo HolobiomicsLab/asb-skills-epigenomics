@@ -1,0 +1,18 @@
+name: ARACNE
+slug: aracne
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'there are currently, only two Cytoscape plugins for gene network inference: ARACNE'
+- 'there are currently, only two Cytoscape plugins for gene network inference: ARACNE [8] and Network BMA [9].'
+derived_from:
+- doi: 10.1186/s12859-018-2138-x
+  title: 'Genexpi: a toolset for identifying regulons and validating gene regulatory networks using time-course expression data'
+source_repos:
+- https://github.com/cas-bioinf/genexpi
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cas-bioinf/genexpi

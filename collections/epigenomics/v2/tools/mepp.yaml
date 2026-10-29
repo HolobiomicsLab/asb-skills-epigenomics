@@ -1,0 +1,22 @@
+name: MEPP
+slug: mepp
+version_used: null
+edam_topics: []
+evidence_spans:
+- "To use Motif Enrichment Positional Profiling in a project::\n\n    import mepp"
+- 'To use Motif Enrichment Positional Profiling in a project::'
+- "To install Motif Enrichment Positional Profiling, run this command in your terminal:\n\n    $ pip install mepp"
+- we have developed motif enrichment positional profiles (MEPP).
+- The code for MEPP is available from its Github repository at https://github.com/npdeloss/mepp, and can be installed through pip
+- We developed motif enrichment positional profiling (MEPP), a novel MEA method that outputs a positional enrichment profile of a given TF's binding motif
+derived_from:
+- doi: 10.1093/nargab/lqac075
+  title: 'MEPP: more transparent motif enrichment by profiling positional correlations'
+source_repos:
+- https://github.com/npdeloss/mepp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/npdeloss/mepp

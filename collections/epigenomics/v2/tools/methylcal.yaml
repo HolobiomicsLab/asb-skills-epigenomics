@@ -1,0 +1,21 @@
+name: MethylCal
+slug: methylcal
+version_used: null
+edam_topics: []
+evidence_spans:
+- This package allows the calibration of methylation levels using **MethylCal**, a Bayesian calibration tool based on INLA
+- MethylCal as presented in Ochoa et. (2019) is implemented in the function `MethylCalCalibrationPlot`.
+- The main functions for the correction of the methylation levels in case and control samples are `MoskalevCorrection` and `MethycalCorrection`.
+- This package allows the calibration of methylation levels using **MethylCal**
+- MethylCal performs a differential methylation test to detect hyper- and hypo-methylated samples.
+derived_from:
+- doi: 10.1093/nar/gkz325
+  title: 'MethylCal: Bayesian calibration of methylation levels'
+source_repos:
+- https://github.com/lb664/MethylCal
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lb664/MethylCal

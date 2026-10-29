@@ -1,0 +1,16 @@
+name: Enhancer-IF
+slug: enhancer-if
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/bib/bbae083
+  title: 'Enhancer-MDLF: a novel deep learning framework for identifying cell-specific enhancers'
+source_repos:
+- https://github.com/HaoWuLab-Bioinformatics/Enhancer-MDLF
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HaoWuLab-Bioinformatics/Enhancer-MDLF

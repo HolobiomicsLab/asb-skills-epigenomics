@@ -1,0 +1,17 @@
+name: plotDensityPval
+slug: plotdensitypval
+version_used: null
+edam_topics: []
+evidence_spans:
+- plotDensityPval(pvalue_annotation=test_annotation, ref="expression")
+derived_from:
+- doi: 10.1186/s12859-017-1477-3
+  title: 'SMITE: an R/Bioconductor package that identifies network modules by integrating genomic and epigenomic information'
+source_repos:
+- https://github.com/GreallyLab/SMITE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GreallyLab/SMITE

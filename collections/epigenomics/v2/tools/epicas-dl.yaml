@@ -1,0 +1,18 @@
+name: EpiCas-DL
+slug: epicas-dl
+version_used: null
+edam_topics: []
+evidence_spans:
+- established EpiCas-DL, a deep learning framework to optimize sgRNA design for gene silencing or activation
+- DeepExplainer function was applied to calculate SHAP values from the CRISPRoff and CRISPRa models
+derived_from:
+- doi: 10.1016/j.csbj.2022.11.034
+  title: "<i>EpiCas-DL</i>\n                    : Predicting sgRNA activity for CRISPR-mediated epigenome editing by deep learning"
+source_repos:
+- https://github.com/yangqianq/EpiCas-DL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yangqianq/EpiCas-DL

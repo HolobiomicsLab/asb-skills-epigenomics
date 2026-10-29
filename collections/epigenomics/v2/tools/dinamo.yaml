@@ -1,0 +1,18 @@
+name: DiNAMO
+slug: dinamo
+version_used: null
+edam_topics: []
+evidence_spans:
+- DiNAMO is implemented in C ++ using the libraries Sparsepp [26] and boost [27].
+- DiNAMO is implemented in C ++ using the libraries Sparsepp [26] and boost [27]. It is freely available under the GNU Affero General Public License, version 3.
+derived_from:
+- doi: 10.1186/s12859-018-2215-1
+  title: 'DiNAMO: highly sensitive DNA motif discovery in high-throughput sequencing data'
+source_repos:
+- https://github.com/bonsai-team/DiNAMO
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bonsai-team/DiNAMO

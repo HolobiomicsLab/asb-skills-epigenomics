@@ -1,0 +1,21 @@
+name: encode
+slug: encode
+version_used: null
+edam_topics: []
+evidence_spans:
+- The final cycle generates a DNA motif (alist, encode, cmp, rseq, dalvec, and makelogo)
+- Large scale projects such as ENCODE (1) and modENCODE (2) used this technology to find the binding sites of hundreds of proteins in multiple species.
+derived_from:
+- doi: 10.1128/mra.00160-21
+  title: Delila-PY, a Pipeline for Utilizing the Delila Suite of Software to Identify Potential DNA Binding Motifs
+- doi: 10.1093/nar/gkz460
+  title: 'HOT or not: examining the basis of high-occupancy target regions'
+source_repos:
+- https://github.com/GLBRC/delila
+- https://github.com/BIMSBbioinfo/HOT-or-not-examining-the-basis-of-high-occupancy-target-regions
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GLBRC/delila

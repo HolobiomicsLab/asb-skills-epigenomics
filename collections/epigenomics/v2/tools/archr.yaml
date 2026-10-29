@@ -1,0 +1,17 @@
+name: ArchR
+slug: archr
+version_used: null
+edam_topics: []
+evidence_spans:
+- Cellcano incorporates ArchR30 pipeline to process the raw data and obtain gene scores for both reference and target datasets
+derived_from:
+- doi: 10.1038/s41467-023-37439-3
+  title: 'Cellcano: supervised cell type identification for single cell ATAC-seq data'
+source_repos:
+- https://github.com/marvinquiet/Cellcano
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/marvinquiet/Cellcano

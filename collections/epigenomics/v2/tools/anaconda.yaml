@@ -1,0 +1,17 @@
+name: Anaconda
+slug: anaconda
+version_used: null
+edam_topics: []
+evidence_spans:
+- It is recommended to install PyTorch through the Anaconda package manager since it installs all dependencies.
+derived_from:
+- doi: 10.1093/nar/gkac881
+  title: Interpretable deep learning for chromatin-informed inference of transcriptional programs driven by somatic alterations across cancers
+source_repos:
+- https://github.com/osmanbeyoglulab/CITRUS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/osmanbeyoglulab/CITRUS

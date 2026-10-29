@@ -1,0 +1,53 @@
+name: bwa
+slug: bwa
+version_used: 0.7.17
+edam_topics: []
+evidence_spans:
+- bwa(default), bowtie or star mapping
+- 'step 2: bwa(default), bowtie or star mapping, this step cannot be skipped'
+- '.. _BWA: https://github.com/lh3/bwa'
+- bwa index -a bwtsw genome.fasta
+- The default read mapping tool is BWA [21]
+- 'CIPHER allows the user to choose between three different aligners for non-splice aware datasets: BBMap [14], the Burrow-Wheeler Aligner (BWA) [15] and Bowtie2 [16]'
+- the Burrow-Wheeler Aligner (BWA) and Bowtie2, and three different aligners for splice aware datasets
+- The ‘map’ module maps reads using either bwa [18] or bowtie [19].
+- The 'map' module maps reads using either bwa [18] or bowtie [19].
+- We have optimized the next analytical steps based on the BWA-mem mapping alorithm - we therefore recommend to use BWA-mem.
+- Reads were mapped to the appropriate genome using BWA mem with the paired-end mode
+- WGS reads were mapped to the human reference genome hg19 with BWA [39].
+derived_from:
+- doi: 10.1093/nar/gkw809
+  title: 'ChIA-PET2: a versatile and flexible pipeline for ChIA-PET data analysis'
+- doi: 10.1186/s12859-016-1274-4
+  title: 'ChiLin: a comprehensive ChIP-seq and DNase-seq quality control and analysis pipeline'
+- doi: 10.1186/s12859-017-1770-1
+  title: 'CIPHER: a flexible and extensive workflow platform for integrative next-generation sequencing data analysis and genomic regulatory element prediction'
+- doi: 10.1093/nar/gkz1089
+  title: Global H-NS counter-silencing by LuxR activates quorum sensing gene expression
+- doi: 10.1186/s12859-016-0902-3
+  title: 'NEAT: a framework for building fully automated NGS pipelines and analyses'
+- doi: 10.1093/nar/gkab705
+  title: Rapid identification of methylase specificity (RIMS-seq) jointly identifies methylated motifs and generates shotgun sequencing of bacterial genomes
+- doi: 10.1038/s41388-022-02286-x
+  title: 'eccDNAdb: a database of extrachromosomal circular DNA profiles in human cancers'
+- doi: 10.1038/s41592-019-0624-3
+  title: FreeHi-C simulates high-fidelity Hi-C data for benchmarking and data augmentation
+- doi: 10.1016/j.xpro.2025.103962
+  title: Protocol for investigating chromatin architecture in adult skeletal muscle stem cells using high-throughput chromosome conformation capture
+source_repos:
+- https://github.com/lh3/bwa
+- https://github.com/GuipengLi/ChIA-PET2
+- https://github.com/cfce/chilin
+- https://github.com/c-guzman/cipher-workflow-platform
+- https://github.com/Juliacvk/LuxR_H-NS
+- https://github.com/pschorderet/NEAT
+- https://github.com/Ettwiller/RIMS-seq
+- https://github.com/solo7773/eccDNAdb
+- https://github.com/keleslab/FreeHiC
+- https://github.com/hellosunking/Microcket
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lh3/bwa

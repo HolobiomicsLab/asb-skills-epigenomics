@@ -1,0 +1,28 @@
+name: IGV
+slug: igv
+version_used: null
+edam_topics: []
+evidence_spans:
+- These pages, available for download in the GitHub and created using IGV, will take a few seconds to load.
+- dcHiC provides standalone IGV browser visualization of results
+- Wiggle files can be loaded and visualized in various genome browsers including IGV [24, 25].
+derived_from:
+- doi: 10.1093/nar/gkw809
+  title: 'ChIA-PET2: a versatile and flexible pipeline for ChIA-PET data analysis'
+- doi: 10.1038/s41467-022-34626-6
+  title: dcHiC detects differential compartments across multiple Hi-C datasets
+- doi: 10.1016/j.patter.2020.100127
+  title: 'Msuite: A High-Performance and Versatile DNA Methylation Data-Analysis Toolkit'
+- doi: 10.1186/s12859-016-0902-3
+  title: 'NEAT: a framework for building fully automated NGS pipelines and analyses'
+source_repos:
+- https://github.com/GuipengLi/ChIA-PET2
+- https://github.com/ay-lab/dcHiC
+- https://github.com/hellosunking/Msuite
+- https://github.com/pschorderet/NEAT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GuipengLi/ChIA-PET2

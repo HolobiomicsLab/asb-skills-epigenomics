@@ -1,0 +1,20 @@
+name: BiocParallel
+slug: biocparallel
+version_used: null
+edam_topics: []
+evidence_spans:
+- BiocParallel::register(BiocParallel::SnowParam(worker = 2))
+derived_from:
+- doi: 10.1186/s12859-018-2238-7
+  title: 'GenoGAM 2.0: scalable and efficient implementation of genome-wide generalized additive models for gigabase-scale genomes'
+- doi: 10.1038/nmeth.4401
+  title: 'chromVAR: inferring transcription-factor-associated accessibility from single-cell epigenomic data'
+source_repos:
+- https://github.com/gstricker/fastGenoGAM
+- https://github.com/GreenleafLab/chromVAR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gstricker/fastGenoGAM

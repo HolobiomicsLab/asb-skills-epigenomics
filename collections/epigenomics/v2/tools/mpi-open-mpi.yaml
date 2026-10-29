@@ -1,0 +1,19 @@
+name: MPI (open-mpi)
+slug: mpi-open-mpi
+version_used: null
+edam_topics: []
+evidence_spans:
+- Make sure MPI (e.g. [open-mpi](https://www.open-mpi.org/)) is installed on your system and is on your path
+- Make sure MPI (e.g. open-mpi) is installed on your system
+- MPI (e.g. [open-mpi](https://www.open-mpi.org/)) is installed on your system
+derived_from:
+- doi: 10.1038/s41592-021-01231-2
+  title: 'SnapHiC: a computational pipeline to identify chromatin loops from single-cell Hi-C data'
+source_repos:
+- https://github.com/HuMingLab/SnapHiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HuMingLab/SnapHiC

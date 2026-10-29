@@ -1,0 +1,40 @@
+name: edgeR
+slug: edger
+version_used: null
+edam_topics: []
+evidence_spans:
+- or (ii) a parametric test comparing raw counts from individual cells, using edgeR26, based on the assumption that the data follows a negative-binomial distribution.
+- Actual DGE analysis is completed by both the edgeR [38] and DESeq2 [39] packages from Bioconductor
+- Actual DGE analysis is completed by both the edgeR and DESeq2 packages from Bioconductor
+- '- `edgeR (Depends)`'
+- Cells passing this first filter were normalized with counts per million (cpm) normalization using cpm in the edgeR package
+- We use DESeq2 (31) and edgeR (32) to do differential expression (DE) analysis between heart samples and brain samples
+- edgeR and DESeq2 for differential abundance analysis [6, 7]
+- the “pseudobulk” approach in combination with classical differential gene expression methods such as edgeR44 and limma-voom45 outperforms single cell specific methods
+- classical differential gene expression methods such as edgeR44 and limma-voom45 outperforms single cell specific methods
+derived_from:
+- doi: 10.1038/s41467-020-19542-x
+  title: Interactive analysis of single-cell epigenomic landscapes with ChromSCape
+- doi: 10.1186/s12859-017-1770-1
+  title: 'CIPHER: a flexible and extensive workflow platform for integrative next-generation sequencing data analysis and genomic regulatory element prediction'
+- doi: 10.1126/sciadv.abg6045
+  title: 'Copy-scAT: Deconvoluting single-cell chromatin accessibility of genetic subclones in cancer'
+- doi: 10.1093/nar/gkz287
+  title: 'EpiAlign: an alignment-based bioinformatic tool for comparing chromatin state sequences'
+- doi: 10.1186/s12859-016-1241-0
+  title: 'systemPipeR: NGS workflow and report generation environment'
+- doi: 10.1038/s41467-021-26779-7
+  title: scPower accelerates and optimizes the design of multi-sample single cell transcriptomic studies
+source_repos:
+- https://github.com/vallotlab/ChromSCape_benchmarking
+- https://github.com/c-guzman/cipher-workflow-platform
+- https://github.com/spcdot/CopyscAT
+- https://github.com/zzz3639/EpiAlign
+- https://github.com/tgirke/systemPipeR
+- https://github.com/heiniglab/scPower
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/vallotlab/ChromSCape_benchmarking

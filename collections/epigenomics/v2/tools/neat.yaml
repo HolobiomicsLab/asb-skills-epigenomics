@@ -1,0 +1,18 @@
+name: NEAT
+slug: neat
+version_used: null
+edam_topics: []
+evidence_spans:
+- we present the NExt generation Analysis Toolbox (NEAT) that allows non-expert users including wet-lab scientists to comprehensively build, run and analyze NGS data
+- NEAT offers several automated modules (unzip, rename, QC, chiprx, map, filter, peakcalling, creation of wig files, etc)
+derived_from:
+- doi: 10.1186/s12859-016-0902-3
+  title: 'NEAT: a framework for building fully automated NGS pipelines and analyses'
+source_repos:
+- https://github.com/pschorderet/NEAT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pschorderet/NEAT

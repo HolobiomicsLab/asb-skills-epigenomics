@@ -1,0 +1,19 @@
+name: EpiAlign
+slug: epialign
+version_used: null
+edam_topics: []
+evidence_spans:
+- We propose a new local alignment algorithm, EpiAlign, designed to compare chromatin state sequences learned from multi-track epigenomic signals
+- EpiAlign then performs a local alignment between two genomic regions based on their compressed state sequences.
+- EpiAlign then performs a local alignment between two genomic regions based on their compressed state sequences
+derived_from:
+- doi: 10.1093/nar/gkz287
+  title: 'EpiAlign: an alignment-based bioinformatic tool for comparing chromatin state sequences'
+source_repos:
+- https://github.com/zzz3639/EpiAlign
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zzz3639/EpiAlign

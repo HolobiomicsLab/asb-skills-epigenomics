@@ -1,0 +1,17 @@
+name: TCseq
+slug: tcseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- The time series clustering of the differential compartments across three stages (‘Early’, ‘Mid’, and ‘Late’) of development
+derived_from:
+- doi: 10.1038/s41467-022-34626-6
+  title: dcHiC detects differential compartments across multiple Hi-C datasets
+source_repos:
+- https://github.com/ay-lab/dcHiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ay-lab/dcHiC

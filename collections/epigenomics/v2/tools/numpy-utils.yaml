@@ -1,0 +1,17 @@
+name: numpy-utils
+slug: numpy-utils
+version_used: 0.1.6
+edam_topics: []
+evidence_spans:
+- numpy-utils==0.1.6
+derived_from:
+- doi: 10.1093/bioinformatics/btad060
+  title: 'TIVAN-indel: a computational framework for annotating and predicting non-coding regulatory small insertions and deletions'
+source_repos:
+- https://github.com/lichen-lab/TIVAN-indel
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lichen-lab/TIVAN-indel

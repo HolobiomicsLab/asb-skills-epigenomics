@@ -1,0 +1,17 @@
+name: CentriMo
+slug: centrimo
+version_used: null
+edam_topics: []
+evidence_spans:
+- CentriMo (14) and TFEA (15) provide bin- and quartile- based approaches to analyzing these relationships
+derived_from:
+- doi: 10.1093/nargab/lqac075
+  title: 'MEPP: more transparent motif enrichment by profiling positional correlations'
+source_repos:
+- https://github.com/npdeloss/mepp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/npdeloss/mepp

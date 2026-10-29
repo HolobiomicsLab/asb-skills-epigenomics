@@ -1,0 +1,17 @@
+name: TRAP
+slug: trap
+version_used: null
+edam_topics: []
+evidence_spans:
+- In the repository the TRAP version, a script used by PASTAA, is slightly changed. We normalized the resulting TRAP affinities by the TF binding motif length.
+derived_from:
+- doi: 10.1093/nar/gkaa382
+  title: 'EpiRegio: analysis and retrieval of regulatory elements linked to genes'
+source_repos:
+- https://github.com/TeamRegio/EpiRegioDB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TeamRegio/EpiRegioDB

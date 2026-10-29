@@ -1,0 +1,36 @@
+name: HOMER
+slug: homer
+version_used: null
+edam_topics: []
+evidence_spans:
+- We accept the same format as the HiCsummary file format for HOMER runHiCpca.pl.
+- HOMER Differential Scores (for comparison)
+- many MEA methods such as MEIRLOP and HOMER treat motif presence within a sequence under a zero-or-one-occurrence-per-sequence (ZOOPs) model
+- For the motif calling part, [HOMER](http://homer.ucsd.edu/homer/motif/) is utilized.
+- regulatory motifs as well, when combined with tools like Homer38 or chromVAR13
+derived_from:
+- doi: 10.1093/bioinformatics/btad314
+  title: CscoreTool-M infers 3D sub-compartment probabilities within cell population
+- doi: 10.1038/s41467-022-34626-6
+  title: dcHiC detects differential compartments across multiple Hi-C datasets
+- doi: 10.1093/nargab/lqac075
+  title: 'MEPP: more transparent motif enrichment by profiling positional correlations'
+- doi: 10.1093/bioinformatics/btae070
+  title: 'Pycallingcards: an integrated environment for visualizing, analyzing, and interpreting Calling Cards data'
+- doi: 10.1038/s41467-025-60269-4
+  title: 'BIT: Bayesian Identification of Transcriptional regulators from epigenomics-based query region sets'
+- doi: 10.1038/s41467-019-12630-7
+  title: SCALE method for single-cell ATAC-seq analysis via latent feature extraction
+source_repos:
+- https://github.com/scoutzxb/CscoreTool-M
+- https://github.com/ay-lab/dcHiC
+- https://github.com/npdeloss/mepp
+- https://github.com/The-Mitra-Lab/pycallingcards
+- https://github.com/ZeyuL01/BIT
+- https://github.com/jsxlei/SCALE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scoutzxb/CscoreTool-M

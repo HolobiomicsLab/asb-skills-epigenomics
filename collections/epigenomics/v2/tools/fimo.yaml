@@ -1,0 +1,24 @@
+name: FIMO
+slug: fimo
+version_used: null
+edam_topics: []
+evidence_spans:
+- '# Run FIMO to scan motifs'
+- "BagOfMotifs::runFIMO(\n\tmotifs_path = motifs_path,\n\tFIMO_path   = FIMO_path\n)"
+derived_from:
+- doi: 10.1093/nar/gkz1089
+  title: Global H-NS counter-silencing by LuxR activates quorum sensing gene expression
+- doi: 10.1093/nar/gkab553
+  title: 'RoboCOP: jointly computing chromatin occupancy profiles for numerous factors from chromatin accessibility data'
+- doi: 10.1038/s41467-025-65362-2
+  title: Motif-based models accurately predict cell type-specific distal regulatory elements
+source_repos:
+- https://github.com/Juliacvk/LuxR_H-NS
+- https://github.com/HarteminkLab/RoboCOP
+- https://github.com/ewonglab/BOM_package
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Juliacvk/LuxR_H-NS

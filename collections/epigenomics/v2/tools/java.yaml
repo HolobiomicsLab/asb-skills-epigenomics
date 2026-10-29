@@ -1,0 +1,34 @@
+name: Java
+slug: java
+version_used: '1.5'
+edam_topics: []
+evidence_spans:
+- The core of Genexpi – the algorithm for fitting model parameters – is implemented in OpenCL, with a Java wrapper.
+- Watchdog is implemented in Java and thus platform-independent
+- The distributed jar files are build for Java 11 and are called internally by the bash scripts.
+- The distributed jar files are build for Java 11
+- Install Java version >= 8 and include it in your path. Java is required to generate .hic files for visualization in Juicebox.
+- Install Java version >= 8 and include it in your path.
+derived_from:
+- doi: 10.1186/s12859-018-2138-x
+  title: 'Genexpi: a toolset for identifying regulons and validating gene regulatory networks using time-course expression data'
+- doi: 10.1016/j.csbj.2022.03.036
+  title: 'SRIQ clustering: A fusion of Random Forest, QT clustering, and KNN concepts'
+- doi: 10.1093/nar/gkab629
+  title: 'TSMiner: a novel framework for generating time-specific gene regulatory networks from time-series expression profiles'
+- doi: 10.1186/s12859-018-2107-4
+  title: Watchdog – a workflow management system for the distributed analysis of large-scale experimental data
+- doi: 10.1038/s41592-021-01231-2
+  title: 'SnapHiC: a computational pipeline to identify chromatin loops from single-cell Hi-C data'
+source_repos:
+- https://github.com/cas-bioinf/genexpi
+- https://github.com/StaafLab/SRIQ
+- https://github.com/free1234hm/tsminer-tool
+- https://github.com/klugem/watchdog
+- https://github.com/HuMingLab/SnapHiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cas-bioinf/genexpi

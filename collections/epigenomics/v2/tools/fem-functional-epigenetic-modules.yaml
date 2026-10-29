@@ -1,0 +1,17 @@
+name: FEM (Functional Epigenetic Modules)
+slug: fem-functional-epigenetic-modules
+version_used: null
+edam_topics: []
+evidence_spans:
+- we use igraph's spinglass algorithm to determine the best modules
+derived_from:
+- doi: 10.1186/s12859-017-1477-3
+  title: 'SMITE: an R/Bioconductor package that identifies network modules by integrating genomic and epigenomic information'
+source_repos:
+- https://github.com/GreallyLab/SMITE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GreallyLab/SMITE

@@ -1,0 +1,18 @@
+name: DeepFun
+slug: deepfun
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we present a user-friendly web server, DeepFun (https://bioinfo.uth.edu/deepfun/), to assess the functional activity of non-coding genetic variants.
+- We present a user-friendly web server, DeepFun, available at https://bioinfo.uth.edu/deepfun/.
+derived_from:
+- doi: 10.1093/nar/gkab429
+  title: 'DeepFun: a deep learning sequence-based model to decipher non-coding variant effect in a tissue- and cell type-specific manner'
+source_repos:
+- https://github.com/bsml320/DeepFun
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bsml320/DeepFun

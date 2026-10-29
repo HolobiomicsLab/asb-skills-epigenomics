@@ -1,0 +1,17 @@
+name: FAN-C
+slug: fan-c
+version_used: null
+edam_topics: []
+evidence_spans:
+- GILoop requires a relatively large amount of time to pre-process the data before sending the data into the computational pipeline to train the model.
+derived_from:
+- doi: 10.1016/j.isci.2022.105535
+  title: 'GILoop: Robust chromatin loop calling across multiple sequencing depths on Hi-C data'
+source_repos:
+- https://github.com/fzbio/GILoop
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fzbio/GILoop

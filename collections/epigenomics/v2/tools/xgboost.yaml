@@ -1,0 +1,38 @@
+name: XGBoost
+slug: xgboost
+version_used: 1.5.1
+edam_topics: []
+evidence_spans:
+- We applied the XGBoost (Chen and Guestrin 2016) algorithm (python xgboost. XGBClassifier) with the logistic regression learning objective for binary classification.
+- xgboost (Imports)
+- We applied the XGBoost (Chen and Guestrin 2016) algorithm (python xgboost. XGBClassifier) with the logistic regression learning objective for binary classification
+- XGBoost parameters <https://github.com/dmlc/xgboost/blob/master/doc/parameter.md>
+- "The pickle file must contain a valid python dictionary for\n      `XGBoost parameters <https://github.com/dmlc/xgboost/blob/master/doc/parameter.md>`_."
+- which associated the SHAP values with the XGBoost algorithm [26]
+- xgboost==1.5.1
+- This minimalist representation, combined with gradient-boosted trees, enables the accurate prediction of cell-type-specific enhancers across mouse, human, zebrafish, and Arabidopsis datasets.
+derived_from:
+- doi: 10.1093/bioinformatics/btad687
+  title: 'CENTRE: a gradient boosting algorithm for Cell-type-specific ENhancer-Target pREdiction'
+- doi: 10.1038/s41467-019-13929-1
+  title: Combined burden and functional impact tests for cancer driver discovery using DriverPower
+- doi: 10.1016/j.csbj.2022.11.034
+  title: "<i>EpiCas-DL</i>\n                    : Predicting sgRNA activity for CRISPR-mediated epigenome editing by deep learning"
+- doi: 10.1093/bioinformatics/btad060
+  title: 'TIVAN-indel: a computational framework for annotating and predicting non-coding regulatory small insertions and deletions'
+- doi: 10.1038/s41467-025-65362-2
+  title: Motif-based models accurately predict cell type-specific distal regulatory elements
+source_repos:
+- https://github.com/slrvv/CENTRE
+- https://github.com/dmlc/xgboost
+- https://github.com/smshuai/DriverPower
+- https://github.com/yangqianq/EpiCas-DL
+- https://github.com/amanbasu/TIVAN-indel
+- https://github.com/lichen-lab/TIVAN-indel
+- https://github.com/ewonglab/BOM_package
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/slrvv/CENTRE

@@ -1,0 +1,17 @@
+name: gkmSVM
+slug: gkmsvm
+version_used: null
+edam_topics: []
+evidence_spans:
+- K-mer–based classifiers (gkmSVM11, LS-GKM12) can discover novel sequence patterns but require additional motif annotation13,14.
+derived_from:
+- doi: 10.1038/s41467-025-65362-2
+  title: Motif-based models accurately predict cell type-specific distal regulatory elements
+source_repos:
+- https://github.com/ewonglab/BOM_package
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ewonglab/BOM_package

@@ -1,0 +1,22 @@
+name: HiCCUPS
+slug: hiccups
+version_used: null
+edam_topics: []
+evidence_spans:
+- HiCCUPS8,23 incorporates local background into its model and utilizes the Poisson test
+- similar to the definition that has been used in the HiCCUPS algorithm4
+derived_from:
+- doi: 10.1038/s41467-020-17239-9
+  title: A supervised learning framework for chromatin loop detection in genome-wide contact maps
+- doi: 10.1038/s41467-023-40658-3
+  title: 'SnapFISH: a computational pipeline to identify chromatin loops from multiplexed DNA FISH data'
+source_repos:
+- https://github.com/aidenlab/juicer
+- https://github.com/tariks/peakachu
+- https://github.com/HuMingLab/SnapFISH
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aidenlab/juicer

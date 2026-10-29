@@ -1,0 +1,22 @@
+name: systemPipeR
+slug: systempiper
+version_used: null
+edam_topics: []
+evidence_spans:
+- The ‘QC’ module uses the R systemPipeR package
+- 'package: systemPipeR'
+- library(systemPipeR)
+derived_from:
+- doi: 10.1186/s12859-016-0902-3
+  title: 'NEAT: a framework for building fully automated NGS pipelines and analyses'
+- doi: 10.1186/s12859-016-1241-0
+  title: 'systemPipeR: NGS workflow and report generation environment'
+source_repos:
+- https://github.com/tgirke/systemPipeR
+- https://github.com/pschorderet/NEAT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tgirke/systemPipeR

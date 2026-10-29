@@ -1,0 +1,16 @@
+name: I-cisTarget
+slug: i-cistarget
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41467-025-60269-4
+  title: 'BIT: Bayesian Identification of Transcriptional regulators from epigenomics-based query region sets'
+source_repos:
+- https://github.com/ZeyuL01/BIT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZeyuL01/BIT

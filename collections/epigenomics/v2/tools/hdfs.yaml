@@ -1,0 +1,17 @@
+name: HDFS
+slug: hdfs
+version_used: null
+edam_topics: []
+evidence_spans:
+- We also integrated HDFS (Hadoop Distributed File System) [24] to provide centralized data management
+derived_from:
+- doi: 10.1186/s12859-018-2498-2
+  title: 'BiSpark: a Spark-based highly scalable aligner for bisulfite sequencing data'
+source_repos:
+- https://github.com/bhi-kimlab/BiSpark
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bhi-kimlab/BiSpark

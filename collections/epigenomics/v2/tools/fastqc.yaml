@@ -1,0 +1,51 @@
+name: FastQC
+slug: fastqc
+version_used: 0.11.3
+edam_topics: []
+evidence_spans:
+- Run [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/download.html#fastqc) to visualize the various aspects of your data
+- FastQC sequence quality evaluation
+- 'step 1(*can skip*): FastQC sequence quality evaluation, reads GC contents evaluation and library contamination'
+- FastQC sequence quality evaluation, reads GC contents evaluation and library contamination
+- ChiLin first checks the raw sequence quality and GC content using FastQC
+- All pipelines integrate FastQC [24], an open source module that is used to analyze raw sequencing datasets for any abnormalities
+- All pipelines integrate FastQC, an open source module that is used to analyze raw sequencing datasets for any abnormalities
+- All pipelines integrate FastQC, an open source module that is used to analyze raw sequencing datasets
+- The FastQC 0.11.3 program was used for quality control.
+- FastQC (v0.11.9)
+- Lastly, FastQC (v0.11.9) (https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) is applied to check the qualities of both raw and processed reads
+- FastQC (v0.11.9) ... is applied to check the qualities of both raw and processed reads
+- such as using FastQC [35], FASTX-Toolkit [36] or MultiQC [37] for quality reporting
+- quality control of sequencing reads, e.g. with FastQC [14], before mapping of reads
+derived_from:
+- doi: 10.1186/s12859-018-2498-2
+  title: 'BiSpark: a Spark-based highly scalable aligner for bisulfite sequencing data'
+- doi: 10.1186/s12859-016-1274-4
+  title: 'ChiLin: a comprehensive ChIP-seq and DNase-seq quality control and analysis pipeline'
+- doi: 10.1186/s12859-017-1770-1
+  title: 'CIPHER: a flexible and extensive workflow platform for integrative next-generation sequencing data analysis and genomic regulatory element prediction'
+- doi: 10.1093/nar/gkz460
+  title: 'HOT or not: examining the basis of high-occupancy target regions'
+- doi: 10.1093/bioinformatics/btad423
+  title: 'MEDIPIPE: an automated and comprehensive pipeline for cfMeDIP-seq data quality control and analysis'
+- doi: 10.1186/s12859-016-1241-0
+  title: 'systemPipeR: NGS workflow and report generation environment'
+- doi: 10.1186/s12859-018-2107-4
+  title: Watchdog – a workflow management system for the distributed analysis of large-scale experimental data
+- doi: 10.1038/s41467-025-60269-4
+  title: 'BIT: Bayesian Identification of Transcriptional regulators from epigenomics-based query region sets'
+source_repos:
+- https://github.com/bhi-kimlab/BiSpark
+- https://github.com/cfce/chilin
+- https://github.com/c-guzman/cipher-workflow-platform
+- https://github.com/BIMSBbioinfo/HOT-or-not-examining-the-basis-of-high-occupancy-target-regions
+- https://github.com/yzeng-lol/MEDIPIPE
+- https://github.com/tgirke/systemPipeR
+- https://github.com/klugem/watchdog
+- https://github.com/ZeyuL01/BIT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bhi-kimlab/BiSpark

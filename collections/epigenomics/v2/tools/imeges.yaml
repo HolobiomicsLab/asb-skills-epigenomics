@@ -1,0 +1,18 @@
+name: iMEGES
+slug: imeges
+version_used: null
+edam_topics: []
+evidence_spans:
+- The two types of scores were integrated by a deep learning framework (ncDeepBrain for short in iMEGES).
+- we developed a computational tool, integrated Mental-disorder GEnome Score (iMEGES), for analyzing whole genome/exome sequencing data on personal genomes
+derived_from:
+- doi: 10.1186/s12859-018-2469-7
+  title: 'iMEGES: integrated mental-disorder GEnome score by deep neural network for prioritizing the susceptibility genes for mental disorders in personal genomes'
+source_repos:
+- https://github.com/WGLab/iMEGES
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WGLab/iMEGES

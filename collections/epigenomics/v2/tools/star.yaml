@@ -1,0 +1,34 @@
+name: STAR
+slug: star
+version_used: null
+edam_topics: []
+evidence_spans:
+- the user can also specify Bowtie [22] or STAR [23] for mapping
+- 'three different aligners for splice aware datasets: BBMap [14], STAR [17], and HISAT2 [18]'
+- 'three different aligners for splice aware datasets: BBMap [14], STAR [17], and HISAT2 [18] via the “--aligner” flag'
+- Several splice-aware aligners exist including BBMap, STAR, and HISAT2
+- Mapping RNA-seq Reads with STAR
+- with STAR following the ‘ENCODE’ options outlined in the STAR manual
+derived_from:
+- doi: 10.1186/s12859-016-1274-4
+  title: 'ChiLin: a comprehensive ChIP-seq and DNase-seq quality control and analysis pipeline'
+- doi: 10.1186/s12859-017-1770-1
+  title: 'CIPHER: a flexible and extensive workflow platform for integrative next-generation sequencing data analysis and genomic regulatory element prediction'
+- doi: 10.1038/s41467-022-34626-6
+  title: dcHiC detects differential compartments across multiple Hi-C datasets
+- doi: 10.1016/j.xgen.2023.100317
+  title: Skipper analysis of eCLIP datasets enables sensitive detection of constrained translation factor binding sites
+- doi: 10.1038/s41592-021-01231-2
+  title: 'SnapHiC: a computational pipeline to identify chromatin loops from single-cell Hi-C data'
+source_repos:
+- https://github.com/cfce/chilin
+- https://github.com/c-guzman/cipher-workflow-platform
+- https://github.com/ay-lab/dcHiC
+- https://github.com/YeoLab/skipper
+- https://github.com/HuMingLab/SnapHiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cfce/chilin

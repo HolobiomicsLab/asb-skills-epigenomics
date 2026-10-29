@@ -1,0 +1,46 @@
+name: Docker
+slug: docker
+version_used: null
+edam_topics: []
+evidence_spans:
+- Docker [13] - a container-based virtualization technology
+- By default, CIPHER will run off a Docker container, but this can be optionally turned off
+- CIPHER implements various open source software packages, in-house scripts, and Docker containers
+- CIPHER implements various open source software packages, in-house scripts, and Docker containers to analyze and process single-ended and pair-ended datasets.
+- Docker - a container-based virtualization technology, open source software and custom scripts
+- publicly available as a Docker image (8) (recommended use case) and on GitHub
+- Written in Python3 and publicly available as a Docker image (8) (recommended use case) and on GitHub
+- Written in Python3 and publicly available as a Docker image
+- 'dxm is also available as a Docker container at: https://hub.docker.com/r/edwardslab/dxm'
+- EpiCompare can be installed using its dedicated Docker or Singularity container (hosted on DockerHub)
+- systemPipeR is also distributed as Docker image of Bioconductor’s sequencing division.
+- Docker (https://www.docker.com/, an example module using a Docker image for Bowtie 2 [11] is included with Watchdog)
+derived_from:
+- doi: 10.1186/s12859-017-1770-1
+  title: 'CIPHER: a flexible and extensive workflow platform for integrative next-generation sequencing data analysis and genomic regulatory element prediction'
+- doi: 10.1128/mra.00160-21
+  title: Delila-PY, a Pipeline for Utilizing the Delila Suite of Software to Identify Potential DNA Binding Motifs
+- doi: 10.1093/nar/gkab516
+  title: Determining subpopulation methylation profiles from bisulfite sequencing data of heterogeneous samples using DXM
+- doi: 10.1093/bioadv/vbad049
+  title: 'EpiCompare: R package for the comparison and quality control of epigenomic peak files'
+- doi: 10.1186/s12859-016-1241-0
+  title: 'systemPipeR: NGS workflow and report generation environment'
+- doi: 10.1186/s12859-018-2107-4
+  title: Watchdog – a workflow management system for the distributed analysis of large-scale experimental data
+- doi: 10.1038/s41592-019-0624-3
+  title: FreeHi-C simulates high-fidelity Hi-C data for benchmarking and data augmentation
+source_repos:
+- https://github.com/c-guzman/cipher-workflow-platform
+- https://github.com/GLBRC/delila
+- https://github.com/edwardslab-wustl/dxm
+- https://github.com/neurogenomics/EpiCompare
+- https://github.com/tgirke/systemPipeR
+- https://github.com/klugem/watchdog
+- https://github.com/keleslab/FreeHiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/c-guzman/cipher-workflow-platform

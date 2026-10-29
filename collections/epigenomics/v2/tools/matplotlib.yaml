@@ -1,0 +1,44 @@
+name: matplotlib
+slug: matplotlib
+version_used: 3.3.4
+edam_topics: []
+evidence_spans:
+- visualizations were performed in Python with ‘matplotlib’ and ‘seaborn’ packages
+- Matplotlib can also be installed using ``pip``
+- matplotlib, numpy, and pandas
+- "You must have matplotlib, numpy, and pandas \ninstalled."
+- You must have matplotlib, numpy, and pandas installed.
+- BIMSBbioinfo/HOT-or-not-examining-the-basis-of-high-occupancy-target-regions
+- 7. matplotlib 3.3.4
+- matplotlib==3.4.3
+- _No usage/docs found._
+derived_from:
+- doi: 10.1093/nar/gkaa1052
+  title: 'Asymmetron: a toolkit for the identification of strand asymmetry patterns in biological sequences'
+- doi: 10.1186/s12859-016-1306-0
+  title: 'DGW: an exploratory data analysis tool for clustering and visualisation of epigenomic marks'
+- doi: 10.1093/bioinformatics/btad220
+  title: Deep statistical modelling of nanopore sequencing translocation times reveals latent non-B DNA structures
+- doi: 10.1093/nar/gkz460
+  title: 'HOT or not: examining the basis of high-occupancy target regions'
+- doi: 10.1038/s41467-023-40658-3
+  title: 'SnapFISH: a computational pipeline to identify chromatin loops from multiplexed DNA FISH data'
+- doi: 10.1093/bioinformatics/btad060
+  title: 'TIVAN-indel: a computational framework for annotating and predicting non-coding regulatory small insertions and deletions'
+- doi: 10.1038/s41388-022-02286-x
+  title: 'eccDNAdb: a database of extrachromosomal circular DNA profiles in human cancers'
+source_repos:
+- https://github.com/Ahituv-lab/Asymmetron
+- https://github.com/lukauskas/dgw
+- https://github.com/bayesomicslab/ONT-nonb-GoFAE-DND
+- https://github.com/BIMSBbioinfo/HOT-or-not-examining-the-basis-of-high-occupancy-target-regions
+- https://github.com/HuMingLab/SnapFISH
+- https://github.com/amanbasu/TIVAN-indel
+- https://github.com/lichen-lab/TIVAN-indel
+- https://github.com/solo7773/eccDNAdb
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Ahituv-lab/Asymmetron

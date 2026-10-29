@@ -1,0 +1,22 @@
+name: TIVAN-indel
+slug: tivan-indel
+version_used: null
+edam_topics: []
+evidence_spans:
+- TIVAN-indel is implemented by both R and Python
+- TIVAN-indel is implemented by both R and Python and the requirements are
+- We call ``train.py" to train the model
+- TIVAN-Indel is implemented by both R and Python and the requirements are
+- we develop TIssue-specific Variant Annotation for Non-coding indel (TIVAN-indel), which is a supervised computational framework for predicting non-coding regulatory sindels
+derived_from:
+- doi: 10.1093/bioinformatics/btad060
+  title: 'TIVAN-indel: a computational framework for annotating and predicting non-coding regulatory small insertions and deletions'
+source_repos:
+- https://github.com/amanbasu/TIVAN-indel
+- https://github.com/lichen-lab/TIVAN-indel
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/amanbasu/TIVAN-indel

@@ -1,0 +1,16 @@
+name: GNU C++ compiler
+slug: gnu-c-compiler
+version_used: 4.8.1
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41592-019-0624-3
+  title: FreeHi-C simulates high-fidelity Hi-C data for benchmarking and data augmentation
+source_repos:
+- https://github.com/keleslab/FreeHiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/keleslab/FreeHiC

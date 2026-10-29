@@ -1,0 +1,23 @@
+name: TopHat
+slug: tophat
+version_used: 1.1.0
+edam_topics: []
+evidence_spans:
+- For current documentation, see the [eXpress-D Wiki]
+- For current documentation, see the [eXpress-D Wiki](https://github.com/adarob/express-d/wiki).
+- all read mapping was carried out using TopHat 1.1.0 [29] with supplied annotations and the --no-novel-juncs option set
+- For RNAseq projects, the splice-aware, bowtie-based Tophat [20] algorithm is preferred.
+derived_from:
+- doi: 10.1186/gb-2011-12-3-r22
+  title: Improving RNA-Seq expression estimates by correcting for fragment bias
+- doi: 10.1186/s12859-016-0902-3
+  title: 'NEAT: a framework for building fully automated NGS pipelines and analyses'
+source_repos:
+- https://github.com/adarob/eXpress-d
+- https://github.com/pschorderet/NEAT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/adarob/eXpress-d

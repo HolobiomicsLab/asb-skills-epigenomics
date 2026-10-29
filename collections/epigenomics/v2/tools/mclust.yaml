@@ -1,0 +1,21 @@
+name: mclust
+slug: mclust
+version_used: null
+edam_topics: []
+evidence_spans:
+- mclust (Depends)
+- Computational pipelines for functional enrichments, trajectory and breakpoint analyses revealed immune system aging signatures including longitudinal genomic trends.
+derived_from:
+- doi: 10.1126/sciadv.abg6045
+  title: 'Copy-scAT: Deconvoluting single-cell chromatin accessibility of genetic subclones in cancer'
+- doi: 10.1038/s41467-020-14396-9
+  title: Sexual-dimorphism in human immune system aging
+source_repos:
+- https://github.com/spcdot/CopyscAT
+- https://github.com/UcarLab/SexDimorphismNatureCommunications
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/spcdot/CopyscAT

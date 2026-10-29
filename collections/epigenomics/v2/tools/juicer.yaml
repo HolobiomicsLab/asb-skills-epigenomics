@@ -1,0 +1,29 @@
+name: Juicer
+slug: juicer
+version_used: null
+edam_topics: []
+evidence_spans:
+- All Hi-C data were downloaded and processed into KR normalized interaction matrices using Juicer tools (20).
+- SnapHiC then uses the Juicer software and the cooler software to convert the count matrix into .hic file and .cool file, respectively.
+- SnapHiC then uses the Juicer software and the cooler software to convert the count matrix into .hic file and .cool file
+- we used the Juicer21 software to convert the count matrix into a .hic file
+derived_from:
+- doi: 10.1093/nar/gkaa004
+  title: 'BHi-Cect: a top-down algorithm for identifying the multi-scale hierarchical structure of chromosomes'
+- doi: 10.1126/sciadv.aay2078
+  title: 'ChIA-PIPE: A fully automated pipeline for comprehensive ChIA-PET data analysis and visualization'
+- doi: 10.1016/j.csbj.2023.09.019
+  title: 'TOAST: A novel method for identifying topologically associated domains based on graph auto-encoders and clustering'
+- doi: 10.1038/s41592-021-01231-2
+  title: 'SnapHiC: a computational pipeline to identify chromatin loops from single-cell Hi-C data'
+source_repos:
+- https://github.com/princeps091-binf/BHi-Cect
+- https://github.com/TheJacksonLaboratory/ChIA-PIPE
+- https://github.com/ghaiyan/TOAST
+- https://github.com/HuMingLab/SnapHiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/princeps091-binf/BHi-Cect

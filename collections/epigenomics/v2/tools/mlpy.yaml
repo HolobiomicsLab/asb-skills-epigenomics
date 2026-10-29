@@ -1,0 +1,18 @@
+name: mlpy
+slug: mlpy
+version_used: null
+edam_topics: []
+evidence_spans:
+- The package also uses a modified version of `mlpy`s DTW package (distributed together with the package).
+derived_from:
+- doi: 10.1186/s12859-016-1306-0
+  title: 'DGW: an exploratory data analysis tool for clustering and visualisation of epigenomic marks'
+source_repos:
+- https://github.com/sauliusl/mlpy
+- https://github.com/lukauskas/dgw
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sauliusl/mlpy

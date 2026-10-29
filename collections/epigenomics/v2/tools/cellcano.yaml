@@ -1,0 +1,20 @@
+name: Cellcano
+slug: cellcano
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we develop Cellcano, a computational method based on a two-round supervised learning algorithm to identify cell types from scATAC-seq data.
+- Cellcano applies F-test on reference gene scores to select cell-type-specific genes as features for model construction31
+- we develop a computational celltyping method for scATAC-seq, named Cellcano
+- '## Cellcano Tutorial'
+derived_from:
+- doi: 10.1038/s41467-023-37439-3
+  title: 'Cellcano: supervised cell type identification for single cell ATAC-seq data'
+source_repos:
+- https://github.com/marvinquiet/Cellcano
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/marvinquiet/Cellcano

@@ -1,0 +1,21 @@
+name: Pycallingcards
+slug: pycallingcards
+version_used: null
+edam_topics: []
+evidence_spans:
+- We introduce Pycallingcards, a comprehensive Python module specifically designed for the analysis of single-cell and bulk CC data across multiple species.
+- Pycallingcards is a python package designed for both single-cell and bulk calling cards data analysis.
+- '**Preprocessing (pp)** helps to preprocess data from qbed/ccf data to call peaks, make annotation, make Anndata object and filter peaks.'
+- '**Pycallingcards** is a package for calling cards data analysis developed and maintained by [Mitra Lab]'
+- 'Import Pycallingcards as:'
+derived_from:
+- doi: 10.1093/bioinformatics/btae070
+  title: 'Pycallingcards: an integrated environment for visualizing, analyzing, and interpreting Calling Cards data'
+source_repos:
+- https://github.com/The-Mitra-Lab/pycallingcards
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/The-Mitra-Lab/pycallingcards

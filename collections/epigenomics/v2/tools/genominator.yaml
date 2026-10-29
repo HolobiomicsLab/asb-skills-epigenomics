@@ -1,0 +1,17 @@
+name: Genominator
+slug: genominator
+version_used: null
+edam_topics: []
+evidence_spans:
+- run Genominator (bias learned per chromosome)
+derived_from:
+- doi: 10.1186/gb-2011-12-3-r22
+  title: Improving RNA-Seq expression estimates by correcting for fragment bias
+source_repos:
+- https://github.com/adarob/eXpress-d
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/adarob/eXpress-d

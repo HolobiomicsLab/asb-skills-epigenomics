@@ -1,0 +1,17 @@
+name: Rcpp
+slug: rcpp
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- `Rcpp (Imports)`'
+derived_from:
+- doi: 10.1186/s12859-018-2238-7
+  title: 'GenoGAM 2.0: scalable and efficient implementation of genome-wide generalized additive models for gigabase-scale genomes'
+source_repos:
+- https://github.com/gstricker/fastGenoGAM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gstricker/fastGenoGAM

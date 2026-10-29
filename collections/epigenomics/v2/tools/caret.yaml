@@ -1,0 +1,21 @@
+name: caret
+slug: caret
+version_used: null
+edam_topics: []
+evidence_spans:
+- install.packages(c('readr','caret','Matrix','igraph','RSpectra','dplyr','data.tree'))
+- The accuracy of the model was tested using a confusion matrix from the caret package in R
+derived_from:
+- doi: 10.1093/nar/gkaa004
+  title: 'BHi-Cect: a top-down algorithm for identifying the multi-scale hierarchical structure of chromosomes'
+- doi: 10.1186/s12859-017-1770-1
+  title: 'CIPHER: a flexible and extensive workflow platform for integrative next-generation sequencing data analysis and genomic regulatory element prediction'
+source_repos:
+- https://github.com/princeps091-binf/BHi-Cect
+- https://github.com/c-guzman/cipher-workflow-platform
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/princeps091-binf/BHi-Cect

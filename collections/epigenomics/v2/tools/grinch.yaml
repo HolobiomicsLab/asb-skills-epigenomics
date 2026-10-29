@@ -1,0 +1,17 @@
+name: GRiNCH
+slug: grinch
+version_used: null
+edam_topics: []
+evidence_spans:
+- For predictions by network‐based TLD detectors, e.g., deDoc, deDoc2, SpectralTAD, and GRiNCH, boundaries were defined as the edges between two predicted bins
+derived_from:
+- doi: 10.1002/advs.202300366
+  title: DeDoc2 Identifies and Characterizes the Hierarchy and Dynamics of Chromatin TAD‐Like Domains in the Single Cells
+source_repos:
+- https://github.com/zengguangjie/deDoc2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zengguangjie/deDoc2

@@ -1,0 +1,31 @@
+name: Snakemake
+slug: snakemake
+version_used: 6.12.3
+edam_topics: []
+evidence_spans:
+- This pipeline was developed using Snakemake (v6.12.3)
+- MEDIPIPE was developed with Snakemake following a modular design
+- This pipeline was developed using Snakemake (v6.12.3) (Mölder et al. 2021)
+- ease of implementation and reproducibility with Snakemake containerized execution environments
+- This pipeline was developed using Snakemake (v6.12.3) (Mölder et al. 2021), ensuring all dependencies are automatically installed
+- and Snakemake [10], a python-based WMS. Snakemake allows definition of tasks based on rules and automatically infers dependencies between tasks by matching filenames.
+- Snakemake [10], a python-based WMS
+derived_from:
+- doi: 10.1093/bioinformatics/btad423
+  title: 'MEDIPIPE: an automated and comprehensive pipeline for cfMeDIP-seq data quality control and analysis'
+- doi: 10.1016/j.xgen.2023.100317
+  title: Skipper analysis of eCLIP datasets enables sensitive detection of constrained translation factor binding sites
+- doi: 10.1186/s12859-018-2107-4
+  title: Watchdog – a workflow management system for the distributed analysis of large-scale experimental data
+source_repos:
+- https://github.com/pughlab/MEDIPIPE
+- https://github.com/yzeng-lol/MEDIPIPE
+- https://github.com/YeoLab/skipper
+- https://github.com/YeoLab/skipper.git
+- https://github.com/klugem/watchdog
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pughlab/MEDIPIPE

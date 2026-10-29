@@ -1,0 +1,18 @@
+name: CITRUS
+slug: citrus
+version_used: null
+edam_topics: []
+evidence_spans:
+- Execute the command python run_CITRUS.py
+- The software for CITRUS is available at https://github.com/osmanbeyoglulab/CITRUS.
+derived_from:
+- doi: 10.1093/nar/gkac881
+  title: Interpretable deep learning for chromatin-informed inference of transcriptional programs driven by somatic alterations across cancers
+source_repos:
+- https://github.com/osmanbeyoglulab/CITRUS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/osmanbeyoglulab/CITRUS

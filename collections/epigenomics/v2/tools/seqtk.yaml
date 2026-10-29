@@ -1,0 +1,18 @@
+name: seqtk
+slug: seqtk
+version_used: null
+edam_topics: []
+evidence_spans:
+- '.. _seqtk: https://github.com/lh3/seqtk'
+derived_from:
+- doi: 10.1186/s12859-016-1274-4
+  title: 'ChiLin: a comprehensive ChIP-seq and DNase-seq quality control and analysis pipeline'
+source_repos:
+- https://github.com/lh3/seqtk
+- https://github.com/cfce/chilin
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lh3/seqtk

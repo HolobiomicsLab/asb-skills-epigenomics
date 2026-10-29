@@ -1,0 +1,36 @@
+name: BWA-mem
+slug: bwa-mem
+version_used: 0.7.17
+edam_topics: []
+evidence_spans:
+- mapped back to corresponding genome(s) via BWA-MEM (v0.7.17)
+- via BWA-MEM (v0.7.17) (Li 2013)
+- the processed reads are mapped back to corresponding genome(s) via BWA-MEM (v0.7.17) (Li 2013)
+- This script uses BWA-mem to map the reads to a reference genome.
+- Examples of command-line software used by systemPipeR’s preconfigured workflow templates include the aligners BWA-MEM
+- we first aligned scHi-C read pairs to mm10 genome with BWA-MEM with the ‘-5’ option
+derived_from:
+- doi: 10.1016/j.csbj.2021.05.041
+  title: 'covNorm: An R package for coverage based normalization of Hi-C and capture Hi-C data'
+- doi: 10.1093/bioinformatics/btad423
+  title: 'MEDIPIPE: an automated and comprehensive pipeline for cfMeDIP-seq data quality control and analysis'
+- doi: 10.1093/nar/gkab705
+  title: Rapid identification of methylase specificity (RIMS-seq) jointly identifies methylated motifs and generates shotgun sequencing of bacterial genomes
+- doi: 10.1186/s12859-016-1241-0
+  title: 'systemPipeR: NGS workflow and report generation environment'
+- doi: 10.1038/s41592-021-01231-2
+  title: 'SnapHiC: a computational pipeline to identify chromatin loops from single-cell Hi-C data'
+source_repos:
+- https://github.com/kaistcbfg/covNormRpkg
+- https://github.com/pughlab/MEDIPIPE
+- https://github.com/yzeng-lol/MEDIPIPE
+- https://github.com/lh3/bwa
+- https://github.com/Ettwiller/RIMS-seq
+- https://github.com/tgirke/systemPipeR
+- https://github.com/HuMingLab/SnapHiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kaistcbfg/covNormRpkg

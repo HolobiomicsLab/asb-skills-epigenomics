@@ -1,0 +1,19 @@
+name: MEDStrand
+slug: medstrand
+version_used: 0.0.0.9000
+edam_topics: []
+evidence_spans:
+- MEDStrand (v0.0.0.9000) (stranded sigmoid model)
+- MEDStrand (v0.0.0.9000) (stranded sigmoid model) (Xu et al. 2018)
+derived_from:
+- doi: 10.1093/bioinformatics/btad423
+  title: 'MEDIPIPE: an automated and comprehensive pipeline for cfMeDIP-seq data quality control and analysis'
+source_repos:
+- https://github.com/pughlab/MEDIPIPE
+- https://github.com/yzeng-lol/MEDIPIPE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pughlab/MEDIPIPE

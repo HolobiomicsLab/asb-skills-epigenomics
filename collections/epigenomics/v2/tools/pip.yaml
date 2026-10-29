@@ -1,0 +1,21 @@
+name: pip
+slug: pip
+version_used: 23.3.1
+edam_topics: []
+evidence_spans:
+- $ pip install mepp
+- "To install Motif Enrichment Positional Profiling, run this command in your terminal:\n\n    $ pip install mepp"
+derived_from:
+- doi: 10.1093/bib/bbae083
+  title: 'Enhancer-MDLF: a novel deep learning framework for identifying cell-specific enhancers'
+- doi: 10.1093/nargab/lqac075
+  title: 'MEPP: more transparent motif enrichment by profiling positional correlations'
+source_repos:
+- https://github.com/HaoWuLab-Bioinformatics/Enhancer-MDLF
+- https://github.com/npdeloss/mepp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HaoWuLab-Bioinformatics/Enhancer-MDLF

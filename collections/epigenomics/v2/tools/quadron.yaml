@@ -1,0 +1,17 @@
+name: Quadron
+slug: quadron
+version_used: null
+edam_topics: []
+evidence_spans:
+- python Main.py --data_type=simulated --sim_data_path=../../simulated_data/ --config=1 --nonb_type=G_Quadruplex_Motif
+derived_from:
+- doi: 10.1093/bioinformatics/btad220
+  title: Deep statistical modelling of nanopore sequencing translocation times reveals latent non-B DNA structures
+source_repos:
+- https://github.com/bayesomicslab/ONT-nonb-GoFAE-DND
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bayesomicslab/ONT-nonb-GoFAE-DND

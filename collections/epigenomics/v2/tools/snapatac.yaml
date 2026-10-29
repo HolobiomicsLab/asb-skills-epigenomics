@@ -1,0 +1,30 @@
+name: SnapATAC
+slug: snapatac
+version_used: null
+edam_topics: []
+evidence_spans:
+- lecell.biolab.si/).
+- SnapATAC - a R package for the clustering, annotation, motif discovery and downstream analysis
+- Here, we introduce SnapATAC, a software package for analyzing scATAC-seq datasets.
+- SnapATAC integrates scRNA and scATAC
+- SnapATAC  - a R package for the clustering, annotation, motif discovery and downstream analysis.
+- 'SnapATAC has two components: [Snaptools](https://github.com/r3fang/SnapTools) and [SnapATAC](https://github.com/r3fang/SnapATAC).'
+- a R package for the clustering, annotation, motif discovery and downstream analysis
+derived_from:
+- doi: 10.1038/s41467-020-19542-x
+  title: Interactive analysis of single-cell epigenomic landscapes with ChromSCape
+- doi: 10.1038/nmeth.4401
+  title: 'chromVAR: inferring transcription-factor-associated accessibility from single-cell epigenomic data'
+- doi: 10.1038/s41467-021-21583-9
+  title: Comprehensive analysis of single cell ATAC-seq data with SnapATAC
+source_repos:
+- https://github.com/pinellolab/scATAC-benchmarking
+- https://github.com/vallotlab/ChromSCape_benchmarking
+- https://github.com/r3fang/SnapATAC
+- https://github.com/GreenleafLab/chromVAR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pinellolab/scATAC-benchmarking

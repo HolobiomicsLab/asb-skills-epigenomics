@@ -1,0 +1,19 @@
+name: QSEA
+slug: qsea
+version_used: 1.20.0
+edam_topics: []
+evidence_spans:
+- QSEA (v1.20.0) (sigmoidal model with empirical knowledge)
+- QSEA (v1.20.0) (sigmoidal model with empirical knowledge) (Lienhard et al. 2017)
+derived_from:
+- doi: 10.1093/bioinformatics/btad423
+  title: 'MEDIPIPE: an automated and comprehensive pipeline for cfMeDIP-seq data quality control and analysis'
+source_repos:
+- https://github.com/pughlab/MEDIPIPE
+- https://github.com/yzeng-lol/MEDIPIPE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pughlab/MEDIPIPE

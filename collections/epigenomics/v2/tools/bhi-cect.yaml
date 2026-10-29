@@ -1,0 +1,18 @@
+name: BHi-Cect
+slug: bhi-cect
+version_used: null
+edam_topics: []
+evidence_spans:
+- BHi-Cect aims to find preferentially self-interacting chromosome clusters using Hi-C data
+- BHi-Cect aims to find preferentially self-interacting chromosome clusters using Hi-C data.
+derived_from:
+- doi: 10.1093/nar/gkaa004
+  title: 'BHi-Cect: a top-down algorithm for identifying the multi-scale hierarchical structure of chromosomes'
+source_repos:
+- https://github.com/princeps091-binf/BHi-Cect
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/princeps091-binf/BHi-Cect

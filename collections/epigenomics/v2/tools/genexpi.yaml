@@ -1,0 +1,19 @@
+name: Genexpi
+slug: genexpi
+version_used: null
+edam_topics: []
+evidence_spans:
+- The core of Genexpi – the algorithm for fitting model parameters – is implemented in OpenCL, with a Java wrapper.
+- 'We introduce Genexpi: a tool to identify sigma factors by combining candidates obtained from ChIP experiments or literature mining with time-course gene expression data.'
+- CyGenexpi is built on top of the Genexpi software package that provides the core functionality also as a command-line tool and an interface to the R language.
+derived_from:
+- doi: 10.1186/s12859-018-2138-x
+  title: 'Genexpi: a toolset for identifying regulons and validating gene regulatory networks using time-course expression data'
+source_repos:
+- https://github.com/cas-bioinf/genexpi
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cas-bioinf/genexpi

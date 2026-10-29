@@ -1,0 +1,18 @@
+name: scVI
+slug: scvi
+version_used: null
+edam_topics: []
+evidence_spans:
+- Recently, a method called scVI adapted VAE for scRNA-seq data analysis18.
+- Recently, a method called scVI adapted VAE for scRNA-seq data analysis18. However, the standard VAE employed by scVI uses a single isotropic multivariable Gaussian distribution
+derived_from:
+- doi: 10.1038/s41467-019-12630-7
+  title: SCALE method for single-cell ATAC-seq analysis via latent feature extraction
+source_repos:
+- https://github.com/jsxlei/SCALE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jsxlei/SCALE

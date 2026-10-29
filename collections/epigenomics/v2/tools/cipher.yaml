@@ -1,0 +1,20 @@
+name: CIPHER
+slug: cipher
+version_used: null
+edam_topics: []
+evidence_spans:
+- CIPHER contains two main analysis functions. We have already touched on CIPHER’s enhancer prediction functionality
+- Enhancer prediction ("--function predictEnhancers") - predicts potential enhancers using a combination of ChIP-seq (H3K4me3, H3K4me1, H3K27Ac) and DNase-seq data
+- We have developed an integrative, stand-alone workflow platform, named CIPHER
+- We have developed an integrative, stand-alone workflow platform, named CIPHER, for the systematic analysis of several commonly used NGS datasets
+derived_from:
+- doi: 10.1186/s12859-017-1770-1
+  title: 'CIPHER: a flexible and extensive workflow platform for integrative next-generation sequencing data analysis and genomic regulatory element prediction'
+source_repos:
+- https://github.com/c-guzman/cipher-workflow-platform
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/c-guzman/cipher-workflow-platform

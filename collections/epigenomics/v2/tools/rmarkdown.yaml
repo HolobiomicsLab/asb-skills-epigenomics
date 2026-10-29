@@ -1,0 +1,21 @@
+name: rmarkdown
+slug: rmarkdown
+version_used: null
+edam_topics: []
+evidence_spans:
+- '%\VignetteEngine{knitr::rmarkdown}'
+- 'output: rmarkdown::html_notebook'
+derived_from:
+- doi: 10.1093/bioadv/vbad049
+  title: 'EpiCompare: R package for the comparison and quality control of epigenomic peak files'
+- doi: 10.1038/s41598-019-52886-z
+  title: Identification of candidate cancer drivers by integrative Epi-DNA and Gene Expression (iEDGE) data analysis
+source_repos:
+- https://github.com/neurogenomics/EpiCompare
+- https://github.com/montilab/iEDGE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/neurogenomics/EpiCompare

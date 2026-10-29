@@ -1,0 +1,20 @@
+name: Fit-Hi-C
+slug: fit-hi-c
+version_used: null
+edam_topics: []
+evidence_spans:
+- Fit-Hi-C21 performs a distance-dependent spline fitting procedure to refine its global background
+derived_from:
+- doi: 10.1016/j.csbj.2021.05.041
+  title: 'covNorm: An R package for coverage based normalization of Hi-C and capture Hi-C data'
+- doi: 10.1038/s41467-020-17239-9
+  title: A supervised learning framework for chromatin loop detection in genome-wide contact maps
+source_repos:
+- https://github.com/kaistcbfg/covNormRpkg
+- https://github.com/tariks/peakachu
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kaistcbfg/covNormRpkg

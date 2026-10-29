@@ -1,0 +1,45 @@
+name: TensorFlow
+slug: tensorflow
+version_used: 1.1.0
+edam_topics: []
+evidence_spans:
+- 'TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems'
+- Scikit-learn 0.24.2 and Tensorflow 2.4.1 were used as the backend for machine learning algorithms and deep learning models
+- Tensorflow 2.4.1 were used as the backend for machine learning algorithms and deep learning models
+- Our model implemenation utilized the Keras library (https://keras.io/) with TensorFlow as a backend (https://www.tensorflow.org/) for deep learning in iMEGES
+- utilized the Keras library (https://keras.io/) with TensorFlow as a backend
+- Leveraging deep neural network on the TensorFlow framework, we developed a computational tool, integrated Mental-disorder GEnome Score (iMEGES)
+- Our model implemenation utilized the Keras library (https://keras.io/) with TensorFlow as a backend
+- tensorflow==2.6.0
+derived_from:
+- doi: 10.1093/nar/gkz672
+  title: Prediction of regulatory motifs from human Chip-sequencing data using a deep learning framework
+- doi: 10.1093/bib/bbae083
+  title: 'Enhancer-MDLF: a novel deep learning framework for identifying cell-specific enhancers'
+- doi: 10.1016/j.isci.2022.105535
+  title: 'GILoop: Robust chromatin loop calling across multiple sequencing depths on Hi-C data'
+- doi: 10.1016/j.csbj.2022.11.034
+  title: "<i>EpiCas-DL</i>\n                    : Predicting sgRNA activity for CRISPR-mediated epigenome editing by deep learning"
+- doi: 10.1186/s12859-018-2469-7
+  title: 'iMEGES: integrated mental-disorder GEnome score by deep neural network for prioritizing the susceptibility genes for mental disorders in personal genomes'
+- doi: 10.1093/nar/gkac824
+  title: 'iPro-WAEL: a comprehensive and robust framework for identifying promoters in multiple species'
+- doi: 10.1093/bioinformatics/btad060
+  title: 'TIVAN-indel: a computational framework for annotating and predicting non-coding regulatory small insertions and deletions'
+- doi: 10.1038/s41592-020-0960-3
+  title: 'DeepC: predicting 3D genome folding using megabase-scale transfer learning'
+source_repos:
+- https://github.com/OSU-BMBL/DESSO
+- https://github.com/HaoWuLab-Bioinformatics/Enhancer-MDLF
+- https://github.com/fzbio/GILoop
+- https://github.com/yangqianq/EpiCas-DL
+- https://github.com/WGLab/iMEGES
+- https://github.com/HaoWuLab-Bioinformatics/iPro-WAEL
+- https://github.com/lichen-lab/TIVAN-indel
+- https://github.com/rschwess/deepC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/OSU-BMBL/DESSO

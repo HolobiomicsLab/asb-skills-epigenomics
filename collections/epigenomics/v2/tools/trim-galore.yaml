@@ -1,0 +1,22 @@
+name: Trim Galore
+slug: trim-galore
+version_used: 0.6.7
+edam_topics: []
+evidence_spans:
+- are removed by Trim Galore (v0.6.7)
+- the adapter sequence and low low-quality bases of raw reads are removed by Trim Galore (v0.6.7)
+- Paired-end reads were trimmed using Trim Galore 0.6.3 (option –trim1).
+derived_from:
+- doi: 10.1093/bioinformatics/btad423
+  title: 'MEDIPIPE: an automated and comprehensive pipeline for cfMeDIP-seq data quality control and analysis'
+- doi: 10.1093/nar/gkab705
+  title: Rapid identification of methylase specificity (RIMS-seq) jointly identifies methylated motifs and generates shotgun sequencing of bacterial genomes
+source_repos:
+- https://github.com/yzeng-lol/MEDIPIPE
+- https://github.com/Ettwiller/RIMS-seq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yzeng-lol/MEDIPIPE
