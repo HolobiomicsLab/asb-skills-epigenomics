@@ -1,0 +1,21 @@
+{
+  "workflow": "chipseq_peak_motif_discovery",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "The nonprimary leaf chipseq-fasta-dataset-handling benchmarks tools on prebuilt FASTAs rather than constructing signal and background FASTAs.",
+      "severity": "advisory",
+      "slug": "chipseq-fasta-dataset-handling",
+      "stage": "construct_motif_fastas"
+    }
+  ],
+  "verdict": "pass"
+}

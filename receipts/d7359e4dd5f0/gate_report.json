@@ -1,8 +1,8 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-10-29T17:26:21.673059+00:00",
-  "collection_dir": "/private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/cand/epigenomics",
-  "corpus_path": "/private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/cand/epigenomics/corpus.yaml",
+  "generated_at": "2026-10-29T19:19:08.924747+00:00",
+  "collection_dir": "/private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/mission-017/land/epigenomics/candidate",
+  "corpus_path": "/private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/mission-017/land/epigenomics/candidate/corpus.yaml",
   "mode": "strict",
   "strict": true,
   "promote_logic_source": "vendored-fallback",
@@ -41,7 +41,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "8edfc50da2e3d882a3e9a57ec25a222caae9f44a403b8ae3e2fe8707a1015e5f",
+      "sha256": "eeea470acdc0e212bd15a6579d0a99978c520718ebc30febd9581e9537a87cf7",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -51,6 +51,11 @@
           "path": ".claude-plugin/plugin.json",
           "bytes": 521,
           "sha256": "5e0de96a6396037a86d95cedd5e54812766bdc237caf4954f6a318ce333d4882"
+        },
+        {
+          "path": ".zenodo.json",
+          "bytes": 2769,
+          "sha256": "92e0c05eed72609a29e72ec31284d90f1ad649bfbe4bfbdd070e7defdf3d741f"
         },
         {
           "path": "CITATION.cff",
@@ -69,7 +74,7 @@
         {
           "path": "collection.yaml",
           "bytes": 105501,
-          "sha256": "e20f6fce0003c83db1cc1717ba0775d29cb8dddf91dbed06d4e848df0d75b38a"
+          "sha256": "7c97ea88cd36b9467fc11d95d9653e331fa1a8c7a9e151aa5f19e054e40af91d"
         },
         {
           "path": "corpus.yaml",
@@ -23431,6 +23436,62 @@
           "path": "tools_index.json",
           "bytes": 597098,
           "sha256": "6a37899a4cb21e05a49e849ef18b0f458304bc6e03fbb7c396cc297a7e492dc4"
+        },
+        {
+          "path": "workflows",
+          "directory": true
+        },
+        {
+          "path": "workflows/_workflow_router",
+          "directory": true
+        },
+        {
+          "path": "workflows/_workflow_router/SKILL.md",
+          "bytes": 3077,
+          "sha256": "b51e8aa136eb631b4ae0c04b6094757153c1ddbaccd79aacb09a0d2343358750"
+        },
+        {
+          "path": "workflows/bisulfite-dmr-analysis",
+          "directory": true
+        },
+        {
+          "path": "workflows/bisulfite-dmr-analysis/README.md",
+          "bytes": 1738,
+          "sha256": "c108793da9d2fa6c7d92685447440b96ca3e4896a77590bb1390d31b325fe55c"
+        },
+        {
+          "path": "workflows/bisulfite-dmr-analysis/SKILL.md",
+          "bytes": 5884,
+          "sha256": "ef34950db3f132539d4992c21a2babe7fd39524736ddec9691fa86771f9cf67e"
+        },
+        {
+          "path": "workflows/bisulfite-dmr-analysis/workflow.yaml",
+          "bytes": 3851,
+          "sha256": "ea11934fa8605191576576d7a6b4af824f435a95820f677663b1c0973a3d654e"
+        },
+        {
+          "path": "workflows/chipseq-peak-motif-discovery",
+          "directory": true
+        },
+        {
+          "path": "workflows/chipseq-peak-motif-discovery/README.md",
+          "bytes": 1738,
+          "sha256": "22619820e34cdf3174a792aa5e403d7c6fac4b5304469fe87bfeea49c9dd6fdd"
+        },
+        {
+          "path": "workflows/chipseq-peak-motif-discovery/SKILL.md",
+          "bytes": 6120,
+          "sha256": "e8d1e59992c35ba5eb677e38595ec902dcd526c51dc522ce6a6d36ca6054f30f"
+        },
+        {
+          "path": "workflows/chipseq-peak-motif-discovery/workflow.yaml",
+          "bytes": 4422,
+          "sha256": "827b240bb027240b6cf93db8412db4b34c26213ac85ebcae67c2cfd298e27cb1"
+        },
+        {
+          "path": "workflows/workflows_index.json",
+          "bytes": 1698,
+          "sha256": "00c773436a901080c9249c684d26c6ad2a9fa3ddba980b2a3d7e001b0a4f9d96"
         }
       ],
       "excluded_paths": [
@@ -23449,7 +23510,7 @@
   "inventory": {
     "skills": 2295,
     "tools": 532,
-    "workflows": 0,
+    "workflows": 2,
     "papers": 92,
     "dois": 92
   },
@@ -23458,7 +23519,6 @@
   "verification_scope": "content-policy checks and bound artifact integrity",
   "release_verified": true,
   "zero_item_checks": [
-    "composite_workflows",
     "layout_packaging",
     "unit_closure",
     "catalogue_membership",
@@ -23468,11 +23528,11 @@
   "blocking": false,
   "exit_code": 0,
   "summary_counts": {
-    "pass": 11,
+    "pass": 12,
     "warn": 0,
     "fail": 0,
     "uncheckable": 0,
-    "not_applicable": 2
+    "not_applicable": 1
   },
   "hard_gate_ids": [
     2,
@@ -23586,21 +23646,16 @@
     },
     {
       "name": "composite_workflows",
-      "status": "not_applicable",
+      "status": "pass",
       "gates": [],
       "hard_gate": false,
-      "summary": "Composite workflow super-skills resolve to real leaves with a valid typed DAG and matching layout count.",
-      "n_findings": 1,
-      "details": [
-        {
-          "status": "not_applicable",
-          "message": "No workflows/ subtree; no workflow validation performed."
-        }
-      ],
+      "summary": "Composite workflow super-skills resolve to real leaves with a valid typed DAG and matching layout count.  (2 workflows checked)",
+      "n_findings": 0,
+      "details": [],
       "scope": "composite workflows",
-      "required": false,
+      "required": true,
       "counts": {
-        "checked": 0,
+        "checked": 2,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -23676,7 +23731,7 @@
       "scope": "payload files",
       "required": true,
       "counts": {
-        "checked": 2837,
+        "checked": 2846,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -23763,5 +23818,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "4adcefae6cc73ebb32294d3ba6ba377bcde89ac6382950307949907d9c19fced"
+  "receipt_sha256": "26e035b893b8fd4d0114d354d0bb891b3a2dc589862e47ab1e1d57be8053322b"
 }
