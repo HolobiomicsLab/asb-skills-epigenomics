@@ -1,6 +1,6 @@
-W1029 18:27:07.219000 64352 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+W1031 17:36:38.164000 24546 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
 Could not reach the Hub (Cannot reach https://huggingface.co/api/models/BAAI/bge-small-en-v1.5: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'BAAI/bge-small-en-v1.5'.
 
 Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
-Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6491.62it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7993.59it/s]
 {"components_ge_0_90": 193, "components_ge_0_95": 14, "dry_run": false, "model": "BAAI/bge-small-en-v1.5", "output_status": "written", "pairs_0_90_to_0_95": 342, "pairs_ge_0_95": 15, "runs": 92, "skills": 2295, "surplus_leaves": {"ge_0_90": 314, "ge_0_95": 15}}
