@@ -1,5 +1,5 @@
 {
-  "builds_root": "/private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/cand/builds/epigenomics",
+  "builds_root": "epigenomics",
   "counts": {
     "builds": 92,
     "input_files": 7164,
@@ -7176,7 +7176,7 @@
     "corpus/skills/zero-inflated-poisson-background-modeling/tools.json": "8c87b8c6d59d73905f007295d3ed6526a5051c464927d5ab5ad1559e9a4771f9",
     "release_creators.yaml": "7ff7405a2af4aadf66a609161f381c90e236961a3a268e83a168b615f1009cb8"
   },
-  "output_tree_sha256": "7b53b3951748995f8cf6bcbafcc41de959b5665f4747376d02df24118d36354a",
+  "output_tree_sha256": "2ce8904ec231e299844c69d082ff2296765ae5779e16252a86c7577f37933cbd",
   "router_index": "provisional skills_index.json derived from leaf frontmatter before router_shape.shape",
   "status": "collected",
   "version": "v2"
