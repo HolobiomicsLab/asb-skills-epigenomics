@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-10-31T16:40:11.312558+00:00",
+  "generated_at": "2026-10-31T17:19:50.680100+00:00",
   "collection_dir": "collections/epigenomics/v2",
   "corpus_path": "collections/epigenomics/v2/corpus.yaml",
   "mode": "strict",
@@ -48,7 +48,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "e673d7c3f8225f03e68cd748008b9d6a52abfc8ecb5041ae10ceaba2a55ab42e",
+      "sha256": "ab59b9b5b287ff2154a2040dd1dc8933ee28326ef3d0e04a09ec1d82d64348a3",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -61,8 +61,8 @@
         },
         {
           "path": ".zenodo.json",
-          "bytes": 2769,
-          "sha256": "92e0c05eed72609a29e72ec31284d90f1ad649bfbe4bfbdd070e7defdf3d741f"
+          "bytes": 2534,
+          "sha256": "fa41c68132fe356e77c0f1e8cccee4dff9bee00114754faf65d8610f7a2afb99"
         },
         {
           "path": "CITATION.cff",
@@ -23888,5 +23888,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "38c86350f53183c5e907a83daf44a639821723a165846e5d49a81cc24b7d153b"
+  "receipt_sha256": "833d5ac9b736c16fe23b38d49fc5299b4914d415d50672eb78b4bc9b8f5aa0ef"
 }
