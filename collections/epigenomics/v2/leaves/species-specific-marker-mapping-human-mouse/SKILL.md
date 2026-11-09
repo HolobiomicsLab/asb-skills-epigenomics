@@ -10,7 +10,7 @@ when_to_use_negative:
   database, not marker gene identification (findmarkergene handles that)
 - A limited or tissue-mismatched reference would be the only available option, since
   a limited reference database can lead to incorrect annotation
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0605
@@ -43,7 +43,7 @@ metadata:
   tools:
   - Seurat
   - scCATCH
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0605

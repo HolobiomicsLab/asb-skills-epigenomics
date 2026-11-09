@@ -13,8 +13,7 @@ when_to_use_negative:
   — SCALE is not specifically designed to identify and remove batch effects or other
   artifacts from the input data.
 edam_operation: http://edamontology.org/operation_2939
-edam_topics:
-- http://edamontology.org/topic_3611
+edam_topics: []
 tools:
 - name: SCALE
   role: 'Primary method under test: run on each corrupted count matrix via SCALE.py
@@ -47,8 +46,7 @@ metadata:
   - scVI
   - scanpy
   edam_operation: http://edamontology.org/operation_2939
-  edam_topics:
-  - http://edamontology.org/topic_3611
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

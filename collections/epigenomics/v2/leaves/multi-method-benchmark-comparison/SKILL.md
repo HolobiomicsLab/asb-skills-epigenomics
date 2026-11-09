@@ -13,7 +13,7 @@ when_to_use_negative:
 - The question is about sharp/point-source peaks rather than broad domains; RECOGNICER,
   SICER, RSEG, and MUSIC are broad-domain or multiscale callers, and the whole-gene-body
   coverage metric assumes kb-to-Mb domains.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3169
 - http://edamontology.org/topic_0203
@@ -49,7 +49,7 @@ metadata:
   - RECOGNICER
   - RSEG
   - SICER
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3169
   - http://edamontology.org/topic_0203

@@ -11,7 +11,7 @@ when_to_use_negative:
 - The transcription factors of interest are known to regulate in complexes (e.g. MBP1/SWI4/SWI6),
   where Genexpi's single-regulator model is expected to break and yield random-indistinguishable
   results.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_0203
@@ -48,7 +48,7 @@ metadata:
   - Genexpi
   - R
   - TD-ARACNE
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_0203

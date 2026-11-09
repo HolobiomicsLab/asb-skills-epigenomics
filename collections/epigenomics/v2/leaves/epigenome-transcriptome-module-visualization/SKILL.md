@@ -11,7 +11,7 @@ when_to_use_negative:
   and more appropriate
 - The interactome lacks symbol-level gene identifiers matching the module genes —
   mapping errors will produce empty or misleading module plots
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0602
@@ -47,7 +47,7 @@ metadata:
   - SMITE
   - goseq
   - igraph
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0602

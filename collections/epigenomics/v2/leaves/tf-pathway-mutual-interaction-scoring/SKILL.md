@@ -10,7 +10,7 @@ when_to_use_negative:
   known TF–target pairs
 - When you need direct TF–TF or protein–protein regulatory events rather than TF-to-pathway
   interactions via target genes
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0602
@@ -42,7 +42,7 @@ metadata:
   tools:
   - Java
   - TSMiner
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0602

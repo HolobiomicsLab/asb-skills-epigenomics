@@ -11,7 +11,7 @@ when_to_use_negative:
   cluster labels or differential test results) — there is no gene list to over-representation-test.
 - Non-human epigenomic data — the region-to-gene linking in ChromSCape uses the human
   Gencode_hg38_v26 reference.
-edam_operation: http://edamontology.org/operation_3759
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 tools:
@@ -44,7 +44,7 @@ metadata:
   - ChromSCape
   - R
   - Shiny
-  edam_operation: http://edamontology.org/operation_3759
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   provenance_tier: literature

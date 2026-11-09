@@ -12,7 +12,7 @@ when_to_use_negative:
   be violated
 - ATAC-me or similar protocols that instead require setting -k nextera for library-kit
   handling rather than a 3-letter/4-letter mode decision
-edam_operation: http://edamontology.org/operation_3298
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3295
 - http://edamontology.org/topic_3168
@@ -51,7 +51,7 @@ metadata:
   - Msuite
   - bowtie2
   - samtools
-  edam_operation: http://edamontology.org/operation_3298
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3295
   - http://edamontology.org/topic_3168

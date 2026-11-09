@@ -13,7 +13,6 @@ when_to_use_negative:
   explicitly does not support
 edam_topics:
 - http://edamontology.org/topic_3295
-- http://edamontology.org/topic_2648
 tools:
 - name: bed
   role: R package implementing Bayesian Epiallele Detection (bed_fit, bed_marginal)
@@ -44,7 +43,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3295
-  - http://edamontology.org/topic_2648
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

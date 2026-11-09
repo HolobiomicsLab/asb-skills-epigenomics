@@ -11,7 +11,7 @@ when_to_use_negative:
 - When studying acquired/secondary resistance requiring post-treatment data, which
   CCLE lacks (e.g., erlotinib resistance via acquired STAT3 activation could not be
   detected)
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3168
@@ -49,7 +49,7 @@ metadata:
   - Python
   - R
   - RePhine
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3168

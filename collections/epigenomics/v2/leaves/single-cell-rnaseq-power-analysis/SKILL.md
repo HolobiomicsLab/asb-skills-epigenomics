@@ -12,7 +12,7 @@ when_to_use_negative:
 - The study targets variance QTL detection or continuous annotations like pseudo time
   — the article did not address variance QTLs (no effect size priors) and pseudo time
   would need discretization
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3512
 - http://edamontology.org/topic_0203
@@ -50,7 +50,7 @@ metadata:
   - edgeR
   - limma-voom
   - scPower
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3512
   - http://edamontology.org/topic_0203

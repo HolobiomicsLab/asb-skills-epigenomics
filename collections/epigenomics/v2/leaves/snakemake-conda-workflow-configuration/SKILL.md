@@ -10,7 +10,7 @@ when_to_use_negative:
   than a reproducible end-to-end multi-sample workflow
 - No Conda-based Python3 distribution or cluster engine is available and the Snakemake
   --use-conda environment deployment cannot be used
-edam_operation: http://edamontology.org/operation_3764
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3295
@@ -60,7 +60,7 @@ metadata:
   - Snakemake
   - Trim Galore
   - UMI-tools
-  edam_operation: http://edamontology.org/operation_3764
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3295

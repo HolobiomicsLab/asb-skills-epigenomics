@@ -11,7 +11,7 @@ when_to_use_negative:
   are more appropriate
 - Only a non-identical reference genome exists and no SPAdes assembly can be derived
   from the data — option 2 requires the reference to be exactly the same strain
-edam_operation: http://edamontology.org/operation_0329
+edam_operation: http://edamontology.org/operation_0474
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0102
@@ -58,7 +58,7 @@ metadata:
   - get_motif_all.pl
   - mapping.pl
   - split_mapped_reads.pl
-  edam_operation: http://edamontology.org/operation_0329
+  edam_operation: http://edamontology.org/operation_0474
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0102

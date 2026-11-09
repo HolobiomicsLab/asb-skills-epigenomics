@@ -11,7 +11,7 @@ when_to_use_negative:
   sequencing, tpmData, pairs) instead
 - You intend to train a TargetFinder-style model requiring hundreds of cell-specific
   genomic datasets — this skill only computes CT-agnostic statistics
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -50,7 +50,7 @@ metadata:
   - computeGenericFeatures
   - createPairs
   - crupR
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

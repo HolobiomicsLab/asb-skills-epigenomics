@@ -11,7 +11,7 @@ when_to_use_negative:
   — use SHAP.py for exploring important motifs instead of the prediction pipeline
 - The target task is promoter or other non-enhancer genomic element classification
   outside the enhancer/enhancer-promoter scope of this framework
-edam_operation: http://edamontology.org/operation_0462
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_0749
@@ -61,7 +61,7 @@ metadata:
   - pip
   - scikit-learn
   - tensorflow
-  edam_operation: http://edamontology.org/operation_0462
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_0749

@@ -10,7 +10,7 @@ when_to_use_negative:
   so a Rank-1 'drawn' set for run_hyperEnrichment cannot be defined
 - When the question concerns trans-driver pathway enrichment (GMT-based h.all/c2.cp/c3.tft
   testing) rather than dependency-based validation
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0625
 tools:
@@ -40,7 +40,7 @@ metadata:
   - DepMap
   - R
   - iEDGE
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0625
   provenance_tier: literature

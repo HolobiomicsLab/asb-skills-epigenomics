@@ -11,7 +11,7 @@ when_to_use_negative:
   one-class SVM) rather than window-level divergence testing of TT curves
 - Windows have mismatched lengths that cannot be aligned per non-B type, since IWT
   requires aligned curves within windows of matching length
-edam_operation: http://edamontology.org/operation_2262
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0102
@@ -47,7 +47,7 @@ metadata:
   - numpy
   - pandas
   - seaborn
-  edam_operation: http://edamontology.org/operation_2262
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0102

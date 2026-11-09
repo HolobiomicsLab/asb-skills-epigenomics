@@ -13,7 +13,6 @@ when_to_use_negative:
   across compute nodes
 edam_operation: http://edamontology.org/operation_2945
 edam_topics:
-- http://edamontology.org/topic_3557
 - http://edamontology.org/topic_0659
 tools:
 - name: Skipper
@@ -58,7 +57,6 @@ metadata:
   - snakemake-executor-plugin-slurm 1.4.0
   edam_operation: http://edamontology.org/operation_2945
   edam_topics:
-  - http://edamontology.org/topic_3557
   - http://edamontology.org/topic_0659
   provenance_tier: literature
 license: CC-BY-4.0

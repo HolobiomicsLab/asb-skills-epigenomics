@@ -11,7 +11,7 @@ when_to_use_negative:
   pituitary)
 - The goal is recessive-disorder SV interpretation — POSTRE is oriented towards dominant
   disorders and its capacity for recessive phenotypes has not been specifically evaluated
-edam_operation: http://edamontology.org/operation_3958
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0625
 - http://edamontology.org/topic_3175
@@ -51,7 +51,7 @@ metadata:
   - POSTRE_multiSV()
   - R
   - Shiny
-  edam_operation: http://edamontology.org/operation_3958
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0625
   - http://edamontology.org/topic_3175

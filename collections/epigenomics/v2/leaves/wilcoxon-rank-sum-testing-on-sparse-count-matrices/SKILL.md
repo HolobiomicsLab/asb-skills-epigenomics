@@ -14,7 +14,7 @@ when_to_use_negative:
   enrichment between defined subpopulations
 edam_operation: http://edamontology.org/operation_3222
 edam_topics:
-- http://edamontology.org/topic_0182
+- http://edamontology.org/topic_0080
 tools:
 - name: ChromSCape
   role: Implements the cluster-vs-rest Wilcoxon rank-sum differential test on normalized
@@ -45,7 +45,7 @@ metadata:
   - Shiny
   edam_operation: http://edamontology.org/operation_3222
   edam_topics:
-  - http://edamontology.org/topic_0182
+  - http://edamontology.org/topic_0080
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

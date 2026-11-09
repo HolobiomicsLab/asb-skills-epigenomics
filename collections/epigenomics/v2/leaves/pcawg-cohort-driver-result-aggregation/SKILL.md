@@ -11,7 +11,6 @@ when_to_use_negative:
 - No gold-standard set (e.g. CGC) or comparator method calls are available, so precision/recall/F1
   cannot be defined
 edam_topics:
-- http://edamontology.org/topic_2648
 - http://edamontology.org/topic_0622
 tools:
 - name: DriverPower
@@ -42,7 +41,6 @@ metadata:
   - bedtools
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_2648
   - http://edamontology.org/topic_0622
   provenance_tier: literature
 license: CC-BY-4.0

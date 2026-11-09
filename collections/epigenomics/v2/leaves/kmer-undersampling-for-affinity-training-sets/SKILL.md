@@ -15,7 +15,6 @@ when_to_use_negative:
   yeast G1 nucleosome maps) rather than rebuilding an in vitro uPBM training set.
 edam_operation: http://edamontology.org/operation_2454
 edam_topics:
-- http://edamontology.org/topic_3675
 - http://edamontology.org/topic_3474
 tools:
 - name: DNAffinity
@@ -48,7 +47,6 @@ metadata:
   - MEME suite
   edam_operation: http://edamontology.org/operation_2454
   edam_topics:
-  - http://edamontology.org/topic_3675
   - http://edamontology.org/topic_3474
   provenance_tier: literature
 license: CC-BY-4.0

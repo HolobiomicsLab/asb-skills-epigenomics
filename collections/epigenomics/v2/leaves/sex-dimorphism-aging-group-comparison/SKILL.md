@@ -12,10 +12,9 @@ when_to_use_negative:
   of such comparisons will not reproduce a reported finding
 - The analysis requires parametric modeling or covariate adjustment rather than non-parametric
   two-group rank-sum testing
-edam_operation: http://edamontology.org/operation_3492
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
-- http://edamontology.org/topic_2228
 tools:
 - name: pandas
   role: Load the Fig. 1d Source Data spreadsheet and subset donor records by sex and
@@ -40,10 +39,9 @@ metadata:
   - R Shiny
   - pandas
   - scipy
-  edam_operation: http://edamontology.org/operation_3492
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
-  - http://edamontology.org/topic_2228
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

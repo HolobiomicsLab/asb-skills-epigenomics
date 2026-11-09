@@ -12,7 +12,7 @@ when_to_use_negative:
   to observe the overhead trend relative to task runtime
 - The tasks under comparison are not re-implemented identically across the two systems;
   comparing non-equivalent task chains invalidates the overhead comparison
-edam_operation: http://edamontology.org/operation_3875
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3063
@@ -42,7 +42,7 @@ metadata:
   - Java
   - Snakemake
   - Watchdog
-  edam_operation: http://edamontology.org/operation_3875
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3063

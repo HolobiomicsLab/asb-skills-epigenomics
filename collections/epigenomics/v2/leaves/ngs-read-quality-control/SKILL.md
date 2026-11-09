@@ -9,7 +9,7 @@ when_to_use_negative:
   QC checking as part of the workflow, not trimming/cleaning of reads.
 - The analysis goal is a custom workflow built from scratch — the shipped QC step
   belongs to the example RNA-seq workflow requiring bwa and ContextMap2.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0080
 tools:
@@ -35,7 +35,7 @@ metadata:
   tools:
   - Watchdog
   - Watchdog modules
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0080
   provenance_tier: literature

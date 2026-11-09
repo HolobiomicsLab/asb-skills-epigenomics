@@ -12,7 +12,7 @@ when_to_use_negative:
 - Transformer-based DNA foundation models with quadratic self-attention (DNABERT-1,
   DNABERT-2, Nucleotide Transformer) are the models of interest — the paper excludes
   them because the quadratic cost makes 100k-bp+ tasks infeasible.
-edam_operation: http://edamontology.org/operation_0434
+edam_operation: http://edamontology.org/operation_2454
 edam_topics:
 - http://edamontology.org/topic_0622
 tools:
@@ -59,7 +59,7 @@ metadata:
   - HyenaDNA
   - Puffin
   - conda
-  edam_operation: http://edamontology.org/operation_0434
+  edam_operation: http://edamontology.org/operation_2454
   edam_topics:
   - http://edamontology.org/topic_0622
   provenance_tier: literature

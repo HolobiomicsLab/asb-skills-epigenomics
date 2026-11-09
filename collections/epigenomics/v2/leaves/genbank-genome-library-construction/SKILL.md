@@ -11,7 +11,7 @@ when_to_use_negative:
 - The goal is motif discovery without defined genomic coordinates — this skill only
   extracts position-relative windows; use de novo motif finders like MEME or BioProspector
   instead
-edam_operation: http://edamontology.org/operation_2402
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0749
@@ -59,7 +59,7 @@ metadata:
   - dbbk
   - delila
   - p2c
-  edam_operation: http://edamontology.org/operation_2402
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0749

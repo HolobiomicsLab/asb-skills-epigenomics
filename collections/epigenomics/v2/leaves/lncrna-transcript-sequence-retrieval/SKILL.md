@@ -10,7 +10,7 @@ when_to_use_negative:
   non-longest transcript should be used instead of the longest-transcript heuristic
 - The annotation release must differ from the rest of the pipeline (mixing GENCODE
   v32 coordinates with other builds breaks bedtools-shuffled negative matching)
-edam_operation: http://edamontology.org/operation_2402
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0749
 - http://edamontology.org/topic_0622
@@ -49,7 +49,7 @@ metadata:
   - ViennaRNA
   - bedtools
   - pROC
-  edam_operation: http://edamontology.org/operation_2402
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0749
   - http://edamontology.org/topic_0622

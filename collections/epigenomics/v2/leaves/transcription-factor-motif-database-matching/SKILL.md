@@ -11,7 +11,7 @@ when_to_use_negative:
 - The goal is TF-DNA binding prediction accuracy (AUC) rather than motif annotation/classification
 edam_operation: http://edamontology.org/operation_0238
 edam_topics:
-- http://edamontology.org/topic_0182
+- http://edamontology.org/topic_0080
 tools:
 - name: DESSO
   role: Generates the de novo sequence motifs from the 690 ENCODE ChIP-seq datasets
@@ -44,7 +44,7 @@ metadata:
   - TRANSFAC
   edam_operation: http://edamontology.org/operation_0238
   edam_topics:
-  - http://edamontology.org/topic_0182
+  - http://edamontology.org/topic_0080
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

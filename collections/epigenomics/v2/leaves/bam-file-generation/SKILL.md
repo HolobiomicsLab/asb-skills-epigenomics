@@ -12,8 +12,7 @@ when_to_use_negative:
   PET structure), since deduplication and PET pairing logic assume paired end-tagged
   reads
 edam_operation: http://edamontology.org/operation_0362
-edam_topics:
-- http://edamontology.org/topic_3611
+edam_topics: []
 tools:
 - name: ChIA-PIPE
   role: Orchestrates the memaln tag-alignment module using a hybrid BWA-ALN/BWA-MEM
@@ -39,8 +38,7 @@ metadata:
   - CPU (ChIA-PET Utilities)
   - ChIA-PIPE
   edam_operation: http://edamontology.org/operation_0362
-  edam_topics:
-  - http://edamontology.org/topic_3611
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

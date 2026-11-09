@@ -11,7 +11,7 @@ when_to_use_negative:
 - The goal is peak calling on ChIP-Seq read data itself (e.g., HPeak HMM-based enrichment),
   rather than calling significance on genome-partitioned test statistics
 edam_topics:
-- http://edamontology.org/topic_0220
+- http://edamontology.org/topic_3489
 provenance:
   source_task_ids:
   - task_003
@@ -26,7 +26,7 @@ metadata:
   tools: []
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_0220
+  - http://edamontology.org/topic_3489
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

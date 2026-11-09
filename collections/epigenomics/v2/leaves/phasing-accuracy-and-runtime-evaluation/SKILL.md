@@ -10,7 +10,7 @@ when_to_use_negative:
   support only SNPs and short insertions/deletions
 - Input is already a phased VCF from a population/trio phaser rather than fragment
   files — this skill evaluates fragment-based haplotype assembly
-edam_operation: http://edamontology.org/operation_0466
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0102
 - http://edamontology.org/topic_0622
@@ -67,7 +67,7 @@ metadata:
   - SpecHap
   - arpack-ng
   - htslib
-  edam_operation: http://edamontology.org/operation_0466
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0102
   - http://edamontology.org/topic_0622

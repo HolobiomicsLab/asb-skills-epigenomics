@@ -11,7 +11,7 @@ when_to_use_negative:
   of parsing a workflow XML
 - A GUI-driven construction/execution session is required — use the workflow designer
   (watchdogDesigner.sh) rather than the command-line XML parsing loop
-edam_operation: http://edamontology.org/operation_3720
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_0769
@@ -44,7 +44,7 @@ metadata:
   - Watchdog
   - XML
   - workflowValidator.jar
-  edam_operation: http://edamontology.org/operation_3720
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_0769

@@ -11,8 +11,7 @@ when_to_use_negative:
 - You only need simple compartment calls (A/B) rather than multiple probabilistic
   sub-compartments within a cell population
 edam_operation: http://edamontology.org/operation_3893
-edam_topics:
-- http://edamontology.org/topic_3933
+edam_topics: []
 tools:
 - name: CscoreTool-M
   role: Implements the sequential per-chromosome Ci / alpha-beta Newton maximum-likelihood
@@ -39,8 +38,7 @@ metadata:
   - HOMER
   - g++
   edam_operation: http://edamontology.org/operation_3893
-  edam_topics:
-  - http://edamontology.org/topic_3933
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3198
 edam_topics:
 - http://edamontology.org/topic_3674
-- http://edamontology.org/topic_3675
 tools:
 - name: Bismark
   role: Performs in silico bisulfite conversion of reads and reference genome, then
@@ -58,7 +57,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3198
   edam_topics:
   - http://edamontology.org/topic_3674
-  - http://edamontology.org/topic_3675
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

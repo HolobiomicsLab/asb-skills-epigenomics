@@ -10,7 +10,7 @@ when_to_use_negative:
   like H3K27me3/H3K9me3 are the input, since competing peak-caller-based region sets
   behave differently on broad marks
 - Only one gene set exists (no DE gene list), making a 2x2 contingency table undefined
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3169
 - http://edamontology.org/topic_0203
@@ -42,7 +42,7 @@ metadata:
   - Bioconductor
   - R
   - histoneHMM
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3169
   - http://edamontology.org/topic_0203

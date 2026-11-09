@@ -11,8 +11,7 @@ when_to_use_negative:
 - The dataset is too small to yield loops with PET count ≥ 3 and peak support, in
   which case loop calls would be unreliable.
 edam_operation: http://edamontology.org/operation_3221
-edam_topics:
-- http://edamontology.org/topic_3611
+edam_topics: []
 tools:
 - name: ChIA-PIPE
   role: Fully automated pipeline orchestrating linker filtering, read mapping, peak
@@ -46,8 +45,7 @@ metadata:
   - HiGlass
   - Juicebox
   edam_operation: http://edamontology.org/operation_3221
-  edam_topics:
-  - http://edamontology.org/topic_3611
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

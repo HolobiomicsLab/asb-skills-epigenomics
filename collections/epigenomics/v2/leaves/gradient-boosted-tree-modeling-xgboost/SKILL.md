@@ -12,7 +12,7 @@ when_to_use_negative:
 - Only a single sgRNA needs an activity score — use the prebuilt EpiCas-DL models
   (CRISPRoff_seq/CRISPRoff_epi/CRISPRa_seq/CRISPRa_epi) via example.py instead of
   retraining
-edam_operation: http://edamontology.org/operation_3934
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_0622
@@ -49,7 +49,7 @@ metadata:
   - Python 3.6
   - TreeExplainer
   - XGBoost
-  edam_operation: http://edamontology.org/operation_3934
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_0622

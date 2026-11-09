@@ -10,7 +10,7 @@ when_to_use_negative:
 - You need a genome-wide production fit rather than a method comparison — use the
   standard GenoGAM workflow (GenoGAMDataSet → computeSizeFactors → genogam → computeSignificance)
   without ROC/AUC benchmarking
-edam_operation: http://edamontology.org/operation_1221
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3169
 - http://edamontology.org/topic_0091
@@ -50,7 +50,7 @@ metadata:
   - GenoGAM 2.0
   - R
   - csaw
-  edam_operation: http://edamontology.org/operation_1221
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3169
   - http://edamontology.org/topic_0091

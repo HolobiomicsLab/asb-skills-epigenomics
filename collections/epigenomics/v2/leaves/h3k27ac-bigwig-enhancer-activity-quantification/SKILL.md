@@ -10,7 +10,7 @@ when_to_use_negative:
   POSTRE fails to predict the SHH duplication case
 - When the SV effect is purely coding (gene deletion or truncation) rather than long-range
   enhancer-driven; enhancer activity quantification adds no signal there
-edam_operation: http://edamontology.org/operation_3806
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3173
 - http://edamontology.org/topic_0622
@@ -49,7 +49,7 @@ metadata:
   - POSTRE_multiSV()
   - R
   - bigWigAverageOverBed
-  edam_operation: http://edamontology.org/operation_3806
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3173
   - http://edamontology.org/topic_0622

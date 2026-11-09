@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2939
 edam_topics:
 - http://edamontology.org/topic_3173
-- http://edamontology.org/topic_3611
 tools:
 - name: chromVAR
   role: Computes bias-corrected k-mer deviation scores whose PCA yields the embedding;
@@ -55,7 +54,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2939
   edam_topics:
   - http://edamontology.org/topic_3173
-  - http://edamontology.org/topic_3611
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

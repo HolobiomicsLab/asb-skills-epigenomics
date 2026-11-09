@@ -8,7 +8,7 @@ when_to_use_negative:
   multiplicity), where uncorrected or Bonferroni-style control may be more appropriate
 - When raw p-values are desired for downstream combination (e.g., feeding into meta-analysis
   or custom correction), since iEDGE tables report FDR-adjusted values
-edam_operation: http://edamontology.org/operation_3679
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_0203
@@ -43,7 +43,7 @@ metadata:
   - R
   - iEDGE
   - limma
-  edam_operation: http://edamontology.org/operation_3679
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_0203

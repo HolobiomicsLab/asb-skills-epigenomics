@@ -11,7 +11,7 @@ when_to_use_negative:
   relation to actual gene expression changes; StitchIt is not a peak caller.
 - You already have REM–gene associations and only need retrieval or TF motif analysis
   — use EpiRegio's Gene Query / Region Query instead of refitting the model.
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3169
 - http://edamontology.org/topic_0203
@@ -38,7 +38,7 @@ metadata:
   tools:
   - EpiRegio
   - STITCHIT
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3169
   - http://edamontology.org/topic_0203

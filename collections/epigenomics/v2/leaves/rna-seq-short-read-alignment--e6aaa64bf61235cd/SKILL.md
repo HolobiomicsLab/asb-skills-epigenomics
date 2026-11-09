@@ -10,7 +10,7 @@ when_to_use_negative:
   'short read pre-processors' filter step), not alignment.
 - The workflow is not runnable via systemPipeR (e.g. no R/Bioconductor >=3.2 environment,
   per the paper's stated R >=3.2, Bioconductor >=3.2 requirement).
-edam_operation: http://edamontology.org/operation_3298
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0102
 - http://edamontology.org/topic_0080
@@ -56,7 +56,7 @@ metadata:
   - TopHat2
   - systemPipeR
   - systemPipeRdata
-  edam_operation: http://edamontology.org/operation_3298
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0102
   - http://edamontology.org/topic_0080

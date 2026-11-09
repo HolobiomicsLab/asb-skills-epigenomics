@@ -10,7 +10,7 @@ when_to_use_negative:
   making a tumor-vs-normal t-test undefined
 - The goal is de novo eccDNA identification from WGS (use the AmpliconArchitect pipeline
   in eccDNAdb instead, not expression testing)
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_2640
@@ -44,7 +44,7 @@ metadata:
   - TCGA
   - eccDNAdb
   - scipy.stats.ttest_ind
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_2640

@@ -14,7 +14,6 @@ when_to_use_negative:
   being analyzed
 edam_operation: http://edamontology.org/operation_0564
 edam_topics:
-- http://edamontology.org/topic_3129
 - http://edamontology.org/topic_0622
 tools:
 - name: SeqCode
@@ -46,7 +45,6 @@ metadata:
   - UCSC genome browser
   edam_operation: http://edamontology.org/operation_0564
   edam_topics:
-  - http://edamontology.org/topic_3129
   - http://edamontology.org/topic_0622
   provenance_tier: literature
 license: CC-BY-4.0

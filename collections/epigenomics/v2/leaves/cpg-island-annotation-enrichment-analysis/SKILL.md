@@ -13,8 +13,7 @@ when_to_use_negative:
 - You need subtype classification itself rather than interpretation of which features
   were selected — use cola's run_all_consensus_partitions() instead
 edam_operation: http://edamontology.org/operation_3222
-edam_topics:
-- http://edamontology.org/topic_3311
+edam_topics: []
 tools:
 - name: cola
   role: Provides the top-value methods (SD, ATC) whose top-5000 probe sets are annotated
@@ -49,8 +48,7 @@ metadata:
   - cola
   - impute
   edam_operation: http://edamontology.org/operation_3222
-  edam_topics:
-  - http://edamontology.org/topic_3311
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

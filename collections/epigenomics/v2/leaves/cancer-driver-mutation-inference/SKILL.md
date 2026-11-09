@@ -13,7 +13,6 @@ when_to_use_negative:
   not model negative selection.
 edam_topics:
 - http://edamontology.org/topic_0622
-- http://edamontology.org/topic_2648
 tools:
 - name: DriverPower
   role: Main framework; its 'infer' sub-command calls driver candidates from test
@@ -53,7 +52,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
-  - http://edamontology.org/topic_2648
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

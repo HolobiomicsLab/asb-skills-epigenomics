@@ -10,7 +10,7 @@ when_to_use_negative:
   rather than flow-cytometry composition differences
 - Donor metadata lacks sex or age, since both Wilcoxon stratification and the age/sex/interaction
   GLM terms require them
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2229
 - http://edamontology.org/topic_2269
@@ -40,7 +40,7 @@ metadata:
   - R Shiny
   - pandas
   - scipy
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2229
   - http://edamontology.org/topic_2269

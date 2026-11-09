@@ -10,7 +10,7 @@ when_to_use_negative:
   currently only runs entire workflows, not individual stages
 - Single- and pair-ended data would need to be mixed in one config file — the README
   states CIPHER does not handle this use-case yet
-edam_operation: http://edamontology.org/operation_0225
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0654
 - http://edamontology.org/topic_0203
@@ -48,7 +48,7 @@ metadata:
   - HOMER
   - MACS2
   - Nextflow
-  edam_operation: http://edamontology.org/operation_0225
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0654
   - http://edamontology.org/topic_0203
