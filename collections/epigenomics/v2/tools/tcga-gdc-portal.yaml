@@ -1,0 +1,17 @@
+name: TCGA (GDC portal)
+slug: tcga-gdc-portal
+version_used: null
+edam_topics: []
+evidence_spans:
+- Gene expression and clinical data were downloaded from TCGA and CCLE
+derived_from:
+- doi: 10.1038/s41388-022-02286-x
+  title: 'eccDNAdb: a database of extrachromosomal circular DNA profiles in human cancers'
+source_repos:
+- https://github.com/solo7773/eccDNAdb
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/solo7773/eccDNAdb

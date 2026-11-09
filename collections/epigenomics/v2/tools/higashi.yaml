@@ -1,0 +1,20 @@
+name: Higashi
+slug: higashi
+version_used: null
+edam_topics: []
+evidence_spans:
+- which is set to be nbr = 4 for multicell datasets and nbr = 0 for downsampled and simulated Hi‐C data
+- All test TLD predictors were run with default settings, except for Higashi,
+- which is set to be nbr = 4 for multicell datasets and nbr = 0 for downsampled
+- the TADs of bulk Hi‐C data were called by the function call_tads in Higashi codes
+derived_from:
+- doi: 10.1002/advs.202300366
+  title: DeDoc2 Identifies and Characterizes the Hierarchy and Dynamics of Chromatin TAD‐Like Domains in the Single Cells
+source_repos:
+- https://github.com/zengguangjie/deDoc2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zengguangjie/deDoc2

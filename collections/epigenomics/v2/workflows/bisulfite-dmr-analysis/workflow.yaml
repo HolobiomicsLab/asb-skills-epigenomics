@@ -1,0 +1,160 @@
+schema_version: 0.3.0
+workflow_id: bisulfite_dmr_analysis
+kind: composite-workflow
+techniques: []
+steps:
+- id: align_bisulfite_reads
+  goal: align bisulfite-treated reads to the reference genome
+  edam_operation: http://edamontology.org/operation_3198
+  skills:
+  - bisulfite-read-alignment--c6ac0ff26c82f263
+  - wgbs-read-alignment-bisulfite-mode
+  - bowtie2-based-short-read-alignment
+  - bisulfite-read-alignment--a2d18d44f25cd691
+  tools:
+  - Bismark
+  - Bowtie2
+  - DMRfinder
+  - DSS
+  - Python
+  - R
+  - Samtools
+  - bsseq
+  - findDMRs.r
+  inputs:
+  - type: paired-fastq
+    flavour: whole-genome-bisulfite
+  - type: fasta
+    flavour: reference-genome
+  outputs:
+  - type: bam
+    flavour: bismark-bisulfite-alignment
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-patter-2020-100127
+    - asb-paper-10-1186-s12859-017-1909-0
+    - asb-paper-10-1186-s12859-018-2498-2
+    dois:
+    - 10.1016/j.patter.2020.100127
+    - 10.1186/s12859-017-1909-0
+    - 10.1186/s12859-018-2498-2
+  after: []
+  candidate_tools:
+  - Msuite
+  - Mviewer
+  - build.index.sh
+  - Apache Spark
+  - BiSpark
+  - Bison
+  - CloudAligner
+  - Cutadapt
+  - Sherman
+- id: extract_cpg_counts
+  goal: extract methylated and unmethylated read counts at individual CpG sites
+  edam_operation: http://edamontology.org/operation_3207
+  skills:
+  - cpg-methylation-count-extraction
+  - strand-merged-methylation-calling
+  - bismark-sam-alignment-parsing
+  - methylc-seq-alignment-processing
+  tools:
+  - Bismark
+  - Bowtie2
+  - DMRfinder
+  - DMRfinder (extract_CpG_data.py)
+  - DSS
+  - Python
+  - R
+  - Samtools
+  - bsseq
+  - findDMRs.r
+  inputs:
+  - type: bam
+    flavour: bismark-bisulfite-alignment
+  outputs:
+  - type: cov
+    flavour: per-cpg-methylated-unmethylated-counts
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1186-s12859-017-1909-0
+    dois:
+    - 10.1186/s12859-017-1909-0
+  after:
+  - align_bisulfite_reads
+  inputs_from:
+    align_bisulfite_reads:
+    - bam:bismark-bisulfite-alignment
+- id: cluster_cpg_regions
+  goal: aggregate CpGs into regional total and methylated counts for each sample
+  edam_operation: http://edamontology.org/operation_3432
+  skills:
+  - cpg-site-region-clustering
+  - pairwise-group-methylation-comparison
+  - reference-implementation-output-validation
+  tools:
+  - Bismark
+  - Bowtie2
+  - DMRfinder
+  - DSS
+  - Python
+  - R
+  - bsseq
+  - findDMRs.r
+  inputs:
+  - type: cov
+    flavour: per-cpg-methylated-unmethylated-counts
+  outputs:
+  - type: csv
+    flavour: clustered-region-total-and-methylated-counts
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1186-s12859-017-1909-0
+    dois:
+    - 10.1186/s12859-017-1909-0
+  after:
+  - extract_cpg_counts
+  inputs_from:
+    extract_cpg_counts:
+    - cov:per-cpg-methylated-unmethylated-counts
+- id: call_differentially_methylated_regions
+  goal: test clustered regions for differential methylation between sample groups
+  edam_operation: http://edamontology.org/operation_3206
+  skills:
+  - beta-binomial-differential-methylation-testing
+  - dss-wald-test-workflow
+  - methylc-seq-region-dmr-identification
+  tools:
+  - DMRfinder
+  - DSS
+  - R
+  - findDMRs.r
+  inputs:
+  - type: csv
+    flavour: clustered-region-total-and-methylated-counts
+  - type: tsv
+    flavour: sample-group-design
+  - type: yaml
+    flavour: dmr-filter-configuration
+  outputs:
+  - type: csv
+    flavour: dmr-effects-and-pvalues
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1186-s12859-017-1909-0
+    dois:
+    - 10.1186/s12859-017-1909-0
+  after:
+  - cluster_cpg_regions
+  inputs_from:
+    cluster_cpg_regions:
+    - csv:clustered-region-total-and-methylated-counts
+verification:
+  final_outputs:
+  - path: per_cpg_methylation_counts.cov
+    type: file
+  - path: differentially_methylated_regions.csv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

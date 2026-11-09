@@ -1,0 +1,20 @@
+name: CADD
+slug: cadd
+version_used: null
+edam_topics: []
+evidence_spans:
+- including EIGEN [36], CADD [26], DANN [27], GWAVA [28], FATHMM [29], GNOMAD frequency [46], the known brain eQTLs from CommonMind
+- The imputation was conducted for DANN, CADD, EIGEN, GWAVA and FATHMM
+- Non-coding scores used in iMEGES includes EIGEN [36], CADD [26], DANN [27], GWAVA [28] and FATHMM
+- Non-coding scores used in iMEGES includes EIGEN [36], CADD [26]
+derived_from:
+- doi: 10.1186/s12859-018-2469-7
+  title: 'iMEGES: integrated mental-disorder GEnome score by deep neural network for prioritizing the susceptibility genes for mental disorders in personal genomes'
+source_repos:
+- https://github.com/WGLab/iMEGES
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WGLab/iMEGES

@@ -1,0 +1,24 @@
+name: SeqCode
+slug: seqcode
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`matchpeaks` | compare 2 lists of peaks/regions.'
+- SeqCode is a family of applications designed to develop high-quality images and perform genome-wide calculations from high-throughput sequencing experiments.
+- SeqCode is a family of applications designed to develop high-quality images and perform genome-wide calculations
+- SeqCode is a family of applications designed to develop high-quality images and perform genome-wide calculations from high-throughput sequencing experiments
+- '`scorePhastCons`  | score genomic regions with PhastCons conservation values.'
+derived_from:
+- doi: 10.1038/s41598-021-98889-7
+  title: Productive visualization of high-throughput sequencing data using the SeqCode open portable platform
+- doi: 10.1093/nargab/lqab064
+  title: 'SpikChIP: a novel computational methodology to compare multiple ChIP-seq using spike-in chromatin'
+source_repos:
+- https://github.com/eblancoga/seqcode
+- https://github.com/eblancoga/spikChIP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/eblancoga/seqcode

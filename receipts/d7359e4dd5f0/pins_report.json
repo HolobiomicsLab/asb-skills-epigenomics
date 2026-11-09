@@ -1,0 +1,76 @@
+{
+  "workflows": {
+    "bisulfite_dmr_analysis": {
+      "workflow_id": "bisulfite_dmr_analysis",
+      "prefer": [
+        {
+          "stage": "align_bisulfite_reads",
+          "pin": "bisulfite-read-alignment--c6ac0ff26c82f263",
+          "status": "resolved",
+          "resolved_slug": "bisulfite-read-alignment--c6ac0ff26c82f263"
+        },
+        {
+          "stage": "extract_cpg_counts",
+          "pin": "cpg-methylation-count-extraction",
+          "status": "resolved",
+          "resolved_slug": "cpg-methylation-count-extraction"
+        },
+        {
+          "stage": "cluster_cpg_regions",
+          "pin": "cpg-site-region-clustering",
+          "status": "resolved",
+          "resolved_slug": "cpg-site-region-clustering"
+        },
+        {
+          "stage": "call_differentially_methylated_regions",
+          "pin": "beta-binomial-differential-methylation-testing",
+          "status": "resolved",
+          "resolved_slug": "beta-binomial-differential-methylation-testing"
+        }
+      ],
+      "avoid": [],
+      "summary": {
+        "prefer_total": 4,
+        "prefer_resolved": 4,
+        "avoid_total": 0,
+        "avoid_resolved": 0
+      }
+    },
+    "chipseq_peak_motif_discovery": {
+      "workflow_id": "chipseq_peak_motif_discovery",
+      "prefer": [
+        {
+          "stage": "align_and_assess_reads",
+          "pin": "fastq-read-alignment-quality-assessment",
+          "status": "resolved",
+          "resolved_slug": "fastq-read-alignment-quality-assessment"
+        },
+        {
+          "stage": "call_control_aware_peaks",
+          "pin": "chip-seq-peak-calling-with-control",
+          "status": "resolved",
+          "resolved_slug": "chip-seq-peak-calling-with-control"
+        },
+        {
+          "stage": "construct_motif_fastas",
+          "pin": "discriminative-positive-negative-dataset-construction",
+          "status": "resolved",
+          "resolved_slug": "discriminative-positive-negative-dataset-construction"
+        },
+        {
+          "stage": "discover_overrepresented_motifs",
+          "pin": "chipseq-overrepresented-motif-discovery",
+          "status": "resolved",
+          "resolved_slug": "chipseq-overrepresented-motif-discovery"
+        }
+      ],
+      "avoid": [],
+      "summary": {
+        "prefer_total": 4,
+        "prefer_resolved": 4,
+        "avoid_total": 0,
+        "avoid_resolved": 0
+      }
+    }
+  }
+}

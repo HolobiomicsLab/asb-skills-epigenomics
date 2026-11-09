@@ -1,0 +1,20 @@
+name: harmonypy
+slug: harmonypy
+version_used: null
+edam_topics: []
+evidence_spans:
+- '79
+
+
+  ] as notable batch effect was spotted which may negatively affect the dimension‐reducing results.'
+derived_from:
+- doi: 10.1002/advs.202300366
+  title: DeDoc2 Identifies and Characterizes the Hierarchy and Dynamics of Chromatin TAD‐Like Domains in the Single Cells
+source_repos:
+- https://github.com/zengguangjie/deDoc2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zengguangjie/deDoc2

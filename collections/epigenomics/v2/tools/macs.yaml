@@ -1,0 +1,26 @@
+name: MACS
+slug: macs
+version_used: null
+edam_topics: []
+evidence_spans:
+- No usage/docs found.
+- including MACS (PeakCaller_MACS.R) [22] and SPP (PeakCaller_SPP.R) [23]
+- NEAT has two well-established peak calling methods built-in by default, including MACS (PeakCaller_MACS.R)
+- MACS12 was used to perform the peak calling of the ChIP-seq experiments.
+derived_from:
+- doi: 10.1186/1471-2105-11-369
+  title: 'HPeak: an HMM-based algorithm for defining read-enriched regions in ChIP-Seq data'
+- doi: 10.1186/s12859-016-0902-3
+  title: 'NEAT: a framework for building fully automated NGS pipelines and analyses'
+- doi: 10.1038/s41598-021-98889-7
+  title: Productive visualization of high-throughput sequencing data using the SeqCode open portable platform
+source_repos:
+- https://github.com/cauyrd/HPeak
+- https://github.com/pschorderet/NEAT
+- https://github.com/eblancoga/seqcode
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cauyrd/HPeak

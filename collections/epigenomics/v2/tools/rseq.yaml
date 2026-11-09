@@ -1,0 +1,17 @@
+name: rseq
+slug: rseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- The final cycle generates a DNA motif (alist, encode, cmp, rseq, dalvec, and makelogo)
+derived_from:
+- doi: 10.1128/mra.00160-21
+  title: Delila-PY, a Pipeline for Utilizing the Delila Suite of Software to Identify Potential DNA Binding Motifs
+source_repos:
+- https://github.com/GLBRC/delila
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GLBRC/delila

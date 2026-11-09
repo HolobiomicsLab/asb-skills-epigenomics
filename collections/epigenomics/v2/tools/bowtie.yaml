@@ -1,0 +1,34 @@
+name: Bowtie
+slug: bowtie
+version_used: null
+edam_topics: []
+evidence_spans:
+- after Bowtie remapping to transcripts
+- BIMSBbioinfo/HOT-or-not-examining-the-basis-of-high-occupancy-target-regions
+- The ‘map’ module maps reads using either bwa [18] or bowtie [19].
+- Bowtie7 was used to map the reads over the genome of mouse (mm9 and mm10), human (hg38), and the fruit fly (dm3).
+- Bowtie7 was used to map the reads over the genome of mouse (mm9 and mm10), human (hg38), and the fruit fly (dm3)
+- Bowtie7 was used to map the reads over the genome of mouse (mm9 and mm10)
+derived_from:
+- doi: 10.1186/gb-2011-12-3-r22
+  title: Improving RNA-Seq expression estimates by correcting for fragment bias
+- doi: 10.1093/nar/gkz460
+  title: 'HOT or not: examining the basis of high-occupancy target regions'
+- doi: 10.1186/s12859-016-0902-3
+  title: 'NEAT: a framework for building fully automated NGS pipelines and analyses'
+- doi: 10.1038/s41598-021-98889-7
+  title: Productive visualization of high-throughput sequencing data using the SeqCode open portable platform
+- doi: 10.1093/nargab/lqab064
+  title: 'SpikChIP: a novel computational methodology to compare multiple ChIP-seq using spike-in chromatin'
+source_repos:
+- https://github.com/adarob/eXpress-d
+- https://github.com/BIMSBbioinfo/HOT-or-not-examining-the-basis-of-high-occupancy-target-regions
+- https://github.com/pschorderet/NEAT
+- https://github.com/eblancoga/seqcode
+- https://github.com/eblancoga/spikChIP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/adarob/eXpress-d

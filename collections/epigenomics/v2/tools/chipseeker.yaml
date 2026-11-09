@@ -1,0 +1,25 @@
+name: ChIPseeker
+slug: chipseeker
+version_used: null
+edam_topics: []
+evidence_spans:
+- ChIPseeker [13] are R packages specifically designed for ChIP-seq quality control
+- There are many tools in R (e.g. *ChIPseeker*) that can be used to conduct downstream analysis and comparison of epigenomic datasets.
+- These are ChromHMM (Ernst and Kellis, 2017), ChIPseeker (Yu et al., 2015), enrichment analysis (KEGG pathway and GO)
+derived_from:
+- doi: 10.1186/s12859-016-1274-4
+  title: 'ChiLin: a comprehensive ChIP-seq and DNase-seq quality control and analysis pipeline'
+- doi: 10.1093/bioadv/vbad049
+  title: 'EpiCompare: R package for the comparison and quality control of epigenomic peak files'
+- doi: 10.1038/s41592-019-0367-1
+  title: 'cisTopic: cis-regulatory topic modeling on single-cell ATAC-seq data'
+source_repos:
+- https://github.com/cfce/chilin
+- https://github.com/neurogenomics/EpiCompare
+- https://github.com/aertslab/cistopic
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cfce/chilin

@@ -1,0 +1,25 @@
+name: rtracklayer
+slug: rtracklayer
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`r CRANpkg("rtracklayer")` is the UCSC framework.'
+- is the UCSC framework
+- uses rtracklayer::liftOver (via liftover_grlist)
+derived_from:
+- doi: 10.1093/bioinformatics/btad149
+  title: 'AdaLiftOver: high-resolution identification of orthologous regulatory elements with Adaptive liftOver'
+- doi: 10.1093/bioadv/vbad049
+  title: 'EpiCompare: R package for the comparison and quality control of epigenomic peak files'
+- doi: 10.1038/s41467-025-60269-4
+  title: 'BIT: Bayesian Identification of Transcriptional regulators from epigenomics-based query region sets'
+source_repos:
+- https://github.com/keleslab/AdaLiftOver
+- https://github.com/neurogenomics/EpiCompare
+- https://github.com/ZeyuL01/BIT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/keleslab/AdaLiftOver

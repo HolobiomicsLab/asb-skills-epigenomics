@@ -1,0 +1,17 @@
+name: GEOquery
+slug: geoquery
+version_used: null
+edam_topics: []
+evidence_spans:
+- Xujun Wang & Shiyi Liu
+derived_from:
+- doi: 10.1016/j.gpb.2019.09.008
+  title: '<i>RePhine</i>: An Integrative Method for Identification of Drug Response-Related Transcriptional Regulators'
+source_repos:
+- https://github.com/coexps/Rephine
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/coexps/Rephine

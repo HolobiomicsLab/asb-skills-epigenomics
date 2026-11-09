@@ -1,0 +1,17 @@
+name: bigstatsr
+slug: bigstatsr
+version_used: null
+edam_topics: []
+evidence_spans:
+- Our method implements a parallelized partial singular value decomposition (SVD) that uses a memory-efficient data structure (Filebacked Big Matrix or FBM)
+derived_from:
+- doi: 10.1038/s41467-022-34626-6
+  title: dcHiC detects differential compartments across multiple Hi-C datasets
+source_repos:
+- https://github.com/ay-lab/dcHiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ay-lab/dcHiC

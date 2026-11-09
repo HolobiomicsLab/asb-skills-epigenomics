@@ -1,0 +1,18 @@
+name: BBMap
+slug: bbmap
+version_used: null
+edam_topics: []
+evidence_spans:
+- By default, CIPHER will map reads to a reference genome using BBMap, a fast short-read aligner for both DNA and RNA-seq datasets
+- CIPHER will map reads to a reference genome using BBMap, a fast short-read aligner for both DNA and RNA-seq datasets
+derived_from:
+- doi: 10.1186/s12859-017-1770-1
+  title: 'CIPHER: a flexible and extensive workflow platform for integrative next-generation sequencing data analysis and genomic regulatory element prediction'
+source_repos:
+- https://github.com/c-guzman/cipher-workflow-platform
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/c-guzman/cipher-workflow-platform

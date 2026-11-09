@@ -1,0 +1,18 @@
+name: STITCHIT
+slug: stitchit
+version_used: null
+edam_topics: []
+evidence_spans:
+- EpiRegio is based on *STITCHIT*, a method which was previously developed in our group.
+- The data hosted by the web server EpiRegio was generated with *STITCHIT*.
+derived_from:
+- doi: 10.1093/nar/gkaa382
+  title: 'EpiRegio: analysis and retrieval of regulatory elements linked to genes'
+source_repos:
+- https://github.com/TeamRegio/EpiRegioDB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TeamRegio/EpiRegioDB

@@ -1,0 +1,17 @@
+name: limma-voom
+slug: limma-voom
+version_used: null
+edam_topics: []
+evidence_spans:
+- classical differential gene expression methods such as edgeR44 and limma-voom45 outperforms single cell specific methods
+derived_from:
+- doi: 10.1038/s41467-021-26779-7
+  title: scPower accelerates and optimizes the design of multi-sample single cell transcriptomic studies
+source_repos:
+- https://github.com/heiniglab/scPower
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/heiniglab/scPower

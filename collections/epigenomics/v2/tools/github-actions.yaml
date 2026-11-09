@@ -1,0 +1,17 @@
+name: GitHub Actions
+slug: github-actions
+version_used: null
+edam_topics: []
+evidence_spans:
+- extensive checks and unit tests are automatically launched on three OS platforms (Unix, Mac, Window) via continuous integration workflows using both GitHub Actions
+derived_from:
+- doi: 10.1093/bioadv/vbad049
+  title: 'EpiCompare: R package for the comparison and quality control of epigenomic peak files'
+source_repos:
+- https://github.com/neurogenomics/EpiCompare
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/neurogenomics/EpiCompare

@@ -1,0 +1,23 @@
+name: DSS
+slug: dss
+version_used: null
+edam_topics: []
+evidence_spans:
+- the beta-binomial hierarchical modeling and Wald test implemented in the Bioconductor package DSS
+- The underlying statistics are based on the beta-binomial hierarchical modeling and Wald test implemented in the Bioconductor package DSS
+- the statistical framework of the Bioconductor package DSS [[2](#ref2)]
+- The differences between DSS-called DMRs and i-DMRs in artificial mixtures are similar to those observed between different DMR-callers
+derived_from:
+- doi: 10.1186/s12859-017-1909-0
+  title: 'DMRfinder: efficiently identifying differentially methylated regions from MethylC-seq data'
+- doi: 10.1093/nar/gkab516
+  title: Determining subpopulation methylation profiles from bisulfite sequencing data of heterogeneous samples using DXM
+source_repos:
+- https://github.com/jsh58/DMRfinder
+- https://github.com/edwardslab-wustl/dxm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jsh58/DMRfinder

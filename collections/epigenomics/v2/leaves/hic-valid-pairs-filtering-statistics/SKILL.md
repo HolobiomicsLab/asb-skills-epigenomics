@@ -1,0 +1,148 @@
+---
+name: hic-valid-pairs-filtering-statistics
+description: Use when paired-end Hi-C (or Micro-C/ChIA-PET) FASTQ libraries need alignment,
+  valid-pair filtering, and QC statistics comparable to Table 1 alignment rates, e.g.
+  replicating MuSC Hi-C stats from GSE189841.
+when_to_use_negative:
+- Input is not 3D-genomics data (Hi-C, Micro-C, ChIA-PET, or derivative protocols)
+  — e.g. bulk RNA-seq data, where STAR rather than the Microcket BWA chain is the
+  article's suggested aligner
+- You only need to visualize contact maps without regenerating valid-pair statistics
+  from FASTQ — start from existing .hic/pairs files with JuicerTools/cooler instead
+- The reference genome is hg38 and Microcket's packaged hg38 annotation files do not
+  match your chosen FASTA build, requiring custom .info/.sam.header preparation outside
+  this skill's validated path
+edam_operation: http://edamontology.org/operation_0291
+edam_topics:
+- http://edamontology.org/topic_0102
+- http://edamontology.org/topic_0605
+tools:
+- name: Microcket
+  role: Main pipeline that trims (Ktrim), stitches (FLASH), aligns (BWA), filters
+    valid pairs (MQ 10, alignable proportion 0.5), and emits final.stat QC statistics
+  repo: https://github.com/hellosunking/Microcket
+- name: Ktrim
+  role: 'Adapter- and quality-trimming dependency invoked by Microcket (default sequencing
+    kit: illumina)'
+  repo: https://github.com/hellosunking/Ktrim
+- name: BWA
+  role: Short-read aligner used by Microcket against the mm10 index built with 'bwa
+    index -a bwtsw'
+  repo: https://github.com/lh3/bwa
+- name: FLASH
+  role: Read-stitching step for overlapping paired-end reads inside the Microcket
+    pipeline
+- name: Samtools
+  role: Listed dependency of the Microcket toolchain for SAM/BAM handling
+- name: JuicerTools
+  role: Downstream tool for .hic file generation/visualization from Microcket output
+  repo: https://github.com/aidenlab/JuicerTools
+provenance:
+  source_task_ids:
+  - task_001
+  source_papers:
+  - doi: 10.1016/j.xpro.2025.103962
+    title: Protocol for investigating chromatin architecture in adult skeletal muscle
+      stem cells using high-throughput chromosome conformation capture
+  source_content_hash: sha256:7f8356b6c24a879c02d50aa835d8514bff21c52ceea5ed1954ad5c9764b38907
+schema_version: 0.2.0
+metadata:
+  license_tier: noncommercial
+  tool_license:
+    tier: noncommercial
+    requires_ack: true
+    ref: CC-BY-NC-4.0
+    url: https://github.com/hellosunking/Microcket
+  repo_url: https://github.com/hellosunking/Microcket
+  tools:
+  - BWA
+  - FLASH
+  - JuicerTools
+  - Ktrim
+  - Microcket
+  - Samtools
+  edam_operation: http://edamontology.org/operation_0291
+  edam_topics:
+  - http://edamontology.org/topic_0102
+  - http://edamontology.org/topic_0605
+  provenance_tier: literature
+license: CC-BY-4.0
+triage_status: critique
+yes_rate: 0.5
+n_claims: 12
+---
+
+# hic-valid-pairs-filtering-statistics
+
+> **License: noncommercial** — confirm your use is a permitted (noncommercial) purpose before applying; commercial use requires a separate license (see `metadata.tool_license`). <!-- asb-license-banner -->
+## Summary
+
+Align paired-end Hi-C FASTQ libraries with the Microcket package (Ktrim/FLASH pre-processing + BWA alignment to mm10) and compile the valid-pairs filtering statistics (Total, Ktrim, Unique, Mappable, Self-circle, Cis/Trans fractions) from the Microcket.<sid>.final.stat QC files, as demonstrated for MuSC QSC (GSM5708470) and FISC (GSM5708476) libraries.
+
+## When to use
+
+Use when paired-end Hi-C (or Micro-C/ChIA-PET) FASTQ libraries need alignment, valid-pair filtering, and QC statistics comparable to Table 1 alignment rates, e.g. replicating MuSC Hi-C stats from GSE189841.
+
+## When NOT to use
+
+- Input is not 3D-genomics data (Hi-C, Micro-C, ChIA-PET, or derivative protocols) — e.g. bulk RNA-seq data, where STAR rather than the Microcket BWA chain is the article's suggested aligner
+- You only need to visualize contact maps without regenerating valid-pair statistics from FASTQ — start from existing .hic/pairs files with JuicerTools/cooler instead
+- The reference genome is hg38 and Microcket's packaged hg38 annotation files do not match your chosen FASTA build, requiring custom .info/.sam.header preparation outside this skill's validated path
+
+## Inputs
+
+- Paired-end Hi-C FASTQ files (read1/read2) per library lane, e.g. SRR17068908-SRR17068910 (QSC) and SRR17068893/SRR17068894 (FISC)
+- fq.list file with absolute paths to read1/read2 FASTQ pairs, one line per lane/library
+- BWA genome index for mm10 (built with 'bwa index -a bwtsw')
+- Microcket pre-packaged annotation files (.info and .sam.header) for mm10 under the anno directory
+
+## Outputs
+
+- Microcket.<sid>.final.stat QC file with Total, Ktrim, Unique, Mappable, Self-circle, Cis(<1K), Cis(1-10K), Cis(>=10K), and Trans counts and fractions
+- Compiled per-library alignment statistics table (e.g. microcket_table1_alignment_stats.csv) including running time
+- Interaction pairs and BAM files generated by the Microcket analysis
+
+## How to apply
+
+Download the paired-end FASTQ files (e.g. QSC lanes SRR17068908/SRR17068909/SRR17068910 and FISC lanes SRR17068893/SRR17068894 from GSE189841) and build the BWA index for mm10 using 'bin/bwa index -a bwtsw', relying on Microcket's pre-packaged mm10 .info and .sam.header files in the anno directory. Write an fq.list file with absolute paths to read1/read2 FASTQ pairs, one line per lane/library, then run 'microcket -i fq.list -o <sample_id>' with default settings: BWA aligner, minimum mapping quality 10 (-Q), and minimum alignable proportion 0.5 (-e). Microcket internally chains Ktrim adapter/quality trimming (default kit: illumina) and FLASH read stitching before BWA alignment. Collect each Microcket.<sid>.final.stat file and extract the Total, Ktrim, Unique, Mappable, Self-circle, Cis(<1K), Cis(1-10K), Cis(>=10K), and Trans counts and fractions, plus running time, into a summary table such as microcket_table1_alignment_stats.csv. Judge correctness by matching the compiled uniquely mapped fractions to the reported Table 1 values (72.5% for QSC, 70% for FISC), both exceeding the >50% uniquely mapped threshold.
+
+## Related tools
+
+- **Microcket** (Main pipeline that trims (Ktrim), stitches (FLASH), aligns (BWA), filters valid pairs (MQ 10, alignable proportion 0.5), and emits final.stat QC statistics) — https://github.com/hellosunking/Microcket
+- **Ktrim** (Adapter- and quality-trimming dependency invoked by Microcket (default sequencing kit: illumina)) — https://github.com/hellosunking/Ktrim
+- **BWA** (Short-read aligner used by Microcket against the mm10 index built with 'bwa index -a bwtsw') — https://github.com/lh3/bwa
+- **FLASH** (Read-stitching step for overlapping paired-end reads inside the Microcket pipeline)
+- **Samtools** (Listed dependency of the Microcket toolchain for SAM/BAM handling)
+- **JuicerTools** (Downstream tool for .hic file generation/visualization from Microcket output) — https://github.com/aidenlab/JuicerTools
+
+## Examples
+
+```
+microcket -i fq.list -o QSC_GSM5708470  # after: bin/bwa index -a bwtsw; then inspect Microcket.QSC_GSM5708470.final.stat
+```
+
+## Evaluation signals
+
+- Uniquely mapped fraction per library matches Table 1: 72.5% for QSC (GSM5708470) and 70% for FISC (GSM5708476), allowing minor variation from Microcket version or reference-build differences
+- Both libraries' uniquely mapped rates exceed the expected >50% uniquely mapped threshold
+- Each Microcket.<sid>.final.stat file contains the full category set: Total, Ktrim, Unique, Mappable, Self-circle, Cis(<1K), Cis(1-10K), Cis(>=10K), and Trans counts with fractions
+- Filter-step categories in the stat file (Uncalled, Incomplete-mapping, Too-many-segments, Unpairable, Self-circle) are populated with counts and percentages summing consistently against Total
+- Small test datasets (~14 million reads) should output interaction pairs within ~5 minutes and finish the whole analysis (hic and bam files) in ~10 minutes using 8 threads
+
+## Limitations
+
+- Compiled fractions may differ slightly from Table 1 due to Microcket version (results here use v1.4, Apr 2025) or reference-genome build differences
+- The BWA index-building step may take ~1 hour using 16 threads, adding setup overhead before alignment statistics can be produced
+- Microcket is distributed under GPLv3 for personal and academic usage only, and default filtering parameters (MQ 10, alignable proportion 0.5) may under-report valid pairs if library quality is poor
+
+## Evidence
+
+- [methods] min mapping quality filter: "Set the minimum mapping quality for a read to be considered. Default: 10"
+- [methods] minimum alignable proportion filter: "Set the minimum alignable proportion of a read to consider as complete mapping                   Default: 0.5."
+- [methods] filter step categories in final.stat: "Uncalled        171,841 1.9
+  Incomplete-mapping    147,614 1.6"
+- [discussion] Table 1 alignment statistics provenance: "Table 1 provides the alignment statistics for a single replicate (QSC: GSM5708470; FISC: GSM5708476), as reported by Microcket."
+- [methods] expected runtime on test dataset: "`Microcket` should output the
+interaction pairs within 5 minutes and finish the whole analysis (with `hic` and `bam` files generated) in ~10 minutes"
+- [methods] Microcket packaged reference annotations: "`Microcket` has already packaged such files for `hg38`
+and `mm10`"

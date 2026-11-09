@@ -1,0 +1,24 @@
+name: Peakachu
+slug: peakachu
+version_used: null
+edam_topics: []
+evidence_spans:
+- significantly outperforming the existing machine learning-based loop calling algorithm Peakachu
+- Peakachu should now be installed as a command-line tool within the new environment.
+- peakachu train -r 10000 -p Rao2014-GM12878-MboI-allreps-filtered.10kb.cool --clr-weight-name weight -O models -b gm12878.mumbach.h3k27ac-hichip.hg19.bedpe
+- Here, we present Peakachu, a Random Forest classification framework that predicts chromatin loops from genome-wide contact maps.
+- peakachu score_genome -r 10000 --clr-weight-name weight -p SKNAS-MboI-allReps-filtered.mcool::resolutions/10000 -O SKNAS-peakachu-10kb-scores.bedpe
+derived_from:
+- doi: 10.1016/j.isci.2022.105535
+  title: 'GILoop: Robust chromatin loop calling across multiple sequencing depths on Hi-C data'
+- doi: 10.1038/s41467-020-17239-9
+  title: A supervised learning framework for chromatin loop detection in genome-wide contact maps
+source_repos:
+- https://github.com/fzbio/GILoop
+- https://github.com/tariks/peakachu
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fzbio/GILoop

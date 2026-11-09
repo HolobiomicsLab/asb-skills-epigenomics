@@ -1,0 +1,21 @@
+name: SLURM
+slug: slurm
+version_used: null
+edam_topics: []
+evidence_spans:
+- This template is for SLURM, however, it could be modified to different resource management systems
+derived_from:
+- doi: 10.1093/bioinformatics/btad423
+  title: 'MEDIPIPE: an automated and comprehensive pipeline for cfMeDIP-seq data quality control and analysis'
+- doi: 10.1016/j.xgen.2023.100317
+  title: Skipper analysis of eCLIP datasets enables sensitive detection of constrained translation factor binding sites
+source_repos:
+- https://github.com/pughlab/MEDIPIPE
+- https://github.com/yzeng-lol/MEDIPIPE
+- https://github.com/YeoLab/skipper
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pughlab/MEDIPIPE

@@ -1,0 +1,21 @@
+name: ANNOVAR
+slug: annovar
+version_used: null
+edam_topics: []
+evidence_spans:
+- we integrate hg19/GRCh37-based refGene annotation results derived from the ANNOVAR software (28)
+- In iMEGES, ANNOVAR [35] was used to extract all ~ 9 billion possible SNPs in the human reference genome (GRCh37)
+derived_from:
+- doi: 10.1093/nar/gkab429
+  title: 'DeepFun: a deep learning sequence-based model to decipher non-coding variant effect in a tissue- and cell type-specific manner'
+- doi: 10.1186/s12859-018-2469-7
+  title: 'iMEGES: integrated mental-disorder GEnome score by deep neural network for prioritizing the susceptibility genes for mental disorders in personal genomes'
+source_repos:
+- https://github.com/bsml320/DeepFun
+- https://github.com/WGLab/iMEGES
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bsml320/DeepFun

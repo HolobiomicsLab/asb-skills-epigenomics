@@ -1,0 +1,16 @@
+name: TOMTOM
+slug: tomtom
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/nar/gkz672
+  title: Prediction of regulatory motifs from human Chip-sequencing data using a deep learning framework
+source_repos:
+- https://github.com/OSU-BMBL/DESSO
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/OSU-BMBL/DESSO

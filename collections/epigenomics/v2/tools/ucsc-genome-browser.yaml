@@ -1,0 +1,22 @@
+name: UCSC genome browser
+slug: ucsc-genome-browser
+version_used: null
+edam_topics: []
+evidence_spans:
+- Excellent visualisation tools (e.g. UCSC genome browser) enable researchers to appreciate such features
+- Excellent visualisation tools (e.g. UCSC genome browser) enable researchers to appreciate such features for individual enrichment peaks.
+- The UCSC genome browser provides this information through the Downloads section for each genome (Annotation database link).
+derived_from:
+- doi: 10.1186/s12859-016-1306-0
+  title: 'DGW: an exploratory data analysis tool for clustering and visualisation of epigenomic marks'
+- doi: 10.1038/s41598-021-98889-7
+  title: Productive visualization of high-throughput sequencing data using the SeqCode open portable platform
+source_repos:
+- https://github.com/lukauskas/dgw
+- https://github.com/eblancoga/seqcode
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lukauskas/dgw

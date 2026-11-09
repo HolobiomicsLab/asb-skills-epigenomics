@@ -1,0 +1,30 @@
+name: CisTopic
+slug: cistopic
+version_used: null
+edam_topics: []
+evidence_spans:
+- lecell.biolab.si/).
+- Recently a newly developed method called cisTopic applied latent Dirichlet allocation to model on scATAC-seq data to identify cis-regulatory topics
+- we show that SnapATAC outperforms current methods in accuracy, sensitivity, scalability and reproducibility for cell-type identification from complex tissues.
+derived_from:
+- doi: 10.1038/s41467-020-19542-x
+  title: Interactive analysis of single-cell epigenomic landscapes with ChromSCape
+- doi: 10.1038/s41592-019-0367-1
+  title: 'cisTopic: cis-regulatory topic modeling on single-cell ATAC-seq data'
+- doi: 10.1038/s41467-019-12630-7
+  title: SCALE method for single-cell ATAC-seq analysis via latent feature extraction
+- doi: 10.1038/s41467-021-21583-9
+  title: Comprehensive analysis of single cell ATAC-seq data with SnapATAC
+source_repos:
+- https://github.com/pinellolab/scATAC-benchmarking
+- https://github.com/vallotlab/ChromSCape_benchmarking
+- https://github.com/aertslab/cisTopic
+- https://github.com/aertslab/cistopic
+- https://github.com/jsxlei/SCALE
+- https://github.com/r3fang/SnapATAC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pinellolab/scATAC-benchmarking

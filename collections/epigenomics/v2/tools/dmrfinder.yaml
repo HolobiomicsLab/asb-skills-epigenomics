@@ -1,0 +1,18 @@
+name: DMRfinder
+slug: dmrfinder
+version_used: null
+edam_topics: []
+evidence_spans:
+- DMRfinder efficiently identifies genomic regions with differentially methylated CpG sites from high-throughput MethylC-seq datasets
+- The DMRfinder pipeline (Fig. 1) consists of three scripts, two in Python and one in R, and is run on the command-line.
+derived_from:
+- doi: 10.1186/s12859-017-1909-0
+  title: 'DMRfinder: efficiently identifying differentially methylated regions from MethylC-seq data'
+source_repos:
+- https://github.com/jsh58/DMRfinder
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jsh58/DMRfinder

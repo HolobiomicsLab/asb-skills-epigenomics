@@ -1,0 +1,19 @@
+name: ChiLin
+slug: chilin
+version_used: null
+edam_topics: []
+evidence_spans:
+- ChiLin is written with python and shell
+- ChiLin support all species listed on UCSC website
+- ChiLin is a computational pipeline that automates the quality control and data analyses of ChIP-seq and DNase-seq data.
+derived_from:
+- doi: 10.1186/s12859-016-1274-4
+  title: 'ChiLin: a comprehensive ChIP-seq and DNase-seq quality control and analysis pipeline'
+source_repos:
+- https://github.com/cfce/chilin
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cfce/chilin

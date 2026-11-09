@@ -1,0 +1,21 @@
+{
+  "workflow": "bisulfite_dmr_analysis",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "The nonprimary leaf pairwise-group-methylation-comparison performs differential testing on existing regions rather than constructing CpG regions.",
+      "severity": "advisory",
+      "slug": "pairwise-group-methylation-comparison",
+      "stage": "cluster_cpg_regions"
+    }
+  ],
+  "verdict": "pass"
+}

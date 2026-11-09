@@ -1,0 +1,44 @@
+name: Bowtie2
+slug: bowtie2
+version_used: null
+edam_topics: []
+evidence_spans:
+- We adopted Bowtie2 for mapping reads to reference genome, known as one of the best DNA sequence aligner
+- We adopted Bowtie2 for mapping reads to reference genome
+- 'three different aligners for non-splice aware datasets: BBMap [14], the Burrow-Wheeler Aligner (BWA) [15] and Bowtie2 [16]'
+- ChIP-seq data makes use of splice-unaware aligners such as BWA, Bowtie2, and BBMap
+- Reads were mapped to human genome hg19 using bowtie2 with default parameters.
+- uses Bowtie2 [[3](#ref3)] to align the reads to the reference
+- then uses Bowtie2 [[3](#ref3)] to align the reads to the reference
+- (absent — flagged as missing)
+- the aligners BWA-MEM [25], Bowtie2 [26], TopHat2 [27], HISAT2 [28]
+derived_from:
+- doi: 10.1186/s12859-018-2498-2
+  title: 'BiSpark: a Spark-based highly scalable aligner for bisulfite sequencing data'
+- doi: 10.1186/s12859-017-1770-1
+  title: 'CIPHER: a flexible and extensive workflow platform for integrative next-generation sequencing data analysis and genomic regulatory element prediction'
+- doi: 10.1093/bioinformatics/btad314
+  title: CscoreTool-M infers 3D sub-compartment probabilities within cell population
+- doi: 10.1186/s12859-017-1909-0
+  title: 'DMRfinder: efficiently identifying differentially methylated regions from MethylC-seq data'
+- doi: 10.1016/j.patter.2020.100127
+  title: 'Msuite: A High-Performance and Versatile DNA Methylation Data-Analysis Toolkit'
+- doi: 10.1186/s12859-016-1241-0
+  title: 'systemPipeR: NGS workflow and report generation environment'
+- doi: 10.1038/s41467-025-60269-4
+  title: 'BIT: Bayesian Identification of Transcriptional regulators from epigenomics-based query region sets'
+source_repos:
+- https://github.com/bhi-kimlab/BiSpark
+- https://github.com/c-guzman/cipher-workflow-platform
+- https://github.com/scoutzxb/CscoreTool-M
+- https://github.com/jsh58/DMRfinder
+- https://github.com/BenLangmead/bowtie2
+- https://github.com/hellosunking/Msuite
+- https://github.com/tgirke/systemPipeR
+- https://github.com/ZeyuL01/BIT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bhi-kimlab/BiSpark

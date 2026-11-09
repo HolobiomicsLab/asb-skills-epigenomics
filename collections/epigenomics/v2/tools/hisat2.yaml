@@ -1,0 +1,26 @@
+name: HISAT2
+slug: hisat2
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'three different aligners for splice aware datasets: BBMap [14], STAR [17], and HISAT2 [18]'
+- Several splice-aware aligners exist including BBMap, STAR, and HISAT2
+- (absent — flagged as missing)
+- the aligners BWA-MEM [25], Bowtie2 [26], TopHat2 [27], HISAT2 [28]
+derived_from:
+- doi: 10.1186/s12859-017-1770-1
+  title: 'CIPHER: a flexible and extensive workflow platform for integrative next-generation sequencing data analysis and genomic regulatory element prediction'
+- doi: 10.1016/j.patter.2020.100127
+  title: 'Msuite: A High-Performance and Versatile DNA Methylation Data-Analysis Toolkit'
+- doi: 10.1186/s12859-016-1241-0
+  title: 'systemPipeR: NGS workflow and report generation environment'
+source_repos:
+- https://github.com/c-guzman/cipher-workflow-platform
+- https://github.com/hellosunking/Msuite
+- https://github.com/tgirke/systemPipeR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/c-guzman/cipher-workflow-platform

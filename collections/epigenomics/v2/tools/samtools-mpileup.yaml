@@ -1,0 +1,18 @@
+name: samtools mpileup
+slug: samtools-mpileup
+version_used: null
+edam_topics: []
+evidence_spans:
+- This is done using samtools mpileup.
+- Reads were split according to the read origin (Read 1 or Read 2) using samtools (version 1.8)
+derived_from:
+- doi: 10.1093/nar/gkab705
+  title: Rapid identification of methylase specificity (RIMS-seq) jointly identifies methylated motifs and generates shotgun sequencing of bacterial genomes
+source_repos:
+- https://github.com/Ettwiller/RIMS-seq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Ettwiller/RIMS-seq

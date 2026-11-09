@@ -1,0 +1,26 @@
+name: HiC-Pro
+slug: hic-pro
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'HiC-Pro: an optimized and flexible pipeline for Hi-C data processing'
+derived_from:
+- doi: 10.1093/nar/gkw809
+  title: 'ChIA-PET2: a versatile and flexible pipeline for ChIA-PET data analysis'
+- doi: 10.1038/s41467-022-34626-6
+  title: dcHiC detects differential compartments across multiple Hi-C datasets
+- doi: 10.1038/s41592-020-0960-3
+  title: 'DeepC: predicting 3D genome folding using megabase-scale transfer learning'
+- doi: 10.1038/s41592-019-0624-3
+  title: FreeHi-C simulates high-fidelity Hi-C data for benchmarking and data augmentation
+source_repos:
+- https://github.com/GuipengLi/ChIA-PET2
+- https://github.com/ay-lab/dcHiC
+- https://github.com/rschwess/deepC
+- https://github.com/keleslab/FreeHiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GuipengLi/ChIA-PET2

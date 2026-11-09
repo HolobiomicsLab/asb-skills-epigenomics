@@ -1,0 +1,18 @@
+name: Watchdog
+slug: watchdog
+version_used: null
+edam_topics: []
+evidence_spans:
+- In this article, we present Watchdog, a WMS for the automated analysis of large-scale experimental data.
+- watchdog.jar - command-line tool that executes Watchdog workflows
+derived_from:
+- doi: 10.1186/s12859-018-2107-4
+  title: Watchdog – a workflow management system for the distributed analysis of large-scale experimental data
+source_repos:
+- https://github.com/klugem/watchdog
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/klugem/watchdog

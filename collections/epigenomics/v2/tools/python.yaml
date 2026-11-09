@@ -1,0 +1,115 @@
+name: Python
+slug: python
+version_used: '3.7'
+edam_topics: []
+evidence_spans:
+- It is a Python-based toolkit and its core BED-formatted file comparison functions use the package Pybedtools
+- It is a Python-based toolkit
+- The code runs on python 3.7 and above.
+- AMI was calculated by the function adjusted_mutual_info_score in the Python module sklearn.metrics.
+- DeepFun is an updated model based on Basset Framework (https://github.com/davek44/Basset) based on Torch7 and Python.
+- DGW is written in Python and needs Python 2.7 to run.
+- DGW is available as an open source Python package.
+- consists of three scripts, two in Python and one in R
+- The DMRfinder script `extract_CpG_data.py` converts the output from Bismark's aligner into a table of methylated/unmethylated counts at each CpG site
+- it is written in Python and R, and is supported on Linux
+- it is written in Python and R, and is supported on Linux.
+- DMRfinder scripts have been tested with Python versions 2.7.12 and 3.5.2.
+- DriverPower requires Python >= 3.5 and some other computing packages.
+- Python script that converts standard SAM and FASTA input into the mseq input format.
+- "In a command line with python in your path, \nchange directory into simulator/ and then"
+- In a command line with python in your path
+- "In a command line with python in your path, \nchange directory into simulator/ and then\nrun the simulator"
+- In a command line with python in your path, change directory into simulator/ and then run the simulator
+- compute peak-summit density in sliding windows and call HOT regions at the 99th percentile TF-occupancy threshold
+- BIMSBbioinfo/HOT-or-not-examining-the-basis-of-high-occupancy-target-regions
+- custom scripts written in Python 3.6 with “pybedtools” (v0.9.0) on the CentOS system
+- Each sgRNA was assigned for the four types of epigenetic features based on chromosome position using custom scripts written in Python 3.6 with
+- Pycallingcards is a python package designed for both single-cell and bulk calling cards data analysis.
+- Xujun Wang & Shiyi Liu
+- modified Python scripts of RP score calculation, and R code for simulation and application for CCLE data are also available
+- 1. Python 3.6.8
+- python==3.9.6
+- 'Usage: python leaveoneout.py training_positive_dataset training_negative_dataset matrix_motif1 matrix_motif2'
+- csDMA was implemented in python 2.7
+- Python (>= 2.7 & < 3.0) (SnapTools) (highly recommanded for 2.7);
+- Install python version >= 3.6.
+derived_from:
+- doi: 10.1093/nar/gkaa1052
+  title: 'Asymmetron: a toolkit for the identification of strand asymmetry patterns in biological sequences'
+- doi: 10.1093/nar/gkac881
+  title: Interpretable deep learning for chromatin-informed inference of transcriptional programs driven by somatic alterations across cancers
+- doi: 10.1002/advs.202300366
+  title: DeDoc2 Identifies and Characterizes the Hierarchy and Dynamics of Chromatin TAD‐Like Domains in the Single Cells
+- doi: 10.1093/nar/gkz672
+  title: Prediction of regulatory motifs from human Chip-sequencing data using a deep learning framework
+- doi: 10.1093/nar/gkab429
+  title: 'DeepFun: a deep learning sequence-based model to decipher non-coding variant effect in a tissue- and cell type-specific manner'
+- doi: 10.1186/s12859-016-1306-0
+  title: 'DGW: an exploratory data analysis tool for clustering and visualisation of epigenomic marks'
+- doi: 10.1186/s12859-017-1909-0
+  title: 'DMRfinder: efficiently identifying differentially methylated regions from MethylC-seq data'
+- doi: 10.1038/s41467-019-13929-1
+  title: Combined burden and functional impact tests for cancer driver discovery using DriverPower
+- doi: 10.1093/bib/bbae083
+  title: 'Enhancer-MDLF: a novel deep learning framework for identifying cell-specific enhancers'
+- doi: 10.1186/gb-2011-12-3-r22
+  title: Improving RNA-Seq expression estimates by correcting for fragment bias
+- doi: 10.1093/bioinformatics/btad220
+  title: Deep statistical modelling of nanopore sequencing translocation times reveals latent non-B DNA structures
+- doi: 10.1093/nar/gkz460
+  title: 'HOT or not: examining the basis of high-occupancy target regions'
+- doi: 10.1016/j.csbj.2022.11.034
+  title: "<i>EpiCas-DL</i>\n                    : Predicting sgRNA activity for CRISPR-mediated epigenome editing by deep learning"
+- doi: 10.1093/nar/gkac824
+  title: 'iPro-WAEL: a comprehensive and robust framework for identifying promoters in multiple species'
+- doi: 10.1093/bioinformatics/btae070
+  title: 'Pycallingcards: an integrated environment for visualizing, analyzing, and interpreting Calling Cards data'
+- doi: 10.1016/j.gpb.2019.09.008
+  title: '<i>RePhine</i>: An Integrative Method for Identification of Drug Response-Related Transcriptional Regulators'
+- doi: 10.1038/s41467-023-40658-3
+  title: 'SnapFISH: a computational pipeline to identify chromatin loops from multiplexed DNA FISH data'
+- doi: 10.1016/j.csbj.2022.03.036
+  title: 'SRIQ clustering: A fusion of Random Forest, QT clustering, and KNN concepts'
+- doi: 10.1093/bioinformatics/btad060
+  title: 'TIVAN-indel: a computational framework for annotating and predicting non-coding regulatory small insertions and deletions'
+- doi: 10.1038/s41598-019-49430-4
+  title: 'csDMA: an improved bioinformatics tool for identifying DNA 6 mA modifications via Chou’s 5-step rule'
+- doi: 10.1016/j.ygeno.2021.10.007
+  title: 'DeepSE: Detecting super-enhancers among typical enhancers using only sequence feature embeddings'
+- doi: 10.1038/s41467-021-21583-9
+  title: Comprehensive analysis of single cell ATAC-seq data with SnapATAC
+- doi: 10.1038/s41592-021-01231-2
+  title: 'SnapHiC: a computational pipeline to identify chromatin loops from single-cell Hi-C data'
+source_repos:
+- https://github.com/Ahituv-lab/Asymmetron
+- https://github.com/osmanbeyoglulab/CITRUS
+- https://github.com/zengguangjie/deDoc2
+- https://github.com/OSU-BMBL/DESSO
+- https://github.com/davek44/Basset
+- https://github.com/bsml320/DeepFun
+- https://github.com/lukauskas/dgw
+- https://github.com/jsh58/DMRfinder
+- https://github.com/smshuai/DriverPower
+- https://github.com/HaoWuLab-Bioinformatics/Enhancer-MDLF
+- https://github.com/adarob/eXpress-d
+- https://github.com/bayesomicslab/ONT-nonb-GoFAE-DND
+- https://github.com/BIMSBbioinfo/HOT-or-not-examining-the-basis-of-high-occupancy-target-regions
+- https://github.com/yangqianq/EpiCas-DL
+- https://github.com/HaoWuLab-Bioinformatics/iPro-WAEL
+- https://github.com/The-Mitra-Lab/pycallingcards
+- https://github.com/coexps/RePhine
+- https://github.com/coexps/Rephine
+- https://github.com/HuMingLab/SnapFISH
+- https://github.com/StaafLab/SRIQ
+- https://github.com/lichen-lab/TIVAN-indel
+- https://github.com/NWAFU-LiuLab/csDMA
+- https://github.com/QiaoyingJi/DeepSE
+- https://github.com/r3fang/SnapATAC
+- https://github.com/HuMingLab/SnapHiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Ahituv-lab/Asymmetron

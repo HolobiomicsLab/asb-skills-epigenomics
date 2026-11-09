@@ -1,0 +1,22 @@
+name: Harmony
+slug: harmony
+version_used: null
+edam_topics: []
+evidence_spans:
+- Therefore, we added Harmony37, which was demonstrated to have the best performance and shortest running time in previous batch-effect removal benchmark study
+- SnapATAC uses Harmony24 to remove potential batch effect between samples introduced by technical variability
+- Harmony24, a single-cell batch effect correction tool, is incorporated into the SnapATAC pipeline
+derived_from:
+- doi: 10.1038/s41467-023-37439-3
+  title: 'Cellcano: supervised cell type identification for single cell ATAC-seq data'
+- doi: 10.1038/s41467-021-21583-9
+  title: Comprehensive analysis of single cell ATAC-seq data with SnapATAC
+source_repos:
+- https://github.com/marvinquiet/Cellcano
+- https://github.com/r3fang/SnapATAC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/marvinquiet/Cellcano

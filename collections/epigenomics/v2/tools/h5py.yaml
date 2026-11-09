@@ -1,0 +1,25 @@
+name: h5py
+slug: h5py
+version_used: 3.1.0
+edam_topics: []
+evidence_spans:
+- we will need to install seaborn and h5py first.
+- h5py==3.1.0
+derived_from:
+- doi: 10.1093/bioinformatics/btad220
+  title: Deep statistical modelling of nanopore sequencing translocation times reveals latent non-B DNA structures
+- doi: 10.1093/nar/gkac824
+  title: 'iPro-WAEL: a comprehensive and robust framework for identifying promoters in multiple species'
+- doi: 10.1093/bioinformatics/btad060
+  title: 'TIVAN-indel: a computational framework for annotating and predicting non-coding regulatory small insertions and deletions'
+source_repos:
+- https://github.com/bayesomicslab/ONT-nonb-GoFAE-DND
+- https://github.com/HaoWuLab-Bioinformatics/iPro-WAEL
+- https://github.com/amanbasu/TIVAN-indel
+- https://github.com/lichen-lab/TIVAN-indel
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bayesomicslab/ONT-nonb-GoFAE-DND

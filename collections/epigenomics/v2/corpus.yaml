@@ -1,0 +1,1664 @@
+schema: asb-corpus/1.0
+collection: epigenomics
+version: 2
+summary:
+  total: 92
+  included: 92
+  hold: 0
+papers:
+- name: asbb_subwave1_2026-09__coll_dedoc2_cq
+  doi: 10.1002/advs.202300366
+  title: DeDoc2 Identifies and Characterizes the Hierarchy and Dynamics of Chromatin TAD‐Like Domains in the Single Cells
+  category: epigenomics
+  repo_url: https://github.com/zengguangjie/deDoc2
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_recognicer_cq
+  doi: 10.1007/s40484-020-0225-2
+  title: 'RECOGNICER: A coarse‐graining approach for identifying broad domains from ChIP‐seq data'
+  category: epigenomics
+  repo_url: https://github.com/zanglab/recognicer
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: null
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_covnorm_cq
+  doi: 10.1016/j.csbj.2021.05.041
+  title: 'covNorm: An R package for coverage based normalization of Hi-C and capture Hi-C data'
+  category: epigenomics
+  repo_url: https://github.com/kaistcbfg/covNormRpkg
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_sriq_cq
+  doi: 10.1016/j.csbj.2022.03.036
+  title: 'SRIQ clustering: A fusion of Random Forest, QT clustering, and KNN concepts'
+  category: epigenomics
+  repo_url: https://github.com/StaafLab/SRIQ
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_iepicas_dl_cq
+  doi: 10.1016/j.csbj.2022.11.034
+  title: 'EpiCas-DL : Predicting sgRNA activity for CRISPR-mediated epigenome editing by deep learning'
+  category: epigenomics
+  repo_url: https://github.com/yangqianq/EpiCas-DL
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_i3plex_cq
+  doi: 10.1016/j.csbj.2023.05.016
+  title: 3plex enables deep computational investigation of triplex forming lncRNAs
+  category: epigenomics
+  repo_url: https://github.com/molinerisLab/3plex
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_toast_cq
+  doi: 10.1016/j.csbj.2023.09.019
+  title: 'TOAST: A novel method for identifying topologically associated domains based on graph auto-encoders and clustering'
+  category: epigenomics
+  repo_url: https://github.com/ghaiyan/TOAST
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_rephine_cq
+  doi: 10.1016/j.gpb.2019.09.008
+  title: 'RePhine: An Integrative Method for Identification of Drug Response-Related Transcriptional Regulators'
+  category: epigenomics
+  repo_url: https://github.com/coexps/Rephine
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave_2026-08-31__coll_sccatch_cq
+  doi: 10.1016/j.isci.2020.100882
+  title: 'scCATCH: Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data'
+  category: epigenomics
+  repo_url: https://github.com/ZJUFanLab/scCATCH
+  status: included
+  wave: asbb_subwave_2026-08-31
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_giloop_cq
+  doi: 10.1016/j.isci.2022.105535
+  title: 'GILoop: Robust chromatin loop calling across multiple sequencing depths on Hi-C data'
+  category: epigenomics
+  repo_url: https://github.com/fzbio/GILoop
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_msuite_cq
+  doi: 10.1016/j.patter.2020.100127
+  title: 'Msuite: A High-Performance and Versatile DNA Methylation Data-Analysis Toolkit'
+  category: epigenomics
+  repo_url: https://github.com/hellosunking/Msuite
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_skipper_cq
+  doi: 10.1016/j.xgen.2023.100317
+  title: Skipper analysis of eCLIP datasets enables sensitive detection of constrained translation factor binding sites
+  category: epigenomics
+  repo_url: https://github.com/YeoLab/skipper
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nanopore_cq
+  doi: 10.1016/j.xinn.2021.100153
+  title: Applications and potentials of nanopore sequencing in the (epi)genome and (epi)transcriptome era
+  category: epigenomics
+  repo_url: https://github.com/jts/nanopore-paper-analysis
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_microcket_cq
+  doi: 10.1016/j.xpro.2025.103962
+  title: Protocol for investigating chromatin architecture in adult skeletal muscle stem cells using high-throughput chromosome conformation capture
+  category: epigenomics
+  repo_url: https://github.com/hellosunking/Microcket
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_deepse_cq
+  doi: 10.1016/j.ygeno.2021.10.007
+  title: 'DeepSE: Detecting super-enhancers among typical enhancers using only sequence feature embeddings'
+  category: epigenomics
+  repo_url: https://github.com/QiaoyingJi/DeepSE
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_chromvar_cq
+  doi: 10.1038/nmeth.4401
+  title: 'chromVAR: inferring transcription-factor-associated accessibility from single-cell epigenomic data'
+  category: epigenomics
+  repo_url: https://github.com/GreenleafLab/chromVAR
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-23'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_eccdnadb_cq
+  doi: 10.1038/s41388-022-02286-x
+  title: 'eccDNAdb: a database of extrachromosomal circular DNA profiles in human cancers'
+  category: epigenomics
+  repo_url: https://github.com/solo7773/eccDNAdb
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_scale_cq
+  doi: 10.1038/s41467-019-12630-7
+  title: SCALE method for single-cell ATAC-seq analysis via latent feature extraction
+  category: epigenomics
+  repo_url: https://github.com/jsxlei/SCALE
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_driverpower_cq
+  doi: 10.1038/s41467-019-13929-1
+  title: Combined burden and functional impact tests for cancer driver discovery using DriverPower
+  category: epigenomics
+  repo_url: https://github.com/smshuai/DriverPower
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_sex_dimorphism_cq
+  doi: 10.1038/s41467-020-14396-9
+  title: Sexual-dimorphism in human immune system aging
+  category: epigenomics
+  repo_url: https://github.com/UcarLab/SexDimorphismNatureCommunications
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_peakachu_cq
+  doi: 10.1038/s41467-020-17239-9
+  title: A supervised learning framework for chromatin loop detection in genome-wide contact maps
+  category: epigenomics
+  repo_url: https://github.com/tariks/peakachu
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_chromscape_cq
+  doi: 10.1038/s41467-020-19542-x
+  title: Interactive analysis of single-cell epigenomic landscapes with ChromSCape
+  category: epigenomics
+  repo_url: https://github.com/vallotlab/ChromSCape_benchmarking
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_snapatac_cq
+  doi: 10.1038/s41467-021-21583-9
+  title: Comprehensive analysis of single cell ATAC-seq data with SnapATAC
+  category: epigenomics
+  repo_url: https://github.com/r3fang/SnapATAC
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_scpower_cq
+  doi: 10.1038/s41467-021-26779-7
+  title: scPower accelerates and optimizes the design of multi-sample single cell transcriptomic studies
+  category: epigenomics
+  repo_url: https://github.com/heiniglab/scPower
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_dchic_cq
+  doi: 10.1038/s41467-022-34626-6
+  title: dcHiC detects differential compartments across multiple Hi-C datasets
+  category: epigenomics
+  repo_url: https://github.com/ay-lab/dcHiC
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_cellcano_cq
+  doi: 10.1038/s41467-023-37439-3
+  title: 'Cellcano: supervised cell type identification for single cell ATAC-seq data'
+  category: epigenomics
+  repo_url: https://github.com/marvinquiet/Cellcano
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_snapfish_cq
+  doi: 10.1038/s41467-023-40658-3
+  title: 'SnapFISH: a computational pipeline to identify chromatin loops from multiplexed DNA FISH data'
+  category: epigenomics
+  repo_url: https://github.com/HuMingLab/SnapFISH
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_bit_cq
+  doi: 10.1038/s41467-025-60269-4
+  title: 'BIT: Bayesian Identification of Transcriptional regulators from epigenomics-based query region sets'
+  category: epigenomics
+  repo_url: https://github.com/ZeyuL01/BIT
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_dnalongbench_cq
+  doi: 10.1038/s41467-025-65077-4
+  title: 'DNALONGBENCH: a benchmark suite for long-range DNA prediction tasks'
+  category: epigenomics
+  repo_url: https://github.com/ma-compbio/DNALONGBENCH
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_bag_of_motifs_bom_cq
+  doi: 10.1038/s41467-025-65362-2
+  title: Motif-based models accurately predict cell type-specific distal regulatory elements
+  category: epigenomics
+  repo_url: https://github.com/ewonglab/BOM_package
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_cistopic_cq
+  doi: 10.1038/s41592-019-0367-1
+  title: 'cisTopic: cis-regulatory topic modeling on single-cell ATAC-seq data'
+  category: epigenomics
+  repo_url: https://github.com/aertslab/cistopic
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: other-oa
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-23'
+    source_reuse: other
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: restricted
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_freehi_c_cq
+  doi: 10.1038/s41592-019-0624-3
+  title: FreeHi-C simulates high-fidelity Hi-C data for benchmarking and data augmentation
+  category: epigenomics
+  repo_url: https://github.com/keleslab/FreeHiC
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-23'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_deepc_cq
+  doi: 10.1038/s41592-020-0960-3
+  title: 'DeepC: predicting 3D genome folding using megabase-scale transfer learning'
+  category: epigenomics
+  repo_url: https://github.com/rschwess/deepC
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-23'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_snaphic_cq
+  doi: 10.1038/s41592-021-01231-2
+  title: 'SnapHiC: a computational pipeline to identify chromatin loops from single-cell Hi-C data'
+  category: epigenomics
+  repo_url: https://github.com/HuMingLab/SnapHiC
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave_2026-08-31__coll_csdma_cq
+  doi: 10.1038/s41598-019-49430-4
+  title: 'csDMA: an improved bioinformatics tool for identifying DNA 6 mA modifications via Chou’s 5-step rule'
+  category: epigenomics
+  repo_url: https://github.com/NWAFU-LiuLab/csDMA
+  status: included
+  wave: asbb_subwave_2026-08-31
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_iedge_cq
+  doi: 10.1038/s41598-019-52886-z
+  title: Identification of candidate cancer drivers by integrative Epi-DNA and Gene Expression (iEDGE) data analysis
+  category: epigenomics
+  repo_url: https://github.com/montilab/iEDGE
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_seqcode_cq
+  doi: 10.1038/s41598-021-98889-7
+  title: Productive visualization of high-throughput sequencing data using the SeqCode open portable platform
+  category: epigenomics
+  repo_url: https://github.com/eblancoga/seqcode
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_enhancer_mdlf_cq
+  doi: 10.1093/bib/bbae083
+  title: 'Enhancer-MDLF: a novel deep learning framework for identifying cell-specific enhancers'
+  category: epigenomics
+  repo_url: https://github.com/HaoWuLab-Bioinformatics/Enhancer-MDLF
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_epicompare_cq
+  doi: 10.1093/bioadv/vbad049
+  title: 'EpiCompare: R package for the comparison and quality control of epigenomic peak files'
+  category: epigenomics
+  repo_url: https://github.com/neurogenomics/EpiCompare
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_absp_cq
+  doi: 10.1093/bioinformatics/btad008
+  title: 'ABSP: an automated R tool to efficiently analyze region-specific CpG methylation from bisulfite sequencing PCR'
+  category: epigenomics
+  repo_url: https://github.com/ABSP-methylation-tool/ABSP
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_tivan_indel_cq
+  doi: 10.1093/bioinformatics/btad060
+  title: 'TIVAN-indel: a computational framework for annotating and predicting non-coding regulatory small insertions and deletions'
+  category: epigenomics
+  repo_url: https://github.com/lichen-lab/TIVAN-indel
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_adaliftover_cq
+  doi: 10.1093/bioinformatics/btad149
+  title: 'AdaLiftOver: high-resolution identification of orthologous regulatory elements with Adaptive liftOver'
+  category: epigenomics
+  repo_url: https://github.com/keleslab/AdaLiftOver
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_bootranges_cq
+  doi: 10.1093/bioinformatics/btad190
+  title: 'bootRanges: flexible generation of null sets of genomic ranges for hypothesis testing'
+  category: epigenomics
+  repo_url: https://github.com/Wancen/bootRangespaper
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_gofae_dnd_cq
+  doi: 10.1093/bioinformatics/btad220
+  title: Deep statistical modelling of nanopore sequencing translocation times reveals latent non-B DNA structures
+  category: epigenomics
+  repo_url: https://github.com/bayesomicslab/ONT-nonb-GoFAE-DND
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_cscoretool_m_cq
+  doi: 10.1093/bioinformatics/btad314
+  title: CscoreTool-M infers 3D sub-compartment probabilities within cell population
+  category: epigenomics
+  repo_url: https://github.com/scoutzxb/CscoreTool-M
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_medipipe_cq
+  doi: 10.1093/bioinformatics/btad423
+  title: 'MEDIPIPE: an automated and comprehensive pipeline for cfMeDIP-seq data quality control and analysis'
+  category: epigenomics
+  repo_url: https://github.com/yzeng-lol/MEDIPIPE
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_centre_cq
+  doi: 10.1093/bioinformatics/btad687
+  title: 'CENTRE: a gradient boosting algorithm for Cell-type-specific ENhancer-Target pREdiction'
+  category: epigenomics
+  repo_url: https://github.com/slrvv/CENTRE
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_pycallingcards_cq
+  doi: 10.1093/bioinformatics/btae070
+  title: 'Pycallingcards: an integrated environment for visualizing, analyzing, and interpreting Calling Cards data'
+  category: epigenomics
+  repo_url: https://github.com/The-Mitra-Lab/pycallingcards
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_bhi_cect_cq
+  doi: 10.1093/nar/gkaa004
+  title: 'BHi-Cect: a top-down algorithm for identifying the multi-scale hierarchical structure of chromosomes'
+  category: epigenomics
+  repo_url: https://github.com/princeps091-binf/BHi-Cect
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_asymmetron_cq
+  doi: 10.1093/nar/gkaa1052
+  title: 'Asymmetron: a toolkit for the identification of strand asymmetry patterns in biological sequences'
+  category: epigenomics
+  repo_url: https://github.com/Ahituv-lab/Asymmetron
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_cola_cq
+  doi: 10.1093/nar/gkaa1146
+  title: 'cola: an R/Bioconductor package for consensus partitioning through a general framework'
+  category: epigenomics
+  repo_url: https://github.com/jokergoo/cola_manuscript
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_epiregio_cq
+  doi: 10.1093/nar/gkaa382
+  title: 'EpiRegio: analysis and retrieval of regulatory elements linked to genes'
+  category: epigenomics
+  repo_url: https://github.com/TeamRegio/EpiRegioDB
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_deepfun_cq
+  doi: 10.1093/nar/gkab429
+  title: 'DeepFun: a deep learning sequence-based model to decipher non-coding variant effect in a tissue- and cell type-specific manner'
+  category: epigenomics
+  repo_url: https://github.com/bsml320/DeepFun
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_dxm_cq
+  doi: 10.1093/nar/gkab516
+  title: Determining subpopulation methylation profiles from bisulfite sequencing data of heterogeneous samples using DXM
+  category: epigenomics
+  repo_url: https://github.com/edwardslab-wustl/dxm
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_robocop_cq
+  doi: 10.1093/nar/gkab553
+  title: 'RoboCOP: jointly computing chromatin occupancy profiles for numerous factors from chromatin accessibility data'
+  category: epigenomics
+  repo_url: https://github.com/HarteminkLab/RoboCOP
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: null
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_tsminer_cq
+  doi: 10.1093/nar/gkab629
+  title: 'TSMiner: a novel framework for generating time-specific gene regulatory networks from time-series expression profiles'
+  category: epigenomics
+  repo_url: https://github.com/free1234hm/tsminer-tool
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_rims_seq_cq
+  doi: 10.1093/nar/gkab705
+  title: Rapid identification of methylase specificity (RIMS-seq) jointly identifies methylated motifs and generates shotgun sequencing of bacterial genomes
+  category: epigenomics
+  repo_url: https://github.com/Ettwiller/RIMS-seq
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_spechap_cq
+  doi: 10.1093/nar/gkab709
+  title: 'SpecHap: a diploid phasing algorithm based on spectral graph theory'
+  category: epigenomics
+  repo_url: https://github.com/deepomicslab/SpecHap
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_dnaffinity_cq
+  doi: 10.1093/nar/gkac708
+  title: 'DNAffinity: a machine-learning approach to predict DNA binding affinities of transcription factors'
+  category: epigenomics
+  repo_url: https://github.com/Jalbiti/DNAffinity
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_ipro_wael_cq
+  doi: 10.1093/nar/gkac824
+  title: 'iPro-WAEL: a comprehensive and robust framework for identifying promoters in multiple species'
+  category: epigenomics
+  repo_url: https://github.com/HaoWuLab-Bioinformatics/iPro-WAEL
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_citrus_cq
+  doi: 10.1093/nar/gkac881
+  title: Interpretable deep learning for chromatin-informed inference of transcriptional programs driven by somatic alterations across cancers
+  category: epigenomics
+  repo_url: https://github.com/osmanbeyoglulab/CITRUS
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_postre_cq
+  doi: 10.1093/nar/gkad225
+  title: 'POSTRE: a tool to predict the pathological effects of human structural variants'
+  category: epigenomics
+  repo_url: https://github.com/vicsanga/Postre
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_chia_pet2_cq
+  doi: 10.1093/nar/gkw809
+  title: 'ChIA-PET2: a versatile and flexible pipeline for ChIA-PET data analysis'
+  category: epigenomics
+  repo_url: https://github.com/GuipengLi/ChIA-PET2
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_luxr_cq
+  doi: 10.1093/nar/gkz1089
+  title: Global H-NS counter-silencing by LuxR activates quorum sensing gene expression
+  category: epigenomics
+  repo_url: https://github.com/Juliacvk/LuxR_H-NS
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_epialign_cq
+  doi: 10.1093/nar/gkz287
+  title: 'EpiAlign: an alignment-based bioinformatic tool for comparing chromatin state sequences'
+  category: epigenomics
+  repo_url: https://github.com/zzz3639/EpiAlign
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_methylcal_cq
+  doi: 10.1093/nar/gkz325
+  title: 'MethylCal: Bayesian calibration of methylation levels'
+  category: epigenomics
+  repo_url: https://github.com/lb664/MethylCal
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_hot_cq
+  doi: 10.1093/nar/gkz460
+  title: 'HOT or not: examining the basis of high-occupancy target regions'
+  category: epigenomics
+  repo_url: https://github.com/BIMSBbioinfo/HOT-or-not-examining-the-basis-of-high-occupancy-target-regions
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_deep_sequence_and_shape_motif_desso_cq
+  doi: 10.1093/nar/gkz672
+  title: Prediction of regulatory motifs from human Chip-sequencing data using a deep learning framework
+  category: epigenomics
+  repo_url: https://github.com/OSU-BMBL/DESSO
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_methcoresprofiler_cq
+  doi: 10.1093/nargab/lqaa096
+  title: Tracing and tracking epiallele families in complex DNA populations
+  category: epigenomics
+  repo_url: https://github.com/84AP/MethCoresProfiler
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_spikchip_cq
+  doi: 10.1093/nargab/lqab064
+  title: 'SpikChIP: a novel computational methodology to compare multiple ChIP-seq using spike-in chromatin'
+  category: epigenomics
+  repo_url: https://github.com/eblancoga/spikChIP
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_mepp_cq
+  doi: 10.1093/nargab/lqac075
+  title: 'MEPP: more transparent motif enrichment by profiling positional correlations'
+  category: epigenomics
+  repo_url: https://github.com/npdeloss/mepp
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_chia_pipe_cq
+  doi: 10.1126/sciadv.aay2078
+  title: 'ChIA-PIPE: A fully automated pipeline for comprehensive ChIA-PET data analysis and visualization'
+  category: epigenomics
+  repo_url: https://github.com/TheJacksonLaboratory/ChIA-PIPE
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: null
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_copy_scat_cq
+  doi: 10.1126/sciadv.abg6045
+  title: 'Copy-scAT: Deconvoluting single-cell chromatin accessibility of genetic subclones in cancer'
+  category: epigenomics
+  repo_url: https://github.com/spcdot/CopyscAT
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_delila_py_cq
+  doi: 10.1128/mra.00160-21
+  title: Delila-PY, a Pipeline for Utilizing the Delila Suite of Software to Identify Potential DNA Binding Motifs
+  category: epigenomics
+  repo_url: https://github.com/GLBRC/delila
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_contort_cq
+  doi: 10.1128/mra.00587-20
+  title: 'COnTORT: COmprehensive Transcriptomic ORganizational Tool for Simultaneously Retrieving and Organizing Numerous Gene Expression Data Sets from the NCBI Gene Expression Omnibus Database'
+  category: epigenomics
+  repo_url: https://github.com/GLBRC/contort
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_hpeak_cq
+  doi: 10.1186/1471-2105-11-369
+  title: 'HPeak: an HMM-based algorithm for defining read-enriched regions in ChIP-Seq data'
+  category: epigenomics
+  repo_url: https://github.com/cauyrd/HPeak
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_express_cq
+  doi: 10.1186/gb-2011-12-3-r22
+  title: Improving RNA-Seq expression estimates by correcting for fragment bias
+  category: epigenomics
+  repo_url: https://github.com/adarob/eXpress-d
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_histonehmm_cq
+  doi: 10.1186/s12859-015-0491-6
+  title: 'histoneHMM: Differential analysis of histone modifications with broad genomic footprints'
+  category: epigenomics
+  repo_url: https://github.com/matthiasheinig/histoneHMM
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_neat_cq
+  doi: 10.1186/s12859-016-0902-3
+  title: 'NEAT: a framework for building fully automated NGS pipelines and analyses'
+  category: epigenomics
+  repo_url: https://github.com/pschorderet/NEAT
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_systempiper_cq
+  doi: 10.1186/s12859-016-1241-0
+  title: 'systemPipeR: NGS workflow and report generation environment'
+  category: epigenomics
+  repo_url: https://github.com/tgirke/systemPipeR
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_chilin_cq
+  doi: 10.1186/s12859-016-1274-4
+  title: 'ChiLin: a comprehensive ChIP-seq and DNase-seq quality control and analysis pipeline'
+  category: epigenomics
+  repo_url: https://github.com/cfce/chilin
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_dgw_cq
+  doi: 10.1186/s12859-016-1306-0
+  title: 'DGW: an exploratory data analysis tool for clustering and visualisation of epigenomic marks'
+  category: epigenomics
+  repo_url: https://github.com/lukauskas/dgw
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_smite_cq
+  doi: 10.1186/s12859-017-1477-3
+  title: 'SMITE: an R/Bioconductor package that identifies network modules by integrating genomic and epigenomic information'
+  category: epigenomics
+  repo_url: https://github.com/GreallyLab/SMITE
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_bayesian_epiallele_detection_bed_cq
+  doi: 10.1186/s12859-017-1753-2
+  title: Quantification of tumour evolution and heterogeneity via Bayesian epiallele detection
+  category: epigenomics
+  repo_url: https://github.com/james-e-barrett/bed
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_cipher_cq
+  doi: 10.1186/s12859-017-1770-1
+  title: 'CIPHER: a flexible and extensive workflow platform for integrative next-generation sequencing data analysis and genomic regulatory element prediction'
+  category: epigenomics
+  repo_url: https://github.com/c-guzman/cipher-workflow-platform
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_dmrfinder_cq
+  doi: 10.1186/s12859-017-1909-0
+  title: 'DMRfinder: efficiently identifying differentially methylated regions from MethylC-seq data'
+  category: epigenomics
+  repo_url: https://github.com/jsh58/DMRfinder
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_watchdog_cq
+  doi: 10.1186/s12859-018-2107-4
+  title: Watchdog – a workflow management system for the distributed analysis of large-scale experimental data
+  category: epigenomics
+  repo_url: https://github.com/klugem/watchdog
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_genexpi_cq
+  doi: 10.1186/s12859-018-2138-x
+  title: 'Genexpi: a toolset for identifying regulons and validating gene regulatory networks using time-course expression data'
+  category: epigenomics
+  repo_url: https://github.com/cas-bioinf/genexpi
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_dinamo_cq
+  doi: 10.1186/s12859-018-2215-1
+  title: 'DiNAMO: highly sensitive DNA motif discovery in high-throughput sequencing data'
+  category: epigenomics
+  repo_url: https://github.com/bonsai-team/DiNAMO
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_fastgenogam_cq
+  doi: 10.1186/s12859-018-2238-7
+  title: 'GenoGAM 2.0: scalable and efficient implementation of genome-wide generalized additive models for gigabase-scale genomes'
+  category: epigenomics
+  repo_url: https://github.com/gstricker/fastGenoGAM
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_imeges_cq
+  doi: 10.1186/s12859-018-2469-7
+  title: 'iMEGES: integrated mental-disorder GEnome score by deep neural network for prioritizing the susceptibility genes for mental disorders in personal genomes'
+  category: epigenomics
+  repo_url: https://github.com/WGLab/iMEGES
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_bispark_cq
+  doi: 10.1186/s12859-018-2498-2
+  title: 'BiSpark: a Spark-based highly scalable aligner for bisulfite sequencing data'
+  category: epigenomics
+  repo_url: https://github.com/bhi-kimlab/BiSpark
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-23'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall

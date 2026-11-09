@@ -1,0 +1,52 @@
+name: scikit-learn
+slug: scikit-learn
+version_used: 0.24.2
+edam_topics: []
+evidence_spans:
+- some other packages such as PyTorch, Pandas, Numpy, scikit-learn, Scipy are used
+- AMI was calculated by the function adjusted_mutual_info_score in the Python module sklearn.metrics.
+- AMI was calculated by the function adjusted_mutual_info_score in the Python module sklearn.metrics
+- the AMI score was calculated by the Python module sklearn.metrics.adjusted_mutual_info_score
+- 'Scikit-learn: machine learning in Python'
+- Scikit-learn 0.24.2 and Tensorflow 2.4.1 were used as the backend for machine learning algorithms and deep learning models
+- mamba create -n peakachu cooler numba scikit-learn=1.1.2 joblib=1.1.0
+- scikit-learn==0.24.2
+- we used the ExtraTrees algorithm to train the optimized model
+derived_from:
+- doi: 10.1093/nar/gkac881
+  title: Interpretable deep learning for chromatin-informed inference of transcriptional programs driven by somatic alterations across cancers
+- doi: 10.1002/advs.202300366
+  title: DeDoc2 Identifies and Characterizes the Hierarchy and Dynamics of Chromatin TAD‐Like Domains in the Single Cells
+- doi: 10.1093/nar/gkz672
+  title: Prediction of regulatory motifs from human Chip-sequencing data using a deep learning framework
+- doi: 10.1093/nar/gkac708
+  title: 'DNAffinity: a machine-learning approach to predict DNA binding affinities of transcription factors'
+- doi: 10.1093/bib/bbae083
+  title: 'Enhancer-MDLF: a novel deep learning framework for identifying cell-specific enhancers'
+- doi: 10.1016/j.isci.2022.105535
+  title: 'GILoop: Robust chromatin loop calling across multiple sequencing depths on Hi-C data'
+- doi: 10.1016/j.csbj.2022.11.034
+  title: "<i>EpiCas-DL</i>\n                    : Predicting sgRNA activity for CRISPR-mediated epigenome editing by deep learning"
+- doi: 10.1038/s41467-020-17239-9
+  title: A supervised learning framework for chromatin loop detection in genome-wide contact maps
+- doi: 10.1093/bioinformatics/btad060
+  title: 'TIVAN-indel: a computational framework for annotating and predicting non-coding regulatory small insertions and deletions'
+- doi: 10.1038/s41598-019-49430-4
+  title: 'csDMA: an improved bioinformatics tool for identifying DNA 6 mA modifications via Chou’s 5-step rule'
+source_repos:
+- https://github.com/osmanbeyoglulab/CITRUS
+- https://github.com/zengguangjie/deDoc2
+- https://github.com/OSU-BMBL/DESSO
+- https://github.com/Jalbiti/DNAffinity
+- https://github.com/HaoWuLab-Bioinformatics/Enhancer-MDLF
+- https://github.com/fzbio/GILoop
+- https://github.com/yangqianq/EpiCas-DL
+- https://github.com/tariks/peakachu
+- https://github.com/lichen-lab/TIVAN-indel
+- https://github.com/NWAFU-LiuLab/csDMA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/osmanbeyoglulab/CITRUS

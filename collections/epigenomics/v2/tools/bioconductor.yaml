@@ -1,0 +1,54 @@
+name: Bioconductor
+slug: bioconductor
+version_used: '3.15'
+edam_topics: []
+evidence_spans:
+- lecell.biolab.si/).
+- distributed as a Bioconductor package, that processes single-cell epigenomic data
+- we present ChromSCape, a user-friendly interactive Shiny/R application distributed as a Bioconductor package
+- This package requires [R](https://www.r-project.org/) and [Bioconductor]
+- 'EpiCompare is available on Bioconductor (≥ v3.15): https://bioconductor.org/packages/release/bioc/html/EpiCompare.html'
+- 'BiocStyle::html_document:'
+- in accordance with all Bioconductor (Huber et al., 2015) coding and documentation standards.
+- it builds on top of the infrastructure provided by the Bioconductor software project
+- "output: \n  BiocStyle::html_document:"
+- seamlessly integrates with the extensive bioinformatic tool sets available through Bioconductor
+- '- `GenomicRanges (Suggests)`'
+- It runs in the popular R computing environment and thus seamlessly integrates with the extensive bioinformatic tool sets available through Bioconductor.
+- open source packages as part of the Bioconductor consortium [15]
+- the R community ... developing and providing a plethora of open source packages as part of the Bioconductor consortium [15].
+- BiocStyle::html_document
+- systemPipeR is freely available for all common operating systems from Bioconductor
+- (absent — flagged as missing)
+derived_from:
+- doi: 10.1038/s41467-020-19542-x
+  title: Interactive analysis of single-cell epigenomic landscapes with ChromSCape
+- doi: 10.1093/nar/gkaa1146
+  title: '<i>cola</i>: an R/Bioconductor package for consensus partitioning through a general framework'
+- doi: 10.1186/s12859-017-1909-0
+  title: 'DMRfinder: efficiently identifying differentially methylated regions from MethylC-seq data'
+- doi: 10.1093/bioadv/vbad049
+  title: 'EpiCompare: R package for the comparison and quality control of epigenomic peak files'
+- doi: 10.1186/s12859-018-2238-7
+  title: 'GenoGAM 2.0: scalable and efficient implementation of genome-wide generalized additive models for gigabase-scale genomes'
+- doi: 10.1186/s12859-015-0491-6
+  title: 'histoneHMM: Differential analysis of histone modifications with broad genomic footprints'
+- doi: 10.1186/s12859-016-0902-3
+  title: 'NEAT: a framework for building fully automated NGS pipelines and analyses'
+- doi: 10.1186/s12859-016-1241-0
+  title: 'systemPipeR: NGS workflow and report generation environment'
+source_repos:
+- https://github.com/vallotlab/ChromSCape_benchmarking
+- https://github.com/jokergoo/cola_manuscript
+- https://github.com/jsh58/DMRfinder
+- https://github.com/neurogenomics/EpiCompare
+- https://github.com/gstricker/fastGenoGAM
+- https://github.com/matthiasheinig/histoneHMM
+- https://github.com/pschorderet/NEAT
+- https://github.com/tgirke/systemPipeR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/vallotlab/ChromSCape_benchmarking

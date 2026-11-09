@@ -1,0 +1,18 @@
+name: CscoreTool-M
+slug: cscoretool-m
+version_used: null
+edam_topics: []
+evidence_spans:
+- ./CscoreTool-M hg38_500k_Rabl.bed Test.summary Test_500k_1 5 20 12
+- ./CscoreTool-M hg38_500k_Rabl.bed Test.summary Test_500k_3 5 20 12 hg38_blacklisted.bed Test_excluded.txt
+derived_from:
+- doi: 10.1093/bioinformatics/btad314
+  title: CscoreTool-M infers 3D sub-compartment probabilities within cell population
+source_repos:
+- https://github.com/scoutzxb/CscoreTool-M
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scoutzxb/CscoreTool-M

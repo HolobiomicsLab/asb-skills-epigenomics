@@ -1,0 +1,17 @@
+name: MAP-RSeq
+slug: map-rseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- HiChIP [3], Galaxy [4], MAP-RSeq [5]
+derived_from:
+- doi: 10.1186/s12859-017-1770-1
+  title: 'CIPHER: a flexible and extensive workflow platform for integrative next-generation sequencing data analysis and genomic regulatory element prediction'
+source_repos:
+- https://github.com/c-guzman/cipher-workflow-platform
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/c-guzman/cipher-workflow-platform

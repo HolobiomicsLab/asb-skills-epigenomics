@@ -1,0 +1,19 @@
+name: SnapFISH
+slug: snapfish
+version_used: null
+edam_topics: []
+evidence_spans:
+- SnapFISH is a published package on [PyPI](https://pypi.org/project/SnapFISH/0.1.0/) and can be downloaded by `pip install SnapFISH`
+- pip install SnapFISH
+- SnapFISH call-loops -i PATH/TO/3DCOOR.txt -o OUT/DIR -a PATH/TO/ANN.txt -p 1 -d SUFFIX
+derived_from:
+- doi: 10.1038/s41467-023-40658-3
+  title: 'SnapFISH: a computational pipeline to identify chromatin loops from multiplexed DNA FISH data'
+source_repos:
+- https://github.com/HuMingLab/SnapFISH
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HuMingLab/SnapFISH

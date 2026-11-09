@@ -1,0 +1,23 @@
+name: dcHiC
+slug: dchic
+version_used: null
+edam_topics: []
+evidence_spans:
+- The following examples were created using dcHiC’s standalone visualization utility
+- created using dcHiC’s standalone visualization utility, which allows for single-command creation of HTML files
+- The following examples were created using dcHiC’s standalone visualization utility, which allows for single-command creation of HTML files for interactive compartment/genomic visualization.
+- dcHiC’s standalone visualization utility, which allows for single-command creation of HTML files for interactive compartment/genomic visualization
+- Here, we introduce dcHiC (differential compartment analysis of Hi-C), a method that identifies statistically significant differences in compartmentalization
+- for each genomic bin, dcHiC calculates the Mahalanobis distance, a multi-variate z-score that measures the extent to which each bin is an outlier
+- In step 1, dcHiC calculates the principal components followed by the quantile normalization of the compartment scores across all input Hi-C data
+derived_from:
+- doi: 10.1038/s41467-022-34626-6
+  title: dcHiC detects differential compartments across multiple Hi-C datasets
+source_repos:
+- https://github.com/ay-lab/dcHiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ay-lab/dcHiC

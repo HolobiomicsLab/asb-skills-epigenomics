@@ -1,0 +1,20 @@
+name: SCALE
+slug: scale
+version_used: null
+edam_topics: []
+evidence_spans:
+- SCALE neural network is implemented in [Pytorch](https://pytorch.org/) framework.
+- we introduce a method for analyzing scATAC-seq data, called Single-Cell ATAC-seq analysis via Latent feature Extraction (SCALE).
+- SCALE.py -d [input]
+- SCALE is thus a powerful tool for scATAC-seq data analysis, including data visualization, clustering, and denoising and imputation.
+derived_from:
+- doi: 10.1038/s41467-019-12630-7
+  title: SCALE method for single-cell ATAC-seq analysis via latent feature extraction
+source_repos:
+- https://github.com/jsxlei/SCALE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jsxlei/SCALE

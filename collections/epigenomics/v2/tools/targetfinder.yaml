@@ -1,0 +1,18 @@
+name: TargetFinder
+slug: targetfinder
+version_used: null
+edam_topics: []
+evidence_spans:
+- We reimplemented TargetFinder (Whalen et al. 2016)
+derived_from:
+- doi: 10.1093/bioinformatics/btad687
+  title: 'CENTRE: a gradient boosting algorithm for Cell-type-specific ENhancer-Target pREdiction'
+source_repos:
+- https://github.com/shwhalen/targetfinder
+- https://github.com/slrvv/CENTRE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shwhalen/targetfinder

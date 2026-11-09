@@ -1,0 +1,20 @@
+name: csDMA
+slug: csdma
+version_used: null
+edam_topics: []
+evidence_spans:
+- The csDMA trained with the ExtraTrees classifier.
+- a machine learning-based prediction tool, named csDMA, was developed for predicting 6 mA modifications
+- '#The csDMA trained with the ExtraTrees classifier.'
+derived_from:
+- doi: 10.1038/s41598-019-49430-4
+  title: 'csDMA: an improved bioinformatics tool for identifying DNA 6 mA modifications via Chou’s 5-step rule'
+source_repos:
+- https://github.com/liuze-nwafu/csDMA
+- https://github.com/NWAFU-LiuLab/csDMA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/liuze-nwafu/csDMA

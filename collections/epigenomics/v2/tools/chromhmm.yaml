@@ -1,0 +1,19 @@
+name: ChromHMM
+slug: chromhmm
+version_used: null
+edam_topics: []
+evidence_spans:
+- We first apply a chromatin state annotation method (e.g. ChromHMM (9)) to encode multi-track epigenomic signals into single-track chromatin state sequences
+- We first apply a chromatin state annotation method (e.g. ChromHMM (9)) to encode multi-track epigenomic signals
+- ChromHMM assigns discrete chromatin state labels to genomic regions based on signals of multiple epigenetic marks using a hidden Markov model (9).
+derived_from:
+- doi: 10.1093/nar/gkz287
+  title: 'EpiAlign: an alignment-based bioinformatic tool for comparing chromatin state sequences'
+source_repos:
+- https://github.com/zzz3639/EpiAlign
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zzz3639/EpiAlign

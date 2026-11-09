@@ -1,0 +1,73 @@
+name: MACS2
+slug: macs2
+version_used: '0.05'
+edam_topics: []
+evidence_spans:
+- sub-sample bam files and do macs2 fragment size estimation.
+- '.. _MACS2: https://github.com/taoliu/MACS'
+- ChiLin uses MACS2 (https://github.com/taoliu/MACS/) as the default peak caller
+- absolute path to ``macs2``
+- FDR cutoff for macs2 peak calling
+- This step of the analysis is optional, but recommended in order to refine the peak annotation prior to enrichment analysis. To be able to run this module, MACS2 is required25.
+- For narrow binding profiles, MACS2 is used to identify candidate regions by using a dynamic Poisson distribution
+- the average number of histone modification peak (MACS2 p-value < 1e-5) differences between ESC and NPC per 100 Kb
+- Aligned fragments (BAM files) of both epigenomic marks were processed with the MACS2 peak caller [10] to identify regions which showed enrichment relative to a input control sample
+- Aligned fragments (BAM files) of both epigenomic marks were processed with the MACS2 peak caller [10]
+- We mostly used the default parameters and thresholds as recommended by the authors since these results are likely those that an end user would also obtain
+- We used MACS2 on ENCODE GATA1 ChIP-seq alignment files
+- Both methods are inspired by aspects of the MACS2 package that is commonly used to analyze ChIP-Seq data (Zhang et al. 2008)
+derived_from:
+- doi: 10.1093/nar/gkw809
+  title: 'ChIA-PET2: a versatile and flexible pipeline for ChIA-PET data analysis'
+- doi: 10.1186/s12859-016-1274-4
+  title: 'ChiLin: a comprehensive ChIP-seq and DNase-seq quality control and analysis pipeline'
+- doi: 10.1038/s41467-020-19542-x
+  title: Interactive analysis of single-cell epigenomic landscapes with ChromSCape
+- doi: 10.1186/s12859-017-1770-1
+  title: 'CIPHER: a flexible and extensive workflow platform for integrative next-generation sequencing data analysis and genomic regulatory element prediction'
+- doi: 10.1038/s41467-022-34626-6
+  title: dcHiC detects differential compartments across multiple Hi-C datasets
+- doi: 10.1186/s12859-016-1306-0
+  title: 'DGW: an exploratory data analysis tool for clustering and visualisation of epigenomic marks'
+- doi: 10.1186/s12859-015-0491-6
+  title: 'histoneHMM: Differential analysis of histone modifications with broad genomic footprints'
+- doi: 10.1093/nar/gkz1089
+  title: Global H-NS counter-silencing by LuxR activates quorum sensing gene expression
+- doi: 10.1093/nargab/lqac075
+  title: 'MEPP: more transparent motif enrichment by profiling positional correlations'
+- doi: 10.1093/nar/gkad225
+  title: 'POSTRE: a tool to predict the pathological effects of human structural variants'
+- doi: 10.1093/bioinformatics/btae070
+  title: 'Pycallingcards: an integrated environment for visualizing, analyzing, and interpreting Calling Cards data'
+- doi: 10.1093/nar/gkab553
+  title: 'RoboCOP: jointly computing chromatin occupancy profiles for numerous factors from chromatin accessibility data'
+- doi: 10.1093/nargab/lqab064
+  title: 'SpikChIP: a novel computational methodology to compare multiple ChIP-seq using spike-in chromatin'
+- doi: 10.1038/s41467-025-60269-4
+  title: 'BIT: Bayesian Identification of Transcriptional regulators from epigenomics-based query region sets'
+- doi: 10.1038/s41592-020-0960-3
+  title: 'DeepC: predicting 3D genome folding using megabase-scale transfer learning'
+source_repos:
+- https://github.com/macs3-project/MACS
+- https://github.com/GuipengLi/ChIA-PET2
+- https://github.com/taoliu/MACS
+- https://github.com/cfce/chilin
+- https://github.com/vallotlab/ChromSCape_benchmarking
+- https://github.com/c-guzman/cipher-workflow-platform
+- https://github.com/ay-lab/dcHiC
+- https://github.com/lukauskas/dgw
+- https://github.com/matthiasheinig/histoneHMM
+- https://github.com/Juliacvk/LuxR_H-NS
+- https://github.com/npdeloss/mepp
+- https://github.com/vicsanga/Postre
+- https://github.com/The-Mitra-Lab/pycallingcards
+- https://github.com/HarteminkLab/RoboCOP
+- https://github.com/eblancoga/spikChIP
+- https://github.com/ZeyuL01/BIT
+- https://github.com/rschwess/deepC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/macs3-project/MACS

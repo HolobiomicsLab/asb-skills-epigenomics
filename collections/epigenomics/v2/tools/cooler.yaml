@@ -1,0 +1,26 @@
+name: cooler
+slug: cooler
+version_used: 1.1.2
+edam_topics: []
+evidence_spans:
+- Peakachu requires the contact map to be a .cool file or a .hic file
+- mamba create -n peakachu cooler numba scikit-learn=1.1.2 joblib=1.1.0
+- SnapHiC then uses the Juicer software and the cooler software to convert the count matrix into .hic file and .cool file, respectively.
+- SnapHiC then uses the Juicer software and the cooler software to convert the count matrix into .hic file and .cool file
+derived_from:
+- doi: 10.1126/sciadv.aay2078
+  title: 'ChIA-PIPE: A fully automated pipeline for comprehensive ChIA-PET data analysis and visualization'
+- doi: 10.1038/s41467-020-17239-9
+  title: A supervised learning framework for chromatin loop detection in genome-wide contact maps
+- doi: 10.1038/s41592-021-01231-2
+  title: 'SnapHiC: a computational pipeline to identify chromatin loops from single-cell Hi-C data'
+source_repos:
+- https://github.com/TheJacksonLaboratory/ChIA-PIPE
+- https://github.com/tariks/peakachu
+- https://github.com/HuMingLab/SnapHiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TheJacksonLaboratory/ChIA-PIPE

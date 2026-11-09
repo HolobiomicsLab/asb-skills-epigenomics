@@ -1,0 +1,23 @@
+name: EpiRegio
+slug: epiregio
+version_used: null
+edam_topics: []
+evidence_spans:
+- The data hosted by the web server EpiRegio was generated with *STITCHIT*.
+- In total *EpiRegio* contains *2,404,861* REMs associated to *35,379* protein-coding and non-protein coding genes.
+- EpiRegioDB provides a user-friendly REST framework based web interface to retrieve information from our database.
+- Use EpiRegio's  `Region Query <https://epiregiodb.readthedocs.io/en/latest/UseCases.html#region-query>`_ to search for REMs overlapping at least 50% with the TF ChIP-seq peaks
+- Go to https://epiregio.de/regionQuery/, click *choose File* and upload the unzipped ChIP-seq peaks from Step 1
+- Here we present the `EpiRegio <https://epiregio.de/>`_ web server
+- Use EpiRegio's `Gene Query <https://epiregiodb.readthedocs.io/en/latest/UseCases.html#query-guide>`_ to identify the REMs associated to the genes of interest.
+derived_from:
+- doi: 10.1093/nar/gkaa382
+  title: 'EpiRegio: analysis and retrieval of regulatory elements linked to genes'
+source_repos:
+- https://github.com/TeamRegio/EpiRegioDB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TeamRegio/EpiRegioDB

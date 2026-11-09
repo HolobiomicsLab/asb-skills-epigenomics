@@ -1,0 +1,38 @@
+name: conda
+slug: conda
+version_used: '3.9'
+edam_topics: []
+evidence_spans:
+- conda install -c smshuai driverpower
+- These instructions assume that you have miniconda or anaconda installed.
+- Snakemake containerized execution environments that will be automatically deployed via Conda
+- reproducibility with Snakemake containerized execution environments that will be automatically deployed via Conda
+- automatically deploy required software using Conda (https://conda.io/)
+derived_from:
+- doi: 10.1038/s41467-019-13929-1
+  title: Combined burden and functional impact tests for cancer driver discovery using DriverPower
+- doi: 10.1093/bioinformatics/btad220
+  title: Deep statistical modelling of nanopore sequencing translocation times reveals latent non-B DNA structures
+- doi: 10.1093/bioinformatics/btad423
+  title: 'MEDIPIPE: an automated and comprehensive pipeline for cfMeDIP-seq data quality control and analysis'
+- doi: 10.1016/j.xgen.2023.100317
+  title: Skipper analysis of eCLIP datasets enables sensitive detection of constrained translation factor binding sites
+- doi: 10.1186/s12859-018-2107-4
+  title: Watchdog – a workflow management system for the distributed analysis of large-scale experimental data
+- doi: 10.1038/s41467-025-65077-4
+  title: 'DNALONGBENCH: a benchmark suite for long-range DNA prediction tasks'
+source_repos:
+- https://github.com/smshuai/DriverPower
+- https://github.com/bayesomicslab/ONT-nonb-GoFAE-DND
+- https://github.com/pughlab/MEDIPIPE
+- https://github.com/yzeng-lol/MEDIPIPE
+- https://github.com/YeoLab/skipper
+- https://github.com/klugem/watchdog
+- https://github.com/ma-compbio/DNALONGBENCH
+- https://github.com/ma-compbio/DNALONGBENCH.git
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/smshuai/DriverPower

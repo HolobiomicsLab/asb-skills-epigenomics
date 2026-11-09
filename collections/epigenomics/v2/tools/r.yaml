@@ -1,0 +1,188 @@
+name: R
+slug: r
+version_used: 3.5.0
+edam_topics: []
+evidence_spans:
+- 'Install software: **R** at [https://www.r-project.org/]'
+- '**AdaLiftOver** is a handy R package for adaptively identifying orthologous regions across different species'
+- VignetteEngine{knitr::rmarkdown}
+- 'AdaLiftOver: High-resolution identification of orthologous regulatory elements with adaptive liftOver'
+- R code is available at github.com/james-e-barrett
+- We used the ‘fastme.bal’ function as part of the ‘ape’ R package [19].
+- Copy-paste the different functions present in the BHi-Cect script within your R session
+- library(CENTRE)
+- '[findOverlaps function from GenomicRanges library (Lawrence et al. 2013)]'
+- 'CENTRE: A Bioconductor package to predict cell-type specific enhancer target interactions'
+- We provide the pre-trained CENTRE framework as ready-to-use R software
+- R script for comparing new data to historic data
+- '|-- id_bwa_compare.R ## R script for comparing new data to historic data'
+- id_bwa_compare.R
+- lecell.biolab.si/).
+- a user-friendly interactive Shiny/R application distributed as a Bioconductor package
+- we present ChromSCape, a user-friendly interactive Shiny/R application distributed as a Bioconductor package
+- Here, we describe Copy-scAT, an R package that uses single-cell epigenomic data to infer copy number variants (CNVs) that define cancer cells.
+- Declared exports parsed from the repository (NAMESPACE / __init__ entry points)
+- an R package that uses single-cell epigenomic data to infer copy number variants (CNVs) that define cancer cells
+- consists of three scripts, two in Python and one in R
+- The DMRfinder script `findDMRs.r` conducts pairwise tests of sample groups to find genomic regions that are differentially methylated
+- it is written in Python and R, and is supported on Linux
+- DMRfinder scripts have been tested with Rscript version 3.3.1 and DSS version 2.14.0.
+- The *EpiCompare* package is designed to facilitate the comparison of epigenomic datasets for quality control and benchmarking purposes.
+- EpiCompare, a Bioconductor (Huber et al., 2015) R package for the comparison and quality control of epigenomic data
+- There are many tools in R (e.g. *ChIPseeker*) that can be used to conduct downstream analysis and comparison of epigenomic datasets.
+- '%\VignetteEngine{knitr::rmarkdown}'
+- GenoGAM 2.0 is implemented as an open source R package and currently available on GitHub.
+- GenoGAM 2.0 is implemented as an open source R package
+- sessionInfo()
+- 'There are currently three interfaces to Genexpi core: CyGenexpi (a Cytoscape plugin), a command-line interface and an R interface.'
+- Genexpi is also available as a standalone command line tool and an R package.
+- provides the core functionality also as a command-line tool and an interface to the R language.
+- Complete code to reproduce all of the results for this and the following section is attached as an R notebook in Additional file 1.
+- compiled as an R package. It runs in the popular R computing environment
+- It runs in the popular R computing environment.
+- It runs in the popular R computing environment
+- install.packages("devtools")
+- compiled as an R package
+- 'output: rmarkdown::html_notebook'
+- library(iEDGE)
+- Once the **MethylCal** package is loaded
+- library(MethylCal)
+- Written in R and available as an R package on https://github.com/lb664/MethylCal.
+- the R community is providing increased support to the field of bioinformatics by developing and providing a plethora of open source packages
+- it is easy for advanced users to implement their own peak calling algorithm as an R code
+- Xujun Wang & Shiyi Liu
+- RePhine, which is implemented as an R package and accompanied by a user guide
+- Basic R core packages are utilized to produce the resulting plots of all SeqCode functions.
+- 'options(stringsAsFactors=FALSE)
+
+  library(SMITE)'
+- Rscript
+- "vignette: |\n  %\\VignetteEngine{knitr::rmarkdown}"
+- library(systemPipeR)
+- Rscript -e "rmarkdown::render('systemPipeR.Rmd'
+- Rscript -e
+- R==4.1.1
+- scPower is a R package for design and power analysis of single cell transcriptomics experiments
+- The method is implemented in an R package with a user-friendly graphical user interface and is freely available on github.
+- library(scPower)
+- we provide our model and parameters as an open source R package scPower on github
+- The model, including priors, is implemented as an R package
+- Computational pipelines for functional enrichments, trajectory and breakpoint analyses revealed immune system aging signatures including longitudinal genomic trends.
+- R (>= 3.4.0 & < 3.6.0) (SnapATAC) (3.6 does not work for rhdf5 package);
+derived_from:
+- doi: 10.1093/bioinformatics/btad008
+  title: 'ABSP: an automated R tool to efficiently analyze region-specific CpG methylation from bisulfite sequencing PCR'
+- doi: 10.1093/bioinformatics/btad149
+  title: 'AdaLiftOver: high-resolution identification of orthologous regulatory elements with Adaptive liftOver'
+- doi: 10.1186/s12859-017-1753-2
+  title: Quantification of tumour evolution and heterogeneity via Bayesian epiallele detection
+- doi: 10.1093/nar/gkaa004
+  title: 'BHi-Cect: a top-down algorithm for identifying the multi-scale hierarchical structure of chromosomes'
+- doi: 10.1093/bioinformatics/btad687
+  title: 'CENTRE: a gradient boosting algorithm for Cell-type-specific ENhancer-Target pREdiction'
+- doi: 10.1093/nar/gkw809
+  title: 'ChIA-PET2: a versatile and flexible pipeline for ChIA-PET data analysis'
+- doi: 10.1186/s12859-016-1274-4
+  title: 'ChiLin: a comprehensive ChIP-seq and DNase-seq quality control and analysis pipeline'
+- doi: 10.1038/s41467-020-19542-x
+  title: Interactive analysis of single-cell epigenomic landscapes with ChromSCape
+- doi: 10.1093/nar/gkaa1146
+  title: '<i>cola</i>: an R/Bioconductor package for consensus partitioning through a general framework'
+- doi: 10.1126/sciadv.abg6045
+  title: 'Copy-scAT: Deconvoluting single-cell chromatin accessibility of genetic subclones in cancer'
+- doi: 10.1016/j.csbj.2021.05.041
+  title: 'covNorm: An R package for coverage based normalization of Hi-C and capture Hi-C data'
+- doi: 10.1186/s12859-017-1909-0
+  title: 'DMRfinder: efficiently identifying differentially methylated regions from MethylC-seq data'
+- doi: 10.1093/bioadv/vbad049
+  title: 'EpiCompare: R package for the comparison and quality control of epigenomic peak files'
+- doi: 10.1186/s12859-018-2238-7
+  title: 'GenoGAM 2.0: scalable and efficient implementation of genome-wide generalized additive models for gigabase-scale genomes'
+- doi: 10.1186/s12859-018-2138-x
+  title: 'Genexpi: a toolset for identifying regulons and validating gene regulatory networks using time-course expression data'
+- doi: 10.1186/s12859-015-0491-6
+  title: 'histoneHMM: Differential analysis of histone modifications with broad genomic footprints'
+- doi: 10.1016/j.csbj.2023.05.016
+  title: 3plex enables deep computational investigation of triplex forming lncRNAs
+- doi: 10.1038/s41598-019-52886-z
+  title: Identification of candidate cancer drivers by integrative Epi-DNA and Gene Expression (iEDGE) data analysis
+- doi: 10.1093/nargab/lqaa096
+  title: Tracing and tracking epiallele families in complex DNA populations
+- doi: 10.1093/nar/gkz325
+  title: 'MethylCal: Bayesian calibration of methylation levels'
+- doi: 10.1016/j.patter.2020.100127
+  title: 'Msuite: A High-Performance and Versatile DNA Methylation Data-Analysis Toolkit'
+- doi: 10.1186/s12859-016-0902-3
+  title: 'NEAT: a framework for building fully automated NGS pipelines and analyses'
+- doi: 10.1093/nar/gkad225
+  title: 'POSTRE: a tool to predict the pathological effects of human structural variants'
+- doi: 10.1016/j.gpb.2019.09.008
+  title: '<i>RePhine</i>: An Integrative Method for Identification of Drug Response-Related Transcriptional Regulators'
+- doi: 10.1038/s41598-021-98889-7
+  title: Productive visualization of high-throughput sequencing data using the SeqCode open portable platform
+- doi: 10.1186/s12859-017-1477-3
+  title: 'SMITE: an R/Bioconductor package that identifies network modules by integrating genomic and epigenomic information'
+- doi: 10.1093/nargab/lqab064
+  title: 'SpikChIP: a novel computational methodology to compare multiple ChIP-seq using spike-in chromatin'
+- doi: 10.1186/s12859-016-1241-0
+  title: 'systemPipeR: NGS workflow and report generation environment'
+- doi: 10.1093/bioinformatics/btad060
+  title: 'TIVAN-indel: a computational framework for annotating and predicting non-coding regulatory small insertions and deletions'
+- doi: 10.1038/s41467-025-60269-4
+  title: 'BIT: Bayesian Identification of Transcriptional regulators from epigenomics-based query region sets'
+- doi: 10.1038/nmeth.4401
+  title: 'chromVAR: inferring transcription-factor-associated accessibility from single-cell epigenomic data'
+- doi: 10.1038/s41592-019-0367-1
+  title: 'cisTopic: cis-regulatory topic modeling on single-cell ATAC-seq data'
+- doi: 10.1038/s41467-021-26779-7
+  title: scPower accelerates and optimizes the design of multi-sample single cell transcriptomic studies
+- doi: 10.1038/s41467-020-14396-9
+  title: Sexual-dimorphism in human immune system aging
+- doi: 10.1038/s41467-021-21583-9
+  title: Comprehensive analysis of single cell ATAC-seq data with SnapATAC
+source_repos:
+- https://github.com/ABSP-methylation-tool/ABSP
+- https://github.com/keleslab/AdaLiftOver
+- https://github.com/github.com/james-e-barrett
+- https://github.com/james-e-barrett/bed
+- https://github.com/princeps091-binf/BHi-Cect
+- https://github.com/slrvv/CENTRE
+- https://github.com/slrvv/CENTRE_paper_version
+- https://github.com/GuipengLi/ChIA-PET2
+- https://github.com/cfce/chilin
+- https://github.com/vallotlab/ChromSCape_benchmarking
+- https://github.com/jokergoo/cola_manuscript
+- https://github.com/spcdot/CopyscAT
+- https://github.com/kaistcbfg/covNormRpkg
+- https://github.com/jsh58/DMRfinder
+- https://github.com/neurogenomics/EpiCompare
+- https://github.com/gstricker/GenoGAM
+- https://github.com/gstricker/fastGenoGAM
+- https://github.com/cas-bioinf/genexpi
+- https://github.com/matthiasheinig/histoneHMM
+- https://github.com/molinerisLab/3plex
+- https://github.com/montilab/iEDGE
+- https://github.com/84AP/MethCoresProfiler
+- https://github.com/lb664/MethylCal
+- https://github.com/hellosunking/Msuite
+- https://github.com/tgirke/systemPipeR
+- https://github.com/pschorderet/NEAT
+- https://github.com/vicsanga/Postre
+- https://github.com/coexps/RePhine
+- https://github.com/coexps/Rephine
+- https://github.com/eblancoga/seqcode
+- https://github.com/GreallyLab/SMITE
+- https://github.com/eblancoga/spikChIP
+- https://github.com/lichen-lab/TIVAN-indel
+- https://github.com/ZeyuL01/BIT
+- https://github.com/GreenleafLab/chromVAR
+- https://github.com/aertslab/cistopic
+- https://github.com/heiniglab/scPower
+- https://github.com/UcarLab/SexDimorphismNatureCommunications
+- https://github.com/r3fang/SnapATAC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ABSP-methylation-tool/ABSP

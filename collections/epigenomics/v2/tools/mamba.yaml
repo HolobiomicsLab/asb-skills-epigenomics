@@ -1,0 +1,22 @@
+name: Mamba
+slug: mamba
+version_used: null
+edam_topics: []
+evidence_spans:
+- mamba env create --file conda_env.yaml
+- 'It is best to first set up the environment using [mamba](https://mamba.readthedocs.io/en/latest/installation.html) and then install Peakachu from [PyPI](https://pypi.org/project/peakachu/):'
+derived_from:
+- doi: 10.1093/bioinformatics/btad423
+  title: 'MEDIPIPE: an automated and comprehensive pipeline for cfMeDIP-seq data quality control and analysis'
+- doi: 10.1038/s41467-020-17239-9
+  title: A supervised learning framework for chromatin loop detection in genome-wide contact maps
+source_repos:
+- https://github.com/mamba-org/mamba
+- https://github.com/yzeng-lol/MEDIPIPE
+- https://github.com/tariks/peakachu
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mamba-org/mamba

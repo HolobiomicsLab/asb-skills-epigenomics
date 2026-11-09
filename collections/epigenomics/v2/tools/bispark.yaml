@@ -1,0 +1,19 @@
+name: BiSpark
+slug: bispark
+version_used: null
+edam_topics: []
+evidence_spans:
+- we present a highly scalable, efficient, and load-balanced bisulfite aligner, BiSpark
+- we present a highly scalable, efficient, and load-balanced bisulfite aligner, BiSpark, which is designed for processing large volumes of bisulfite sequencing data
+- We denoted BiSpark without additional load balancing implementation as BiSpark-plain while BiSpark with load balancing is denoted as BiSpark-balance
+derived_from:
+- doi: 10.1186/s12859-018-2498-2
+  title: 'BiSpark: a Spark-based highly scalable aligner for bisulfite sequencing data'
+source_repos:
+- https://github.com/bhi-kimlab/BiSpark
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bhi-kimlab/BiSpark

@@ -1,0 +1,17 @@
+name: Monocle 2
+slug: monocle-2
+version_used: null
+edam_topics: []
+evidence_spans:
+- identify differentially accessible sites with the “binomialff” test of Monocle 2 package28
+derived_from:
+- doi: 10.1038/s41467-019-12630-7
+  title: SCALE method for single-cell ATAC-seq analysis via latent feature extraction
+source_repos:
+- https://github.com/jsxlei/SCALE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jsxlei/SCALE

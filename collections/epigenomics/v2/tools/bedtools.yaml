@@ -1,0 +1,91 @@
+name: bedtools
+slug: bedtools
+version_used: 2.24.0
+edam_topics: []
+evidence_spans:
+- we use the ‘bedtools closest’ function to determine the closest element in S2
+- bedtools
+- bedtools               Union DHS regions from Cistrome DB
+- '.. _bedtools: http://code.google.com/p/bedtools/'
+- 'BEDTools: a flexible suite of utilities for comparing genomic features'
+- bedtools bed12tobed6 -i ./test_elements.bed12.gz  | cut -f1-4 > test_elements.tsv
+- bedtools intersect -a ./test_elements.tsv -b stdin -wa -wb > CADD_ele.tsv
+- bedtools bed12tobed6 -i ./test_elements.bed12.gz
+- bedtools intersect -wo -a methylation.bed -b cgi.bed
+- We recommend adding region names with utilities such as the 'intersect' command from [bedtools](https://bedtools.readthedocs.io/en/latest/).
+- Active enhancers were defined as regions with overlapping H3K27Ac and H3Kme1 peaks (using bedtools intersect)
+- we determine the DNA-sequence of the identified REMs using *bedtools*
+- We determined the DNA sequences with bedtools
+- BIMSBbioinfo/HOT-or-not-examining-the-basis-of-high-occupancy-target-regions
+- conversion from BAM to BED file formats and then BED to BedGraph file formats using Bedtools-2.17.0
+- tools to manipulate big data files (BEDTools [11], SAMtools [12])
+- In order to complete the annotation, [bedtools](https://bedtools.readthedocs.io/en/latest/) (includes [pybedtools](https://daler.github.io/pybedtools/)) also needs to be installed.
+- In order to complete the annotation, [bedtools](https://bedtools.readthedocs.io/en/latest/)
+- Peak annotation is accomplished using bedtools (Quinlan and Hall 2010) and pybedtools (Dale et al. 2011)
+- intersect the identified eccDNA catalog with GENCODE GRCh37 (release 38) comprehensive gene annotation using BedTools
+- Then, BedTools intersect was used to find overlaps between eccDNA and GENCODE gene [41].
+- 'bedtools: [bedtools installation](https://bedtools.readthedocs.io/en/stable/content/installation.html) (<=2.25.0'
+- '-   bedtools: [bedtools installation](https://bedtools.readthedocs.io/en/stable/content/installation.html) (<=2.25.0'
+derived_from:
+- doi: 10.1093/nar/gkaa1052
+  title: 'Asymmetron: a toolkit for the identification of strand asymmetry patterns in biological sequences'
+- doi: 10.1093/nar/gkw809
+  title: 'ChIA-PET2: a versatile and flexible pipeline for ChIA-PET data analysis'
+- doi: 10.1126/sciadv.aay2078
+  title: 'ChIA-PIPE: A fully automated pipeline for comprehensive ChIA-PET data analysis and visualization'
+- doi: 10.1186/s12859-016-1274-4
+  title: 'ChiLin: a comprehensive ChIP-seq and DNase-seq quality control and analysis pipeline'
+- doi: 10.1016/j.csbj.2021.05.041
+  title: 'covNorm: An R package for coverage based normalization of Hi-C and capture Hi-C data'
+- doi: 10.1038/s41467-022-34626-6
+  title: dcHiC detects differential compartments across multiple Hi-C datasets
+- doi: 10.1038/s41467-019-13929-1
+  title: Combined burden and functional impact tests for cancer driver discovery using DriverPower
+- doi: 10.1093/nar/gkab516
+  title: Determining subpopulation methylation profiles from bisulfite sequencing data of heterogeneous samples using DXM
+- doi: 10.1093/nar/gkaa382
+  title: 'EpiRegio: analysis and retrieval of regulatory elements linked to genes'
+- doi: 10.1093/nar/gkz460
+  title: 'HOT or not: examining the basis of high-occupancy target regions'
+- doi: 10.1016/j.csbj.2023.05.016
+  title: 3plex enables deep computational investigation of triplex forming lncRNAs
+- doi: 10.1093/nar/gkac824
+  title: 'iPro-WAEL: a comprehensive and robust framework for identifying promoters in multiple species'
+- doi: 10.1186/s12859-016-0902-3
+  title: 'NEAT: a framework for building fully automated NGS pipelines and analyses'
+- doi: 10.1093/nar/gkad225
+  title: 'POSTRE: a tool to predict the pathological effects of human structural variants'
+- doi: 10.1093/bioinformatics/btae070
+  title: 'Pycallingcards: an integrated environment for visualizing, analyzing, and interpreting Calling Cards data'
+- doi: 10.1016/j.xgen.2023.100317
+  title: Skipper analysis of eCLIP datasets enables sensitive detection of constrained translation factor binding sites
+- doi: 10.1038/s41388-022-02286-x
+  title: 'eccDNAdb: a database of extrachromosomal circular DNA profiles in human cancers'
+- doi: 10.1038/s41592-019-0624-3
+  title: FreeHi-C simulates high-fidelity Hi-C data for benchmarking and data augmentation
+source_repos:
+- https://github.com/Ahituv-lab/Asymmetron
+- https://github.com/arq5x/bedtools2
+- https://github.com/GuipengLi/ChIA-PET2
+- https://github.com/TheJacksonLaboratory/ChIA-PIPE
+- https://github.com/cfce/chilin
+- https://github.com/kaistcbfg/covNormRpkg
+- https://github.com/ay-lab/dcHiC
+- https://github.com/smshuai/DriverPower
+- https://github.com/edwardslab-wustl/dxm
+- https://github.com/TeamRegio/EpiRegioDB
+- https://github.com/BIMSBbioinfo/HOT-or-not-examining-the-basis-of-high-occupancy-target-regions
+- https://github.com/molinerisLab/3plex
+- https://github.com/HaoWuLab-Bioinformatics/iPro-WAEL
+- https://github.com/pschorderet/NEAT
+- https://github.com/vicsanga/Postre
+- https://github.com/The-Mitra-Lab/pycallingcards
+- https://github.com/YeoLab/skipper
+- https://github.com/solo7773/eccDNAdb
+- https://github.com/keleslab/FreeHiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Ahituv-lab/Asymmetron

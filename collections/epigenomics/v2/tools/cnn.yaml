@@ -1,0 +1,17 @@
+name: CNN
+slug: cnn
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41467-025-65077-4
+  title: 'DNALONGBENCH: a benchmark suite for long-range DNA prediction tasks'
+source_repos:
+- https://github.com/ma-compbio/DNALONGBENCH
+- https://github.com/ma-compbio/DNALONGBENCH.git
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ma-compbio/DNALONGBENCH

@@ -1,0 +1,16 @@
+name: fasim-LongTarget
+slug: fasim-longtarget
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.csbj.2023.05.016
+  title: 3plex enables deep computational investigation of triplex forming lncRNAs
+source_repos:
+- https://github.com/molinerisLab/3plex
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/molinerisLab/3plex

@@ -1,0 +1,43 @@
+name: Bismark
+slug: bismark
+version_used: 0.22.2
+edam_topics: []
+evidence_spans:
+- We selected Bismark for single server aligner since Bismark has been evaluated as the best performance bisulfite aligner without losing the sensitivity
+- We selected Bismark for single server aligner since Bismark has been evaluated as the best performance bisulfite aligner
+- Bismark [[1](#ref1)] performs an in silico bisulfite conversion of both the reads and the reference genome
+- the high-throughput sequence reads from a MethylC-seq run first must be aligned to a reference genome
+- Following alignment with Bismark [[1](#ref1)], DMRfinder extracts methylation counts and clusters the CpG sites into genomic regions
+- aligned with a software tool such as Bismark [6]
+- A SAM alignment file produced by Bismark, whether gzip-compressed or not, can be used directly as the `<input>` file.
+- After alignment of the sequence reads to a reference genome by a software package such as Bismark
+- If you are using bismark, start with the .cov produced by bismark_methylation_extractor
+- Trimmed reads were aligned with bismark software using human reference build hg19
+- mapped to the bisulfite-converted concatenated reference genomes of each respective synthetic microbiome using bismark 0.22.2
+derived_from:
+- doi: 10.1186/s12859-018-2498-2
+  title: 'BiSpark: a Spark-based highly scalable aligner for bisulfite sequencing data'
+- doi: 10.1186/s12859-017-1909-0
+  title: 'DMRfinder: efficiently identifying differentially methylated regions from MethylC-seq data'
+- doi: 10.1093/nar/gkab516
+  title: Determining subpopulation methylation profiles from bisulfite sequencing data of heterogeneous samples using DXM
+- doi: 10.1093/nar/gkz325
+  title: 'MethylCal: Bayesian calibration of methylation levels'
+- doi: 10.1016/j.patter.2020.100127
+  title: 'Msuite: A High-Performance and Versatile DNA Methylation Data-Analysis Toolkit'
+- doi: 10.1093/nar/gkab705
+  title: Rapid identification of methylase specificity (RIMS-seq) jointly identifies methylated motifs and generates shotgun sequencing of bacterial genomes
+source_repos:
+- https://github.com/bhi-kimlab/BiSpark
+- https://github.com/FelixKrueger/Bismark
+- https://github.com/jsh58/DMRfinder
+- https://github.com/edwardslab-wustl/dxm
+- https://github.com/lb664/MethylCal
+- https://github.com/hellosunking/Msuite
+- https://github.com/Ettwiller/RIMS-seq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bhi-kimlab/BiSpark

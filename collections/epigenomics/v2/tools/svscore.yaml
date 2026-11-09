@@ -1,0 +1,16 @@
+name: SVScore
+slug: svscore
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/nar/gkad225
+  title: 'POSTRE: a tool to predict the pathological effects of human structural variants'
+source_repos:
+- https://github.com/vicsanga/Postre
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/vicsanga/Postre

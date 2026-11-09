@@ -1,0 +1,19 @@
+name: bootRanges
+slug: bootranges
+version_used: null
+edam_topics: []
+evidence_spans:
+- bootRanges provides fast functions for generation of block bootstrapped genomic ranges representing the null hypothesis in enrichment analysis.
+- '*segBootranges.R*(perform bootRanges)'
+- Code analysis for bootranges
+derived_from:
+- doi: 10.1093/bioinformatics/btad190
+  title: 'bootRanges: flexible generation of null sets of genomic ranges for hypothesis testing'
+source_repos:
+- https://github.com/Wancen/bootRangespaper
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Wancen/bootRangespaper

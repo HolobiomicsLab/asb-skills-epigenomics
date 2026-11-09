@@ -1,0 +1,60 @@
+name: numpy
+slug: numpy
+version_used: 1.19.5
+edam_topics: []
+evidence_spans:
+- Statistical analysis was performed in Python with the packages ‘math’, ‘scipy’, ‘pandas’ and ‘numpy’
+- some other packages such as PyTorch, Pandas, Numpy, scikit-learn, Scipy are used
+- '`numpy` - used for standard numerical tasks'
+- numpy
+- "Required Python Packages:\n     numpy"
+- Array programming with NumPy
+- "You must have matplotlib, numpy, and pandas \ninstalled."
+- matplotlib, numpy, and pandas
+- You must have matplotlib, numpy, and pandas installed.
+- 2. numpy 1.19.5
+- numpy==1.19.3
+derived_from:
+- doi: 10.1093/nar/gkaa1052
+  title: 'Asymmetron: a toolkit for the identification of strand asymmetry patterns in biological sequences'
+- doi: 10.1093/nar/gkac881
+  title: Interpretable deep learning for chromatin-informed inference of transcriptional programs driven by somatic alterations across cancers
+- doi: 10.1186/s12859-016-1306-0
+  title: 'DGW: an exploratory data analysis tool for clustering and visualisation of epigenomic marks'
+- doi: 10.1093/nar/gkab516
+  title: Determining subpopulation methylation profiles from bisulfite sequencing data of heterogeneous samples using DXM
+- doi: 10.1093/bib/bbae083
+  title: 'Enhancer-MDLF: a novel deep learning framework for identifying cell-specific enhancers'
+- doi: 10.1016/j.isci.2022.105535
+  title: 'GILoop: Robust chromatin loop calling across multiple sequencing depths on Hi-C data'
+- doi: 10.1093/bioinformatics/btad220
+  title: Deep statistical modelling of nanopore sequencing translocation times reveals latent non-B DNA structures
+- doi: 10.1093/nar/gkac824
+  title: 'iPro-WAEL: a comprehensive and robust framework for identifying promoters in multiple species'
+- doi: 10.1038/s41467-023-40658-3
+  title: 'SnapFISH: a computational pipeline to identify chromatin loops from multiplexed DNA FISH data'
+- doi: 10.1093/bioinformatics/btad060
+  title: 'TIVAN-indel: a computational framework for annotating and predicting non-coding regulatory small insertions and deletions'
+- doi: 10.1016/j.csbj.2023.09.019
+  title: 'TOAST: A novel method for identifying topologically associated domains based on graph auto-encoders and clustering'
+- doi: 10.1038/s41592-019-0624-3
+  title: FreeHi-C simulates high-fidelity Hi-C data for benchmarking and data augmentation
+source_repos:
+- https://github.com/Ahituv-lab/Asymmetron
+- https://github.com/osmanbeyoglulab/CITRUS
+- https://github.com/lukauskas/dgw
+- https://github.com/edwardslab-wustl/dxm
+- https://github.com/HaoWuLab-Bioinformatics/Enhancer-MDLF
+- https://github.com/fzbio/GILoop
+- https://github.com/bayesomicslab/ONT-nonb-GoFAE-DND
+- https://github.com/HaoWuLab-Bioinformatics/iPro-WAEL
+- https://github.com/HuMingLab/SnapFISH
+- https://github.com/lichen-lab/TIVAN-indel
+- https://github.com/ghaiyan/TOAST
+- https://github.com/keleslab/FreeHiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Ahituv-lab/Asymmetron

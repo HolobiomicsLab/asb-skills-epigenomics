@@ -1,0 +1,16 @@
+name: HiCcompare
+slug: hiccompare
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.csbj.2021.05.041
+  title: 'covNorm: An R package for coverage based normalization of Hi-C and capture Hi-C data'
+source_repos:
+- https://github.com/kaistcbfg/covNormRpkg
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kaistcbfg/covNormRpkg

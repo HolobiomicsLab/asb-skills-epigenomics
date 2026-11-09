@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "bisulfite-dmr-analysis",
+    "name": "bisulfite-dmr-analysis-workflow",
+    "description": "Use when paired-end whole-genome bisulfite sequencing reads must be mapped, reduced to six-column per-CpG methylated and unmethylated count tables, aggregated into regional total and methylated counts, and tested between externally defined groups.\n",
+    "techniques": [],
+    "stage_count": 4,
+    "stages": [
+      "align_bisulfite_reads",
+      "extract_cpg_counts",
+      "cluster_cpg_regions",
+      "call_differentially_methylated_regions"
+    ],
+    "member_tools": [
+      "Bismark",
+      "Bowtie2",
+      "DMRfinder",
+      "DSS",
+      "Python",
+      "R",
+      "Samtools",
+      "bsseq",
+      "findDMRs.r",
+      "DMRfinder (extract_CpG_data.py)"
+    ],
+    "coverage_gaps": [],
+    "bound_by": "perspicacite-semantic"
+  },
+  {
+    "slug": "chipseq-peak-motif-discovery",
+    "name": "chipseq-peak-motif-discovery-workflow",
+    "description": "Use when paired ChIP-seq immunoprecipitation and control FASTQ reads must be aligned and quality-assessed, converted into control-aware peaks, and analyzed for over-represented sequence motifs against an explicit matched background.\n",
+    "techniques": [],
+    "stage_count": 4,
+    "stages": [
+      "align_and_assess_reads",
+      "call_control_aware_peaks",
+      "construct_motif_fastas",
+      "discover_overrepresented_motifs"
+    ],
+    "member_tools": [
+      "BWA",
+      "ChiLin",
+      "FastQC",
+      "MACS2",
+      "bedtools",
+      "samtools",
+      "seqtk",
+      "DGW",
+      "MACS",
+      "Python",
+      "DiNAMO",
+      "JASPAR"
+    ],
+    "coverage_gaps": [],
+    "bound_by": "perspicacite-semantic"
+  }
+]

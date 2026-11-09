@@ -1,0 +1,20 @@
+name: SICER
+slug: sicer
+version_used: null
+edam_topics: []
+evidence_spans:
+- We mostly used the default parameters and thresholds as recommended by the authors since these results are likely those that an end user would also obtain
+derived_from:
+- doi: 10.1186/s12859-015-0491-6
+  title: 'histoneHMM: Differential analysis of histone modifications with broad genomic footprints'
+- doi: 10.1007/s40484-020-0225-2
+  title: 'RECOGNICER: A coarse‐graining approach for identifying broad domains from ChIP‐seq data'
+source_repos:
+- https://github.com/matthiasheinig/histoneHMM
+- https://github.com/zanglab/recognicer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/matthiasheinig/histoneHMM

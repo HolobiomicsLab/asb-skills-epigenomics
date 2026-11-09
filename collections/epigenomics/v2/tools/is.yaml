@@ -1,0 +1,17 @@
+name: IS
+slug: is
+version_used: null
+edam_topics: []
+evidence_spans:
+- For predictions by score‐based detectors, e.g., IS, deTOKI, scHiCluster, and Higashi, boundaries were defined as the predicted bins
+derived_from:
+- doi: 10.1002/advs.202300366
+  title: DeDoc2 Identifies and Characterizes the Hierarchy and Dynamics of Chromatin TAD‐Like Domains in the Single Cells
+source_repos:
+- https://github.com/zengguangjie/deDoc2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zengguangjie/deDoc2

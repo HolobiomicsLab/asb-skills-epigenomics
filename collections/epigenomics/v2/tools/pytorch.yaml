@@ -1,0 +1,26 @@
+name: PyTorch
+slug: pytorch
+version_used: 1.7.1
+edam_topics: []
+evidence_spans:
+- We have tested our code on torch version 1.2.0 (Windows), torch version 1.5.1+cu101 (Linux), torch version 1.9.0 (Mac)
+- We implemented CITRUS through the PyTorch package (https://pytorch.org/), and training was performed using the Adam optimizer
+- SCALE neural network is implemented in [Pytorch](https://pytorch.org/) framework.
+- SCALE neural network is implemented in [Pytorch](https://pytorch.org/) framework
+derived_from:
+- doi: 10.1093/nar/gkac881
+  title: Interpretable deep learning for chromatin-informed inference of transcriptional programs driven by somatic alterations across cancers
+- doi: 10.1016/j.csbj.2023.09.019
+  title: 'TOAST: A novel method for identifying topologically associated domains based on graph auto-encoders and clustering'
+- doi: 10.1038/s41467-019-12630-7
+  title: SCALE method for single-cell ATAC-seq analysis via latent feature extraction
+source_repos:
+- https://github.com/osmanbeyoglulab/CITRUS
+- https://github.com/ghaiyan/TOAST
+- https://github.com/jsxlei/SCALE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/osmanbeyoglulab/CITRUS

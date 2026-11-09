@@ -1,0 +1,17 @@
+name: DNABERT
+slug: dnabert
+version_used: null
+edam_topics: []
+evidence_spans:
+- Despite its simplicity, BOM outperforms more complex deep-learning models while using fewer parameters.
+derived_from:
+- doi: 10.1038/s41467-025-65362-2
+  title: Motif-based models accurately predict cell type-specific distal regulatory elements
+source_repos:
+- https://github.com/ewonglab/BOM_package
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ewonglab/BOM_package

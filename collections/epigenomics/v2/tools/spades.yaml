@@ -1,0 +1,21 @@
+name: SPAdes
+slug: spades
+version_used: 3.13.0
+edam_topics: []
+evidence_spans:
+- It includes a genome assembly step using SPAdes
+- We used SPAdes (https://cab.spbu.ru/software/spades/) for most of the assemblies using RIMS-seq but other assemblers can be used.
+- We used SPAdes (https://cab.spbu.ru/software/spades/) for most of the assemblies using RIMS-seq
+- trimmed RIMS-seq reads were assembled using SPAdes (SPAdes-3.13.0 (31) default parameters)
+derived_from:
+- doi: 10.1093/nar/gkab705
+  title: Rapid identification of methylase specificity (RIMS-seq) jointly identifies methylated motifs and generates shotgun sequencing of bacterial genomes
+source_repos:
+- https://github.com/ablab/spades
+- https://github.com/Ettwiller/RIMS-seq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ablab/spades

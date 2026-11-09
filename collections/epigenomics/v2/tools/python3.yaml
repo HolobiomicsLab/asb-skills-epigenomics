@@ -1,0 +1,26 @@
+name: Python3
+slug: python3
+version_used: '3.5'
+edam_topics: []
+evidence_spans:
+- Written in Python3 and publicly available as a Docker image (8) (recommended use case) and on GitHub
+- Written in Python3 and publicly available as a Docker image
+- Requires python3 (3.5+)
+- DXM was written in Python3 and was tested on CentOS7
+derived_from:
+- doi: 10.1128/mra.00160-21
+  title: Delila-PY, a Pipeline for Utilizing the Delila Suite of Software to Identify Potential DNA Binding Motifs
+- doi: 10.1093/nar/gkab516
+  title: Determining subpopulation methylation profiles from bisulfite sequencing data of heterogeneous samples using DXM
+- doi: 10.1038/s41592-019-0624-3
+  title: FreeHi-C simulates high-fidelity Hi-C data for benchmarking and data augmentation
+source_repos:
+- https://github.com/GLBRC/delila
+- https://github.com/edwardslab-wustl/dxm
+- https://github.com/keleslab/FreeHiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GLBRC/delila

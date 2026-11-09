@@ -1,0 +1,18 @@
+name: iEDGE
+slug: iedge
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(iEDGE)
+- calc_sobel(x, y, z, y.names, z.names)
+derived_from:
+- doi: 10.1038/s41598-019-52886-z
+  title: Identification of candidate cancer drivers by integrative Epi-DNA and Gene Expression (iEDGE) data analysis
+source_repos:
+- https://github.com/montilab/iEDGE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/montilab/iEDGE

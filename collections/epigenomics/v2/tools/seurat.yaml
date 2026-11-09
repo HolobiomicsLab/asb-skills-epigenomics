@@ -1,0 +1,26 @@
+name: Seurat
+slug: seurat
+version_used: null
+edam_topics: []
+evidence_spans:
+- Seurat24 and scJoint25 use scRNA-seq as reference to transfer cell labels to scATAC-seq.
+- we consider a set of differential expressed genes based on a single-cell RNAseq data set from Glaser et al. (doi.org/10.1073/pnas.1913481117)
+- we used Seurat's FindAllMarkers function, which performs a Wilcoxon Rank Sum test
+derived_from:
+- doi: 10.1038/s41467-023-37439-3
+  title: 'Cellcano: supervised cell type identification for single cell ATAC-seq data'
+- doi: 10.1093/nar/gkaa382
+  title: 'EpiRegio: analysis and retrieval of regulatory elements linked to genes'
+- doi: 10.1016/j.isci.2020.100882
+  title: 'scCATCH: Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data'
+source_repos:
+- https://github.com/marvinquiet/Cellcano
+- https://github.com/TeamRegio/EpiRegioDB
+- https://github.com/ZJUFanLab/scCATCH_performance_comparison
+- https://github.com/ZJUFanLab/scCATCH
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/marvinquiet/Cellcano

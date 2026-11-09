@@ -1,0 +1,27 @@
+name: limma
+slug: limma
+version_used: '0.001'
+edam_topics: []
+evidence_spans:
+- limma powers differential expression analyses for RNA-sequencing and microarray studies
+- limma (Imports)
+- The significance of differential expression was estimated using limma (Ritchie et al. 2015) for each SCNA with samples split into two groups
+- Xujun Wang & Shiyi Liu
+- calculated by "limma" package with false discovery rate (FDR) < 0.001
+derived_from:
+- doi: 10.1038/s41467-022-34626-6
+  title: dcHiC detects differential compartments across multiple Hi-C datasets
+- doi: 10.1038/s41598-019-52886-z
+  title: Identification of candidate cancer drivers by integrative Epi-DNA and Gene Expression (iEDGE) data analysis
+- doi: 10.1016/j.gpb.2019.09.008
+  title: '<i>RePhine</i>: An Integrative Method for Identification of Drug Response-Related Transcriptional Regulators'
+source_repos:
+- https://github.com/ay-lab/dcHiC
+- https://github.com/montilab/iEDGE
+- https://github.com/coexps/Rephine
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ay-lab/dcHiC

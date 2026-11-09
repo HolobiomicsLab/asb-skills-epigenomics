@@ -1,0 +1,21 @@
+name: CENTRE
+slug: centre
+version_used: null
+edam_topics: []
+evidence_spans:
+- the training and evaluation of CENTRE
+- We used the All-Pairs.Natural-Ratio BENGI collection of datasets for the training and evaluation of CENTRE.
+- All features used for the training of CENTRE are listed in Table 1.
+- "CENTRE: A Bioconductor package to predict cell-type specific enhancer \ntarget interactions"
+- 'CENTRE: A Bioconductor package to predict cell-type specific enhancer target interactions'
+derived_from:
+- doi: 10.1093/bioinformatics/btad687
+  title: 'CENTRE: a gradient boosting algorithm for Cell-type-specific ENhancer-Target pREdiction'
+source_repos:
+- https://github.com/slrvv/CENTRE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/slrvv/CENTRE

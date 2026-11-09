@@ -1,0 +1,19 @@
+name: dna2vec
+slug: dna2vec
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/bib/bbae083
+  title: 'Enhancer-MDLF: a novel deep learning framework for identifying cell-specific enhancers'
+- doi: 10.1016/j.ygeno.2021.10.007
+  title: 'DeepSE: Detecting super-enhancers among typical enhancers using only sequence feature embeddings'
+source_repos:
+- https://github.com/HaoWuLab-Bioinformatics/Enhancer-MDLF
+- https://github.com/QiaoyingJi/DeepSE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HaoWuLab-Bioinformatics/Enhancer-MDLF

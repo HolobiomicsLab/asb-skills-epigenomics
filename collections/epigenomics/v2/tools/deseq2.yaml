@@ -1,0 +1,50 @@
+name: DESeq2
+slug: deseq2
+version_used: '0.05'
+edam_topics: []
+evidence_spans:
+- Actual DGE analysis is completed by both the edgeR [38] and DESeq2 [39] packages from Bioconductor
+- Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2
+- We also performed differential expression analysis between ESCs and NPCs to map the differentially expressed (DE) genes (DEseq2, FDR < 0.05, fold change>4)
+- We use DESeq2 (31) and edgeR (32) to do differential expression (DE) analysis between heart samples and brain samples
+- DESeq2 (Imports)
+- normalization factors for sequencing depth variation are computed using DESeq2
+- scored by the (DESeq2) rlog-transformed coverage of the Nanog ChIP-nexus 5′ read ends
+- Then either the DEseq2 (Love et al. 2014) or PyDESeq2 (Muzellec et al. 2022) is used to find differential genes in bulk RNA-seq data.
+- edgeR and DESeq2 for differential abundance analysis [6, 7]
+- The dispersion parameter φi,c is modelled dependent on the mean μi,c, using the approach of DEseq60
+derived_from:
+- doi: 10.1186/s12859-017-1770-1
+  title: 'CIPHER: a flexible and extensive workflow platform for integrative next-generation sequencing data analysis and genomic regulatory element prediction'
+- doi: 10.1038/s41467-022-34626-6
+  title: dcHiC detects differential compartments across multiple Hi-C datasets
+- doi: 10.1093/nar/gkz287
+  title: 'EpiAlign: an alignment-based bioinformatic tool for comparing chromatin state sequences'
+- doi: 10.1186/s12859-018-2238-7
+  title: 'GenoGAM 2.0: scalable and efficient implementation of genome-wide generalized additive models for gigabase-scale genomes'
+- doi: 10.1093/nargab/lqac075
+  title: 'MEPP: more transparent motif enrichment by profiling positional correlations'
+- doi: 10.1093/bioinformatics/btae070
+  title: 'Pycallingcards: an integrated environment for visualizing, analyzing, and interpreting Calling Cards data'
+- doi: 10.1186/s12859-016-1241-0
+  title: 'systemPipeR: NGS workflow and report generation environment'
+- doi: 10.1038/s41467-025-60269-4
+  title: 'BIT: Bayesian Identification of Transcriptional regulators from epigenomics-based query region sets'
+- doi: 10.1038/s41467-021-26779-7
+  title: scPower accelerates and optimizes the design of multi-sample single cell transcriptomic studies
+source_repos:
+- https://github.com/c-guzman/cipher-workflow-platform
+- https://github.com/ay-lab/dcHiC
+- https://github.com/zzz3639/EpiAlign
+- https://github.com/gstricker/fastGenoGAM
+- https://github.com/npdeloss/mepp
+- https://github.com/The-Mitra-Lab/pycallingcards
+- https://github.com/tgirke/systemPipeR
+- https://github.com/ZeyuL01/BIT
+- https://github.com/heiniglab/scPower
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/c-guzman/cipher-workflow-platform

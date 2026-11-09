@@ -1,0 +1,17 @@
+name: methylPurify
+slug: methylpurify
+version_used: null
+edam_topics: []
+evidence_spans:
+- DXM outperformed methylPurify (22), another method developed for subclonal analysis of bisulfite sequencing data
+derived_from:
+- doi: 10.1093/nar/gkab516
+  title: Determining subpopulation methylation profiles from bisulfite sequencing data of heterogeneous samples using DXM
+source_repos:
+- https://github.com/edwardslab-wustl/dxm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/edwardslab-wustl/dxm

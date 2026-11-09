@@ -1,0 +1,18 @@
+name: Tabix
+slug: tabix
+version_used: '1.17'
+edam_topics: []
+evidence_spans:
+- Both original and filtered aggregated quantification files are indexed by Tabix (v1.17)
+derived_from:
+- doi: 10.1093/bioinformatics/btad423
+  title: 'MEDIPIPE: an automated and comprehensive pipeline for cfMeDIP-seq data quality control and analysis'
+source_repos:
+- https://github.com/pughlab/MEDIPIPE
+- https://github.com/yzeng-lol/MEDIPIPE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pughlab/MEDIPIPE

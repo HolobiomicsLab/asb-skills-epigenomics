@@ -1,0 +1,17 @@
+name: changepoint
+slug: changepoint
+version_used: null
+edam_topics: []
+evidence_spans:
+- changepoint (Depends)
+derived_from:
+- doi: 10.1126/sciadv.abg6045
+  title: 'Copy-scAT: Deconvoluting single-cell chromatin accessibility of genetic subclones in cancer'
+source_repos:
+- https://github.com/spcdot/CopyscAT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/spcdot/CopyscAT

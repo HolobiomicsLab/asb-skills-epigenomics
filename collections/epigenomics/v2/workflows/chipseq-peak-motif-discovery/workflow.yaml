@@ -1,0 +1,181 @@
+schema_version: 0.3.0
+workflow_id: chipseq_peak_motif_discovery
+kind: composite-workflow
+techniques: []
+steps:
+- id: align_and_assess_reads
+  goal: align ChIP-seq treatment and control reads and report early alignment quality
+  edam_operation: http://edamontology.org/operation_0292
+  skills:
+  - fastq-read-alignment-quality-assessment
+  - bwa-read-alignment-and-bam-processing
+  - reference-genome-data-preparation
+  - chipseq-quality-metric-computation
+  tools:
+  - BWA
+  - ChiLin
+  - FastQC
+  - MACS2
+  - bedtools
+  - samtools
+  - seqtk
+  inputs:
+  - type: paired-fastq
+    flavour: chipseq-immunoprecipitation
+  - type: paired-fastq
+    flavour: chipseq-control
+  - type: directory
+    flavour: chilin-species-reference-bundle
+  outputs:
+  - type: bam
+    flavour: aligned-chipseq-immunoprecipitation
+  - type: bam
+    flavour: aligned-chipseq-control
+  - type: qc-report
+    flavour: chipseq-read-alignment
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1186-s12859-016-1274-4
+    dois:
+    - 10.1186/s12859-016-1274-4
+  after: []
+  candidate_tools:
+  - R
+- id: call_control_aware_peaks
+  goal: call enriched ChIP-seq peaks against the matched control
+  edam_operation: http://edamontology.org/operation_3222
+  skills:
+  - chip-seq-peak-calling-with-control
+  - chipseq-peak-calling-with-macs
+  - chipseq-peak-calling--2dd556ad6f61330a
+  - macs2-peak-calling
+  tools:
+  - DGW
+  - MACS
+  - MACS2
+  - Python
+  inputs:
+  - type: bam
+    flavour: aligned-chipseq-immunoprecipitation
+  - type: bam
+    flavour: aligned-chipseq-control
+  outputs:
+  - type: bed
+    flavour: control-aware-chipseq-peaks
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41598-021-98889-7
+    - asb-paper-10-1186-s12859-016-0902-3
+    - asb-paper-10-1186-s12859-016-1274-4
+    - asb-paper-10-1186-s12859-016-1306-0
+    dois:
+    - 10.1038/s41598-021-98889-7
+    - 10.1186/s12859-016-0902-3
+    - 10.1186/s12859-016-1274-4
+    - 10.1186/s12859-016-1306-0
+  after:
+  - align_and_assess_reads
+  candidate_tools:
+  - Bowtie
+  - R
+  - SAMtools
+  - SeqCode
+  - gawk
+  - spikChIP
+  - NEAT
+  - SPP
+  - BWA
+  - ChiLin
+  - bedClip
+  - bedGraphToBigWig
+  - bedtools
+  - seqtk
+  - wigCorrelate
+  inputs_from:
+    align_and_assess_reads:
+    - bam:aligned-chipseq-immunoprecipitation
+    - bam:aligned-chipseq-control
+- id: construct_motif_fastas
+  goal: construct peak-sequence and matched-background FASTA files
+  edam_operation: http://edamontology.org/operation_0238
+  skills:
+  - discriminative-positive-negative-dataset-construction
+  - chipseq-fasta-dataset-handling
+  tools:
+  - DiNAMO
+  inputs:
+  - type: bed
+    flavour: control-aware-chipseq-peaks
+  - type: fasta
+    flavour: reference-genome
+  - type: bed
+    flavour: matched-background-regions
+  outputs:
+  - type: fasta
+    flavour: chipseq-peak-signal
+  - type: fasta
+    flavour: chipseq-matched-control
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1186-s12859-018-2215-1
+    dois:
+    - 10.1186/s12859-018-2215-1
+  after:
+  - call_control_aware_peaks
+  candidate_tools:
+  - HOMER
+  - MEME
+  inputs_from:
+    call_control_aware_peaks:
+    - bed:control-aware-chipseq-peaks
+- id: discover_overrepresented_motifs
+  goal: identify motifs enriched in ChIP-seq peak sequences over matched background
+  edam_operation: http://edamontology.org/operation_0239
+  skills:
+  - chipseq-overrepresented-motif-discovery
+  - dna-motif-overrepresentation-analysis
+  - fisher-exact-test-motif-significance
+  - meme-format-motif-output
+  tools:
+  - DiNAMO
+  - JASPAR
+  inputs:
+  - type: fasta
+    flavour: chipseq-peak-signal
+  - type: fasta
+    flavour: chipseq-matched-control
+  - type: yaml
+    flavour: dinamo-motif-configuration
+  - type: motif-matrix-collection
+    flavour: jaspar-frequency-matrices
+  outputs:
+  - type: meme
+    flavour: overrepresented-chipseq-motifs
+  - type: motif-table
+    flavour: jaspar-matched-chipseq-motifs
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1186-s12859-018-2215-1
+    dois:
+    - 10.1186/s12859-018-2215-1
+  after:
+  - construct_motif_fastas
+  candidate_tools:
+  - MEME
+  - RSAT
+  inputs_from:
+    construct_motif_fastas:
+    - fasta:chipseq-peak-signal
+    - fasta:chipseq-matched-control
+verification:
+  final_outputs:
+  - path: chipseq_peaks.bed
+    type: file
+  - path: chipseq_motifs.meme
+    type: file
+  - path: chipseq_motif_matches.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

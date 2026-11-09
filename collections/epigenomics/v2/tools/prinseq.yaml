@@ -1,0 +1,16 @@
+name: PRINSEQ
+slug: prinseq
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/nargab/lqaa096
+  title: Tracing and tracking epiallele families in complex DNA populations
+source_repos:
+- https://github.com/84AP/MethCoresProfiler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/84AP/MethCoresProfiler

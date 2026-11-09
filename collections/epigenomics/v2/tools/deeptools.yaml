@@ -1,0 +1,20 @@
+name: deepTools
+slug: deeptools
+version_used: null
+edam_topics: []
+evidence_spans:
+- Fingerprint plots... using deeptool’s “plotFingerprint” function
+derived_from:
+- doi: 10.1186/s12859-017-1770-1
+  title: 'CIPHER: a flexible and extensive workflow platform for integrative next-generation sequencing data analysis and genomic regulatory element prediction'
+- doi: 10.1093/nar/gkad225
+  title: 'POSTRE: a tool to predict the pathological effects of human structural variants'
+source_repos:
+- https://github.com/c-guzman/cipher-workflow-platform
+- https://github.com/vicsanga/Postre
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/c-guzman/cipher-workflow-platform

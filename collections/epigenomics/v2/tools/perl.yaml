@@ -1,0 +1,20 @@
+name: Perl
+slug: perl
+version_used: null
+edam_topics: []
+evidence_spans:
+- We have implemented HPeak in a software package using Perl and C++.
+derived_from:
+- doi: 10.1186/1471-2105-11-369
+  title: 'HPeak: an HMM-based algorithm for defining read-enriched regions in ChIP-Seq data'
+- doi: 10.1093/nar/gkz1089
+  title: Global H-NS counter-silencing by LuxR activates quorum sensing gene expression
+source_repos:
+- https://github.com/cauyrd/HPeak
+- https://github.com/Juliacvk/LuxR_H-NS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cauyrd/HPeak

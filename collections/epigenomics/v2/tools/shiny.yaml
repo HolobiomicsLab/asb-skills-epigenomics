@@ -1,0 +1,28 @@
+name: shiny
+slug: shiny
+version_used: null
+edam_topics: []
+evidence_spans:
+- click "**Yes**" to proceed with installing the shiny package
+- If prompted with a pop-up window regarding the shiny package installation, click "**Yes**" to proceed with installing the shiny package
+- includes a user-friendly interface as a built-in R shiny app
+- lecell.biolab.si/).
+- a user-friendly interactive Shiny/R application distributed as a Bioconductor package
+- we present ChromSCape, a user-friendly interactive Shiny/R application distributed as a Bioconductor package
+derived_from:
+- doi: 10.1093/bioinformatics/btad008
+  title: 'ABSP: an automated R tool to efficiently analyze region-specific CpG methylation from bisulfite sequencing PCR'
+- doi: 10.1038/s41467-020-19542-x
+  title: Interactive analysis of single-cell epigenomic landscapes with ChromSCape
+- doi: 10.1093/nar/gkad225
+  title: 'POSTRE: a tool to predict the pathological effects of human structural variants'
+source_repos:
+- https://github.com/ABSP-methylation-tool/ABSP
+- https://github.com/vallotlab/ChromSCape_benchmarking
+- https://github.com/vicsanga/Postre
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ABSP-methylation-tool/ABSP

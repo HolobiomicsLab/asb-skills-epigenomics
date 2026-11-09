@@ -1,0 +1,17 @@
+name: BiocStyle
+slug: biocstyle
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'BiocStyle::html_document:'
+derived_from:
+- doi: 10.1093/bioadv/vbad049
+  title: 'EpiCompare: R package for the comparison and quality control of epigenomic peak files'
+source_repos:
+- https://github.com/neurogenomics/EpiCompare
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/neurogenomics/EpiCompare

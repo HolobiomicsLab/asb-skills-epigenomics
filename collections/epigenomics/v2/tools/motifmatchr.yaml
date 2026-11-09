@@ -1,0 +1,21 @@
+name: motifmatchr
+slug: motifmatchr
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`r CRANpkg("motifmatchr")` is used for fast motif scanning.'
+derived_from:
+- doi: 10.1093/bioinformatics/btad149
+  title: 'AdaLiftOver: high-resolution identification of orthologous regulatory elements with Adaptive liftOver'
+- doi: 10.1038/nmeth.4401
+  title: 'chromVAR: inferring transcription-factor-associated accessibility from single-cell epigenomic data'
+source_repos:
+- https://github.com/GreenleafLab/motifmatchr
+- https://github.com/keleslab/AdaLiftOver
+- https://github.com/GreenleafLab/chromVAR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GreenleafLab/motifmatchr

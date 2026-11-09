@@ -1,0 +1,18 @@
+name: Moskalev's CPR
+slug: moskalev-s-cpr
+version_used: null
+edam_topics: []
+evidence_spans:
+- cubic polynomial regression) presented in [Moskalev et al. (2011)]
+- obtained by using the function `MoskalevCalibrationPlot`
+derived_from:
+- doi: 10.1093/nar/gkz325
+  title: 'MethylCal: Bayesian calibration of methylation levels'
+source_repos:
+- https://github.com/lb664/MethylCal
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lb664/MethylCal

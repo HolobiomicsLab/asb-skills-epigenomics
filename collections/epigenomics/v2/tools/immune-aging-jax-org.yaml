@@ -1,0 +1,17 @@
+name: immune-aging.jax.org
+slug: immune-aging-jax-org
+version_used: null
+edam_topics: []
+evidence_spans:
+- shared via a searchable R Shiny application (https://immune-aging.jax.org/)
+derived_from:
+- doi: 10.1038/s41467-020-14396-9
+  title: Sexual-dimorphism in human immune system aging
+source_repos:
+- https://github.com/UcarLab/SexDimorphismNatureCommunications
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/UcarLab/SexDimorphismNatureCommunications

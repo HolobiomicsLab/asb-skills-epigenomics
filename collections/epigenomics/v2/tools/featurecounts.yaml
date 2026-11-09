@@ -1,0 +1,18 @@
+name: featureCounts
+slug: featurecounts
+version_used: null
+edam_topics: []
+evidence_spans:
+- quantification is accomplished by the featureCounts module [37] of the Subread suite
+- quantification is accomplished by the featureCounts module of the Subread suite
+derived_from:
+- doi: 10.1186/s12859-017-1770-1
+  title: 'CIPHER: a flexible and extensive workflow platform for integrative next-generation sequencing data analysis and genomic regulatory element prediction'
+source_repos:
+- https://github.com/c-guzman/cipher-workflow-platform
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/c-guzman/cipher-workflow-platform

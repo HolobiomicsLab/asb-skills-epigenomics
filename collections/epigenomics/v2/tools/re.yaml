@@ -1,0 +1,17 @@
+name: re
+slug: re
+version_used: null
+edam_topics: []
+evidence_spans:
+- Python modules argparse, Bio, ftplib, functools, GEOparse, os, pandas, re, shutil, sys, subprocess, sys, tkinter, time, urllib
+derived_from:
+- doi: 10.1128/mra.00587-20
+  title: 'COnTORT: COmprehensive Transcriptomic ORganizational Tool for Simultaneously Retrieving and Organizing Numerous Gene Expression Data Sets from the NCBI Gene Expression Omnibus Database'
+source_repos:
+- https://github.com/GLBRC/contort
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GLBRC/contort
