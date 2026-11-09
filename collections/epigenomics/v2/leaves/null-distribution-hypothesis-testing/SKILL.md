@@ -9,7 +9,7 @@ when_to_use_negative:
   and over-estimated significance
 - When the input is not genomic ranges or range-associated statistics (e.g., a feature
   table without coordinates), since bootRanges requires GRanges input
-edam_operation: http://edamontology.org/operation_3224
+edam_operation: http://edamontology.org/operation_2436
 edam_topics:
 - http://edamontology.org/topic_0749
 - http://edamontology.org/topic_3169
@@ -41,7 +41,7 @@ metadata:
   - bootRanges
   - multiomicsCor.R
   - nullranges
-  edam_operation: http://edamontology.org/operation_3224
+  edam_operation: http://edamontology.org/operation_2436
   edam_topics:
   - http://edamontology.org/topic_0749
   - http://edamontology.org/topic_3169

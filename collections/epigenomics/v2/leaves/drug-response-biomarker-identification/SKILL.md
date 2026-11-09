@@ -12,7 +12,7 @@ when_to_use_negative:
   and cannot detect it
 - Reliable target information is unavailable for the TRs of interest, since RePhine
   identifies drug response-related TRs only through their targets
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3168
@@ -47,7 +47,7 @@ metadata:
   - Python
   - R
   - RePhine
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3168

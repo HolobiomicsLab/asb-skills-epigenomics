@@ -12,7 +12,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3695
 edam_topics:
 - http://edamontology.org/topic_3169
-- http://edamontology.org/topic_3947
 tools:
 - name: EpiCompare
   role: Provides the ENCODE hg19/hg38 blacklist datasets, tidies peakfiles by removing
@@ -47,7 +46,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3695
   edam_topics:
   - http://edamontology.org/topic_3169
-  - http://edamontology.org/topic_3947
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -10,7 +10,7 @@ when_to_use_negative:
   not consider 5hmC
 - Solving a single global methylation profile across an entire chromosome, which is
   impractical given assembly gaps and large repetitive DNA sequences
-edam_operation: http://edamontology.org/operation_3804
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3674
 - http://edamontology.org/topic_3295
@@ -57,7 +57,7 @@ metadata:
   - methylPurify
   - numpy
   - python3
-  edam_operation: http://edamontology.org/operation_3804
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3674
   - http://edamontology.org/topic_3295

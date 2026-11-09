@@ -11,7 +11,7 @@ when_to_use_negative:
   than quantifying linker-trimming sensitivity
 - Linker sequences differ from the bridge linker ACGCGATATCTTATCTGACT used in this
   protocol; the rescue benchmark does not transfer
-edam_operation: http://edamontology.org/operation_2005
+edam_operation: null
 tools:
 - name: ChIA-PET2
   role: trimLinker step trims linker sequences from paired-end FASTQ files and reports
@@ -35,7 +35,7 @@ metadata:
   repo_url: https://github.com/GuipengLi/ChIA-PET2
   tools:
   - ChIA-PET2
-  edam_operation: http://edamontology.org/operation_2005
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

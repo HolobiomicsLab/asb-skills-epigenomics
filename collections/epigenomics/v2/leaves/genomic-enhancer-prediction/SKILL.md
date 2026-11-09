@@ -8,7 +8,7 @@ when_to_use_negative:
   the combination of H3K4me3, H3K4me1, H3K27ac ChIP-seq and DNase-seq data
 - When the task is generic NGS pre-processing (trimming, mapping, QC) rather than
   enhancer/regulatory-element classification
-edam_operation: http://edamontology.org/operation_0425
+edam_operation: http://edamontology.org/operation_2454
 edam_topics:
 - http://edamontology.org/topic_3295
 - http://edamontology.org/topic_0797
@@ -47,7 +47,7 @@ metadata:
   - Nextflow
   - Singularity
   - randomForest
-  edam_operation: http://edamontology.org/operation_0425
+  edam_operation: http://edamontology.org/operation_2454
   edam_topics:
   - http://edamontology.org/topic_3295
   - http://edamontology.org/topic_0797

@@ -13,7 +13,7 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0335
 edam_topics:
 - http://edamontology.org/topic_3308
-- http://edamontology.org/topic_3522
+- http://edamontology.org/topic_3520
 tools:
 - name: Cufflinks
   role: Estimates transcript expression from mapped BAM/SAM alignments, run with and
@@ -52,7 +52,7 @@ metadata:
   edam_operation: http://edamontology.org/operation_0335
   edam_topics:
   - http://edamontology.org/topic_3308
-  - http://edamontology.org/topic_3522
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

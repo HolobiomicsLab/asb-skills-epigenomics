@@ -11,7 +11,7 @@ when_to_use_negative:
 - The analysis target is a different tissue/sample type not covered by the cited accessions
   (e.g., GSM2191922 murine liver or GSM1545829 murine placenta) without confirming
   those accessions separately.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3168
 - http://edamontology.org/topic_3674
@@ -48,7 +48,7 @@ metadata:
   - Msuite
   - bowtie2
   - samtools
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3168
   - http://edamontology.org/topic_3674

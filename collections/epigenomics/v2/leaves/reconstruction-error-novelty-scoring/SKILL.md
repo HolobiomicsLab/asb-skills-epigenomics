@@ -11,7 +11,7 @@ when_to_use_negative:
   re-squiggled (Tombo), and converted into per-base translocation times
 - Windows have not been defined around motifs from the non-B DNA DB and motif-free
   controls identified
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3524
@@ -44,7 +44,7 @@ metadata:
   - matplotlib
   - numpy
   - pandas
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3524

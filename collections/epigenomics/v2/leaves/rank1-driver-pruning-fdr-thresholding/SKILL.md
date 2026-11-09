@@ -11,7 +11,7 @@ when_to_use_negative:
   effects
 - The goal is cataloguing all cis genes within an alteration rather than prioritizing
   drivers (tools like GISTIC2.0 that only consider genes within the alterations)
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_2640
@@ -48,7 +48,7 @@ metadata:
   - iEDGE
   - limma
   - rmarkdown
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_2640

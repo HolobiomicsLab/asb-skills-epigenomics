@@ -13,7 +13,7 @@ when_to_use_negative:
   known clusters rather than cluster discovery or method benchmarking
 edam_operation: http://edamontology.org/operation_0407
 edam_topics:
-- http://edamontology.org/topic_0182
+- http://edamontology.org/topic_0080
 - http://edamontology.org/topic_3169
 tools:
 - name: ChromSCape
@@ -57,7 +57,7 @@ metadata:
   - SnapATAC
   edam_operation: http://edamontology.org/operation_0407
   edam_topics:
-  - http://edamontology.org/topic_0182
+  - http://edamontology.org/topic_0080
   - http://edamontology.org/topic_3169
   provenance_tier: literature
 license: CC-BY-4.0

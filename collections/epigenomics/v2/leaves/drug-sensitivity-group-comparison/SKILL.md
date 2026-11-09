@@ -11,7 +11,7 @@ when_to_use_negative:
   (e.g. copy-number-adjusted expression) — regression-based association is more appropriate.
 - No mutation annotations are available to form the BRAF+PRC2 and BRAF-only groups,
   so the two-sample comparison cannot be constructed.
-edam_operation: http://edamontology.org/operation_2264
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3301
 - http://edamontology.org/topic_3053
@@ -45,7 +45,7 @@ metadata:
   - Python
   - R
   - RePhine
-  edam_operation: http://edamontology.org/operation_2264
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3301
   - http://edamontology.org/topic_3053

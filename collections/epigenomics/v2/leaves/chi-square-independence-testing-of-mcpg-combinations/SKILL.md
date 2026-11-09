@@ -12,7 +12,7 @@ when_to_use_negative:
 - 'Randomized/shuffled epihaplotype controls are the input: by construction mCpGs
   are independent, so all combinations should be non-significant and the test would
   flag nothing meaningful.'
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3674
 - http://edamontology.org/topic_0622
@@ -51,7 +51,7 @@ metadata:
   - MethCoresProfiler
   - R
   - ampliMethProfiler
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3674
   - http://edamontology.org/topic_0622

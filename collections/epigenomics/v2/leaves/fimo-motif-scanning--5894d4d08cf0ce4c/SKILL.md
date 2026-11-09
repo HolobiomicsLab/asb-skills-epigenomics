@@ -13,7 +13,7 @@ when_to_use_negative:
   CRE), which motif scanning within the given coordinates cannot capture.
 edam_operation: http://edamontology.org/operation_0238
 edam_topics:
-- http://edamontology.org/topic_0182
+- http://edamontology.org/topic_0080
 - http://edamontology.org/topic_3517
 tools:
 - name: FIMO
@@ -56,7 +56,7 @@ metadata:
   - binModel
   edam_operation: http://edamontology.org/operation_0238
   edam_topics:
-  - http://edamontology.org/topic_0182
+  - http://edamontology.org/topic_0080
   - http://edamontology.org/topic_3517
   provenance_tier: literature
 license: CC-BY-4.0

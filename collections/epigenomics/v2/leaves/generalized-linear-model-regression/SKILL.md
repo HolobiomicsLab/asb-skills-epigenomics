@@ -12,8 +12,7 @@ when_to_use_negative:
 - Testing within-donor longitudinal change — this skill models cross-sectional between-donor
   variation (age-matched male and female donors), not repeated measures
 edam_operation: http://edamontology.org/operation_2990
-edam_topics:
-- http://edamontology.org/topic_0266
+edam_topics: []
 tools:
 - name: R Shiny
   role: Interactive application (https://immune-aging.jax.org/) through which the
@@ -32,8 +31,7 @@ metadata:
   tools:
   - R Shiny
   edam_operation: http://edamontology.org/operation_2990
-  edam_topics:
-  - http://edamontology.org/topic_0266
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

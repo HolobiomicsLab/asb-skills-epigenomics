@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3223
 edam_topics:
 - http://edamontology.org/topic_0203
-- http://edamontology.org/topic_2648
 tools:
 - name: Python
   role: Implements the quasi-Poisson GLM fitting and likelihood ratio test on PCAWG
@@ -42,7 +41,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3223
   edam_topics:
   - http://edamontology.org/topic_0203
-  - http://edamontology.org/topic_2648
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

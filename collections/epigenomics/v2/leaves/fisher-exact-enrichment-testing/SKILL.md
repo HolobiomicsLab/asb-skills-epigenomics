@@ -11,7 +11,7 @@ when_to_use_negative:
   since OG/TN labeling of amplified/deleted genes is required
 - The goal is pathway-level annotation of cis/trans genes via GMT files (h.all.v5.0.symbols.gmt,
   c2.cp.v5.0.symbols.gmt, c3.tft.v5.0.symbols.gmt) rather than driver-database validation
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_2269
@@ -41,7 +41,7 @@ metadata:
   - R
   - iEDGE
   - rmarkdown
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_2269

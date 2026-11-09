@@ -11,7 +11,7 @@ when_to_use_negative:
 - When testing ChIP-seq artifact hypotheses via knocked-out TF data — false positive
   signals are demonstrated using ChIP-seq data sets for knocked-out transcription
   factors, not G4/control matching
-edam_operation: http://edamontology.org/operation_3234
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3169
 - http://edamontology.org/topic_0622
@@ -44,7 +44,7 @@ metadata:
   - matplotlib
   - pandas
   - scipy
-  edam_operation: http://edamontology.org/operation_3234
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3169
   - http://edamontology.org/topic_0622

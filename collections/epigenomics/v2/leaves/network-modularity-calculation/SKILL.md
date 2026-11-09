@@ -13,7 +13,7 @@ when_to_use_negative:
 - Data require imputation or normalization before TLD calling — deDoc2 'needs no normalization
   process, raw Hi-C data is suitable', and this scoring workflow runs on raw contact
   matrices with no imputation.
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -41,7 +41,7 @@ metadata:
   tools:
   - deDoc
   - deDoc2
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

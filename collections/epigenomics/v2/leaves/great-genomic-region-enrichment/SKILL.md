@@ -10,7 +10,7 @@ when_to_use_negative:
   run on the binarized topics in @binarized.rGREAT
 - Working outside the cisTopic framework entirely (e.g. arbitrary peak sets with different
   annotation needs); note also that cisTopic itself is deprecated in favor of pycisTopic
-edam_operation: http://edamontology.org/operation_3753
+edam_operation: null
 tools:
 - name: cisTopic
   role: Provides binarizecisTopics() to derive top-region sets per topic and a GREAT()
@@ -36,7 +36,7 @@ metadata:
   - R
   - cisTopic
   - rGREAT
-  edam_operation: http://edamontology.org/operation_3753
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

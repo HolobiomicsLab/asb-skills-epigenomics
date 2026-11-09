@@ -11,8 +11,7 @@ when_to_use_negative:
 - No duplicate-read or fragment-size handling is desired and default unfiltered alignments
   should be passed straight to peakcalling
 edam_operation: http://edamontology.org/operation_3695
-edam_topics:
-- http://edamontology.org/topic_3163
+edam_topics: []
 tools:
 - name: NEAT
   role: Framework hosting the 'filter' module; parameters are centralized in the project
@@ -41,8 +40,7 @@ metadata:
   - SAMtools
   - bwa
   edam_operation: http://edamontology.org/operation_3695
-  edam_topics:
-  - http://edamontology.org/topic_3163
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -10,7 +10,7 @@ when_to_use_negative:
   which are ChiLin steps 5-7, not the PBC read-layer assessment
 - Data types outside ChIP-seq/DNase-seq where the 23,677-sample atlas cutoffs (PBC
   > 0.8, unique ratio > 0.5, 25M/40M median depth) may not apply
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0654
@@ -41,7 +41,7 @@ metadata:
   - R
   - bwa
   - samtools
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0654

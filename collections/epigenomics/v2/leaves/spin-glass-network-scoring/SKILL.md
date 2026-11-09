@@ -12,7 +12,7 @@ when_to_use_negative:
   module detection requires a gene network.
 - When p-value columns still contain NA or zero values, since these must be filtered/replaced
   before scoring or the score distribution and downstream KS tests are invalid.
-edam_operation: http://edamontology.org/operation_3949
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3295
@@ -51,7 +51,7 @@ metadata:
   - SMITE
   - goseq
   - igraph
-  edam_operation: http://edamontology.org/operation_3949
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3295

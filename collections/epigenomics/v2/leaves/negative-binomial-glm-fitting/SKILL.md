@@ -9,7 +9,7 @@ when_to_use_negative:
 - Working with pcHi-C PO-interactions without lowering the 'other'-side coverage threshold
   (cov2_thresh=50) and disabling shuffling — the default Hi-C parameters would mis-filter
   promoter-side bins
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 tools:
@@ -49,7 +49,7 @@ metadata:
   - bedtools
   - covNorm
   - iced
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   provenance_tier: literature

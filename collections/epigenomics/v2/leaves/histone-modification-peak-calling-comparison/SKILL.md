@@ -14,7 +14,7 @@ when_to_use_negative:
   the right tool
 - No gold-standard (qPCR-validated) region set exists, so sensitivity/specificity
   cannot be computed against a truth set
-edam_operation: http://edamontology.org/operation_3577
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3169
 - http://edamontology.org/topic_3170
@@ -61,7 +61,7 @@ metadata:
   - Zinba
   - histoneHMM
   - samtools
-  edam_operation: http://edamontology.org/operation_3577
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3169
   - http://edamontology.org/topic_3170

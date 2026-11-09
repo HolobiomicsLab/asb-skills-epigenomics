@@ -10,7 +10,7 @@ when_to_use_negative:
   4-letter mode ONLY supports TAPS/5hmC-CATCH data)'
 - Reads longer or shorter than the tested 36-/100-bp paired-/single-end configurations
   without re-validating the benchmark parameters
-edam_operation: http://edamontology.org/operation_4003
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0102
 tools:
@@ -55,7 +55,7 @@ metadata:
   - SHERMAN script
   - bowtie2
   - samtools
-  edam_operation: http://edamontology.org/operation_4003
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0102
   provenance_tier: literature

@@ -8,7 +8,7 @@ when_to_use_negative:
   jointly across all samples) — near-linear scaling depends on per-sample parallelization
 - Runs on a local single-machine environment with no cluster/scheduler access, where
   clusterRun-based job submission is not applicable
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3168
@@ -42,7 +42,7 @@ metadata:
   - R
   - systemPipeR
   - systemPipeRdata
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3168

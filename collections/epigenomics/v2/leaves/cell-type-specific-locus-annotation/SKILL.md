@@ -10,7 +10,7 @@ when_to_use_negative:
   labels), since over-representation testing requires them
 - When studying aging changes within a single sex only — the key signal here is the
   opposite opening/closing pattern between men and women
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3173
 - http://edamontology.org/topic_3170
@@ -36,7 +36,7 @@ metadata:
   tools:
   - R Shiny
   - SexDimorphismNatureCommunications
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3173
   - http://edamontology.org/topic_3170

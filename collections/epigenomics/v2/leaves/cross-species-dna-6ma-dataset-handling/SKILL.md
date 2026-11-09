@@ -12,7 +12,6 @@ when_to_use_negative:
   or classifier_selection.py with the already-encoded matrices instead
 edam_operation: http://edamontology.org/operation_2409
 edam_topics:
-- http://edamontology.org/topic_0697
 - http://edamontology.org/topic_3318
 tools:
 - name: csDMA
@@ -35,7 +34,6 @@ metadata:
   - csDMA
   edam_operation: http://edamontology.org/operation_2409
   edam_topics:
-  - http://edamontology.org/topic_0697
   - http://edamontology.org/topic_3318
   provenance_tier: literature
 license: CC-BY-4.0

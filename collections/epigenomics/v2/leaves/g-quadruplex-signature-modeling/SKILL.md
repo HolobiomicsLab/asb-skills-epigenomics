@@ -10,7 +10,7 @@ when_to_use_negative:
   controlled synthetic benchmarks
 - The downstream analysis targets real non-B discovery on new nanopore reads rather
   than evaluating novelty-detection performance against a known ground truth
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3307
@@ -45,7 +45,7 @@ metadata:
   - matplotlib
   - numpy
   - pandas
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3307

@@ -10,8 +10,7 @@ when_to_use_negative:
   to identify and remove batch effects from input data
 - Peaks have not been filtered/assigned to clusters — running Homer on unclustered
   genome-wide peaks will not recover cell-type-specific motifs
-edam_topics:
-- http://edamontology.org/topic_3279
+edam_topics: []
 tools:
 - name: SCALE
   role: clusters scATAC-seq cells and yields the cluster assignments used to derive
@@ -35,8 +34,7 @@ metadata:
   - Homer
   - SCALE
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3279
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

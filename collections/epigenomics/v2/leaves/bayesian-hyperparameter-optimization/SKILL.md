@@ -10,7 +10,7 @@ when_to_use_negative:
 - When training data is too small to support 5-fold cross-validation scoring of each
   acquisition, increasing overfitting risk (a limitation the authors note for the
   relatively small CRISPRoff screen datasets)
-edam_operation: http://edamontology.org/operation_3892
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_0622
@@ -45,7 +45,7 @@ metadata:
   - TensorFlow 2.4.1
   - scikit-learn
   - scikit-learn 0.24.2
-  edam_operation: http://edamontology.org/operation_3892
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_0622

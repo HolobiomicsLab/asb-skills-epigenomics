@@ -10,7 +10,7 @@ when_to_use_negative:
   interpretable when all methods are scored on the identical validation set
 - The goal is comparing DNA-binding-factor (TF) binding site predictions rather than
   nucleosome positioning; that requires ChIP-chip/ChIP-exo/ORGANIC annotations instead
-edam_operation: http://edamontology.org/operation_1815
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3169
 - http://edamontology.org/topic_0622
@@ -43,7 +43,7 @@ metadata:
   - GCC
   - NucleoATAC
   - RoboCOP
-  edam_operation: http://edamontology.org/operation_1815
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3169
   - http://edamontology.org/topic_0622

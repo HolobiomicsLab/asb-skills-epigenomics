@@ -170,10 +170,7 @@
   "name": "adjusted-mutual-information-comparison",
   "description": "Use when two cluster label vectors cover the same set of cells and you need a chance-corrected score of clustering stability, e.g. before vs. after removing CNV-harboring chromosome peaks from a scATAC accessibility matrix.",
   "edam_operation": "http://edamontology.org/operation_0564",
-  "edam_topics": [
-   "http://edamontology.org/topic_3173",
-   "http://edamontology.org/topic_3611"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3173"],
   "tools": [
    "Copy-scAT",
    "CopyscAT",
@@ -976,9 +973,7 @@
   "name": "ari-clustering-agreement-evaluation",
   "description": "Use when a clustering method's output assignments must be compared against known cell-type labels on single-cell data (e.g., scATAC-seq Forebrain, k=8), or when ARI degradation under graded input corruption must be tabulated across tools.",
   "edam_operation": "http://edamontology.org/operation_2939",
-  "edam_topics": [
-   "http://edamontology.org/topic_3611"
-  ],
+  "edam_topics": [],
   "tools": [
    "SCALE",
    "scABC",
@@ -2265,7 +2260,7 @@
   "slug": "bacterial-m5c-methylation-sequencing-analysis",
   "name": "bacterial-m5c-methylation-sequencing-analysis",
   "description": "Use when paired-end Illumina fastq.gz reads from heat-alkaline-treated bacterial DNA need m5C motif identification plus shotgun sequencing, or when C-to-T variant enrichment must be quantified per sequence context (e.g. CCWGG) per read mate.",
-  "edam_operation": "http://edamontology.org/operation_0329",
+  "edam_operation": "http://edamontology.org/operation_0474",
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_0102"
@@ -2542,9 +2537,7 @@
   "name": "bam-file-generation",
   "description": "Use when linker-filtered ChIA-PET/HiChIP FASTQ tags must be mapped to a reference genome and reduced to unique, nonredundant PET alignments (MAPQ ≥ 30) in a BAM for downstream peak and loop calling.",
   "edam_operation": "http://edamontology.org/operation_0362",
-  "edam_topics": [
-   "http://edamontology.org/topic_3611"
-  ],
+  "edam_topics": [],
   "tools": [
    "CPU (ChIA-PET Utilities)",
    "ChIA-PIPE"
@@ -3249,7 +3242,7 @@
   "slug": "bayesian-hyperparameter-optimization",
   "name": "bayesian-hyperparameter-optimization",
   "description": "Use when tuning hyperparameters (e.g., convolution filter counts/sizes, fully-connected layer widths, dropout) of the EpiCas-DL TensorFlow CNN, and grid/random search is deemed unreliable.",
-  "edam_operation": "http://edamontology.org/operation_3892",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3474",
    "http://edamontology.org/topic_0622"
@@ -3543,7 +3536,7 @@
   "slug": "bed-coordinate-processing",
   "name": "bed-coordinate-processing",
   "description": "Use when a BED file of genomic intervals (e.g. CTCF ChIP-seq peaks on hg38) lacks strand annotation and strand signs must be inherited from an overlapping strand-annotated feature file such as MA0139.1 CTCF motif occurrences.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0080",
    "http://edamontology.org/topic_0102"
@@ -4980,7 +4973,7 @@
   "slug": "bionet-heinz-subnetwork-search",
   "name": "bionet-heinz-subnetwork-search",
   "description": "Use when SMITE-scored genes (scorePval output on a PvalueAnnotation) need to be converted into ranked subnetwork modules on an interactome, or when comparing Heinz-derived modules against spin-glass results.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0102"
   ],
@@ -5257,7 +5250,7 @@
   "slug": "bisulfite-methylation-data-deconvolution",
   "name": "bisulfite-methylation-data-deconvolution",
   "description": "Use when bisulfite sequencing (e.g. Methyl-Seq, RRBS/WGBS) data from a heterogeneous sample must be resolved into two subpopulation methylation profiles and fractional prevalences over defined regions.",
-  "edam_operation": "http://edamontology.org/operation_3804",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3674",
    "http://edamontology.org/topic_3295"
@@ -5430,10 +5423,7 @@
   "name": "bisulfite-read-alignment",
   "description": "Use when raw MethylC-seq or bisulfite-treated sequencing reads (e.g. FASTQ from the Lister et al. IMR90/H1 cell lines) must be mapped to a reference genome before methylation count extraction and DMR identification.",
   "edam_operation": "http://edamontology.org/operation_3198",
-  "edam_topics": [
-   "http://edamontology.org/topic_3674",
-   "http://edamontology.org/topic_3675"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3674"],
   "tools": [
    "Bismark",
    "Bowtie2",
@@ -5831,10 +5821,7 @@
   "name": "blacklisted-genomic-region-removal",
   "description": "Use when input peak files (BED/GRanges, e.g. ChIP-seq, CUT&Run, CUT&Tag peaks) must be cleaned of anomalous-signal regions before comparison/QC, and when a blacklist-overlap percentage metric is needed per sample.",
   "edam_operation": "http://edamontology.org/operation_3695",
-  "edam_topics": [
-   "http://edamontology.org/topic_3169",
-   "http://edamontology.org/topic_3947"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3169"],
   "tools": [
    "BiocStyle",
    "Bioconductor",
@@ -5919,9 +5906,7 @@
   "name": "bonferroni-multiple-testing-correction",
   "description": "Use when many p-values are produced simultaneously (e.g., 48 K-S tests per lane pair on genome-partitioned read distributions) and per-combination significance calls must be corrected for multiple testing.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0220"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3489"],
   "tools": [],
   "dois": [
    "10.1186/1471-2105-11-369"
@@ -6724,10 +6709,7 @@
   "name": "cancer-driver-call-overlap-analysis",
   "description": "Use when benchmarking a driver discovery method's called elements against a gold-standard set (e.g. CGC) on PCAWG whole genomes, to compute precision, recall and F1 per element class (coding, splice site, non-coding).",
   "edam_operation": "http://edamontology.org/operation_0324",
-  "edam_topics": [
-   "http://edamontology.org/topic_0622",
-   "http://edamontology.org/topic_2648"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "DriverPower",
    "Python",
@@ -6782,10 +6764,7 @@
   "name": "cancer-driver-gene-curation",
   "description": "Use when a ranked candidate driver gene list (e.g., iEDGE Rank-1 cis genes per SCNA) needs in silico validation against curated oncogene/tumor suppressor compendia (COSMIC, TUSON, OMIM, UniProt) or DepMap dependency data via one-sided Fisher/hypergeometric enrichment.",
   "edam_operation": "http://edamontology.org/operation_3659",
-  "edam_topics": [
-   "http://edamontology.org/topic_2640",
-   "http://edamontology.org/topic_2648"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_2640"],
   "tools": [
    "R",
    "iEDGE",
@@ -6811,10 +6790,7 @@
   "name": "cancer-driver-mutation-inference",
   "description": "Use when you have processed somatic mutation response tables (nMut, nSample, effective length per element) for coding or non-coding test elements and a pre-trained BMR model, and need to call driver candidates at q < 0.1.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0622",
-   "http://edamontology.org/topic_2648"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "DriverPower",
    "Python >=",
@@ -7433,7 +7409,7 @@
   "slug": "cell-type-agnostic-feature-computation",
   "name": "cell-type-agnostic-feature-computation",
   "description": "Use when candidate enhancer-gene pairs (e.g. cCRE-ELS within 500 KB of target gene TSSs) have been formed with createPairs and the CENTRE workflow requires the non-cell-type-specific feature columns before calling centrePrediction.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0203",
    "http://edamontology.org/topic_3308"
@@ -7833,7 +7809,7 @@
   "slug": "cell-type-specific-locus-annotation",
   "name": "cell-type-specific-locus-annotation",
   "description": "Use when DA peaks or age-related expression changes from PBMC ATAC-seq/RNA-seq must be assigned to cell-type-specific loci to test whether aging signatures (e.g., B cell decline) are shared or sex-specific between men and women.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3173",
    "http://edamontology.org/topic_3170"
@@ -8271,7 +8247,7 @@
   "slug": "chi-square-independence-testing-of-mcpg-combinations",
   "name": "chi-square-independence-testing-of-mcpg-combinations",
   "description": "Use when bisulfite-sequencing epihaplotype matrices (binary mCpG per molecule) must be mined for statistically significant co-methylated CpG combinations underlying stable epiallele families.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3674",
    "http://edamontology.org/topic_0622"
@@ -9238,7 +9214,7 @@
   "slug": "chip-seq-peak-calling--9572d2e9701b16d4",
   "name": "chip-seq-peak-calling",
   "description": "Use when a ChIP-seq FASTQ dataset (with a matched input/control) needs peaks, peak annotation, or motif identification, and CIPHER is being used to run the full two-stage pipeline from raw reads to called peaks.",
-  "edam_operation": "http://edamontology.org/operation_0225",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0654",
    "http://edamontology.org/topic_0203"
@@ -10031,9 +10007,7 @@
   "name": "chipseq-duplicate-read-filtering",
   "description": "Use when processing mapped ChIPseq reads (BAM) downstream of the 'map' module and before peakcalling, and duplicate-read handling and fragment-size bounds must be applied reproducibly across a project.",
   "edam_operation": "http://edamontology.org/operation_3695",
-  "edam_topics": [
-   "http://edamontology.org/topic_3163"
-  ],
+  "edam_topics": [],
   "tools": [
    "NEAT",
    "R",
@@ -11509,9 +11483,7 @@
   "name": "chromatin-interaction-loop-calling",
   "description": "Use when processing ChIA-PET, HiChIP, or PLAC-seq read pairs (short 2×21 bp or long 2×150 bp) and you need to call chromatin interaction loops with peak-supported anchors from uniquely aligned, nonredundant PETs.",
   "edam_operation": "http://edamontology.org/operation_3221",
-  "edam_topics": [
-   "http://edamontology.org/topic_3611"
-  ],
+  "edam_topics": [],
   "tools": [
    "CPU (ChIA-PET Utilities)",
    "ChIA-PIPE",
@@ -12423,10 +12395,7 @@
   "name": "cis-driver-gene-rank-derivation",
   "description": "Use when assessing the reproducibility of iEDGE Rank-1 cis driver predictions across bootstrapped resamples of a TCGA-style SCNA/gene-expression cohort, or when a stability measure for mediation-ranked cis genes is required.",
   "edam_operation": "http://edamontology.org/operation_2945",
-  "edam_topics": [
-   "http://edamontology.org/topic_0203",
-   "http://edamontology.org/topic_2648"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0203"],
   "tools": [
    "Biobase",
    "R",
@@ -12823,10 +12792,7 @@
   "name": "clip-seq-window-enrichment-testing",
   "description": "Use when analyzing eCLIP/CLIP-seq data to detect RNA-binding protein binding sites transcriptome-wide, especially when peak callers underperform or when binding to repetitive elements or low-abundance transcripts must be tested.",
   "edam_operation": "http://edamontology.org/operation_3222",
-  "edam_topics": [
-   "http://edamontology.org/topic_3525",
-   "http://edamontology.org/topic_0659"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0128", "http://edamontology.org/topic_0659"],
   "tools": [
    "STAR",
    "Skipper",
@@ -13626,7 +13592,7 @@
   "slug": "cnn-variant-effect-prediction",
   "name": "cnn-variant-effect-prediction",
   "description": "Use when you need to score the reference vs. alternative allele of a non-coding GWAS variant against chromatin profiles (DNase, histone marks, TF binding) in a tissue-specific manner, or to identify the motif driving a predicted effect (e.g., NFE2 at rs6426833).",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3474",
    "http://edamontology.org/topic_0654"
@@ -14476,10 +14442,7 @@
   "name": "conservation-distribution-boxplot-visualization",
   "description": "Use when a research question requires scoring genomic intervals for evolutionary conservation, e.g. ranking candidate regulatory regions by PhastCons average scores across annotated gene features.",
   "edam_operation": "http://edamontology.org/operation_0564",
-  "edam_topics": [
-   "http://edamontology.org/topic_3129",
-   "http://edamontology.org/topic_0622"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "R",
    "SeqCode",
@@ -15004,7 +14967,7 @@
   "slug": "copy-number-vs-dependency-regression",
   "name": "copy-number-vs-dependency-regression",
   "description": "Use when in silico validation of predicted cancer drivers requires linking somatic copy-number amplifications to gene essentiality from DepMap RNAi screens and CCLE copy-number data.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0625"
   ],
@@ -15424,9 +15387,7 @@
   "name": "cpg-island-annotation-enrichment-analysis",
   "description": "Use when interpreting top-value-method-selected CpG probes from an Illumina 450K methylation matrix (e.g. cola SD vs ATC top probes) by CpG-island association category, to judge whether features capture local or global methylation patterns.",
   "edam_operation": "http://edamontology.org/operation_3222",
-  "edam_topics": [
-   "http://edamontology.org/topic_3311"
-  ],
+  "edam_topics": [],
   "tools": [
    "Bioconductor",
    "R",
@@ -16869,10 +16830,7 @@
   "name": "cross-species-dna-6ma-dataset-handling",
   "description": "Use when raw labeled FASTA sequences (e.g., the cross-species DNA 6mA benchmark of 2,768 positive / 2,716 negative 41-nt samples) must be converted into fixed-length numeric k-mer frequency features for machine-learning classification.",
   "edam_operation": "http://edamontology.org/operation_2409",
-  "edam_topics": [
-   "http://edamontology.org/topic_0697",
-   "http://edamontology.org/topic_3318"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3318"],
   "tools": [
    "csDMA"
   ],
@@ -18968,7 +18926,7 @@
   "slug": "differential-call-recall-assessment-across-depths",
   "name": "differential-call-recall-assessment-across-depths",
   "description": "Use when you need to test whether pairwise differential compartment calls remain stable at reduced sequencing depth, e.g., before committing to lower-depth runs or justifying shallow replicate removal.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0607",
    "http://edamontology.org/topic_3168"
@@ -19137,7 +19095,7 @@
   "slug": "differential-expression-threshold-estimation",
   "name": "differential-expression-threshold-estimation",
   "description": "Use when overlap counts between differential expression genes and differential accessibility peaks (or SNP/gene statistics) are available and an objective, bootstrap-justified logFC or P-value cutoff is needed instead of an arbitrary threshold.",
-  "edam_operation": "http://edamontology.org/operation_3667",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0203",
    "http://edamontology.org/topic_3169"
@@ -20792,11 +20750,7 @@
   "name": "driver-call-set-differential-comparison-across-test-schemes",
   "description": "Use when you need to quantify how adding functional impact scores (CADD, DANN, EIGEN, LINSIGHT) changes DriverPower driver calls for a tumour cohort, or to report burden-only precision against a CGC-gene truth set.",
   "edam_operation": "http://edamontology.org/operation_2945",
-  "edam_topics": [
-   "http://edamontology.org/topic_0622",
-   "http://edamontology.org/topic_3173",
-   "http://edamontology.org/topic_2648"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622", "http://edamontology.org/topic_3173"],
   "tools": [
    "DriverPower",
    "Python >=",
@@ -20900,7 +20854,7 @@
   "slug": "drug-response-biomarker-identification",
   "name": "drug-response-biomarker-identification",
   "description": "Use when you need to identify transcriptional regulators independently associated with pharmacological drug response from cell line pharmacogenomic data (expression, CNV, mutation) plus ChIP-seq target information, as with CCLE/ENCODE and PLX4720.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0203",
    "http://edamontology.org/topic_3168",
@@ -20960,7 +20914,7 @@
   "slug": "drug-sensitivity-group-comparison",
   "name": "drug-sensitivity-group-comparison",
   "description": "Use when a drug-sensitivity table (e.g. CCLE pharmacological profiles) can be split into mutation-defined groups — such as BRAF+H3K27me3/PRC2 double mutants versus BRAF-only — and the goal is a two-sample test of response difference.",
-  "edam_operation": "http://edamontology.org/operation_2264",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3301",
    "http://edamontology.org/topic_3053"
@@ -21152,9 +21106,7 @@
   "name": "dual-orientation-motif-scoring",
   "description": "Use when scanning centered, scored DNA sequences (e.g. FASTA with score headers) for transcription factor motif occurrences where motif strand is unknown, and positional enrichment profiles must reflect matches on either orientation.",
   "edam_operation": "http://edamontology.org/operation_0239",
-  "edam_topics": [
-   "http://edamontology.org/topic_0182"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0080"],
   "tools": [
    "HOMER",
    "MEPP",
@@ -22239,7 +22191,7 @@
   "slug": "enhancer-sequence-classification",
   "name": "enhancer-sequence-classification",
   "description": "Use when labeled enhancer FASTA sequences (e.g. 'data/train/${cell_line}.fasta' with '${cell_line}_y_train.txt' labels) must be classified per cell line, or generic/enhancer-promoter benchmarks must be reproduced.",
-  "edam_operation": "http://edamontology.org/operation_0462",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3474",
    "http://edamontology.org/topic_0749"
@@ -22897,7 +22849,7 @@
   "slug": "epigenome-transcriptome-module-visualization",
   "name": "epigenome-transcriptome-module-visualization",
   "description": "Use when SMITE modules have already been identified (runSpinglass/runBioNet) from scored gene networks and you need to assign pathway meaning and render interpretable subnetwork figures for reporting.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3170",
    "http://edamontology.org/topic_0602"
@@ -24250,7 +24202,7 @@
   "slug": "fastq-paired-end-read-processing",
   "name": "fastq-paired-end-read-processing",
   "description": "Use when raw paired-end ChIA-PET FASTQ files (e.g. bridge-linker protocol data such as GSE72816/GSM970213) must be stripped of the 5' bridge linker before read alignment.",
-  "edam_operation": "http://edamontology.org/operation_3259",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0080"
   ],
@@ -24530,7 +24482,7 @@
   "slug": "fdr-multiple-testing-correction",
   "name": "fdr-multiple-testing-correction",
   "description": "Use when many parallel hypothesis tests are performed (e.g., limma DE tests across 69 SCNAs or hypergeometric enrichment of gene sets) and per-test p-values must be adjusted to FDR before calling significant genes or pathways.",
-  "edam_operation": "http://edamontology.org/operation_3679",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_2269",
    "http://edamontology.org/topic_0203"
@@ -24730,10 +24682,7 @@
   "name": "fimo-motif-scanning",
   "description": "Use when you have CRE coordinate BED files (chromosome, start, stop, condition) and need motif occurrence annotations from known position weight matrices to build motif-count features for a classifier.",
   "edam_operation": "http://edamontology.org/operation_0238",
-  "edam_topics": [
-   "http://edamontology.org/topic_0182",
-   "http://edamontology.org/topic_3517"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0080", "http://edamontology.org/topic_3517"],
   "tools": [
    "BSgenome.Mmusculus.UCSC.mm10",
    "BagOfMotifs",
@@ -24909,7 +24858,7 @@
   "slug": "fisher-exact-enrichment-testing",
   "name": "fisher-exact-enrichment-testing",
   "description": "Use when validating that a ranked list of predicted cis driver genes (e.g., Rank-1 mediators from iEDGE mediation output) is significantly enriched for known driver genes from curated compendia such as COSMIC CGC, UniProt, OMIM, or TUSON.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0203",
    "http://edamontology.org/topic_2269"
@@ -25080,7 +25029,7 @@
   "slug": "fit-hic-baseline-benchmarking",
   "name": "fit-hic-baseline-benchmarking",
   "description": "Use when evaluating a Hi-C/HiChIP normalization-and-significance method against an established baseline (Fit-Hi-C) on replicate data, using reproducible-contact overlap and ROC AUC (~0.85 expected) as acceptance criteria.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622"
   ],
@@ -25210,7 +25159,7 @@
   "slug": "flow-cytometry-cell-population-analysis",
   "name": "flow-cytometry-cell-population-analysis",
   "description": "Use when per-donor flow-cytometry population proportion data are paired with donor age and sex metadata and the goal is to test which cell-type proportions change with age and differ between men and women (e.g., around an age-65 cutoff).",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_2229",
    "http://edamontology.org/topic_2269"
@@ -25450,10 +25399,7 @@
   "name": "fragment-bias-correction",
   "description": "Use when estimating transcript expression from RNA-Seq alignments (SAM/BAM) whose library preparation (NSR priming, WT SOLiD, strand-specific protocols, single- or paired-end) induces non-uniform fragment distribution and quantification bias.",
   "edam_operation": "http://edamontology.org/operation_3800",
-  "edam_topics": [
-   "http://edamontology.org/topic_3308",
-   "http://edamontology.org/topic_3522"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3308", "http://edamontology.org/topic_3520"],
   "tools": [
    "Cuffdiff",
    "Cufflinks",
@@ -25932,7 +25878,7 @@
   "slug": "g-quadruplex-signature-modeling",
   "name": "g-quadruplex-signature-modeling",
   "description": "Use when benchmarking non-B DNA detection from ONT translocation times and experimentally-derived G4/STR windows are unavailable or insufficient — synthetic TT datasets with known labels and controlled non-B-to-B ratios (0.05/0.1/0.25) are needed.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3307"
@@ -26555,7 +26501,7 @@
   "slug": "genbank-genome-library-construction",
   "name": "genbank-genome-library-construction",
   "description": "Use when you have a GenBank file for a target genome (e.g. R. sphaeroides NC_007493.2) and a tab-delimited sites file of genomic positions, and need to extract coordinate-windowed sequences into a Delila book artifact for motif construction.",
-  "edam_operation": "http://edamontology.org/operation_2402",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_0749"
@@ -27436,7 +27382,7 @@
   "slug": "gene-overlap-enrichment-analysis",
   "name": "gene-overlap-enrichment-analysis",
   "description": "Use when you have two gene/region sets (e.g., differentially modified regions from ChIP-seq and differentially expressed genes from RNA-seq) mapped to a common identifier and need to quantify overlap significance and GO enrichment.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3169",
    "http://edamontology.org/topic_0203",
@@ -27642,7 +27588,7 @@
   "slug": "gene-regulatory-network-method-comparison",
   "name": "gene-regulatory-network-method-comparison",
   "description": "Use when validating a gene regulatory network inference method on time-course expression data against a curated reference regulon set, especially to compare two methods and a random baseline per transcription factor.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0602",
    "http://edamontology.org/topic_0203"
@@ -27864,9 +27810,7 @@
   "name": "generalized-linear-model-regression",
   "description": "Use when you have per-donor flow cytometry cell population proportion data plus donor metadata (continuous age, sex) and need to quantify which factor — age, sex, or their interaction — is most strongly associated with each PBMC cell subset.",
   "edam_operation": "http://edamontology.org/operation_2990",
-  "edam_topics": [
-   "http://edamontology.org/topic_0266"
-  ],
+  "edam_topics": [],
   "tools": [
    "R Shiny"
   ],
@@ -29029,7 +28973,7 @@
   "slug": "genomic-enhancer-prediction",
   "name": "genomic-enhancer-prediction",
   "description": "Use when the goal is to classify genomic regions as enhancers from matched ChIP-seq (H3K4me1, H3K4me3, H3K27ac) and DNase-seq datasets, e.g. reproducing enhancer catalogs in human cell lines like HCT116 or HeLa.",
-  "edam_operation": "http://edamontology.org/operation_0425",
+  "edam_operation": "http://edamontology.org/operation_2454",
   "edam_topics": [
    "http://edamontology.org/topic_3295",
    "http://edamontology.org/topic_0797"
@@ -30820,7 +30764,7 @@
   "slug": "genomic-scaling-benchmark-profiling",
   "name": "genomic-scaling-benchmark-profiling",
   "description": "Use when evaluating whether a tiled/smoothed genome-wide model implementation's runtime and memory footprint scale linearly with parameters per tile, or when reproducing version-to-version speedup benchmarks (e.g. 2-3 orders of magnitude).",
-  "edam_operation": "http://edamontology.org/operation_3844",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0091",
    "http://edamontology.org/topic_0769"
@@ -31526,7 +31470,7 @@
   "slug": "geodata-fastq-retrieval",
   "name": "geodata-fastq-retrieval",
   "description": "Use when a methylation-analysis reproduction task requires the raw sequencing reads of a published dataset identified by a GEO accession (e.g., GSE129673 for TAPS murine ESCs) before alignment or methylation calling can begin.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3168",
    "http://edamontology.org/topic_3674"
@@ -31957,7 +31901,7 @@
   "slug": "gradient-boosted-tree-modeling-xgboost",
   "name": "gradient-boosted-tree-modeling-xgboost",
   "description": "Use when a tabular sgRNA feature matrix (one-hot encoded sequences plus epigenetic features like nucleosome positioning, ATAC-seq accessibility, DNA methylation, RNA expression) needs both activity prediction and feature-importance interpretation via Tree SHAP.",
-  "edam_operation": "http://edamontology.org/operation_3934",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3474",
    "http://edamontology.org/topic_0622"
@@ -32407,7 +32351,7 @@
   "slug": "great-genomic-region-enrichment",
   "name": "great-genomic-region-enrichment",
   "description": "Use when a set of genomic regions (e.g. binarized cisTopics from single-cell ATAC-seq on hg19) needs GO functional annotation, or when interpreting which topics correspond to promoters vs cell-type-specific enhancers.",
-  "edam_operation": "http://edamontology.org/operation_3753",
+  "edam_operation": null,
   "edam_topics": [],
   "tools": [
    "R",
@@ -32698,7 +32642,7 @@
   "slug": "h3k27ac-bigwig-enhancer-activity-quantification",
   "name": "h3k27ac-bigwig-enhancer-activity-quantification",
   "description": "Use when you have enhancer interval BED coordinates (e.g. from rearranged regulatory domains) plus control and patient/condition H3K27ac bigWig tracks for a phenotype-matched cell type and need per-enhancer mean activity values to score enhancer gain/loss.",
-  "edam_operation": "http://edamontology.org/operation_3806",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3173",
    "http://edamontology.org/topic_0622"
@@ -32929,10 +32873,7 @@
   "name": "harmony-batch-effect-correction",
   "description": "Use when a scATAC-seq (or scRNA-seq) dataset combines cells from multiple samples/preparations and sample-to-sample technical variability could dominate the low-dimensional embedding, driving clustering to separate batches rather than cell types.",
   "edam_operation": "http://edamontology.org/operation_3891",
-  "edam_topics": [
-   "http://edamontology.org/topic_3173",
-   "http://edamontology.org/topic_3611"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3173"],
   "tools": [
    "Harmony",
    "SnapATAC",
@@ -34656,10 +34597,7 @@
   "name": "hierarchical-clustering-of-epigenomic-profiles",
   "description": "Use when a sparse single-cell count matrix (scChIP-seq/scATAC-seq bins or peaks) with known or hypothesized sub-populations must be grouped via hierarchical clustering on a PCA/feature-space embedding and quantitatively benchmarked by ARI.",
   "edam_operation": "http://edamontology.org/operation_0407",
-  "edam_topics": [
-   "http://edamontology.org/topic_0182",
-   "http://edamontology.org/topic_3169"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0080", "http://edamontology.org/topic_3169"],
   "tools": [
    "Bioconductor",
    "ChromSCape",
@@ -35032,7 +34970,7 @@
   "slug": "histone-modification-peak-calling-comparison",
   "name": "histone-modification-peak-calling-comparison",
   "description": "Use when a qPCR-validated or otherwise gold-standard ChIP-seq dataset of a broad histone mark (e.g. H3K27me3, H3K9me3) is available and you need to quantify which peak caller detects modified versus unmodified regions via sensitivity-specificity/ROC analysis.",
-  "edam_operation": "http://edamontology.org/operation_3577",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3169",
    "http://edamontology.org/topic_3170",
@@ -35514,9 +35452,7 @@
   "name": "homer-known-motif-enrichment-analysis",
   "description": "Use when scATAC-seq clusters (e.g., Leiden assignments from SCALE on a Breast_Tumor.h5ad dataset) need functional interpretation through motif enrichment in cluster-specific open chromatin peaks.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_3279"
-  ],
+  "edam_topics": [],
   "tools": [
    "Homer",
    "SCALE"
@@ -35574,7 +35510,7 @@
   "slug": "hot-region-control-matching-by-tf-occupancy",
   "name": "hot-region-control-matching-by-tf-occupancy",
   "description": "Use when comparing a genomic signal track (e.g. G4-ChIP-seq IP vs input/control) over HOT regions and you need control intervals matched on the number of overlapping TF ChIP-seq peaks to separate feature-specific signal from hyper-ChIPable occupancy effects.",
-  "edam_operation": "http://edamontology.org/operation_3234",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3169",
    "http://edamontology.org/topic_0622"
@@ -35853,7 +35789,7 @@
   "slug": "hypergeometric-gene-set-overrepresentation-analysis",
   "name": "hypergeometric-gene-set-overrepresentation-analysis",
   "description": "Use when you have per-cluster differentially enriched regions from single-cell ChIP/epigenomic data (e.g. H3K27me3 scChIP-seq) and need pathway-level interpretation by gene-set over-representation.",
-  "edam_operation": "http://edamontology.org/operation_3759",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_2269"
   ],
@@ -36134,7 +36070,7 @@
   "slug": "imprinted-dmr-allele-specific-methylation-calling",
   "name": "imprinted-dmr-allele-specific-methylation-calling",
   "description": "Use when bisulfite sequencing data (bismark/bsmap/biscuit .cov output) must be tested for allele-specific methylation at imprinted DMRs or X-linked CGIs, e.g. detecting state-dependent imprinting loss in naive ES cells.",
-  "edam_operation": "http://edamontology.org/operation_3806",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3674",
    "http://edamontology.org/topic_3295"
@@ -36438,7 +36374,7 @@
   "slug": "in-silico-read-simulation",
   "name": "in-silico-read-simulation",
   "description": "Use when benchmarking methylation read aligners (e.g., Msuite vs Bismark vs BWA-meth) on ground-truth data, or when stratifying mapping performance by region composition such as CT/GA-rich bins.",
-  "edam_operation": "http://edamontology.org/operation_4003",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0102"
   ],
@@ -36723,7 +36659,7 @@
   "slug": "interactive-network-visualization-exploration",
   "name": "interactive-network-visualization-exploration",
   "description": "Use when a time-series regulatory network has been constructed in TSMiner and you need to visually navigate time-specific network maps to identify which TFs interact with pathways and quantify overlaps between pathway-connected TF sets.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0602",
    "http://edamontology.org/topic_3170"
@@ -37597,9 +37533,7 @@
   "name": "kmeans-trajectory-clustering",
   "description": "Use when a normalized feature-by-donor abundance matrix (peaks or genes) has samples ordered by age and you need to detect and classify features showing genuine monotonic or non-monotonic temporal trends over adult lifespan.",
   "edam_operation": "http://edamontology.org/operation_3432",
-  "edam_topics": [
-   "http://edamontology.org/topic_3272"
-  ],
+  "edam_topics": [],
   "tools": [
    "R Shiny"
   ],
@@ -37707,10 +37641,7 @@
   "name": "kmer-undersampling-for-affinity-training-sets",
   "description": "Use when preparing uPBM training data for DNAffinity's random-forest regressor: 35-mer affinities are dominated by weak binders and the PWM-defined high-affinity motif must be emphasized (10x weight) after MEME-based trimming.",
   "edam_operation": "http://edamontology.org/operation_2454",
-  "edam_topics": [
-   "http://edamontology.org/topic_3675",
-   "http://edamontology.org/topic_3474"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3474"],
   "tools": [
    "DNAffinity",
    "MEME suite"
@@ -38289,10 +38220,7 @@
   "name": "likelihood-ratio-testing",
   "description": "Use when testing whether a candidate driver element's target gene is differentially expressed between samples mutated in that element and wild-type samples, while explicitly correcting for somatic copy-number state (SCNA) and tumour tissue label.",
   "edam_operation": "http://edamontology.org/operation_3223",
-  "edam_topics": [
-   "http://edamontology.org/topic_0203",
-   "http://edamontology.org/topic_2648"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0203"],
   "tools": [
    "DriverPower",
    "Python"
@@ -38409,7 +38337,7 @@
   "slug": "linear-regression-gene-expression-modeling",
   "name": "linear-regression-gene-expression-modeling",
   "description": "Use when you have paired chromatin accessibility (DNase1-seq) and RNA-seq expression data across many samples/cell types and need to identify putative REMs that explain expression variation of specific genes.",
-  "edam_operation": "http://edamontology.org/operation_3657",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3169",
    "http://edamontology.org/topic_0203"
@@ -38634,7 +38562,7 @@
   "slug": "literature-marker-gene-curation",
   "name": "literature-marker-gene-curation",
   "description": "Use when building or extending a cell taxonomy reference database of literature-curated marker genes (like CellMatch) to support automatic cluster annotation in scRNA-seq pipelines such as scCATCH.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3170",
    "http://edamontology.org/topic_0602"
@@ -38791,7 +38719,7 @@
   "slug": "lncrna-transcript-sequence-retrieval",
   "name": "lncrna-transcript-sequence-retrieval",
   "description": "Use when a study needs canonical lncRNA transcript sequences (e.g. the 7 TPX-validated lncRNAs MEG3, Meg3, lncSmad7, NEAT1, TERC, CDKN2B-AS1) from a fixed annotation release before running sequence-based prediction tools.",
-  "edam_operation": "http://edamontology.org/operation_2402",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0749",
    "http://edamontology.org/topic_0622",
@@ -39690,9 +39618,7 @@
   "name": "loop-set-overlap-reproducibility-analysis",
   "description": "Use when comparing the reproducibility of two loop-calling methods or parameter settings on scHi-C data: split per-cell contact files into disjoint replicate halves, call loops per half, and quantify symmetric loop-set overlap.",
   "edam_operation": "http://edamontology.org/operation_3359",
-  "edam_topics": [
-   "http://edamontology.org/topic_3949"
-  ],
+  "edam_topics": [],
   "tools": [
    "Java",
    "Juicebox",
@@ -39778,9 +39704,7 @@
   "name": "low-information-sequence-filtering",
   "description": "Use when running the Delila-PY pipeline and, after cycle 1's malign/malin alignment, some input sequences from the ChIP-derived sites file show information content of 0 bits or less, contaminating the motif with non-matching sequences.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0779"
-  ],
+  "edam_topics": [],
   "tools": [
    "Delila-PY",
    "Docker",
@@ -42970,7 +42894,7 @@
   "slug": "multi-method-benchmark-comparison",
   "name": "multi-method-benchmark-comparison",
   "description": "Use when a new domain/peak-calling or prediction method needs head-to-head validation against established alternatives on shared real datasets, with a functional readout rather than only internal overlap metrics.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3169",
    "http://edamontology.org/topic_0203",
@@ -44401,7 +44325,7 @@
   "slug": "negative-binomial-glm-fitting",
   "name": "negative-binomial-glm-fitting",
   "description": "Use when Hi-C or pcHi-C fragment-pair tables (frag1, frag2, cov_frag1, cov_frag2, freq, dist) contain coverage-driven ligation bias that must be estimated and removed before distance normalization or replicate comparison.",
-  "edam_operation": "http://edamontology.org/operation_3657",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622"
   ],
@@ -44566,7 +44490,7 @@
   "slug": "network-modularity-calculation",
   "name": "network-modularity-calculation",
   "description": "Use when single-cell Hi-C contact matrices have been partitioned into nested TLDs (e.g., by deDoc2.w/deDoc2.s) and you need a per-cell scalar (modularity Q) to track how TLD hierarchy changes across cell-cycle stages (G1, early/mid/late S, G2) or other groupings.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [
    "http://edamontology.org/topic_0091"
   ],
@@ -44772,9 +44696,7 @@
   "name": "newton-based-maximum-likelihood-parameter-updating",
   "description": "Use when fitting CscoreTool-M's probabilistic sub-compartment model (Ci, alpha, beta) to Hi-C interaction data and you need to reproduce or re-implement its non-convex likelihood optimization and convergence loop.",
   "edam_operation": "http://edamontology.org/operation_3893",
-  "edam_topics": [
-   "http://edamontology.org/topic_3933"
-  ],
+  "edam_topics": [],
   "tools": [
    "CscoreTool-M",
    "HOMER",
@@ -44909,7 +44831,7 @@
   "slug": "ngs-error-model-parameterization",
   "name": "ngs-error-model-parameterization",
   "description": "Use when an aligner-evaluation experiment needs synthetic bisulfite-seq FASTQ read sets with a controlled per-base error rate (e.g. 0%, 1%, 2%) and known genomic origin, so mapping quality can be scored against ground truth.",
-  "edam_operation": "http://edamontology.org/operation_3580",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3295"
@@ -45052,7 +44974,7 @@
   "slug": "ngs-read-quality-control",
   "name": "ngs-read-quality-control",
   "description": "Use when raw sequencing reads (FASTQ) enter a Watchdog RNA-seq workflow and their quality must be checked before mapping against the reference genome.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0080"
   ],
@@ -45550,7 +45472,7 @@
   "slug": "nucleosome-positioning-aupr-evaluation",
   "name": "nucleosome-positioning-aupr-evaluation",
   "description": "Use when multiple nucleosome-positioning methods have been run on the same ATAC-seq and/or MNase-seq data and their predicted nucleosome calls must be compared on an identical validation set using AUPR.",
-  "edam_operation": "http://edamontology.org/operation_1815",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3169",
    "http://edamontology.org/topic_0622"
@@ -45717,7 +45639,7 @@
   "slug": "null-distribution-hypothesis-testing",
   "name": "null-distribution-hypothesis-testing",
   "description": "Use when testing whether genomic ranges (peaks, QTLs, CREs) show significant enrichment or correlation with features (genes, cell types) and a null that preserves local genomic correlation structure is required.",
-  "edam_operation": "http://edamontology.org/operation_3224",
+  "edam_operation": "http://edamontology.org/operation_2436",
   "edam_topics": [
    "http://edamontology.org/topic_0749",
    "http://edamontology.org/topic_3169"
@@ -47386,7 +47308,7 @@
   "slug": "parallel-cluster-job-submission",
   "name": "parallel-cluster-job-submission",
   "description": "Use when an R/Bioconductor NGS workflow must process many sample files (e.g., ~100 FASTQ files) faster by parallelizing per-sample steps across multiple cluster cores and quantifying the speedup.",
-  "edam_operation": "http://edamontology.org/operation_2936",
+  "edam_operation": "http://edamontology.org/operation_2938",
   "edam_topics": [
    "http://edamontology.org/topic_0091",
    "http://edamontology.org/topic_3168"
@@ -47759,7 +47681,7 @@
   "slug": "pbc-pcr-bottleneck-coefficient-assessment",
   "name": "pbc-pcr-bottleneck-coefficient-assessment",
   "description": "Use when QC'ing ChIP-seq or DNase-seq libraries for sequencing-depth bottlenecking — e.g., checking whether a sample's PBC falls above the atlas-derived 0.8 cutoff or comparing it to historical read-layer metric distributions.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_0654"
@@ -47930,10 +47852,7 @@
   "name": "pca-embedding-of-deviation-scores",
   "description": "Use when you need a low-dimensional cell embedding from scATAC-seq accessibility counts for clustering and want to compare it against alternatives such as SnapATAC.",
   "edam_operation": "http://edamontology.org/operation_2939",
-  "edam_topics": [
-   "http://edamontology.org/topic_3173",
-   "http://edamontology.org/topic_3611"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3173"],
   "tools": [
    "BiocParallel",
    "R",
@@ -47965,10 +47884,7 @@
   "name": "pcawg-cohort-driver-result-aggregation",
   "description": "Use when comparing called cancer driver elements from DriverPower (or a similar method) against gold-standard gene sets on the same PCAWG cohorts to quantify precision, recall and F1 for coding, splice-site and non-coding discovery.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_2648",
-   "http://edamontology.org/topic_0622"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "DriverPower",
    "Python",
@@ -49958,7 +49874,7 @@
   "slug": "pet-rescue-count-comparison",
   "name": "pet-rescue-count-comparison",
   "description": "Use when processing bridge-linker ChIA-PET raw reads and you need to measure the sensitivity gain of linker-searching at 1 allowed mismatch (-e 1) versus the strict 0-mismatch setting (-e 0), expressed as rescued PET counts and valid PET ratio from the trim.stat summaries.",
-  "edam_operation": "http://edamontology.org/operation_2005",
+  "edam_operation": null,
   "edam_topics": [],
   "tools": [
    "ChIA-PET2"
@@ -50103,7 +50019,7 @@
   "slug": "pharmacogenomic-data-integration",
   "name": "pharmacogenomic-data-integration",
   "description": "Use when you have cell-line pharmacogenomic data (expression, CNV, mutation, drug sensitivity such as CCLE PLX4720 profiles) plus ChIP-seq or RP-score target maps and need to find drug-response TRs while adjusting confounders.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0203",
    "http://edamontology.org/topic_3168",
@@ -50166,7 +50082,7 @@
   "slug": "phasing-accuracy-and-runtime-evaluation",
   "name": "phasing-accuracy-and-runtime-evaluation",
   "description": "Use when comparing diploid single-individual haplotyping tools on simulated or real reads (Illumina, 10X, Hi-C, PacBio SMRT, ONT) and you need runtime, memory, and phasing-accuracy tables.",
-  "edam_operation": "http://edamontology.org/operation_0466",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0102",
    "http://edamontology.org/topic_0622"
@@ -53010,7 +52926,7 @@
   "slug": "r-base-graphics-plotting",
   "name": "r-base-graphics-plotting",
   "description": "Use when the task requires summarizing quality and diversity of short reads in FASTQ files as plots — e.g. per-cycle quality scores or read-quality distributions across many samples in one report figure.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0080"
   ],
@@ -53254,7 +53170,7 @@
   "slug": "r-function-workflow-execution",
   "name": "r-function-workflow-execution",
   "description": "Use when many SVs must be scored for pathogenicity in a scripted, parameterized R (>=3.5.0) pipeline rather than through the Shiny Multiple SV Submission GUI, e.g. batch benchmarking of hg19 SV sets.",
-  "edam_operation": "http://edamontology.org/operation_3958",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0625",
    "http://edamontology.org/topic_3175"
@@ -54112,7 +54028,7 @@
   "slug": "rank1-driver-pruning-fdr-thresholding",
   "name": "rank1-driver-pruning-fdr-thresholding",
   "description": "Use when candidate cis genes from SCNA/gene-expression integrative analysis must be prioritized by their trans mediation signal, and the pruned Rank-1 lists need in silico validation against known driver databases.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0203",
    "http://edamontology.org/topic_2640"
@@ -54539,7 +54455,7 @@
   "slug": "reconstruction-error-novelty-scoring",
   "name": "reconstruction-error-novelty-scoring",
   "description": "Use when translocation-time windows (B-DNA and candidate non-B) from ONT reads are available and the goal is novelty-based non-B DNA detection with per-window P-values and FDR-controlled calls.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3524"
@@ -56144,7 +56060,7 @@
   "slug": "rna-seq-short-read-alignment--e6aaa64bf61235cd",
   "name": "rna-seq-short-read-alignment",
   "description": "Use when aligning RNA-Seq FASTQ files inside a systemPipeR workflow and you need to choose or benchmark an aligner (Bowtie2/TopHat2 vs HISAT2/Rsubread) or verify near-linear parallel speedup via clusterRun.",
-  "edam_operation": "http://edamontology.org/operation_3298",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0102",
    "http://edamontology.org/topic_0080",
@@ -56934,7 +56850,7 @@
   "slug": "roc-curve-auc-benchmarking",
   "name": "roc-curve-auc-benchmarking",
   "description": "Use when comparing differential occupancy / peak-calling methods on a dosage-responsive ChIP-seq benchmark with a gold-standard positive set defined at a signal quantile, and you need ROC curves and AUC-vs-cutoff comparisons.",
-  "edam_operation": "http://edamontology.org/operation_1221",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3169",
    "http://edamontology.org/topic_0091"
@@ -56967,7 +56883,7 @@
   "slug": "roc-evaluation-against-qpcr-validated-regions",
   "name": "roc-evaluation-against-qpcr-validated-regions",
   "description": "Use when a modified-vs-unmodified region caller on broad histone marks (e.g. H3K27me3) must be ranked against competitors using an independent qPCR-validated ground-truth region set rather than simulated data.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3169",
    "http://edamontology.org/topic_0160"
@@ -58034,9 +57950,7 @@
   "name": "scatac-seq-peak-dropping-corruption",
   "description": "Use when you need to quantify how a scATAC-seq clustering method's accuracy (ARI) degrades as sparsity increases, by simulating missingness through random peak dropping on a labeled dataset such as Forebrain (2088 cells, k=8).",
   "edam_operation": "http://edamontology.org/operation_2939",
-  "edam_topics": [
-   "http://edamontology.org/topic_3611"
-  ],
+  "edam_topics": [],
   "tools": [
    "SCALE",
    "scABC",
@@ -58979,11 +58893,8 @@
   "slug": "sex-dimorphism-aging-group-comparison",
   "name": "sex-dimorphism-aging-group-comparison",
   "description": "Use when flow-cytometry or compositional immune-cell data must be split by sex and age groups (e.g., 65-year cutoff) and non-parametric group differences tested against reported statistics.",
-  "edam_operation": "http://edamontology.org/operation_3492",
-  "edam_topics": [
-   "http://edamontology.org/topic_2269",
-   "http://edamontology.org/topic_2228"
-  ],
+  "edam_operation": null,
+  "edam_topics": ["http://edamontology.org/topic_2269"],
   "tools": [
    "R Shiny",
    "pandas",
@@ -59112,7 +59023,7 @@
   "slug": "sgrna-activity-label-binarization",
   "name": "sgrna-activity-label-binarization",
   "description": "Use when a CRISPRoff/CRISPRi/CRISPRa sgRNA screening dataset provides continuous phenotype or activity scores per sgRNA and a classification task (e.g., ROC-AUC evaluation) requires dichotomized activity labels.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3474"
@@ -60853,7 +60764,7 @@
   "slug": "single-cell-rnaseq-power-analysis",
   "name": "single-cell-rnaseq-power-analysis",
   "description": "Use when planning an interindividual single cell RNA-seq differential expression or eQTL study and you need to choose sample size, cells per sample, and sequencing depth to maximize detection power under a fixed budget.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3512",
    "http://edamontology.org/topic_0203",
@@ -61093,7 +61004,7 @@
   "slug": "snakemake-conda-workflow-configuration",
   "name": "snakemake-conda-workflow-configuration",
   "description": "Use when running an end-to-end (cf)MeDIP-seq workflow from raw FASTQ files to QC, alignment, methylation quantification and aggregation, and you need portable Snakemake/Conda environment deployment.",
-  "edam_operation": "http://edamontology.org/operation_3764",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3295"
@@ -61141,10 +61052,7 @@
   "name": "snakemake-pipeline-execution-for-clip-seq",
   "description": "Use when raw eCLIP FASTQ files with matched IP and input samples must be converted into reproducible enriched binding-site windows transcriptome-wide, replacing per-tool peak calling with an integrated Snakemake workflow.",
   "edam_operation": "http://edamontology.org/operation_2945",
-  "edam_topics": [
-   "http://edamontology.org/topic_3557",
-   "http://edamontology.org/topic_0659"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0659"],
   "tools": [
    "CLIPper",
    "Miniconda/conda",
@@ -62020,7 +61928,7 @@
   "slug": "species-specific-marker-mapping-human-mouse",
   "name": "species-specific-marker-mapping-human-mouse",
   "description": "Use when a single-cell cluster annotation or marker-lookup task requires a curated, tissue-specific marker reference restricted to human or mouse, or when rebuilding/extending a CellMatch-style cellmatch table.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3170",
    "http://edamontology.org/topic_0605"
@@ -62238,7 +62146,7 @@
   "slug": "spin-glass-network-scoring",
   "name": "spin-glass-network-scoring",
   "description": "Use when gene-level p-values from transcriptomic and epigenomic data must be projected onto an interaction network to find dysregulated modules, or when two module-detection runs (e.g., FEM vs SMITE) need quantitative comparison of overlap and enrichment.",
-  "edam_operation": "http://edamontology.org/operation_3949",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0203",
    "http://edamontology.org/topic_3295",
@@ -62741,7 +62649,7 @@
   "slug": "strand-specific-genomic-interval-analysis",
   "name": "strand-specific-genomic-interval-analysis",
   "description": "Use when you have per-window, per-nucleotide translocation-time curves from Tombo re-squiggled ONT reads labeled non-B (e.g. G-Quadruplex_Motif) vs B-DNA, and need strand-resolved divergence testing (e.g. reproducing Fig. 5).",
-  "edam_operation": "http://edamontology.org/operation_2262",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_0102"
@@ -64141,7 +64049,7 @@
   "slug": "taps-bisulfite-free-alignment-mode-selection",
   "name": "taps-bisulfite-free-alignment-mode-selection",
   "description": "Decision support for choosing 3-letter vs 4-letter Msuite alignment when input is TAPS, 5hmC-CATCH, or conventional BS-seq read data and non-CpG methylation levels determine the correct mode.",
-  "edam_operation": "http://edamontology.org/operation_3298",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3295",
    "http://edamontology.org/topic_3168"
@@ -64937,7 +64845,7 @@
   "slug": "tf-overlap-set-comparison",
   "name": "tf-overlap-set-comparison",
   "description": "Use when a time-specific TF–pathway interaction network has been constructed (e.g., by TSMiner from time-series expression data) and you need to measure how many TFs are shared between consecutive-stage pathways to assemble a regulatory cascade.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0203",
    "http://edamontology.org/topic_0602"
@@ -65019,7 +64927,7 @@
   "slug": "tf-pathway-mutual-interaction-scoring",
   "name": "tf-pathway-mutual-interaction-scoring",
   "description": "Use when you have time-series expression profiles plus TF–TG interactions and pathway gene sets (KEGG/Reactome) and must decide which pathways significantly interact with a time-specific TF.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0203",
    "http://edamontology.org/topic_0602"
@@ -66133,10 +66041,7 @@
   "name": "transcript-expression-quantification",
   "description": "Use when RNA-Seq alignments (BAM/SAM, e.g. from SRA012427 or MAQC HBR libraries) must be converted into per-transcript expression estimates whose non-uniform fragment bias has been corrected before correlation or differential-expression analysis.",
   "edam_operation": "http://edamontology.org/operation_0335",
-  "edam_topics": [
-   "http://edamontology.org/topic_3308",
-   "http://edamontology.org/topic_3522"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3308", "http://edamontology.org/topic_3520"],
   "tools": [
    "Cuffdiff",
    "Cufflinks",
@@ -66538,9 +66443,7 @@
   "name": "transcription-factor-motif-database-matching",
   "description": "Use when a set of de novo TF sequence motifs (e.g., predicted by DESSO from ENCODE ChIP-seq peaks) needs to be labeled as matching documented JASPAR/TRANSFAC motifs or flagged as novel/undocumented.",
   "edam_operation": "http://edamontology.org/operation_0238",
-  "edam_topics": [
-   "http://edamontology.org/topic_0182"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0080"],
   "tools": [
    "DESSO",
    "JASPAR",
@@ -66805,7 +66708,7 @@
   "slug": "transcription-initiation-signal-regression",
   "name": "transcription-initiation-signal-regression",
   "description": "Use when benchmarking 100,000-bp DNA sequence models on nucleotide-wise signal-intensity regression for transcription initiation, or when verifying that DNA foundation models underperform a task-specific expert model on TISP.",
-  "edam_operation": "http://edamontology.org/operation_0434",
+  "edam_operation": "http://edamontology.org/operation_2454",
   "edam_topics": [
    "http://edamontology.org/topic_0622"
   ],
@@ -67520,7 +67423,7 @@
   "slug": "tumor-vs-normal-differential-expression-ttest",
   "name": "tumor-vs-normal-differential-expression-ttest",
   "description": "Use when a user asks whether eccDNA genes from eccDNAdb show differential expression between tumor and normal samples in TCGA cohorts (e.g. TCGA-GBM) or matched CCLE cell lines, and wants per-gene t-statistics and p-values.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0203",
    "http://edamontology.org/topic_2640"
@@ -67608,10 +67511,7 @@
   "name": "tumour-purity-decontamination",
   "description": "Use when RRBS-derived epiallele frequency distributions (phi_s vectors) from multiple tumour regions plus a matched normal are contaminated by normal tissue, and profiles must be purified before identifying loci that differ between normal and cancer tissue.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_3295",
-   "http://edamontology.org/topic_2648"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3295"],
   "tools": [
    "R",
    "ape",
@@ -69174,9 +69074,7 @@
   "name": "wilcoxon-rank-sum-testing-on-sparse-count-matrices",
   "description": "Use when you have a filtered, normalized single-cell chromatin count matrix (scChIP-seq/scATAC-seq, e.g. 50kbp bins or peaks) plus per-cell cluster labels, and you need cluster-specific enriched/depleted regions for downstream gene set interpretation.",
   "edam_operation": "http://edamontology.org/operation_3222",
-  "edam_topics": [
-   "http://edamontology.org/topic_0182"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0080"],
   "tools": [
    "Bioconductor",
    "ChromSCape",
@@ -69344,7 +69242,7 @@
   "slug": "wms-execution-overhead-benchmarking",
   "name": "wms-execution-overhead-benchmarking",
   "description": "Use when evaluating whether adopting a workflow management system (e.g., Watchdog or Snakemake) adds measurable runtime cost over raw task execution, by scaling input sample counts and separating scheduling overhead from task compute time.",
-  "edam_operation": "http://edamontology.org/operation_3875",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0091",
    "http://edamontology.org/topic_3063"
@@ -69758,7 +69656,7 @@
   "slug": "xml-workflow-dependency-parsing",
   "name": "xml-workflow-dependency-parsing",
   "description": "Use when an agent must execute or reconstruct a Watchdog workflow from an XML file (e.g. example_dependencies.xml), resolving task dependencies, verifying success with custom checkers, and handling blocked tasks.",
-  "edam_operation": "http://edamontology.org/operation_3720",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0091",
    "http://edamontology.org/topic_0769"

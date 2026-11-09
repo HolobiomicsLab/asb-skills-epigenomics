@@ -9,7 +9,7 @@ when_to_use_negative:
   per-gene significance scores, not raw assay data
 - The goal is de novo module detection without a reference interactome — the Heinz
   search operates on a supplied network such as REACTOME
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0102
 tools:
@@ -42,7 +42,7 @@ metadata:
   - R
   - SMITE
   - igraph
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0102
   provenance_tier: literature

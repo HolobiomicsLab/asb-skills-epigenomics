@@ -10,7 +10,7 @@ when_to_use_negative:
   human parameters on 60 cores) — this skill measures single-core scaling only
 - Smoothing parameter estimation by cross-validation must be performed — fix lambda
   and theta instead, as parameter estimation would confound the timing
-edam_operation: http://edamontology.org/operation_3844
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_0769
@@ -48,7 +48,7 @@ metadata:
   - R
   - SuperLU
   - mgcv
-  edam_operation: http://edamontology.org/operation_3844
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_0769

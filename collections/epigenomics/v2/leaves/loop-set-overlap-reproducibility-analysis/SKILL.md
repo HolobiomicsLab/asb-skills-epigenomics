@@ -12,8 +12,7 @@ when_to_use_negative:
 - Comparing callers across different resolutions or genomes (e.g. 10KB mm10 vs hg38
   25KB) without re-running both halves, since filter-regions and bin size must match
 edam_operation: http://edamontology.org/operation_3359
-edam_topics:
-- http://edamontology.org/topic_3949
+edam_topics: []
 tools:
 - name: SnapHiC
   role: Primary loop caller run per replicate half via snap.py steps 'bin rwr' then
@@ -52,8 +51,7 @@ metadata:
   - SnapHiC
   - cooler
   edam_operation: http://edamontology.org/operation_3359
-  edam_topics:
-  - http://edamontology.org/topic_3949
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

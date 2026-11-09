@@ -11,7 +11,7 @@ when_to_use_negative:
   training and quantitative information is ignored
 - The variant is coding or its functional class is unknown outside DNA accessibility,
   histone marks, and TF binding profiles covered by the two pre-trained models
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_0654
@@ -47,7 +47,7 @@ metadata:
   - DeepFun
   - Python
   - Torch7
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_0654

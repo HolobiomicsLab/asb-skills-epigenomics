@@ -12,8 +12,7 @@ when_to_use_negative:
 - You want static differential abundance between age groups (e.g., older vs younger
   contrasts) rather than per-feature longitudinal trajectory detection and clustering
 edam_operation: http://edamontology.org/operation_3432
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: R Shiny
   role: Interactive, searchable delivery of the resulting immune-aging trajectories
@@ -33,8 +32,7 @@ metadata:
   tools:
   - R Shiny
   edam_operation: http://edamontology.org/operation_3432
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

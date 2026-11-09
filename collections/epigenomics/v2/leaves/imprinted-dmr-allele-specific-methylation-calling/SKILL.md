@@ -11,7 +11,7 @@ when_to_use_negative:
 - 'Single-CpG or very short regions: larger regions need more CpGs with methylation
   change to be solved as a distinct profile, and sparse regions will not deconvolve
   reliably'
-edam_operation: http://edamontology.org/operation_3806
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3674
 - http://edamontology.org/topic_3295
@@ -43,7 +43,7 @@ metadata:
   - DXM
   - Python3
   - bedtools
-  edam_operation: http://edamontology.org/operation_3806
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3674
   - http://edamontology.org/topic_3295

@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3659
 edam_topics:
 - http://edamontology.org/topic_2640
-- http://edamontology.org/topic_2648
 tools:
 - name: iEDGE
   role: Supplies the iEDGE results object (res$pruning$sig, res$de$cis$full) from
@@ -48,7 +47,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3659
   edam_topics:
   - http://edamontology.org/topic_2640
-  - http://edamontology.org/topic_2648
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

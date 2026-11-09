@@ -12,7 +12,7 @@ when_to_use_negative:
   without selecting one best transcript per gene, compromising window interpretability
 edam_operation: http://edamontology.org/operation_3222
 edam_topics:
-- http://edamontology.org/topic_3525
+- http://edamontology.org/topic_0128
 - http://edamontology.org/topic_0659
 tools:
 - name: Skipper
@@ -52,7 +52,7 @@ metadata:
   - VGAM
   edam_operation: http://edamontology.org/operation_3222
   edam_topics:
-  - http://edamontology.org/topic_3525
+  - http://edamontology.org/topic_0128
   - http://edamontology.org/topic_0659
   provenance_tier: literature
 license: CC-BY-4.0

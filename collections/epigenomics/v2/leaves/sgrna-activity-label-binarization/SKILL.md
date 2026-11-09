@@ -10,7 +10,7 @@ when_to_use_negative:
   dataset-specific activity score definition
 - Applying a CRISPRoff-derived cutoff to CRISPRa/CRISPRi data without checking that
   the phenotype score scale and screen type are comparable
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3474
@@ -46,7 +46,7 @@ metadata:
   - pybedtools 0.9.0
   - scikit-learn
   - scikit-learn 0.24.2
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3474

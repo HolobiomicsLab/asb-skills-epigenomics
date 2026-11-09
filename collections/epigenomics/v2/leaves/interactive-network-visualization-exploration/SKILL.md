@@ -11,7 +11,7 @@ when_to_use_negative:
   repressors are limited, so negative-interaction networks are much sparser.
 - You require a static whole-network topology analysis rather than identifying which
   TFs interact with specific pathways at specific time points.
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_3170
@@ -44,7 +44,7 @@ metadata:
   tools:
   - Java
   - TSMiner
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_3170

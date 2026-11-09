@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0324
 edam_topics:
 - http://edamontology.org/topic_0622
-- http://edamontology.org/topic_2648
 tools:
 - name: DriverPower
   role: Source of the driver calls being benchmarked; result tables from its 'infer'
@@ -44,7 +43,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0324
   edam_topics:
   - http://edamontology.org/topic_0622
-  - http://edamontology.org/topic_2648
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

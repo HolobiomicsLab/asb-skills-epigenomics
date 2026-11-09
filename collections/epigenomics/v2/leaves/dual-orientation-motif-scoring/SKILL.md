@@ -12,7 +12,7 @@ when_to_use_negative:
   so positional enrichment relative to an anchor is not meaningful
 edam_operation: http://edamontology.org/operation_0239
 edam_topics:
-- http://edamontology.org/topic_0182
+- http://edamontology.org/topic_0080
 tools:
 - name: MEPP
   role: Executes the PWM scanning over one-hot encoded sequences with the '+/-' dual-orientation
@@ -43,7 +43,7 @@ metadata:
   - pip
   edam_operation: http://edamontology.org/operation_0239
   edam_topics:
-  - http://edamontology.org/topic_0182
+  - http://edamontology.org/topic_0080
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -12,7 +12,7 @@ when_to_use_negative:
 - The histone mark of interest forms sharp peak-like features rather than broad diffuse
   footprints like H3K27me3/H3K9me3, where peak-style callers are appropriate and this
   broad-mark benchmark does not apply
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3169
 - http://edamontology.org/topic_0160
@@ -62,7 +62,7 @@ metadata:
   - Zinba
   - histoneHMM
   - samtools
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3169
   - http://edamontology.org/topic_0160

@@ -12,7 +12,7 @@ when_to_use_negative:
 - Your comparison involves more than two conditions or a time-series design where
   pairwise recall against a single reference set is not the appropriate robustness
   metric
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0607
 - http://edamontology.org/topic_3168
@@ -35,7 +35,7 @@ metadata:
   repo_url: https://github.com/ay-lab/dcHiC
   tools:
   - dcHiC
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0607
   - http://edamontology.org/topic_3168

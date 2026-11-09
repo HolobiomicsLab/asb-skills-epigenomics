@@ -11,7 +11,7 @@ when_to_use_negative:
   the scCATCH wiki workflow)
 - When the task is de novo marker identification from expression data (e.g., one-against-all
   Wilcoxon testing) rather than curation from published knowledge
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0602
@@ -40,7 +40,7 @@ metadata:
   repo_url: https://github.com/ZJUFanLab/scCATCH
   tools:
   - scCATCH
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0602

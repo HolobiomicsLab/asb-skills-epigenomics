@@ -9,7 +9,7 @@ when_to_use_negative:
   of the default Hi-C settings
 - The goal is contact-map reproducibility scoring (HiC-spector score) or compartment
   A/B correlation rather than significant-interaction calling benchmarking
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 tools:
@@ -45,7 +45,7 @@ metadata:
   - Fit-Hi-C
   - R
   - covNorm
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   provenance_tier: literature

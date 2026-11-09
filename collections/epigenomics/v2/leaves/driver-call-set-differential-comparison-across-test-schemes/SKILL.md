@@ -17,7 +17,6 @@ edam_operation: http://edamontology.org/operation_2945
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3173
-- http://edamontology.org/topic_2648
 tools:
 - name: DriverPower
   role: Runs both 'infer' invocations (burden-only and with --funcScore/--funcScoreCut)
@@ -47,7 +46,6 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3173
-  - http://edamontology.org/topic_2648
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

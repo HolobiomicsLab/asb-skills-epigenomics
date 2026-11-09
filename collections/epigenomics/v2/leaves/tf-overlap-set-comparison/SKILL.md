@@ -11,7 +11,7 @@ when_to_use_negative:
   already-predicted TF–pathway associations.
 - Negatively correlated TF–TG interactions dominate the question of interest, since
   known repressors are limited and fewer results are obtained from negative interactions.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0602
@@ -44,7 +44,7 @@ metadata:
   tools:
   - Java
   - TSMiner
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0602

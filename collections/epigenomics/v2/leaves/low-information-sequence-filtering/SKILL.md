@@ -11,8 +11,7 @@ when_to_use_negative:
   and require no GenBank plus sites-file setup
 - Sequences are unaligned and cycle 1 (malign/malin) has not been run — the ri filter
   operates on per-sequence information content from the cycle-1-aligned book
-edam_topics:
-- http://edamontology.org/topic_0779
+edam_topics: []
 tools:
 - name: Delila-PY
   role: 'Python3/Docker pipeline orchestrating the cycle-2 filter step: information-content
@@ -55,8 +54,7 @@ metadata:
   - ri
   - rseq
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0779
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

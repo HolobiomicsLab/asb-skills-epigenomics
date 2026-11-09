@@ -10,7 +10,7 @@ when_to_use_negative:
   reads that would not exercise normal aligner behavior.
 - Only alignment throughput/scalability is being measured and error-rate-dependent
   accuracy is irrelevant; a single simulated or real read set suffices.
-edam_operation: http://edamontology.org/operation_3580
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3295
@@ -37,7 +37,7 @@ metadata:
   tools:
   - BiSpark
   - Sherman
-  edam_operation: http://edamontology.org/operation_3580
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3295
