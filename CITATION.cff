@@ -46,5 +46,8 @@ references:
   license: Apache-2.0
 identifiers:
 - type: doi
+  value: 10.5281/zenodo.24093106
+  description: Zenodo concept DOI of the epigenomics lineage (all versions)
+- type: doi
   value: 10.5281/zenodo.24093107
   description: Zenodo version DOI of v2 (2026-11-09)
