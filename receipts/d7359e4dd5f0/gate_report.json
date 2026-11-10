@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T13:42:59.407617+00:00",
+  "generated_at": "2026-11-10T15:47:30.718139+00:00",
   "collection_dir": "collections/epigenomics/v2",
   "corpus_path": "collections/epigenomics/v2/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "61c933f6f846deea6c6cfb437e69fd39a59701d3211c95600cb35ad14fed23f7",
+      "sha256": "34298185ca25ac58cf0b113ea3f4aa4fd5504d25329d31e074884bb3586f57cf",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -68,7 +68,7 @@
         {
           "path": ".zenodo.json",
           "bytes": 2534,
-          "sha256": "fa41c68132fe356e77c0f1e8cccee4dff9bee00114754faf65d8610f7a2afb99"
+          "sha256": "738e7bebfaf87b24751fbaab0f3c848fed7ca7b285483d15bf7ef09916972228"
         },
         {
           "path": "CITATION.cff",
@@ -81,13 +81,13 @@
         },
         {
           "path": "bin/search_skills.py",
-          "bytes": 23077,
-          "sha256": "040142e31018bc9b6d5997a25a2b00d7efad11440cbdb726fd28c5fb23487f26"
+          "bytes": 25695,
+          "sha256": "63048acfbe6a5ef80cb881dbf53350e9d1125e3e0da8a39d87499eb0cf159661"
         },
         {
           "path": "collection.yaml",
-          "bytes": 104761,
-          "sha256": "0899bb5a7a50701645ba427dc750e89d2a17f7ecf0e90f7dba74442765c5f868"
+          "bytes": 104760,
+          "sha256": "9846ddc895363e2decfc123e8cbaa5c1f74cf1f4baaed1ce8cb6b1ff4c01923a"
         },
         {
           "path": "corpus.yaml",
@@ -20773,8 +20773,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 2258,
-          "sha256": "87ffe352c850b345292cf9d6641108ed60c7de1cfea029bb688814918b58747e"
+          "bytes": 3049,
+          "sha256": "2a8933c33aea01e80e49aa3a8e540e738204e5eb7a7e9968a38ce59b1617ba3a"
         },
         {
           "path": "skills_index.json",
@@ -23460,8 +23460,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 3077,
-          "sha256": "b51e8aa136eb631b4ae0c04b6094757153c1ddbaccd79aacb09a0d2343358750"
+          "bytes": 3483,
+          "sha256": "2f10b63adb0786aa11ea1d87bcaf43e6a5b6a651003750efeacead265d9e4ce3"
         },
         {
           "path": "workflows/bisulfite-dmr-analysis",
@@ -23894,5 +23894,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "a14c159b5545b81537a4d633eaeefd3c151d9077ce75e931ff5e6992f83170bd"
+  "receipt_sha256": "d13eb0634aa8110036a62d6db32f3f88817476ddd4e59eeedfbd0bf5daa87e76"
 }
