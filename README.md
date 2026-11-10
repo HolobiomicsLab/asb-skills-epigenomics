@@ -30,6 +30,7 @@ This repository holds the epigenomics skill collection of AgenticScienceBuilder 
 
 | Path | Title | Skills | Tools | Released | DOI |
 |---|---|---|---|---|---|
+| `collections/epigenomics/v1` | ASB Epigenomics Skill Collection v1 (legacy) | 203 | 68 | 2026-06-15 | not deposited |
 | `collections/epigenomics/v2` | ASB Epigenomics Skill Collection v2 | 2295 | 532 | 2026-11-09 | [10.5281/zenodo.24093107](https://doi.org/10.5281/zenodo.24093107) |
 
 ## Status
@@ -134,7 +135,7 @@ Each leaf names its source paper in `provenance.source_papers` (2,295 of 2,295 l
 
 ## Related repositories
 
-- [ASB skill collections](https://github.com/HolobiomicsLab/asb-skill-collections): the registry of every domain, the shared tooling, the governance documents, the contribution loop and the released metabolomics collection.
+- [ASB skill collections](https://github.com/HolobiomicsLab/asb-skill-collections): the registry of every domain, the shared tooling, the governance documents, the contribution loop and the earlier metabolomics v2 tree. The current metabolomics collection (v3) is in the `asb-skills-metabolomics` repository.
 - AgenticScienceBuilder: the pipeline that generated this collection. Repository follows.
 - `indicium-adapters-epigenomics`: the Indicium domain adapter for the same domain. Repository follows.
 
