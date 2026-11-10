@@ -318,7 +318,7 @@
     "atac-seq-feature-matrix-construction",
     "rna-seq-expression-alignment-across-cells"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_archr/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_archr/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "archr_system",

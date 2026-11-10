@@ -283,7 +283,7 @@
     "pep8-code-style-compliance-verification",
     "editable-development-mode-installation-and-verification"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_cooltools/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_cooltools/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "cooltools_system",

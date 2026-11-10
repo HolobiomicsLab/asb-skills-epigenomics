@@ -3,7 +3,7 @@
 - Task ID: `task_005`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T17:50:30.421402+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_cooltools/synthesized_package`
+- Source package: `<builder>/outputs/asbb_epigenomics/coll_cooltools/synthesized_package`
 - Domain: `bioinformatics`
 - Subtask categories: `data-analysis`, `statistical-analysis`
 - DOI: `10.1101/2022.10.31.514564`

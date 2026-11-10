@@ -266,7 +266,7 @@
     "bed-format-generation-from-dataframe",
     "numeric-range-validation-bioinformatics"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_cooltools/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_cooltools/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "cooltools_system",

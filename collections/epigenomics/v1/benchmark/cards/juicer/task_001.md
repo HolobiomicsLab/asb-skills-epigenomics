@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T19:02:59.735108+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_juicer/synthesized_package`
+- Source package: `<builder>/outputs/asbb_epigenomics/coll_juicer/synthesized_package`
 - Domain: `bioinformatics`
 - Subtask categories: `data-processing`, `benchmark-evaluation`
 - GitHub: `aidenlab/juicer`

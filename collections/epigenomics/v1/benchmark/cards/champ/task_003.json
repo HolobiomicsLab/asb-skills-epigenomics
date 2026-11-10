@@ -366,7 +366,7 @@
     "epic-array-simulation-benchmark",
     "methylation-region-identification"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_champ/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_champ/synthesized_package",
   "spine_condition_ids": [
     "cond_array_epic",
     "cond_epic_sim_block"

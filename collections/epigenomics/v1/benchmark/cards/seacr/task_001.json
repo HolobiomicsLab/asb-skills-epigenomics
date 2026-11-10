@@ -242,7 +242,7 @@
     "peak-calling-output-interpretation",
     "end-to-end-bioinformatics-pipeline-testing"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_seacr/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_seacr/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "SEACR_system"

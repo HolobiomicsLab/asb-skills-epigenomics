@@ -338,7 +338,7 @@
     "singular-value-decomposition-interpretation",
     "random-matrix-theory-application"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_champ/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_champ/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "champ_system",

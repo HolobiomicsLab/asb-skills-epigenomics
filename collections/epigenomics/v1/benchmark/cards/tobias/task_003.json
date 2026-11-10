@@ -304,7 +304,7 @@
     "chromatin-accessibility-occupancy-prediction",
     "tf-binding-site-classification"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_tobias/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_tobias/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "TOBIAS_system",

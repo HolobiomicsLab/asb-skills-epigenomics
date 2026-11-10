@@ -298,7 +298,7 @@
     "motif-database-query-and-matching",
     "single-cell-epigenomics-peak-analysis"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_snapatac2/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_snapatac2/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "tl_merge_peaks",

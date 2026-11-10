@@ -319,7 +319,7 @@
     "duplicate-read-filtering-and-normalization",
     "macs3-subcommand-chaining"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_macs/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_macs/synthesized_package",
   "spine_condition_ids": [
     "cond_ctcf_tutorial"
   ],

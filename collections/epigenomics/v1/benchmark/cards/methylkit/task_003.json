@@ -282,7 +282,7 @@
     "sample-similarity-assessment-from-methylation",
     "epigenetic-sample-stratification"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_methylkit/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_methylkit/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "comp_methylBase",

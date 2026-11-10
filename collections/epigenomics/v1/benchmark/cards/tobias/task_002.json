@@ -274,7 +274,7 @@
     "transcription-factor-binding-depletion-quantification",
     "genomic-region-annotation-integration"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_tobias/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_tobias/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "ATAC_seq_assay",

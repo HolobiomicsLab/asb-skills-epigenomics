@@ -429,7 +429,7 @@
     "peak-calling-pseudo-bulk-aggregation",
     "cluster-umap-layout-reproducibility-benchmarking"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_snapatac2/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_snapatac2/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "snapatac2_system",
