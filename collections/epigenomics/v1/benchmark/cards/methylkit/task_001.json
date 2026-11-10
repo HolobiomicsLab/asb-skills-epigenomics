@@ -217,7 +217,7 @@
     "methylation-object-merging-and-union",
     "methylation-hyper-hypo-classification"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_methylkit/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_methylkit/synthesized_package",
   "spine_condition_ids": [
     "cond_with_covariates",
     "cond_base_pair_resolution",

@@ -368,7 +368,7 @@
     "illumina-methylation-array-preprocessing",
     "450k-array-data-processing"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_champ/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_champ/synthesized_package",
   "spine_condition_ids": [
     "cond_200_samples_8gb",
     "cond_epic_sim_block",

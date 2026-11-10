@@ -223,7 +223,7 @@
     "z-score-based-statistical-testing",
     "bootstrap-confidence-interval-computation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_chromvar/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_chromvar/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "comp_computeVariability",

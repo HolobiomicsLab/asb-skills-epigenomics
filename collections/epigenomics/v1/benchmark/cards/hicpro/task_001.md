@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T19:03:07.177659+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_hicpro/synthesized_package`
+- Source package: `<builder>/outputs/asbb_epigenomics/coll_hicpro/synthesized_package`
 - Domain: `bioinformatics`
 - Subtask categories: `data-processing`, `information-extraction`
 - DOI: `10.1186/s13059-015-0831-x`

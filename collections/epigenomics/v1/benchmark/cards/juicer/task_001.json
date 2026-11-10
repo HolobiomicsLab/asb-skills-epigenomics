@@ -195,7 +195,7 @@
     "hi-c-map-artifact-validation",
     "juicer-pipeline-configuration-and-execution"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_juicer/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_juicer/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "juicer_system",

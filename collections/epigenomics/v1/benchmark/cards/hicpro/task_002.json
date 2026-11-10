@@ -334,7 +334,7 @@
     "hi-c-matrix-normalization-pipeline-setup",
     "module-import-and-api-verification"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_hicpro/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_hicpro/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "hicpro_pipeline_architecture",

@@ -410,7 +410,7 @@
     "bioinformatics-tool-binary-path-resolution",
     "software-environment-containerization-setup"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_hicpro/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_hicpro/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "hicpro_pipeline_architecture",

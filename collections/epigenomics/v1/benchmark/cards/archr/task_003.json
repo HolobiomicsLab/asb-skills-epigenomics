@@ -326,7 +326,7 @@
     "stream-trajectory-data-formatting",
     "single-cell-chromatin-data-handling"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_archr/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_archr/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "archr_system",

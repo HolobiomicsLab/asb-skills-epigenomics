@@ -283,7 +283,7 @@
     "cosine-similarity-metric-application",
     "compressed-sparse-row-matrix-handling"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_snapatac2/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_snapatac2/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "snapatac2_system",

@@ -3,7 +3,7 @@
 - Task ID: `task_003`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T19:12:11.236771+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_tobias/synthesized_package`
+- Source package: `<builder>/outputs/asbb_epigenomics/coll_tobias/synthesized_package`
 - Domain: `bioinformatics`
 - Subtask categories: `data-analysis`, `information-extraction`
 - DOI: `10.1038/s41467-020-18035-1`

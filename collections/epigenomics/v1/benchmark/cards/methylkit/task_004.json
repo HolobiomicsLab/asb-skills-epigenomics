@@ -221,7 +221,7 @@
     "simulation-based-validation",
     "methylbase-object-handling"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_methylkit/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_epigenomics/coll_methylkit/synthesized_package",
   "spine_condition_ids": [
     "cond_logistic_regression",
     "cond_fishers_exact",

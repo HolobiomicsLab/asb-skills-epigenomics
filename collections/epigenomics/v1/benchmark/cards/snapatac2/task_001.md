@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T19:32:53.712417+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_epigenomics/coll_snapatac2/synthesized_package`
+- Source package: `<builder>/outputs/asbb_epigenomics/coll_snapatac2/synthesized_package`
 - Domain: `bioinformatics`
 - Subtask categories: `benchmark-evaluation`, `data-analysis`, `statistical-analysis`
 - DOI: `10.1038/s41592-023-02139-9`
