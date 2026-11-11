@@ -10,8 +10,10 @@ derived_from:
 source_repos:
 - https://github.com/princeps091-binf/BHi-Cect
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/princeps091-binf/BHi-Cect
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: cran-package
+license_subject: tool
+license_evidence: https://cran.r-project.org/package=readr
+repo_url: https://github.com/tidyverse/readr

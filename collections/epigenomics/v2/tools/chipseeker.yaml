@@ -18,8 +18,10 @@ source_repos:
 - https://github.com/neurogenomics/EpiCompare
 - https://github.com/aertslab/cistopic
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/cfce/chilin
+entry_kind: software
+license_tier: open
+license: Artistic-2.0
+license_detection: bioconductor-package
+license_subject: tool
+license_evidence: https://bioconductor.org/packages/ChIPseeker
+repo_url: https://github.com/YuLab-SMU/ChIPseeker

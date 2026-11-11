@@ -14,8 +14,10 @@ source_repos:
 - https://github.com/lichen-lab/TIVAN-indel
 - https://github.com/GreenleafLab/chromVAR
 schema_version: 0.2.0
+entry_kind: artefact
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/lichen-lab/TIVAN-indel
+license_evidence: null
+repo_url: null
