@@ -13,8 +13,10 @@ source_repos:
 - https://github.com/yinxc/structural-information-minimisation
 - https://github.com/zengguangjie/deDoc2
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/yinxc/structural-information-minimisation
+license_evidence: null
+repo_url: null

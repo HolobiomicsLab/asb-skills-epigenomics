@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-11T00:30:53.147177+00:00",
+  "generated_at": "2026-11-11T06:02:27.918283+00:00",
   "collection_dir": "collections/epigenomics/v2",
   "corpus_path": "collections/epigenomics/v2/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "2beee4303cadc8c4144c92bc7c64a20af6fb3498b32489ad0df3ca6597ede562",
+      "sha256": "bcee7e67ff64f0c28bcbc31cf7b1079a94e9149886a8b4f0df68af3f5029390c",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -68,7 +68,7 @@
         {
           "path": ".zenodo.json",
           "bytes": 2534,
-          "sha256": "738e7bebfaf87b24751fbaab0f3c848fed7ca7b285483d15bf7ef09916972228"
+          "sha256": "151689e481d6b9553b9a63fcd65688b57b5f68fcdfe3ac7d9dcd8d622ded6421"
         },
         {
           "path": "CITATION.cff",
@@ -20782,2673 +20782,2678 @@
           "sha256": "90af2561d32f0d7966468d21ee233a8958d7bba6bf4e109b9590e8216b141310"
         },
         {
+          "path": "tool_licenses.json",
+          "bytes": 98438,
+          "sha256": "ac52b4923f4444adc6344ca1f5504842a3dfe65f0e8318ffe02caa7360fc6798"
+        },
+        {
           "path": "tools",
           "directory": true
         },
         {
           "path": "tools/3plex.yaml",
-          "bytes": 415,
-          "sha256": "a7cc232950f4ded977d1a50dfa0cd20b1c3009a9f61c2f09cd0bd34003cfedf8"
+          "bytes": 426,
+          "sha256": "7715b1eddce7bc61d1d25ee7974a2f685cc763460bdf2ba69a837c2a6f558ec3"
         },
         {
           "path": "tools/absp.yaml",
-          "bytes": 743,
-          "sha256": "6c6ac139b2f595fc45ea002f83fba3183bd70d107c86b1040aceeacb5199d611"
+          "bytes": 820,
+          "sha256": "1fd6489c6df29498ed4edc5e1d7830ab7e46bd051126372da055f02399cd7e95"
         },
         {
           "path": "tools/adaliftover.yaml",
-          "bytes": 844,
-          "sha256": "ec358ef69d320a8d9a70a326f3bb1e0d84ed434657165669dda96e83440e199d"
+          "bytes": 928,
+          "sha256": "2d74555aa32774e77952b683ac39f6f47c7644742d68414da54a364d6edaafbf"
         },
         {
           "path": "tools/akita.yaml",
-          "bytes": 421,
-          "sha256": "171cbe6a9f56acd024ccb6a5cf18af27ef2e3f0d479427a58424ffc92fd7bf10"
+          "bytes": 427,
+          "sha256": "d98fa1f7a1d518d23c512e68e134853d91b1dd258f801b0ae761bd9a62924855"
         },
         {
           "path": "tools/albacore.yaml",
-          "bytes": 601,
-          "sha256": "e3caa082181cce44f3f0e0a8c782c1dfe1c0d5c2fc6aa2960b61346919ba3569"
+          "bytes": 598,
+          "sha256": "ed0762ff01f46bcc7cd6308482e0a300ef915048909d6003d30ec385be9572ef"
         },
         {
           "path": "tools/alist.yaml",
-          "bytes": 515,
-          "sha256": "0b9bea3e72c1a5e017bc88afaf774441fd1d33328c9c5b55db2f8f05a9cbebd1"
+          "bytes": 532,
+          "sha256": "af26317532a8eaf7b870fc63d9339c2468bd270c8fae9c154f15d59e5ba99fb8"
         },
         {
           "path": "tools/ampliconarchitect.yaml",
-          "bytes": 542,
-          "sha256": "e328040fb37797efcf39ca4e00c2294c0e2ab5334a6345f2f36af5e95616a22e"
+          "bytes": 554,
+          "sha256": "04d4471eec2ef39787bc831935fd6c26eba120c78537a25cda6b709a2338b91f"
         },
         {
           "path": "tools/amplimethprofiler.yaml",
-          "bytes": 436,
-          "sha256": "f723141b9c6ef3c1dae233f50deebe5c5005c11c1e697f46c6eef617085ad652"
+          "bytes": 443,
+          "sha256": "61248eca95c54b8ce618cff99dbe099e604724beb340fab24e9481c0beb49b1e"
         },
         {
           "path": "tools/anaconda.yaml",
-          "bytes": 591,
-          "sha256": "cb6d5277bcbfa187ea15cb778c837ff8a66ce533d6f873d1a9e8ddc27f402c7c"
+          "bytes": 664,
+          "sha256": "c7550b5bcb5a944c399371f7b568dd99f29f342dc4ba59563be05dd2f2b0c674"
         },
         {
           "path": "tools/annovar.yaml",
-          "bytes": 904,
-          "sha256": "50e3cb00f0645417564def30d7059d838bb68631c3e52760f71b918621731346"
+          "bytes": 918,
+          "sha256": "03045c14548621d7434010ca9aa0b38fad5e4ad4b5e02589a1f4d391d998f0f8"
         },
         {
           "path": "tools/apache-spark.yaml",
-          "bytes": 605,
-          "sha256": "7bdf2a0d4a000de1088586d91a189b0b485939c6d0bea7840c9086481f770d3f"
+          "bytes": 709,
+          "sha256": "4cf57fa9f1b0a0d8407b6dfab208d83f0debb7149a18f52ffa86641cc2ece5cc"
         },
         {
           "path": "tools/ape.yaml",
-          "bytes": 502,
-          "sha256": "af62c2cb698bfc580f7c7c42eae810d18cb9a709ee3ec5fa0e635d3b885fde34"
+          "bytes": 512,
+          "sha256": "76d0c38315084412b0294c3d44cedd8ddbd467767cc504c18b35d5292421695d"
         },
         {
           "path": "tools/aracne.yaml",
-          "bytes": 658,
-          "sha256": "ae962e4ce1e2b907e533aeb477beed4eb925afc15d883f9a0732283bc06512fb"
+          "bytes": 669,
+          "sha256": "4ef67a64b7bd8fa65873cb27f850d51a03aed2b880bbdccb507ba088bb105b0b"
         },
         {
           "path": "tools/archr.yaml",
-          "bytes": 547,
-          "sha256": "5a4e7406195b0b9565d972741a5d6c017b939badbd20737d5bbf621c07f910f4"
+          "bytes": 556,
+          "sha256": "e4f11742e9ac856593822b243726bd8eeadc058b1308bfd9c02badcc7c2ba718"
         },
         {
           "path": "tools/argparse.yaml",
-          "bytes": 644,
-          "sha256": "2f2368231f85939e3fa819f35acb81484c271e6e3e1d5020af23b5f693f88804"
+          "bytes": 660,
+          "sha256": "035d2f389fef24c3c9532ed392fef1c832a343f6be3a457b6286a16ada1aeccd"
         },
         {
           "path": "tools/arpack-ng.yaml",
-          "bytes": 458,
-          "sha256": "963710175a296009ff21d124da0491d1c3e41a555e81259bfa64cf2ed0b327e9"
+          "bytes": 467,
+          "sha256": "4484bea3d5c64998dd4f650bb41bc627871b0b35c351ad4314d01dce9736c834"
         },
         {
           "path": "tools/asymmetron.yaml",
-          "bytes": 832,
-          "sha256": "0e4ddbe0aad578f3cbc7c8163477022980f2deec5023a051c0ae41368d19c3bf"
+          "bytes": 913,
+          "sha256": "bc5b6974fef1c527a63ec3e26967f6f43c4414f8d593904b629a7d2072fa0b9f"
         },
         {
           "path": "tools/aucell.yaml",
-          "bytes": 446,
-          "sha256": "c0c36432477a666970dd8df9fd113ceaa97666cdd144bd80d3bf77a4e9e0b497"
+          "bytes": 532,
+          "sha256": "70c57b932fe6bb5ba6843cd804f597aef0aed5472c00b2b44cbc9d372306bf34"
         },
         {
           "path": "tools/bag-of-motifs-bom.yaml",
-          "bytes": 690,
-          "sha256": "58e22e25b704901812e423fd5ead29577ebeed62e1aeaf9809c87fa750fd2a2e"
+          "bytes": 699,
+          "sha256": "cdd3b42ab9db002b82f6ca3c6674f1b5f766f94989fcc40c0ee46947ad323da4"
         },
         {
           "path": "tools/bagofmotifs-bom.yaml",
-          "bytes": 499,
-          "sha256": "16690c7ba7677691a9b0d703c89f90229cf2e1ec49352d9c40f026d9a30f8cfe"
+          "bytes": 508,
+          "sha256": "23f6b76f60a56a6f290049858ebbdb56bdce0cd906e1c0e907f355bbbd0bc0c7"
         },
         {
           "path": "tools/bagofmotifs.yaml",
-          "bytes": 461,
-          "sha256": "920fa7874b2e105d9e1f4a4bc56abcd606f58ebbdf2340993f21792e2e68aab2"
+          "bytes": 470,
+          "sha256": "42ffe5c9eedbd0452908f8d01c2bff72d58a8fe259845aa87e071c8b11d102a0"
         },
         {
           "path": "tools/bart.yaml",
-          "bytes": 464,
-          "sha256": "cc3b69de0524182af4180a58525e836e75a92c2f5cf016b426f0478d1b3886e3"
+          "bytes": 480,
+          "sha256": "5ec1de6717bbdaa0cd335f0acdc26f5ecd329a611a2468ffff4dc9ca2f8207d5"
         },
         {
           "path": "tools/basic-browser.yaml",
-          "bytes": 476,
-          "sha256": "95dbcff8e43ccefe41742850cfc575e1f650f47a1eb3c85d7960cd844ffaab95"
+          "bytes": 475,
+          "sha256": "082bf90968e6271e2508376fa455403c1dd3f22e742f0127e17099b4e63b2204"
         },
         {
           "path": "tools/basset.yaml",
-          "bytes": 778,
-          "sha256": "822a6b40c73556e8e57bb410797fc5884c3f55bcfde1020538402b5b2c4abddf"
+          "bytes": 793,
+          "sha256": "52070a18e2f8ecab91180a82b8c7aaac03bedf60705c81b542d767fb7e19756b"
         },
         {
           "path": "tools/bbduk.yaml",
-          "bytes": 979,
-          "sha256": "7b2303c71e4859060e049700d4de3fc1594fd10159d662081feec5e25cf69179"
+          "bytes": 975,
+          "sha256": "f882b9a407f175b6ccc9f18bd5187c08cca252ef67ddf1f0d2298a337180fee8"
         },
         {
           "path": "tools/bbmap.yaml",
-          "bytes": 769,
-          "sha256": "9f2ad0f9c2feace821a0f87fa8051d436cf2e50315999bcdfa09206055e5aa09"
+          "bytes": 848,
+          "sha256": "d722f8c7a24b41229058019a563a4d81939cbe4cdaf550a426b9557ee2899ba1"
         },
         {
           "path": "tools/bcbio-nextgen.yaml",
-          "bytes": 568,
-          "sha256": "b3bbc483e20ca41b5850adce5eb73be8bf77edaf87e3de27c54c68ad662c1ad9"
+          "bytes": 564,
+          "sha256": "1af32fcb9de6d37ad9d85822028e20f34f8d330661a56dc0e5b0584eee132827"
         },
         {
           "path": "tools/bcftools.yaml",
-          "bytes": 483,
-          "sha256": "006be6a645ef0122873de7c63358a7c82e2f1d86eb0bf5fda86cb761641dc468"
+          "bytes": 494,
+          "sha256": "18f46f739b92b75a2981fed30aec9f52e1cdf269cd10361427982ea066fdfc38"
         },
         {
           "path": "tools/bed-bed-fit.yaml",
-          "bytes": 456,
-          "sha256": "c2551c73cb438f2db0b16af62c8c62e94b94d5969e12a02c1350689d5def1bf6"
+          "bytes": 466,
+          "sha256": "dcac4f47a89bbb819bc7cb87d2c32815c797db48c6d584732f7b7bc64a932147"
         },
         {
           "path": "tools/bed-fit.yaml",
-          "bytes": 459,
-          "sha256": "a25c5397be209583eacf1521b56b093d543cbde16417e42ebc125511c1645829"
+          "bytes": 469,
+          "sha256": "c87f0cc4b3015f67b3fbf85db62f8263daf100ae2bd9e5d1ee29426db9523cb1"
         },
         {
           "path": "tools/bed-marginal.yaml",
-          "bytes": 491,
-          "sha256": "67dbf5279b59ffcb945e7ce575f7a535d4f2520eb2a364924f1831754cd1ea6b"
+          "bytes": 501,
+          "sha256": "962276c8bcd2fc17b74f62f6e2c41042c96512a3d3e824255d71d53150345811"
         },
         {
           "path": "tools/bedclip.yaml",
-          "bytes": 424,
-          "sha256": "0a0c41d29fd7be9b0ed03c80f12fe78fd36b744e85492a08ab24bd9ed412519f"
+          "bytes": 442,
+          "sha256": "d2bdc62c787641167491d636363eaeef2a2a75918d01242d0e79def3667ace16"
         },
         {
           "path": "tools/bedgraphtobigwig.yaml",
-          "bytes": 451,
-          "sha256": "e203e69dd74441eb9c26998b45818eab20f3ef9d6fe1edb9530d20f5cc3fac56"
+          "bytes": 469,
+          "sha256": "0cd79f4ee2e7fac17cb0d31d41387a18a101b47ceaeb9c089fc3055d360585c3"
         },
         {
           "path": "tools/bedtools.yaml",
-          "bytes": 5404,
-          "sha256": "01f96afef1f5d37bd86fef31488d20fbe5380d72760d5f39b22b473fbe4c2bed"
+          "bytes": 5504,
+          "sha256": "910d61773c76346dcfd36621fd4f7a98fedcd0bb4b2f0b1e2d88114c9f12c855"
         },
         {
           "path": "tools/beesem.yaml",
-          "bytes": 440,
-          "sha256": "ebab5c585611fa0906ba14ba805ddeb08ac07187c876c54f89313e4b77a57c36"
+          "bytes": 451,
+          "sha256": "8924f7e4027043a6851be28c3e565a721c54a79e7e565e6ee7bc03343e587a4d"
         },
         {
           "path": "tools/bhi-cect.yaml",
-          "bytes": 639,
-          "sha256": "0fd57fde7e6163e65fc891b834bacaf5065dd05521c9cac68d3f5667e1918d94"
+          "bytes": 643,
+          "sha256": "bac22dc8066ffc7aaa367f63d3f7661b668601b2b368726f9d81e5832cc865c7"
         },
         {
           "path": "tools/bigstatsr.yaml",
-          "bytes": 561,
-          "sha256": "403cae4209e33f6b6edff7a5ad6dab42149e9c93060f02bfb3d3d23577159370"
+          "bytes": 578,
+          "sha256": "014a4dead142e65e75dd272ddd6469f187ef0be5ac52a499d2f80ee0da393b32"
         },
         {
           "path": "tools/bindspace.yaml",
-          "bytes": 444,
-          "sha256": "19f21b18f7450c164dfeba03480454394636e4b69fd69c34c6a12808ec20da62"
+          "bytes": 455,
+          "sha256": "ef4fd0a13e4f78e63a347a5c1161f799cf2d47a40c7a8bbc9ad84c0cd1211ce4"
         },
         {
           "path": "tools/binmodel.yaml",
-          "bytes": 458,
-          "sha256": "2aad3ddab66f90d73cd07c398d162b045bcc70e31bc9bcdecad67ed648dc26a0"
+          "bytes": 467,
+          "sha256": "028a098b15742019371c9a948238ba2effa747e93b82a9b6010a1209cb43137f"
         },
         {
           "path": "tools/bio.yaml",
-          "bytes": 634,
-          "sha256": "786352daaed6d6c715849b56d4d92c93d3b36d4d8a1d33e22b06b4fc702d8e47"
+          "bytes": 650,
+          "sha256": "9c250a0aaa4e5e7a4cb037b3c4d724520eb6841c1f7a34c93ea97f5367c171bf"
         },
         {
           "path": "tools/biobase.yaml",
-          "bytes": 462,
-          "sha256": "8c6e08eb5786fcd0ac3df64a3470363dbafed0e98cab20e1a3f19be19d1ea61b"
+          "bytes": 550,
+          "sha256": "adab026d34e19af9124727967ca877d97996dd05c0c14c14c78fd484b22ce27c"
         },
         {
           "path": "tools/bioconductor.yaml",
-          "bytes": 2967,
-          "sha256": "9faa677672e0baf042994e6ae288f5f35e2350cc38e3a4f278138fdc0dcefea3"
+          "bytes": 2963,
+          "sha256": "c0150b9d6f918cead540ca1baf38d015cad3fd19ca3ba16dfeabc63154cd4091"
         },
         {
           "path": "tools/biocparallel.yaml",
-          "bytes": 721,
-          "sha256": "b7852979c174161bbd3066ed4f21b81f2fc6e77355ffeba85dc60184911784c2"
+          "bytes": 859,
+          "sha256": "4269e8388960a2a90eebad16d7c3f08050013f67ff17e3a8535c50d942d478fa"
         },
         {
           "path": "tools/biocstyle.yaml",
-          "bytes": 472,
-          "sha256": "56666c6f9b8ba71aa341affacc8d58b1f87393ada80f09c92e8278baef6472af"
+          "bytes": 574,
+          "sha256": "62de685f8dc37ebef0482e1aa867468e98258bbc02b52920bcda895460f1867e"
         },
         {
           "path": "tools/bionet.yaml",
-          "bytes": 594,
-          "sha256": "a80fe1621de10c134d6d921106983544f3c62f5600cf3a2fdc522cef992b5cc0"
+          "bytes": 607,
+          "sha256": "6bf767daad4834a7ba48e2c32ec7c3011b1180fe61ab9ec6c2465ef5f4f2a949"
         },
         {
           "path": "tools/biopython.yaml",
-          "bytes": 430,
-          "sha256": "c5f684a4e0dfa28a5c365598e5c0e7b7dba3800ceacc59f36a512ec316572911"
+          "bytes": 584,
+          "sha256": "0971168307f5fde067a9b5fd9cdd381d74fd15ea2402811a12237100bd9a8443"
         },
         {
           "path": "tools/bismark.yaml",
-          "bytes": 2544,
-          "sha256": "e2c29467a0c62a69d22f53bfdc70a09763d16d6a6198a9593369dbbb89c9bcfc"
+          "bytes": 2555,
+          "sha256": "b43cb7cb5af63fd8f5bd5aa2539ffc3fa6835dc63f7ee46512ebda66843855bb"
         },
         {
           "path": "tools/bison.yaml",
-          "bytes": 559,
-          "sha256": "10540c7af868b82b098976ca76a850097a58c487d6f0db13099896111316ef1f"
+          "bytes": 570,
+          "sha256": "80b0c98ee6e14ce7297ee8c21448e1c3f7291ccd9b54bb7e4fb6bd9b7cd2d18c"
         },
         {
           "path": "tools/bispark.yaml",
-          "bytes": 824,
-          "sha256": "c9383d91b35ee186c807cac93bac01df845b93acaf64957a800e8854826cd92e"
+          "bytes": 835,
+          "sha256": "73b85110e42c0b769cd95e4a9d2761f28be54757d78368833886c1f32ac58c2c"
         },
         {
           "path": "tools/bit.yaml",
-          "bytes": 425,
-          "sha256": "7e3d624fd0272e2018c38788b6b714f4a42e40ca72541a4b5617677f4e5f5d73"
+          "bytes": 443,
+          "sha256": "07ea20156660248d0fc8cb1bf427909845359376aea58dcd6625bdf8b84b832c"
         },
         {
           "path": "tools/blast.yaml",
-          "bytes": 456,
-          "sha256": "d829550655e057cbf478466295116028c9bdc284e1f53b6fa00b35674883ef45"
+          "bytes": 580,
+          "sha256": "1e2fcbed30e0cf8dd01010e79d1590dbdb43a774dfbded8ef1a7a980536dcc58"
         },
         {
           "path": "tools/bootranges.yaml",
-          "bytes": 667,
-          "sha256": "e052b6c438fc2bf5d801709cb62d6909c8122498f97a8f7e9db090af9e501356"
+          "bytes": 674,
+          "sha256": "801bea1172cb534b1f3fa8e8b1d8d55ddb64671b1b05113630ec5476efdf3506"
         },
         {
           "path": "tools/bowtie.yaml",
-          "bytes": 1621,
-          "sha256": "9b6cc7fa022e8a1fa8f00ec5498eb6c2f8640aedf043ef6d9acfdbf3bd6d2d27"
+          "bytes": 1741,
+          "sha256": "aa1653b5d00fe4ba8a38fb2441f3a8b44783ca43b9ccb4c8d2b776858ee1ff96"
         },
         {
           "path": "tools/bowtie2.yaml",
-          "bytes": 2230,
-          "sha256": "d6226354dbc5f35fc2fd9e02394a30e16aa24303ed2a8005112ddee11d2a16c8"
+          "bytes": 2345,
+          "sha256": "aa44efe8a74667c99a49cb2031c248079c8433333938f55d798e96e36e577eb1"
         },
         {
           "path": "tools/bpca.yaml",
-          "bytes": 591,
-          "sha256": "36f9c724b32973b1280a077f141aecf7588d6f1fc969777692dac92f0b23c900"
+          "bytes": 608,
+          "sha256": "82bc11545882e14435518b88d3fea3b3c58ad64fd9b0a05cc328a130d47f7a37"
         },
         {
           "path": "tools/broadpeak.yaml",
-          "bytes": 607,
-          "sha256": "71b2a471894051dda7d7c27e1e65833776c73dbf2cbee3355bd8acf691f40217"
+          "bytes": 611,
+          "sha256": "6e4b9ddd0c5ba30d6ed8a03f995ccb7b6d01748ae41b5998641e1e62f42dd4d6"
         },
         {
           "path": "tools/bsgenome-hsapiens-ucsc-hg19.yaml",
-          "bytes": 781,
-          "sha256": "c1a5f89b2bd2f59292d4c07ab5500b451fa92e06aee43d62f10e0354b2f6057c"
+          "bytes": 788,
+          "sha256": "7e6d723d02036c8faad3619fce53b42f01bcfbd5598df6b9b716579f38b9087a"
         },
         {
           "path": "tools/bsgenome-mmusculus-ucsc-mm10.yaml",
-          "bytes": 527,
-          "sha256": "fa1ecb9002bd762b5a026207688fb3569e0b1e910bca07ad7b063b582eb12684"
+          "bytes": 536,
+          "sha256": "6d96e449301f970294cfbacd204a99ec20ae8aca78246dc60b81cf8b3915b624"
         },
         {
           "path": "tools/bsseq.yaml",
-          "bytes": 481,
-          "sha256": "26a88a306d10db315808e2a76134f0606792358eb0f2c9f58bee55dab4929d4e"
+          "bytes": 590,
+          "sha256": "9106b41cd68b7bf8adac5ac3493d937e254cfb2aabb422d206c11f1606a3858c"
         },
         {
           "path": "tools/bsub.yaml",
-          "bytes": 465,
-          "sha256": "e0c23dc34df646832852a1f8aadfd1a92e6aa1fe08a785634b720741a82a1101"
+          "bytes": 548,
+          "sha256": "94c9ebdc09982642070757540f23e6a23c7b2172ff665434abde77df8b58ff64"
         },
         {
           "path": "tools/bwa-mem.yaml",
-          "bytes": 1707,
-          "sha256": "88e5386dfe15ac60ef002a3cbf7caa3177502434b45f736bfb905853d10840e3"
+          "bytes": 1797,
+          "sha256": "c5d2dcd8c23185023ffcf494971d9d34504bcf4d4f0fa60a5eff67a12ad4006f"
         },
         {
           "path": "tools/bwa-meth.yaml",
-          "bytes": 432,
-          "sha256": "163e2cfdf53f5176e115a06c044b186a36f2fe6622c9e589c51f914234af28ff"
+          "bytes": 442,
+          "sha256": "3ba9b125128c305c507894d13fa1d5bc4bce1f41960bb7a5d78805a2bf5d0332"
         },
         {
           "path": "tools/bwa.yaml",
-          "bytes": 2850,
-          "sha256": "78a9d7d2e14bef3f499cd54249a8ce557b89f5b1f96e5b4f1a7a1e5d661d2ceb"
+          "bytes": 2954,
+          "sha256": "15e4d99aac72c84bcee0f45c6a27c97b88d01f1a32220627c099d270131a589b"
         },
         {
           "path": "tools/c.yaml",
-          "bytes": 743,
-          "sha256": "988310ed0ae005d341d76a9e30fabf5f943bf21be37e929db3d50115dffb91e6"
+          "bytes": 747,
+          "sha256": "bdc7df5d214a600a1507eff03dad921de3ec26d7b9a2ad0550acdf07014e5c76"
         },
         {
           "path": "tools/cadd-sv.yaml",
-          "bytes": 414,
-          "sha256": "a2db42ffd47fe305f57b4355be4e3e8a7e1538aa0f0a595e4df189c8f5bae185"
+          "bytes": 428,
+          "sha256": "a7185708397651d8dcb51f6dcf5faf289dbce829e26480bc7a8c3a02f79f1288"
         },
         {
           "path": "tools/cadd.yaml",
-          "bytes": 848,
-          "sha256": "bd79d6f6ae943286d78d615768b40d8fdad2f3ee7643f8e2a0406d0632837cdf"
+          "bytes": 865,
+          "sha256": "67428808c4e100a11c2eb9a22b4329c08261b1893772887b1040563d6a81e387"
         },
         {
           "path": "tools/caduceus-ph.yaml",
-          "bytes": 482,
-          "sha256": "05d48cbccafd343f1b7068f9c4d71d3b774c404f2ba50a09092e6436db316cec"
+          "bytes": 488,
+          "sha256": "e6fc16e4721baf085587226a2e2feac6e6d37d2ed5b452e964ab28342a2af983"
         },
         {
           "path": "tools/caduceus-ps.yaml",
-          "bytes": 482,
-          "sha256": "642403c106f3966843bc7e245b9b81799b161805b59b4b3530a30142403d747e"
+          "bytes": 488,
+          "sha256": "4b497e39fc63e6058a10a49b7d2209deb5327ba41438b9d7ebe9da5acf78ea34"
         },
         {
           "path": "tools/calc-sobel.yaml",
-          "bytes": 488,
-          "sha256": "7a7e50588a82fa048bb9e3a9df303bb20b63aa11876a69bb6ca6fca3c6964afb"
+          "bytes": 503,
+          "sha256": "8da6a2eb9675ded65bf27cefc34fb3328fa1044f3af8d6458d25d63d5d8bd9e4"
         },
         {
           "path": "tools/calculate-gene-counts.yaml",
-          "bytes": 543,
-          "sha256": "9e2cd818d70fd3e4e68fe6b8267e73fe466a9f74d12cee8283b65b3963f003db"
+          "bytes": 555,
+          "sha256": "f9d1afc42134ac88549cf1be5f120903fc2badc35f4fe1ca89efe7f314decd5c"
         },
         {
           "path": "tools/caret.yaml",
-          "bytes": 877,
-          "sha256": "ea2f818398f2a77d9efccd549aa34466fce7cea7800790c1d73493690ce82ebe"
+          "bytes": 950,
+          "sha256": "9a7a13f767ce547534a2f51b12c2921b91eea0dbf52ebdc1644829d8cd3775aa"
         },
         {
           "path": "tools/catal.yaml",
-          "bytes": 544,
-          "sha256": "2538ed000f662cc8f970b9203f8267fa40817dccd970e77f39405535e3cf9690"
+          "bytes": 561,
+          "sha256": "7a054f07840f1b3f6f8e363b6ad368ac87d290240c08e986ca3c1a1ba0aae222"
         },
         {
           "path": "tools/cccaller.yaml",
-          "bytes": 659,
-          "sha256": "25f8bb5d22bea1949e79006c310991008fc10f46f22baee8cc98df539578416e"
+          "bytes": 660,
+          "sha256": "fd31c22f1adf08df82f774682e7143354fbc5b4400f01e7de9ba8e52fcc29c4d"
         },
         {
           "path": "tools/ccle.yaml",
-          "bytes": 487,
-          "sha256": "b7113ee8f668b2e7b5765c4c62af4065d40cd95d1cfe5e1e3a619e40aa94fd6f"
+          "bytes": 499,
+          "sha256": "f26502207d752fbd5aa702f205b334fbfb89622d17a0925d9f881d623623d99a"
         },
         {
           "path": "tools/cellassign.yaml",
-          "bytes": 444,
-          "sha256": "a241a5b07b7c591acbdbf4ec2f6af55b46e339f23e01fcac1fa349907fdecce2"
+          "bytes": 456,
+          "sha256": "770f3d5c07bad782874f2bffe3ef061af9cf8b1faf415274011c2ce6fb12e73e"
         },
         {
           "path": "tools/cellcano.yaml",
-          "bytes": 799,
-          "sha256": "b7f97774d5583460cd3a1d62a5ee4b5fdd94219d72dfb37add503d257b61b83d"
+          "bytes": 871,
+          "sha256": "7c76df674da7595c06a3dfd630567a453922fe62b856a7ae2de5a5ad96c5b021"
         },
         {
           "path": "tools/centre.yaml",
-          "bytes": 832,
-          "sha256": "585b0b7f15da140956cc1e7caab59c08edaa2f75a34dae2c9e8ab0a4d9131fe8"
+          "bytes": 849,
+          "sha256": "07cad9e38ec87ed3569cb57819dc9779adc2193cd986edf22ba562cde2ce1984"
         },
         {
           "path": "tools/centreprediction.yaml",
-          "bytes": 525,
-          "sha256": "699c2db626b17aad45056d83ee7ecc74765a91ce09c7f4a2801eb4e1259cd997"
+          "bytes": 542,
+          "sha256": "d95d6c83d3f10788352a817904c354085e405603f03795128f4c31ea2659666f"
         },
         {
           "path": "tools/centrimo.yaml",
-          "bytes": 516,
-          "sha256": "004c9d7fc1a3f1e170db1b7e006084894b0565a5a9a3bcc739ea6e955d78ff85"
+          "bytes": 532,
+          "sha256": "8cbb050d9f7a112ce7b661a0b2a76bae8d3aaf2751d268395127174aca9e2b2b"
         },
         {
           "path": "tools/changepoint.yaml",
-          "bytes": 458,
-          "sha256": "b10b268542fbffc179665bf36cb5c4b643ed5b840eae91f73649501b5a94896a"
+          "bytes": 472,
+          "sha256": "6c23f7a9e4db2435239c6901994ab199aea98ffc824ef5a07d2e62dfedcfe01e"
         },
         {
           "path": "tools/chetah.yaml",
-          "bytes": 436,
-          "sha256": "2205c970d0c9e11f5a3b7c6a823299c3b91eef5c6b9def7a60a3f3f273a716ba"
+          "bytes": 547,
+          "sha256": "e090c6bcb1169c33295997b22911bf9ec0523b364b7977c6ac26f7da022f8ceb"
         },
         {
           "path": "tools/chia-pet-utilities-cpu.yaml",
-          "bytes": 516,
-          "sha256": "13f01960a6e80de07a1f3dc2f2a9c53d780fe967c4394e8a05f998c59c7f6cf4"
+          "bytes": 531,
+          "sha256": "a5fe784a914fe3fc0d330e02f8c488d1db69926296fdaecab9e9f0bdfd827835"
         },
         {
           "path": "tools/chia-pet2.yaml",
-          "bytes": 418,
-          "sha256": "8a738bb5f60b13a88f003b0cd82ef13d201e0912fc831b38a44033f5f0c2ef62"
+          "bytes": 428,
+          "sha256": "9261afc800c396473e8595722420e45ec3d8cf27a22433d7d9a5b6b915d16404"
         },
         {
           "path": "tools/chia-pipe.yaml",
-          "bytes": 468,
-          "sha256": "89b3a77717708608667cb6b3c6bfdc10e5009a7d473aa19919a0ea1d45e2eb6b"
+          "bytes": 467,
+          "sha256": "3e6b914c8dca8547a0fb65aa66110a654d4a9116f4384dcb04f0c0dc4b61a59d"
         },
         {
           "path": "tools/chicago.yaml",
-          "bytes": 438,
-          "sha256": "299884516c0b620718d0477a551334364bca7bb56b7d869d3e16514a5026ff45"
+          "bytes": 504,
+          "sha256": "7e159f3df71eab29d5e0dee28a10805bdad56a06dfaddb63bcd700b2dc3fed0c"
         },
         {
           "path": "tools/chilin.yaml",
-          "bytes": 628,
-          "sha256": "6dde21be0cb583a08bf547cf06497d9b0a9e484eced2692ee1c970c5b6ed8e65"
+          "bytes": 707,
+          "sha256": "79c455ec466598b080a309c56b629ecf1f462abf9cb9372bb09f450a6899bed4"
         },
         {
           "path": "tools/chip-atlas.yaml",
-          "bytes": 439,
-          "sha256": "945284af9d0b1d9da2a0be9296deac25902ad8791c1a5bc1e636b99be4c373f2"
+          "bytes": 457,
+          "sha256": "c292d279be468b218cc588b1caceb0641d70bb09cdd2adc5d839d9ac6f322fdc"
         },
         {
           "path": "tools/chipseeker.yaml",
-          "bytes": 1083,
-          "sha256": "563a2106d7d6222fe4bc216d2d57c8c261839a6875754d54b09b2e97d022922f"
+          "bytes": 1197,
+          "sha256": "6e35c088fb3373cdefed68a36656c4d730f3c7aa38d1d11933cb729e5933047d"
         },
         {
           "path": "tools/chipseeqer.yaml",
-          "bytes": 441,
-          "sha256": "f0117328ad1ba2bd8d7e851a7b533fc191184fe28b7a09d77ea91db2ef99dabe"
+          "bytes": 458,
+          "sha256": "4885dfb8126528d489eecc66ff80d31d07bfe386b55ccd1c77db2a3e0f18ea55"
         },
         {
           "path": "tools/chiron.yaml",
-          "bytes": 489,
-          "sha256": "93e5d22784422d6c65aba36cc7e7c44037e8d8a676d3b429ab466febbaeb0756"
+          "bytes": 577,
+          "sha256": "0125b4dfea42ba88d211e1963ae1d88e87ae326c03f69c0701c027485277b61e"
         },
         {
           "path": "tools/chromhmm.yaml",
-          "bytes": 843,
-          "sha256": "f0cf3620b94e6f24fc7afeac0a90c16488cfbef0907e31bf19792bcf46730b04"
+          "bytes": 856,
+          "sha256": "d9d1e222e5480fb7bc576b3df168eed543be6a85d6ac3d9c6834a4e451ba1043"
         },
         {
           "path": "tools/chromscape.yaml",
-          "bytes": 673,
-          "sha256": "379b58efcc1b99304c40f891bc7e7580374e6e21f9ae23d8e3d5e6e7b7f472e9"
+          "bytes": 765,
+          "sha256": "c59631f141079a594160e66a75e01c3dd5092fbaf8fb699755488fbbb3954383"
         },
         {
           "path": "tools/chromvar.yaml",
-          "bytes": 769,
-          "sha256": "4a2d6280e59061a86e38cf432c7414939e5ee80d92835a0223ffe29d9c2305a5"
+          "bytes": 777,
+          "sha256": "c44b8b4519dd3ab093df5f9e5906adf6e4d3a49b5b55bc90adbd6c155431dc2c"
         },
         {
           "path": "tools/cipher.yaml",
-          "bytes": 1031,
-          "sha256": "bf0ae2eb30f4a85751ebb3d848a933b15302ba4211bec61f9e59bfa2ec649a0b"
+          "bytes": 1027,
+          "sha256": "cf24d0eb1bbade15fb6362de3b805f53e2acd0f6cbd4ce9ca17006d3fdc8784a"
         },
         {
           "path": "tools/cisgenome.yaml",
-          "bytes": 439,
-          "sha256": "f0f4ef0c46309b78bfa334f76e4259f68c96f922a414cda998088edb0fb8e551"
+          "bytes": 456,
+          "sha256": "96f68c65dff6281653ae1cfe906d287835bd8e623ad045fcecdb98767ea0564b"
         },
         {
           "path": "tools/cistopic.yaml",
-          "bytes": 1321,
-          "sha256": "3d78043e521b18ca6f3ab729a346b7f1d66124835671e2113165839728fad933"
+          "bytes": 1388,
+          "sha256": "66720e239b86d25b7a3ce5f2595b345e5ad7d91991e9c9c4701eb238ca1ea31c"
         },
         {
           "path": "tools/cistrome.yaml",
-          "bytes": 453,
-          "sha256": "e06a84319d709fced19c5c7a1c8ddfea473ed13a0ccb8ee8bbea4bb5045a5983"
+          "bytes": 471,
+          "sha256": "c375a07cf78fa991eac121c9671bb88d767a98e2b79b8f27e56e5630f7a18fa3"
         },
         {
           "path": "tools/citrus.yaml",
-          "bytes": 603,
-          "sha256": "512b352a28270d1d5c94d5323ae8c7f32698b95a6c0702bbcab60f0505587877"
+          "bytes": 673,
+          "sha256": "bdbe76523b92de00813cde000b6ac80a294e1166a45e397c174897814afb33fe"
         },
         {
           "path": "tools/click.yaml",
-          "bytes": 452,
-          "sha256": "b095243b064124551be22f7fc2de324143cc48aaa73ba8696b010d60cba65ecb"
+          "bytes": 463,
+          "sha256": "91173f14c6297f2adf3da4fac2dce2e2e2af72f611f4401c7a8fc4f73dbfbc1b"
         },
         {
           "path": "tools/clipper.yaml",
-          "bytes": 484,
-          "sha256": "6b7235ebacd606b0477f03087d5d4662b05941cab7c1f4ac5b4e38019a657544"
+          "bytes": 499,
+          "sha256": "d62d7ec3dcc8d8cc9750b108ac016ca39b09460d0396edf771da81f6efd1c3cd"
         },
         {
           "path": "tools/cloudaligner.yaml",
-          "bytes": 579,
-          "sha256": "daf6996136c72bf24133218c888e6bf1aa50c5695eea5bd53f60aaceef3fba80"
+          "bytes": 590,
+          "sha256": "9f334efc18d57a3b11c32b74b6102c1e614c54c1cfa6664bd7799db29c25f5eb"
         },
         {
           "path": "tools/clusterprofiler.yaml",
-          "bytes": 641,
-          "sha256": "5bec8a9baa79aade955422f14e6af115934d7d965af3c83c20cc3908af4c00c7"
+          "bytes": 646,
+          "sha256": "b97fa30c53aebc4eee0ebf865386433a66483e0cac572d8cefe7813f2ac23925"
         },
         {
           "path": "tools/cmp.yaml",
-          "bytes": 511,
-          "sha256": "1dddf0937f6faa7733ac83dadad7fb3e0cfb5cb44e656ccdd0945c0f107081eb"
+          "bytes": 528,
+          "sha256": "381c4e67eb3eb24041d311894665bc23e0af03269b458c4fc0ee9e87090c7b39"
         },
         {
           "path": "tools/cnn.yaml",
-          "bytes": 466,
-          "sha256": "c404458e226d41069261e935b2a9a1b2f60404762336e1b4f614b2a183052c1d"
+          "bytes": 472,
+          "sha256": "9602bb91295c2a5f3feb940f1acb274a48f1f42a212d7c609d7b572783776895"
         },
         {
           "path": "tools/cola.yaml",
-          "bytes": 441,
-          "sha256": "c05e7ee79af218e5491f185a9083bc499cd02423d43c9402843a3872c475441f"
+          "bytes": 520,
+          "sha256": "e5b31e29aedc26339c124f4464538446efd6817be7d2eba0ef28b26ea77d2210"
         },
         {
           "path": "tools/combine-cpg-sites-py.yaml",
-          "bytes": 699,
-          "sha256": "ce6b538ce19afe9c65443fbe501c5a6dc4a8274aff5c47acd909a55a85297381"
+          "bytes": 713,
+          "sha256": "77c649c7350fd6741bb130e1fc3abd7406d640e02b94220d2105c42d381e184f"
         },
         {
           "path": "tools/compete.yaml",
-          "bytes": 455,
-          "sha256": "d314510cd9a9d53eb6a7c36bd15dbffded349ab40ef23cf551a70d8e4687b8e1"
+          "bytes": 464,
+          "sha256": "8fc246650e1fbbbbcc4430cdbb74573d68bf3c5f065b9b27a9c913804178bb26"
         },
         {
           "path": "tools/computecelltypefeatures.yaml",
-          "bytes": 559,
-          "sha256": "ad9f789d7adb2502911e9b09940300e06eac3fddb1abbb0106abb2f7f1cae434"
+          "bytes": 576,
+          "sha256": "b19d9f029b834be00387dc24143db1ad3289787656990fbefbf127026122e80d"
         },
         {
           "path": "tools/computegenericfeatures.yaml",
-          "bytes": 490,
-          "sha256": "fcb5c98ef87127199548844e3f1bfca3ee82f923666656137b90817b6990a813"
+          "bytes": 507,
+          "sha256": "0b03868646047d9aa4f8c9418b29a41b200ee9433a7fdb524441205a47461a34"
         },
         {
           "path": "tools/conda.yaml",
-          "bytes": 1843,
-          "sha256": "4bf07012a5cac64e6de567fb51c6be49acd0dba1cf8ef08fc1f3e4f47b66a070"
+          "bytes": 1946,
+          "sha256": "38e5e29b08b7aaa296a2386db2416a40aaf5776ddd784060ca472ec2e1d32b98"
         },
         {
           "path": "tools/consensusclusterplus.yaml",
-          "bytes": 512,
-          "sha256": "d18bdc8f7380d39959ff1fc1bd7364cda484463bf10804d3e1b2cc1436ca61bf"
+          "bytes": 508,
+          "sha256": "cfd5b3ebabf389004d09af86ff75bcda88b476a6298b3f41bab3525739c8228d"
         },
         {
           "path": "tools/contort.yaml",
-          "bytes": 840,
-          "sha256": "f5ea15c61a014a62671be609806ddb0f7d68e08c9f2ea9cab789cff7a53dc2b7"
+          "bytes": 856,
+          "sha256": "e8d2a2d08aa7f4625e8980eb97bbce1f1f3d55d1c6fc7e19ec53bbd97bdccd57"
         },
         {
           "path": "tools/cooler.yaml",
-          "bytes": 1203,
-          "sha256": "a5ac6196e284dc88fc4759fe66fb05447079ca592b22ff1237d80d3e172a6b92"
+          "bytes": 1202,
+          "sha256": "bf2a5d7f482f7c7ae753a10174c52a3aec1284a48a58a295b3c2938224ecc121"
         },
         {
           "path": "tools/copy-scat.yaml",
-          "bytes": 714,
-          "sha256": "f10e8879dee8e2b8566f77d2f669b471ede0f77b4e7757ee677b4c7a13f04f4b"
+          "bytes": 728,
+          "sha256": "876be89e6b47648af1f333a5565aa07bf6dc1c95c5e4c11b7a62bd5ce7fa38c7"
         },
         {
           "path": "tools/copyscat.yaml",
-          "bytes": 452,
-          "sha256": "105bf01964ae56cd84a6b82ca4e8be2b5044548349530ac623a860aceccea75c"
+          "bytes": 466,
+          "sha256": "b2329c54dd9bc603ffcf0eb50f4d86c72cd1272dc8251a02ec88f69da6dbb5fe"
         },
         {
           "path": "tools/covnorm.yaml",
-          "bytes": 438,
-          "sha256": "d3d71f2c72794849b2207adb0983025ed8b01ac7eb58641174a31797675c7c59"
+          "bytes": 446,
+          "sha256": "a5321b8be58ed10d24f46995abe3a7cb44bd9953bbfdde10192002f36749cc08"
         },
         {
           "path": "tools/cpu-chia-pet-utilities.yaml",
-          "bytes": 516,
-          "sha256": "8e1d1fae2a65b410498fa9f2d9745d42040721b05fb5aad4be6cd8c67acd2663"
+          "bytes": 531,
+          "sha256": "07cb72b6bf7e3f26bebed410c9acaa22e12a1dcf8270c743daf11fd051aadb8c"
         },
         {
           "path": "tools/create-pseudobulk.yaml",
-          "bytes": 558,
-          "sha256": "3ddffab070ce02fbacb04adf722dd110dcdc93ed70f9dd53f4db4c1d21f3315e"
+          "bytes": 570,
+          "sha256": "cf8b25ab76b42e4cbd2cff43dc2f2ebc1850f983cdf7b030a0971003c0ea960f"
         },
         {
           "path": "tools/createpairs.yaml",
-          "bytes": 473,
-          "sha256": "51d263ae5df6f365b6fe09f9d320a8b5f674f71c92da21da276b31feae7c3ebc"
+          "bytes": 490,
+          "sha256": "0eb7d78e0c558c88b2f8637ba1659a21deef6d03cdb49ccece2f548afe145dda"
         },
         {
           "path": "tools/crup-ep.yaml",
-          "bytes": 602,
-          "sha256": "86a46b33e0fdd8478b6d7ecd1f5303065f20386b015bddc1d50cf81266bb5dd4"
+          "bytes": 619,
+          "sha256": "f3a660472f7eca4fedb316801a8475154a751da0a0288faf0edfd0528767f8db"
         },
         {
           "path": "tools/crup-pp.yaml",
-          "bytes": 728,
-          "sha256": "8779635f0a090a88f80462ddcfa8997d549f58c2c3515ca9de82aa6a7f5062b3"
+          "bytes": 745,
+          "sha256": "a389929c1b0529401b91b2629db021f1a6e7a9607c15569e2836da4c349fffef"
         },
         {
           "path": "tools/crupr.yaml",
-          "bytes": 516,
-          "sha256": "7fc9039968ae6eda2b938b1195ddb5dcc7c9ae45920d52e30bd814e47fc26cca"
+          "bytes": 533,
+          "sha256": "825c393665b09d1d77d63f26caef4416c60da857facbefe668feb3c4cd79f337"
         },
         {
           "path": "tools/csaw.yaml",
-          "bytes": 537,
-          "sha256": "90e41717f87575115fbb10fabaffeac38501ce9254a42f31bda46c4928974417"
+          "bytes": 545,
+          "sha256": "c19acf7f512dd86280a0919bc956f9e4545cbfee962a8013be08a0158568820c"
         },
         {
           "path": "tools/cscoretool-m.yaml",
-          "bytes": 615,
-          "sha256": "35a04bd53a90c183b208f0786083b55c3716a383441fd2feef83084603e5adfc"
+          "bytes": 700,
+          "sha256": "0c7d6928759d8e117199001bbae92e7566454991585e07dc4d34ea66a4b58965"
         },
         {
           "path": "tools/cscoretool.yaml",
-          "bytes": 458,
-          "sha256": "75364be1a5c8e0327f5cffe76a685a349d72f5abd187614e6c1156a19ca302e4"
+          "bytes": 475,
+          "sha256": "c736805e47d887b5dfd9907a95571105d02deef33a53b9f80cd44e4cd2fbad6f"
         },
         {
           "path": "tools/csdma.yaml",
-          "bytes": 695,
-          "sha256": "9750d1daf3baadab48c0bcbb11cfcb5521850946bf337bd481afb1f703df0028"
+          "bytes": 707,
+          "sha256": "9dc14da54b3ac9cc10db0784b586e0f2312abf687889d3f4d20a31f4821dd2e0"
         },
         {
           "path": "tools/cuffdiff.yaml",
-          "bytes": 506,
-          "sha256": "e522c69a61cbc54088592f8550e6818d024054425dbe264046a84e386f859a0f"
+          "bytes": 519,
+          "sha256": "c6853e1432e0bd10b81d9768594f4a0c78cb85d1efe850eca16e91ee6bc05f4d"
         },
         {
           "path": "tools/cufflinks.yaml",
-          "bytes": 619,
-          "sha256": "95b24915585733a0c7c4e80991b754882ee93588c1811e5545215fd0e99b75c2"
+          "bytes": 632,
+          "sha256": "12a049329860af606fb13098e2a728e9df1c41839200815f450badaa944513c3"
         },
         {
           "path": "tools/cusanovich2018.yaml",
-          "bytes": 531,
-          "sha256": "84b5602b4f5ff2c12d64629521a356a61ea6175409a7749f9a35ab6d369f2baa"
+          "bytes": 530,
+          "sha256": "7d7f77d8e6476fd6a47a253c2d0b04efe7c2e79246546551df141e11d6cd1c83"
         },
         {
           "path": "tools/cutadapt.yaml",
-          "bytes": 1394,
-          "sha256": "dfd6aa36d6e89b66c1db9ebd1f9b1e9a76b53d38fcbe2adef8fec034f572f100"
+          "bytes": 1501,
+          "sha256": "ca605f815a8e08b7174c7ff891bbb5e8ae5b2b0f5d970cd45156b1031e549ac9"
         },
         {
           "path": "tools/cytoscape.yaml",
-          "bytes": 585,
-          "sha256": "3c2a9deeb76f17b336e0572e265ac406d826acb82004fe89fbb41a673d8a7afc"
+          "bytes": 675,
+          "sha256": "13565c6c9538770b2158627ee4ade8c9c813b5999016b6052703eb7facd3ca0b"
         },
         {
           "path": "tools/dalvec.yaml",
-          "bytes": 517,
-          "sha256": "dfc206c920545eebbd155b17b676bec2134eda1652e3f7ed70aacb2e47043992"
+          "bytes": 534,
+          "sha256": "600390ff655d3ac722a516070d5da74ef76b76783ff58b4aadeda3b59d84d48e"
         },
         {
           "path": "tools/dann.yaml",
-          "bytes": 896,
-          "sha256": "2d4180700a6ae46314d896c7dc291716940f47c652c02a6f9ece912a2b129369"
+          "bytes": 913,
+          "sha256": "63a12289a555f05355a961288ddf626b841c0ceee6cb85fcd9128f8d9b86e424"
         },
         {
           "path": "tools/data-table.yaml",
-          "bytes": 1036,
-          "sha256": "64a8ee305c85197bb5462763bbbbbe089434822cbf02e965b21b22e0a5815ebb"
+          "bytes": 1146,
+          "sha256": "30f94d706851735519c8b2b84ff78dcc6ab4c2b823e2b4baca53297e40215163"
         },
         {
           "path": "tools/data-tree.yaml",
-          "bytes": 544,
-          "sha256": "0874f8523dfb57cc254436af82ebd52c878e5c8420a18800a177fc0b2c3e567c"
+          "bytes": 634,
+          "sha256": "9749251f82bfba59ded3df3e1e7f936afb7970d66b8b9d1f7d22b915acc68988"
         },
         {
           "path": "tools/dbbk.yaml",
-          "bytes": 542,
-          "sha256": "6b5d38263821ee2998ecbc94fe2ae854007310a5a5e97c12691fe94668c0cfc4"
+          "bytes": 559,
+          "sha256": "d8842bac30bc862707173732505bc4690ee54ad7fadef0049b2bb6e564f0a31c"
         },
         {
           "path": "tools/dchap.yaml",
-          "bytes": 408,
-          "sha256": "006d3c7715ac45040a8c3ca6b11f15e8a99f4dec8a34f56d6c409b9d11d05dea"
+          "bytes": 417,
+          "sha256": "7f41264823457ae16f086e6b242c7dedd1f56f9659b44ac335ccbedfaab0043f"
         },
         {
           "path": "tools/dchic.yaml",
-          "bytes": 1397,
-          "sha256": "772b120c8a7e7a4f1b925cc086ea9506f23c9f79fce41fe38f068b575bed9d44"
+          "bytes": 1466,
+          "sha256": "06782ecb4d37785fd521092b82025115cb5d696d7c84ba34ab9502aa07cb050a"
         },
         {
           "path": "tools/dedoc.yaml",
-          "bytes": 787,
-          "sha256": "3c65a6fc63734dc0d52d56132d5a1b2a9b6d618bdf0a274ec3d2808cc1e5deea"
+          "bytes": 775,
+          "sha256": "2fcac4e5ba7ab1246d87495a40f8b18f7ebc1ba563311af4b27255eb7dbffc81"
         },
         {
           "path": "tools/dedoc2.yaml",
-          "bytes": 992,
-          "sha256": "dd0950a03b1a38d3ceb284aeceabb0728e66a6ba1a6e3f2d4eb95769da781504"
+          "bytes": 1002,
+          "sha256": "8e97402e841396db5218f0c7d1368f1fcab72972a4947df4e259476b97bb33f9"
         },
         {
           "path": "tools/deepbind.yaml",
-          "bytes": 607,
-          "sha256": "57cd053e1a3d848a1a5b39961df0bb0f57b69554a5b010b964702e293baeeee4"
+          "bytes": 622,
+          "sha256": "70567da489b4d564ebdfdd0bff240d94ce5160d54bf247d524475ac3a3219daa"
         },
         {
           "path": "tools/deepc.yaml",
-          "bytes": 409,
-          "sha256": "8ee0fb6a5f295cfb5b6819b6d1fe685bc1f11948daa4a5f2304a88e36b12cdcf"
+          "bytes": 487,
+          "sha256": "cb57a8793ba4893262065b6037d35723650ba165e48ff0c21246889d5d055cce"
         },
         {
           "path": "tools/deepfun.yaml",
-          "bytes": 712,
-          "sha256": "68a6c3917f3b43f1860093ae6bbd2f60192e32fe9ef8e0cab7bafa36c6d9e5c7"
+          "bytes": 726,
+          "sha256": "3211f5d762001c1c638f7e47bed5ce094f0abe164a86450c1ee9ea8534de6e02"
         },
         {
           "path": "tools/deepse.yaml",
-          "bytes": 441,
-          "sha256": "642d86264094c0b671eaed447e130c8418c0a4b027f8cec45add6190a7f58cb1"
+          "bytes": 453,
+          "sha256": "86ac44d29a78d9b7ae0ac5e4d637a3f71085e7fa1d4adb3ee017a044da91466d"
         },
         {
           "path": "tools/deepsea.yaml",
-          "bytes": 967,
-          "sha256": "03d28a181a4b897c08572b38c476e5a871386e09f3dbc322c6a41369b80f3a50"
+          "bytes": 981,
+          "sha256": "fc6fa781912c86d2def0492810ce53cc2bf92b4840a1e9198f51979e1f04e313"
         },
         {
           "path": "tools/deepshap.yaml",
-          "bytes": 559,
-          "sha256": "a2a7b1f9cdc3e34750e6ec14425add4959de34eec0a9a66fc2e9e4feb9805a22"
+          "bytes": 569,
+          "sha256": "3ac97dab31ebb501ef38496099ac275593e8a8b65d18c06b0de0d8e72a793fb6"
         },
         {
           "path": "tools/deeptools.yaml",
-          "bytes": 755,
-          "sha256": "312e30f4bf2d470aa521fdb0f5ee6d2d8b43da49fc1be912909466fb973ae7f4"
+          "bytes": 751,
+          "sha256": "d9982f354a108d7f0aa6d5ef02045d5d71e7872d6101d444c0f3b2d8c103093e"
         },
         {
           "path": "tools/delila-py.yaml",
-          "bytes": 596,
-          "sha256": "26878da510ce31c231b65f7ae79ee33e0943fa2f7e19cbee88e2fc7a4a8ad3ef"
+          "bytes": 613,
+          "sha256": "38e968983ee50588a3e64513b0ee7f94330ea2636474261395e5f3cf7e0b267d"
         },
         {
           "path": "tools/delila.yaml",
-          "bytes": 723,
-          "sha256": "1f80c1db63f2b38c35666c0362987d8acbfdf457853f007fd59b0a868a920009"
+          "bytes": 740,
+          "sha256": "01b17257bfca75d9a297bc490ac6f9943b72a496c80544f541db52ffda2a1b74"
         },
         {
           "path": "tools/deltasvm.yaml",
-          "bytes": 810,
-          "sha256": "3c95e638d40f9a35402e5c60a4a713b1a9cc4711c684d7a50e54e5f20b92b011"
+          "bytes": 827,
+          "sha256": "78bae6cf70e082345c6fdf6465d82196195ea491853bd7ec2becf768c537ff82"
         },
         {
           "path": "tools/depmap.yaml",
-          "bytes": 431,
-          "sha256": "6488b72fb4b07c6bfa1f0aac7d9053d15146d9ceedb970ce1691c98ace6a4462"
+          "bytes": 449,
+          "sha256": "1bc073538eb776447e741a4d3fef8de069463908fc3a8b5f922f7528bc1bc2ed"
         },
         {
           "path": "tools/deseq.yaml",
-          "bytes": 510,
-          "sha256": "c9b8cd44c7082838547989e4cf0686ff4716ca0bf05afaa520619340d8f2957f"
+          "bytes": 522,
+          "sha256": "ac32c26cea02c14c2f1dcc2946e45074c06447270c4af577ccb0abe608fe58a9"
         },
         {
           "path": "tools/deseq2.yaml",
-          "bytes": 2852,
-          "sha256": "d8834bc9119096f148b54bb101f6ecf045cc59729712ea49a15382aa474f8807"
+          "bytes": 2925,
+          "sha256": "ebe4c9e27446b20517d8ca60b12f8d25c7bfed973f11acb44d31f151c118781f"
         },
         {
           "path": "tools/desso.yaml",
-          "bytes": 421,
-          "sha256": "d35232c85f573316f90ec43341c057bea2da6b745a63e263c0f71808584f625b"
+          "bytes": 436,
+          "sha256": "1f8ed53eaab8b18a39e78f9eea965c4e48170fda30e5e1c063f5ba6ef5bd28b5"
         },
         {
           "path": "tools/detoki.yaml",
-          "bytes": 628,
-          "sha256": "b1d926e6496ebf5733a1f47af4fbed431511d89fe35826786ab8de497821ab91"
+          "bytes": 638,
+          "sha256": "5c1b9d7c5f4f38f333b14f6b45e3379e1837e4055f94ff22440504332f889360"
         },
         {
           "path": "tools/devtools.yaml",
-          "bytes": 526,
-          "sha256": "f6c295e6c3a91c54dfe4e9c5a901d029368cbf6f6882d2edf430fc2144019b52"
+          "bytes": 623,
+          "sha256": "843a06b6715c3df84d7763ecf8e8855f946d0a712e525f09ce856489ae1f60ed"
         },
         {
           "path": "tools/dgw.yaml",
-          "bytes": 643,
-          "sha256": "8a4d7adf0033e45ddb0817b608d6ce144902c33550e5472504da2df0517bc41b"
+          "bytes": 659,
+          "sha256": "9383bbc839d5536d8ca4101f5c6901d82bbb03e48c25a3e6e34fa8e572f993ee"
         },
         {
           "path": "tools/diffbind.yaml",
-          "bytes": 435,
-          "sha256": "da79ab8751fd07b6b808f082d4e16e5590c57759b2f88cfb8cf345b3b361a72a"
+          "bytes": 453,
+          "sha256": "46f4ddd4eafedf95d6344e521d60b866b7cbae8beb97932d6b8689f2627a9a48"
         },
         {
           "path": "tools/dinamo.yaml",
-          "bytes": 664,
-          "sha256": "407714e0eaf913993b30b6942c018bb6773b1cfb4639599cd30f7a7456fda8f0"
+          "bytes": 789,
+          "sha256": "13fe968c71cded42fc329fd3a8bd944566c87ec32ebbb1af418eab1f8d38fe76"
         },
         {
           "path": "tools/dmlc-xgboost.yaml",
-          "bytes": 459,
-          "sha256": "28caa590cc0503659ff0a32b8e75bdbd1ff8ea50d4c7144241425a938abeaae5"
+          "bytes": 469,
+          "sha256": "f9214a590e2457cd59263a77d5833ae3f0f3a46f919745cc9ad58636d9c7acdd"
         },
         {
           "path": "tools/dmrfinder.yaml",
-          "bytes": 687,
-          "sha256": "bdc59c34f55f24c4f25b4547b701c100bb8f21da324f468144d432376419bdc4"
+          "bytes": 760,
+          "sha256": "3e1f5b3455978cccda29abb371991539ce4241951a8eacff241f8fada281f448"
         },
         {
           "path": "tools/dna2vec.yaml",
-          "bytes": 647,
-          "sha256": "c7ce57c5ef07c6ed03656593e0dea6052c2cbf24f5e958ea42bffe1c6c8f3a9c"
+          "bytes": 639,
+          "sha256": "dddea4ba84c8798199534a03bb278b48ad0cc4f08a415b1c0afef882e6bfbbdf"
         },
         {
           "path": "tools/dnabert.yaml",
-          "bytes": 536,
-          "sha256": "b428763830ab8b83e7736554bd68ef279e776d73feab79403ce8c3c71d2040c8"
+          "bytes": 545,
+          "sha256": "f64cd54d7e8d8fc7f1cc11bc9fd8f0cb79319215cf4366ec9489faab2c8bfa02"
         },
         {
           "path": "tools/dnaffinity.yaml",
-          "bytes": 446,
-          "sha256": "36662baa3ec4b7768482b163d2f71d3f43c923f94d65b3610f4de1d503f4ca49"
+          "bytes": 457,
+          "sha256": "526c6899b8b02d8b7d129a745989d5b3a07f60defd3daebf5ba1123e14808648"
         },
         {
           "path": "tools/dnalongbench-utils-load-data.yaml",
-          "bytes": 516,
-          "sha256": "8e76acbc1764b8ff3dfdf8dbaf15739acea5a9343b64e66a35293a8a04aaf0af"
+          "bytes": 522,
+          "sha256": "2d3e73079ac3d9038d01eecc035a8d9768298688a360552b0a98d3dbeef8a503"
         },
         {
           "path": "tools/dnalongbench.yaml",
-          "bytes": 484,
-          "sha256": "4539d01482684cc98a41153a8f34f5d2eb5844356c35836134b30ec05b441fd0"
+          "bytes": 490,
+          "sha256": "dd56339d55e76d32e2fd1604b127b42918c4fac28b73afe0b9bc8dbe2b4a085c"
         },
         {
           "path": "tools/dnashaper.yaml",
-          "bytes": 429,
-          "sha256": "fc3a0df26fa826cadb443a9a14d90e71d8941f2ddddd8a6978742895a4b87fac"
+          "bytes": 444,
+          "sha256": "ab16e72f407f9f09dbead0bda7520dfb149b92e229df35e7af5944d02ba132e2"
         },
         {
           "path": "tools/docker.yaml",
-          "bytes": 2709,
-          "sha256": "8b3fb9fb37c26b5fc4a7b930d079a12a30f27e97fbf97f755a16cc1a5e57dcdf"
+          "bytes": 2792,
+          "sha256": "b491524ec807b7a1e34514394dde3b4603eacea094db932d746960677ee848f0"
         },
         {
           "path": "tools/dplyr.yaml",
-          "bytes": 714,
-          "sha256": "b946cc21f6dfdb7e4aea4afbf6394e11a7bc1293dad2f9230acdb28f4749bb83"
+          "bytes": 814,
+          "sha256": "83d6a8a2cf40ece5c849b840841c2dd44288e94d1c0908d2eafe9f20e8ed13c7"
         },
         {
           "path": "tools/drem.yaml",
-          "bytes": 462,
-          "sha256": "eee4861d70a96fd1c63818955f0197439a0f539277914a6722acbae84a3c1f57"
+          "bytes": 468,
+          "sha256": "b4f9496d41864a4ce7481725acf7d6576b8ec4a89cc464177a2833447f800bf3"
         },
         {
           "path": "tools/driverpower.yaml",
-          "bytes": 1018,
-          "sha256": "962de554fb2fe9535b9c65174bcd277973561e94a063032c0f1c07cf9886883b"
+          "bytes": 1102,
+          "sha256": "b977dffa8e5c2f19d59c5e2de162b9b3499df1053bcd03f6445fec9df3e4d0fb"
         },
         {
           "path": "tools/dss.yaml",
-          "bytes": 1059,
-          "sha256": "d6dc35e11441d7e097994d039cdeea1da2e42526e3725d69a9f436b3427f2309"
+          "bytes": 1118,
+          "sha256": "765bea92165b733e0035e1c12ecac0c9bb6cd5ec8fa281f9a5968f55888e80bf"
         },
         {
           "path": "tools/dxm.yaml",
-          "bytes": 766,
-          "sha256": "e8c9019a5759996b1ff5af0f5f926874d6c81118d05d5e2afc5c8d7d50120928"
+          "bytes": 842,
+          "sha256": "e075624aa469f9418eadf9da0ed209beebd24649d8a41c88bbdf842d277f099e"
         },
         {
           "path": "tools/eba.yaml",
-          "bytes": 408,
-          "sha256": "84c04476eb8bfb433bce7e20c81ae906a3ec0dfbbe31ad0cd5fefbe76720482e"
+          "bytes": 415,
+          "sha256": "dc36207820dac73afa63a8f0da28c7892c879b776cc988966fe2959128c52cb5"
         },
         {
           "path": "tools/edger.yaml",
-          "bytes": 2332,
-          "sha256": "d290be8be6ddb4deb398f4a3f65ef9f1759df56902b177de7a72d242806574ea"
+          "bytes": 2403,
+          "sha256": "af0f9a82f5543fae674e543410ec527e9d65270e1f1b70591e71e46a363f1c49"
         },
         {
           "path": "tools/ena.yaml",
-          "bytes": 411,
-          "sha256": "2eb2aa8d00fbde4a3b06b08824ac2a996c9e6757dcb7075e6993e9ad7176bb1c"
+          "bytes": 422,
+          "sha256": "033788a7a11be110f9e94cf17715fac122ec6a74e9db89c0a9a8ae3c13f00823"
         },
         {
           "path": "tools/encode.yaml",
-          "bytes": 869,
-          "sha256": "4ba012556bed1e141a3c55f1a5ade478fdf94593f434c22bb5365c96d77ceb2b"
+          "bytes": 886,
+          "sha256": "a209681b0295eff7b8fab1bfd129ba14631d34a808d46503d7d108bf74a12473"
         },
         {
           "path": "tools/enformer.yaml",
-          "bytes": 564,
-          "sha256": "cff7477cc9f87c82663f2d16af38632a8ee550895932f9c033e57002e1a9566b"
+          "bytes": 573,
+          "sha256": "7610051778aae86493d156b6066fa0145891e0d23644cde76bc6fa5b572b8739"
         },
         {
           "path": "tools/enhancer-if.yaml",
-          "bytes": 473,
-          "sha256": "5ec7feb57f0c4fa6e4c90564eb5e6c25d47196484424989deba10d4272eb99d6"
+          "bytes": 465,
+          "sha256": "711f4d0f13f2dbaf64065b5f1b3373adc4153d5beb0b03b149099316078b701a"
         },
         {
           "path": "tools/enhancer-mdlf.yaml",
-          "bytes": 477,
-          "sha256": "4e7b35ffb12d1385b93188516a5d0f0908639d344c801e959d0caab50d072982"
+          "bytes": 469,
+          "sha256": "d25dce5f1b6545b291d762a1019d1d7cd6c30f403adfb4fa480e85dfe595dcc2"
         },
         {
           "path": "tools/enrichr.yaml",
-          "bytes": 696,
-          "sha256": "ce78e1d84a7e75eebd46e78d3eaa725ea333c3bad43eae224b835126e7b2941f"
+          "bytes": 708,
+          "sha256": "19eae5def28ba7722615c45c2a9f624553c893a30d8b4b5f4bc9338bd1afa65e"
         },
         {
           "path": "tools/epialign.yaml",
-          "bytes": 795,
-          "sha256": "568fefd9e82d7c97240967b5322ce55bf676e576e88adb9ce61694dcd34528cf"
+          "bytes": 808,
+          "sha256": "6aac919d9fc6094e2877c87655d24b4e6021b6a1aead707612702c4517a7d7e7"
         },
         {
           "path": "tools/epicas-dl.yaml",
-          "bytes": 680,
-          "sha256": "abf15e01d0f3393c4c18439bd10a0a5c7676b49f1de03466ea158b3b395fa246"
+          "bytes": 690,
+          "sha256": "f93570967e932ca2524073998cda320b6dbec013f26168315ba11cb51d32e087"
         },
         {
           "path": "tools/epicompare.yaml",
-          "bytes": 675,
-          "sha256": "7fca5d45ff55d8d57a4575c26131e1b5004804aae6c2f2e04ec766dca1aaee9a"
+          "bytes": 780,
+          "sha256": "20720205857ba75b81a8cce7f62fc7b6d0e2352181aaf4e4d43158af1e62c86b"
         },
         {
           "path": "tools/epiregio.yaml",
-          "bytes": 1243,
-          "sha256": "3f326b7504f73700573f9711d667dc0fda3f28430f787947a536e6a5761f5e69"
+          "bytes": 1324,
+          "sha256": "89bf1ec4c5c3ebe31c5d49bad889f7e16cd2010f1e80c4a69169426c29cb81eb"
         },
         {
           "path": "tools/episcanpy.yaml",
-          "bytes": 503,
-          "sha256": "eb47d224fef63c41a8031418bc70cef2b82ac5dd8f0eed1ee5a1ed6b6060d072"
+          "bytes": 599,
+          "sha256": "179855ca06f0ed398cb57b45c1584ede654c3c12ab4f946795793eab97c3e9aa"
         },
         {
           "path": "tools/estimate-exp-prob-param.yaml",
-          "bytes": 581,
-          "sha256": "08b5cac8602cab74cea3111888254341e8709615df760332b715ffd0bee9ff8a"
+          "bytes": 593,
+          "sha256": "6f1016905dd25d06954323e88d055ac662a982d4e9743770b0089481849383b1"
         },
         {
           "path": "tools/experimenthub.yaml",
-          "bytes": 475,
-          "sha256": "d0a1f2ecc1916e5cf960a668b8ce04f3c4bc92fdecd8bf4fa310a51dc0f7e78e"
+          "bytes": 597,
+          "sha256": "a29213f4b5b09bc5e4fcd7464117a027c83de6c6474b134d49e52c7b82495a04"
         },
         {
           "path": "tools/express-d.yaml",
-          "bytes": 696,
-          "sha256": "aaa7f99d262dfa40e269c9d348097ce4929ccb1321308e3acde14c6c2ad67b8a"
+          "bytes": 709,
+          "sha256": "af589d2921de4621b3e7240dbc3fbb8d3ca369459e44926ecbf7c5ade44a8e4e"
         },
         {
           "path": "tools/extract-cpg-data-py.yaml",
-          "bytes": 723,
-          "sha256": "aa71f5b1d5e8a57b58c200bee61cb1e36e57ab77b8a6e90dcd14b231de7d490a"
+          "bytes": 737,
+          "sha256": "f3baa10d5da0fa3ab7d71c8639f5d9fe897d62a6c3e692f58a7305e02625a585"
         },
         {
           "path": "tools/extract-meth-in-region.yaml",
-          "bytes": 460,
-          "sha256": "bef4cd227caf56eefae1d5eceafe83182013ace30d53b6248cf29c41131190a1"
+          "bytes": 470,
+          "sha256": "f92ebecb4f9a129b254e78612d9780342f8599a407c1eba5e987d0faa98a00e9"
         },
         {
           "path": "tools/extracthair.yaml",
-          "bytes": 458,
-          "sha256": "7ceedb768ae3b7798f356af91c3780ff6446c571b1dd729f671ca976c8193e52"
+          "bytes": 467,
+          "sha256": "b12b64cae65da57997cb12aabe2a6cb4f31e1b3d42161958c927980d41c82c45"
         },
         {
           "path": "tools/extractreads.yaml",
-          "bytes": 502,
-          "sha256": "02d899782c09f1d02c8eff140b63d66717553d0f23c8e16cc3fbf0a2cba2f8b3"
+          "bytes": 515,
+          "sha256": "e7f9ee7d00648d28f95b44c98e9e413843c33b4cfe69755931dba9f708c5aeec"
         },
         {
           "path": "tools/extratrees.yaml",
-          "bytes": 619,
-          "sha256": "451d7c3657c827a45836a843dd5a957b6df959ae165b7e8359fd13923ff6ab4c"
+          "bytes": 631,
+          "sha256": "feb73fc30e185a2d0ba79c739f370be571ef532a1d08c8416390f9894c802584"
         },
         {
           "path": "tools/fan-c.yaml",
-          "bytes": 565,
-          "sha256": "d7c13d9a472428a7eda2d17289fe2f49675a1cec5957b3278ff8d014ce90dd9b"
+          "bytes": 582,
+          "sha256": "a6c9b3a6a724fcddf188fdd080ab005ce54b95f63fb1322cbf85aed04e1b23f5"
         },
         {
           "path": "tools/fasim-longtarget.yaml",
-          "bytes": 437,
-          "sha256": "a843367941f9496a431f693666f1bcda987de10524450c85549b3a7793cb6429"
+          "bytes": 448,
+          "sha256": "a65cc15640ef4cf89d215042f8310e385886eed112c549887f2a0143288f0fbd"
         },
         {
           "path": "tools/fastcluster.yaml",
-          "bytes": 458,
-          "sha256": "a6850e9b8efaf6ade7786094234923cee8aa63b8e8f40f76498110374ef1723e"
+          "bytes": 472,
+          "sha256": "abc0e52ac56eb843475f40e39c66d7b4538b95d74e6b461c5ae3d0dcba2b95e0"
         },
         {
           "path": "tools/fasthare.yaml",
-          "bytes": 414,
-          "sha256": "a1b0495243fe90b3bd7349b83447bb9f4fd60d696baabc07bd741adde7a6a856"
+          "bytes": 423,
+          "sha256": "5cd71012546b187198f49ce0db669394ea2df3e52f6e7610360c50407cddc0b8"
         },
         {
           "path": "tools/fastp.yaml",
-          "bytes": 444,
-          "sha256": "4e8ca0b8c0b67f875ab5f1ba20136dafb69975035d74da61934fe1b8455c7ccb"
+          "bytes": 549,
+          "sha256": "ff0b184151cf7e53be3dafde7c835ab2d0dfbba98dc797428c1495af0d25605b"
         },
         {
           "path": "tools/fastqc.yaml",
-          "bytes": 3032,
-          "sha256": "cff386df1e6e8752e09e9c879ac72b481ee638feaadb116eef7e57c1b1a208b3"
+          "bytes": 3141,
+          "sha256": "afb630889d8f68f545b7f791d1a054b11ad4411c89973c32c39adbf7f97d4110"
         },
         {
           "path": "tools/fathmm-mkl.yaml",
-          "bytes": 754,
-          "sha256": "272766d7cf2f0f9ded0963f86fdfe3d0038cc3b92748c11663e6a9a93ce58c0f"
+          "bytes": 771,
+          "sha256": "8cc34b59ba5f93e8e468d8c53fec541d459fdd7fb0296ccc966f246b281b2d5a"
         },
         {
           "path": "tools/feature-selection-py.yaml",
-          "bytes": 612,
-          "sha256": "a61850be95ac355c10fd966ccfd09dfc1078e5e5acf6ea1d665a496d7dd16f03"
+          "bytes": 624,
+          "sha256": "b2debbf759bb62b05bba4e52fcd2778d611ddfc8152bd5090ae9259622962877"
         },
         {
           "path": "tools/featurecounts.yaml",
-          "bytes": 704,
-          "sha256": "9aeba9b9d98062d0bc492d02fc71d0342275ce62165803e2ae3a925bc274bc47"
+          "bytes": 700,
+          "sha256": "4970b0af6f6504d663cd9b1fa0ee5054a8076a4e99c8e72fb47c29e5c1adf7c3"
         },
         {
           "path": "tools/fem-functional-epigenetic-modules.yaml",
-          "bytes": 576,
-          "sha256": "b4fe14629b0b063a59f0424d37365de92913e4132bfe4a586158b8839a3e3fd6"
+          "bytes": 589,
+          "sha256": "08cc4d1c20b29c8df5388182c3d622ee51d378a3632a57c81ab55970972b977e"
         },
         {
           "path": "tools/fimo.yaml",
-          "bytes": 884,
-          "sha256": "eacf90cd818710b366cd598c642c41f435ca850a805c0bf5b43493ace67ba805"
+          "bytes": 895,
+          "sha256": "fe48b656adf92cb596fab149307d0f996ceeee323f3ad238ab4ae537118d4ad5"
         },
         {
           "path": "tools/finddmrs-r.yaml",
-          "bytes": 570,
-          "sha256": "6d292f882ec34507b4e6f56c87f4bff0b9a7038f8dbb00d537e58d62ace88c2d"
+          "bytes": 584,
+          "sha256": "57692bdb6ba4cdc54e27b9bcae5671cfb329b87e40074b25c01cb26855eb0954"
         },
         {
           "path": "tools/findpeaks.yaml",
-          "bytes": 439,
-          "sha256": "645b7131d0593416e89faf8ff409f0519d047c3848807b405daf2e693f86eb28"
+          "bytes": 456,
+          "sha256": "df3bcf25730394b26135471290a549babcbf4dfa3bd65282182037e08e173d5d"
         },
         {
           "path": "tools/fit-hi-c.yaml",
-          "bytes": 706,
-          "sha256": "eb070ec17bb6ee335e3daca214b19d0bd35552caf1f3a19f3e322f9b10b17dd2"
+          "bytes": 714,
+          "sha256": "071aba71fa8b98ad3cd26cd49545242c49156dcb4b5a675b3961c3b6e2d7c547"
         },
         {
           "path": "tools/flash.yaml",
-          "bytes": 489,
-          "sha256": "43972c136d688477bad6661d4e854a69ffe600a4a4fe529d20814aeb41ac6bcf"
+          "bytes": 496,
+          "sha256": "1aa76909aa627914ac1a28e03b17296e62f10c4de8caea12c686b387d850d6b4"
         },
         {
           "path": "tools/formatting.yaml",
-          "bytes": 478,
-          "sha256": "0055fa06d804677cd72d0642d7b0519483e6cef082ac57770327347441543754"
+          "bytes": 492,
+          "sha256": "1f2fe0e37a8bf7903d4de7cb284019225dfc5208ef0323dc84ed96d59d70c571"
         },
         {
           "path": "tools/freehi-c-v2-0.yaml",
-          "bytes": 437,
-          "sha256": "77024e3d38f09d1953e9f538afef3fe8eb7edcd0c12c29312917addf3127bddd"
+          "bytes": 450,
+          "sha256": "061cd4cdc947cc485705582329d130b79066619e4c9f5dbefd46cd9eec63f51d"
         },
         {
           "path": "tools/freehi-c.yaml",
-          "bytes": 469,
-          "sha256": "dfb875e994b35f293390f2ba4de7825129b8d00a7ec56abb24ac970999ebaad9"
+          "bytes": 538,
+          "sha256": "f593258c45ada05ae96ed1be67a12c52bad6d64eeab4f3cfa6ee920899d79556"
         },
         {
           "path": "tools/ftplib.yaml",
-          "bytes": 700,
-          "sha256": "70ad15de90f399c2421fb6fa05ee90d63314bb3b75e423a8fb6226b210649c72"
+          "bytes": 716,
+          "sha256": "2a862af17e29576547ec495ae0ac653eb10c537ab03720100dbfd6861dbd445f"
         },
         {
           "path": "tools/g-profiler.yaml",
-          "bytes": 519,
-          "sha256": "4cf2a6ae8528091a5b64bd7f6ef781cb20af3e87849400574ddd3e82674fbff9"
+          "bytes": 528,
+          "sha256": "39e703fe9d5057783b6cbb71448d07cbc8b441414c6a6373ff728c540df55b02"
         },
         {
           "path": "tools/g.yaml",
-          "bytes": 482,
-          "sha256": "0d58727e5cd68a58256e8fbcddc918c11c191e598411e0cb98aa65df51c770d2"
+          "bytes": 490,
+          "sha256": "bd3ead1574b93f0b923e1e721cf2b82b76b250c12d5654ba9a535df6004b84db"
         },
         {
           "path": "tools/galaxy.yaml",
-          "bytes": 610,
-          "sha256": "a178f93e57eea9a5d1990b202c87fb6dc269328ba4978c1f5f854b9b14ea02ed"
+          "bytes": 730,
+          "sha256": "a61981a0c8fa77be1f5308fcfb522e56b69604bc877a9344706fc0569b9b6888"
         },
         {
           "path": "tools/gapped-k-mer-svm.yaml",
-          "bytes": 508,
-          "sha256": "b7fc964afbe6c72f197241b3d7e27804c21463aabac5aa037c80273e0084a8f3"
+          "bytes": 520,
+          "sha256": "36fe701d252574f091c7fdc4559a7e72dd50d6a27332d3f058c5e59c85541018"
         },
         {
           "path": "tools/garnett.yaml",
-          "bytes": 438,
-          "sha256": "ee3a4a14988ebc93e952800e8b065d828b1f94cfb29e0dd86defda2aadc8365d"
+          "bytes": 450,
+          "sha256": "cdc015f2f6ee803648e3f505d6f372d79bf6b22171b9e9922975d3e3496f2b16"
         },
         {
           "path": "tools/gatk.yaml",
-          "bytes": 475,
-          "sha256": "d50a944a11b142c29eb7be23f200153456c3356a12a4e670d0d83dc771c948fd"
+          "bytes": 486,
+          "sha256": "c145dda0c094483c47812ed2c1f773fedb2abdc89c2b9d824880c45dfc05c19c"
         },
         {
           "path": "tools/gawk.yaml",
-          "bytes": 435,
-          "sha256": "b5884e20fb8c4433f60cc9741db0ae88e2dab876fa80694542a78419a3a73232"
+          "bytes": 446,
+          "sha256": "3aed30f329dc93ccee6b5a1340d51766ff692479bc6d571f43d4422dc0e3f8c0"
         },
         {
           "path": "tools/gcc.yaml",
-          "bytes": 447,
-          "sha256": "929675f6b6926159770ea7c6349582248762025d772cf5f98bb20b1b74bffa9a"
+          "bytes": 456,
+          "sha256": "415f041ef00fc00a4e8f8ec813dd2c8c790d53c2f3bb0209f2cbf2214b5ad193"
         },
         {
           "path": "tools/gencode-version-32.yaml",
-          "bytes": 441,
-          "sha256": "c82b110a3bd0d7d7c91ef3847a17a421c51a26097bc8ff351fade97b15a5566b"
+          "bytes": 452,
+          "sha256": "973bb20a87d030c99ac1df4cfe58e1aa13b3b0152bdf6c1513634f44deb15570"
         },
         {
           "path": "tools/gencode.yaml",
-          "bytes": 482,
-          "sha256": "645b3ac98857a74c170cd3177d4bc78d6a3f9241bedf0c3b34cd39f9e2a3fce5"
+          "bytes": 494,
+          "sha256": "d288450f0c71168b4e748ba389be04e65b4fe55b1ea80470185dab888aca521f"
         },
         {
           "path": "tools/genexpi.yaml",
-          "bytes": 916,
-          "sha256": "c1c9f7ec1931c393c814e8f2107e01edd4071a22fe0fa7a52c9395ec3fd9cb3e"
+          "bytes": 1041,
+          "sha256": "74c94ee10586f2684929465fe6562f0bb42eee49aa7df8c288b830d5a6c9a12d"
         },
         {
           "path": "tools/genogam-2-0-fastgenogam-r-package.yaml",
-          "bytes": 603,
-          "sha256": "77087e25990bee380dcec59f1294ea36f9cfbde32a8ec9361b4c943fc692330b"
+          "bytes": 611,
+          "sha256": "f53c20ba28c808fa45d805607462abb2a17a76338032cce6ece2f6beb7caa2f4"
         },
         {
           "path": "tools/genogam-2-0.yaml",
-          "bytes": 820,
-          "sha256": "1aa0b1ee828d5153352cd377df89493809d42827b4281d55260863246a0269e5"
+          "bytes": 832,
+          "sha256": "2b2454b610eacd78c3f25cce1e569dc52f7eef1ff73caf84a86aac91a918d41c"
         },
         {
           "path": "tools/genogam.yaml",
-          "bytes": 662,
-          "sha256": "170e0e3cc8cdef569a8c730397f7a3a27c986af7e97e8c3c5f87e3a7a712f972"
+          "bytes": 742,
+          "sha256": "fd344d7533e747325296758d56d7af460cddcd1c813d8cf6acc2738ff42a9164"
         },
         {
           "path": "tools/genomation.yaml",
-          "bytes": 602,
-          "sha256": "802c8775759fa12c5a2112ce1976999fc7986e1625051ca552c899feff249443"
+          "bytes": 555,
+          "sha256": "07401ff6b8c672105bfc1203be649f149332c73e598b995906d5db5c98314c39"
         },
         {
           "path": "tools/genomatix-suite.yaml",
-          "bytes": 698,
-          "sha256": "2c433d6806a36c5c6fc9fcb0595e32dc71e462d286e7aa07802d6fdf4567df48"
+          "bytes": 715,
+          "sha256": "270cb25941da0d27314cfc93465b64e5ead3ef6d6f1964ee73e8de2c45c94e6c"
         },
         {
           "path": "tools/genomicranges.yaml",
-          "bytes": 1000,
-          "sha256": "8be75d7a3f4a85fdea21cd381b489b946f8415abf151a006790d076a6b487265"
+          "bytes": 1114,
+          "sha256": "07d3005cef68e06e81cdac54520ba8c27e6031c63a56b505e0d2e12190f4024c"
         },
         {
           "path": "tools/genominator.yaml",
-          "bytes": 463,
-          "sha256": "1657ea40f682ecc42721cda7126517089a1de087ab4c485c42f51c01f014292c"
+          "bytes": 476,
+          "sha256": "44388cb02c3498fac184a99b1652c84e2879950db8469b2f607f9c7e9093620b"
         },
         {
           "path": "tools/geo.yaml",
-          "bytes": 411,
-          "sha256": "38b46e0ede63c564170d91f9e8f284ba6f5677cc4af1a29a0a5024916b63a754"
+          "bytes": 422,
+          "sha256": "1e1dae8fc17be6cea0b6c81f69c0626616f99597cc9465d7ca5a6492d5907333"
         },
         {
           "path": "tools/geoparse.yaml",
-          "bytes": 770,
-          "sha256": "817fd6a0cf2cdc55008fc8421367e94bf1e5b0d9c3677337b24a963d908a971b"
+          "bytes": 786,
+          "sha256": "e85ae08d55f99c697401d0294d58e8ea07bd16f5bfe11b3e25d1482018cf4472"
         },
         {
           "path": "tools/geoquery.yaml",
-          "bytes": 471,
-          "sha256": "8a673fd87043b81b2a84c8a0e3defa494edd50304d184e90ff3c5573608f0106"
+          "bytes": 486,
+          "sha256": "2ee94e9cec2fb05551bfe4ac215c282cda3652601ab95975d4f32cbe8e0d153d"
         },
         {
           "path": "tools/get-motif-all-pl.yaml",
-          "bytes": 739,
-          "sha256": "49f0fcf55569bf9a7f1f5d3b9dff5805372b90ce958a9b722bb2972274cde464"
+          "bytes": 750,
+          "sha256": "e7ea83771724517c10e2ae9966ee1a76bc00430831fa6d4e0e577c08c2058eb1"
         },
         {
           "path": "tools/ggmotif.yaml",
-          "bytes": 483,
-          "sha256": "e504355dd9839ac3514a078236118e67560a2361db64064039ca0f799b0f6524"
+          "bytes": 493,
+          "sha256": "9a3223f00119465be9f6c7899cb86c8bf5a25e0e8693ef5eb388e76c1a68bcb8"
         },
         {
           "path": "tools/giloop.yaml",
-          "bytes": 578,
-          "sha256": "150983b22b4182cf1485550661c2e50e4b798b9d440650f221b1ddff5218cff0"
+          "bytes": 648,
+          "sha256": "00389f4a562c716a4031b364634ca8f2e465b7620f1e33bdf5915c4108b8b4c7"
         },
         {
           "path": "tools/gimme-maelstrom.yaml",
-          "bytes": 629,
-          "sha256": "1bb6042f533bf36cce3665289c798574133bbcf0a716960b548e156bf347565f"
+          "bytes": 630,
+          "sha256": "a84aa682363d2a1eff076d1853a7395ed1449411b228d4c2742695a3f2271bc3"
         },
         {
           "path": "tools/github-actions.yaml",
-          "bytes": 618,
-          "sha256": "7fb2e9c4f791106ca95cdc14000aafa4f43df17ab914758d7b2254b3d4cb8293"
+          "bytes": 623,
+          "sha256": "0e2bee5b7600e1bce4aacd55c4b29b083fe194603067e022900ca9e3ff622172"
         },
         {
           "path": "tools/github-com-zengguangjie-dedoc2.yaml",
-          "bytes": 757,
-          "sha256": "60850626d0b84686691aaa59e6585b1ee77b65aec3633358aae3ce56ced33f9a"
+          "bytes": 767,
+          "sha256": "70e538cf8af401a4bd78f84a77c2661d8af3a6614564d19ad33d84ffce9b4c2f"
         },
         {
           "path": "tools/gkm-svm.yaml",
-          "bytes": 425,
-          "sha256": "fba500e2fbe9f65d1f3058a072563be2361b6c557494e7084ad04ca522022c28"
+          "bytes": 440,
+          "sha256": "444462d64824d8b53b2aefe3affdc54e119cdad072489d3d322fc165327a4e0c"
         },
         {
           "path": "tools/gkmsvm.yaml",
-          "bytes": 560,
-          "sha256": "0ef0d4e22215766737d18035a6aed391fe374d1b6c36e09436577963e8b935b7"
+          "bytes": 569,
+          "sha256": "f07f0e413f015d572027ca1295fbd3910d66456bd26cd47b55ea0157c80d14d8"
         },
         {
           "path": "tools/glmnet.yaml",
-          "bytes": 540,
-          "sha256": "7c913abe3ef3e55c40f2f97a2b521f2d3f41d1986ab8696e7ec7e50ae6044b9a"
+          "bytes": 559,
+          "sha256": "6e8665a738b9324575e8945216539eaf822cb6b0d71e7dd23143fb7c93b29ca4"
         },
         {
           "path": "tools/gnu-c-compiler.yaml",
-          "bytes": 439,
-          "sha256": "03479e6f85be973b4eb7b443a2310c45ea340f277149f2f1f3089d46a93480ef"
+          "bytes": 452,
+          "sha256": "0bd14f26a926711cd5260096f4aeaba2cb7cbf9781d696d1acfbc26acb65c816"
         },
         {
           "path": "tools/gofae-dnd.yaml",
-          "bytes": 603,
-          "sha256": "0445622b181a7b1ed71094624e225c446bb8e9281480f46f3c102635c7e9dd98"
+          "bytes": 600,
+          "sha256": "ea3f87d5816229d996eadacc6676fc773b890d5652e568f5312a61f9da485b66"
         },
         {
           "path": "tools/goseq.yaml",
-          "bytes": 552,
-          "sha256": "0d67435e72e575db9c98aba9ccf5d2bf5096cd02dc4e7500bcb2c392106f495c"
+          "bytes": 565,
+          "sha256": "5846a900230dc68c1cde8f3f1d149d117eeec9132db9f4424bb17f53e710b77b"
         },
         {
           "path": "tools/gpyopt.yaml",
-          "bytes": 518,
-          "sha256": "bc029ce2c01faf663a8b66b065f3db86161d8b3f906c761bb4a7591e2e4b8766"
+          "bytes": 528,
+          "sha256": "e6431ece812773b992a56ba82f567429a7181d5fb8934d2f29037e58f34308b1"
         },
         {
           "path": "tools/grinch.yaml",
-          "bytes": 615,
-          "sha256": "84414a058ab85f6d8780c47143548ef37d29385d5246cc18b672a69cc06e5ba0"
+          "bytes": 625,
+          "sha256": "8635eb5b1a04685a236aeff4de20687f4825565f478206bd20999faa4534625f"
         },
         {
           "path": "tools/gsc.yaml",
-          "bytes": 505,
-          "sha256": "efdce38e539388504e349ce1b2d88c5d75ad4e0eca7f4f82c2f23eaf4f11299e"
+          "bytes": 512,
+          "sha256": "1cf4cf205128931ddd68891fa9839abef5649e2c35dcfe24ff90f2c247399287"
         },
         {
           "path": "tools/gsea.yaml",
-          "bytes": 870,
-          "sha256": "57c73141411489d15e9ed89fb14be424f05c7a50a054f6cc5fe1c0cf27481849"
+          "bytes": 874,
+          "sha256": "38066302a429fa4d273bcfca197b02b08a9d2ab5a4edd3758cf265ec070a5356"
         },
         {
           "path": "tools/gtex.yaml",
-          "bytes": 538,
-          "sha256": "790ae2aa91e857f520d070b0b5bbaa6cae3922fe5cf7d56630634597af70209c"
+          "bytes": 555,
+          "sha256": "47df9519bad939a1e52042e3226853f22693e648cb24fc37956e21f64c864e72"
         },
         {
           "path": "tools/gviz.yaml",
-          "bytes": 517,
-          "sha256": "a3fe505cf4d4c3cf8fa6d1c362f4aef8a27c01720e7a1f0a48c1c426fa696f16"
+          "bytes": 520,
+          "sha256": "1df6f3a6f5a1491efbcd889253c249f52d3f5ecae5dfe1e19e7895828afe34cb"
         },
         {
           "path": "tools/gwava.yaml",
-          "bytes": 933,
-          "sha256": "5a401f23a8f67e93db142cd40376955c4753ec171fa4106dc46dbdc67c0b6320"
+          "bytes": 950,
+          "sha256": "f86ad9102b43b8bb0962887bc59643072f9d6aa4304312b6863b343450224927"
         },
         {
           "path": "tools/h5py.yaml",
-          "bytes": 983,
-          "sha256": "401c1cc8d042169a6feb7788c026b27153d906666faec1a7f83cb604d1206fdd"
+          "bytes": 1069,
+          "sha256": "0e869182229bc28e016a72fbe66ea68cb72c3be64b266fb53cb76e9d4559e6b1"
         },
         {
           "path": "tools/hapcut.yaml",
-          "bytes": 410,
-          "sha256": "d45b5aa76e418f193c91deea8519ea4ae33fe2f5664f6f203a360825392f5e24"
+          "bytes": 419,
+          "sha256": "cf94b3d39cf65f2476d076202b7ee73c85b3a339e87418461408c4ed4cf09ea7"
         },
         {
           "path": "tools/hapcut2.yaml",
-          "bytes": 446,
-          "sha256": "4d41f1803a0412865ee4983c1510dfdd7f85fecc7b6766e71d46bc29afa3da10"
+          "bytes": 540,
+          "sha256": "1225ff5e36dd25bb88f22b8651a9187702373a38205ad0ad469fd9737b9edf22"
         },
         {
           "path": "tools/harmony.yaml",
-          "bytes": 941,
-          "sha256": "235e72bdc493c9999be8572262b897c10339bdd73bfea36c0fd73850604c04dd"
+          "bytes": 1069,
+          "sha256": "a739eab3c60fbd027f0a8791cb732b0b6f91beb252a7fb3209a0f9a432fa651d"
         },
         {
           "path": "tools/harmonypy.yaml",
-          "bytes": 570,
-          "sha256": "e1f217b8fef50b72396a62504e632c2e7dc1c467eac737585cfd159871d134c0"
+          "bytes": 580,
+          "sha256": "a3eeb35e725240adfdf3dd093e137b48dbe7149aed9be7f8b7be4fc3e12b1667"
         },
         {
           "path": "tools/hdbscan.yaml",
-          "bytes": 452,
-          "sha256": "058043f3b53781342dd74f431ef6c2218d784cd409cca1aa0b3e9670a9a1ae1e"
+          "bytes": 468,
+          "sha256": "57dd6c3e38195d815cd101e4ab57a5ea0404e4e29e85963b23b12b6a75165b38"
         },
         {
           "path": "tools/hdf5.yaml",
-          "bytes": 638,
-          "sha256": "45611141ad815fd55755eaebc5cf15a01fffa21ad20ed03820dcf1355b815bf9"
+          "bytes": 743,
+          "sha256": "7bf32332d81481ebb455434a408eba6d9304accb120bd7487233461b4c2fb2d4"
         },
         {
           "path": "tools/hdfs.yaml",
-          "bytes": 517,
-          "sha256": "68acc247e6b13e0979604e54c269185c72e68d45627075ae64f427a175b57f24"
+          "bytes": 528,
+          "sha256": "e51e28693287845d782ef1e852da511f882d10a3c7cfc0c3b8cb204b59483ba1"
         },
         {
           "path": "tools/hic-pro.yaml",
-          "bytes": 947,
-          "sha256": "1fde6c4de7023b53564f2664f802865664d18cb363616998fe25d25b042dc094"
+          "bytes": 957,
+          "sha256": "8929f697d23d99657fe77b9ac94169173f0e7391614954ce3c2c7f4181de736d"
         },
         {
           "path": "tools/hic-spector.yaml",
-          "bytes": 493,
-          "sha256": "34d40fa99dea4cfb2594481d2adcc96f896ee48505853a0451bacc36f9114bac"
+          "bytes": 499,
+          "sha256": "21d8d185317ce89070b0de9c708bcde06ab8811dfc120d3009ade00ad495f520"
         },
         {
           "path": "tools/hiccompare.yaml",
-          "bytes": 444,
-          "sha256": "40c2f1cf8515b735620b2966d14e6088d70f4c67de40aa530b40e88e00bbb522"
+          "bytes": 452,
+          "sha256": "3b9e166b62a053c0f47427d4f06b6f76c93e011ca0860626904cc7927be06aef"
         },
         {
           "path": "tools/hiccups.yaml",
-          "bytes": 803,
-          "sha256": "ed15819b66f1f11eb26d020bd3398ed7f132c3d89a162f96b87040e9819b5fcc"
+          "bytes": 817,
+          "sha256": "fb9aa6a80acb171978f2977437f0e92df0930368a2f4e9e9f5ae390c22693b8d"
         },
         {
           "path": "tools/hicseg.yaml",
-          "bytes": 450,
-          "sha256": "e398c7d915e5b746e79d0cdd5e69fbc88272884ed7bfaf8aeb6fec22953e5d23"
+          "bytes": 466,
+          "sha256": "ddb974fc68874cc47c698473177f70ff71a8cd79706fa8ad7d149aeb51b63e85"
         },
         {
           "path": "tools/higashi.yaml",
-          "bytes": 805,
-          "sha256": "ea096f77731898209f9bca028238cafa1669457768993bdcb3d15310fe2fd586"
+          "bytes": 815,
+          "sha256": "bef81b091450a47fcd28a64bde415ce8b85b9c052bec0ac4918188962e701286"
         },
         {
           "path": "tools/higlass.yaml",
-          "bytes": 464,
-          "sha256": "b82d035dce65bdb94d670cf292e723f4b55266f10ee085a75d53f4ce895ccce5"
+          "bytes": 463,
+          "sha256": "328a2b707cc5743d8b6713a64eabfb8e6776b781e6862d695cebb0368397fac2"
         },
         {
           "path": "tools/hisat2.yaml",
-          "bytes": 1102,
-          "sha256": "802fc2510adcbf57ec5c5b294ae788befc8885e90f122a0aed63d0307dd87f5e"
+          "bytes": 1204,
+          "sha256": "e461ff8b25376031eacc4d747c7ef5365569e002d9378ab533c70590d906e8ac"
         },
         {
           "path": "tools/histonehmm.yaml",
-          "bytes": 661,
-          "sha256": "4f863200e09e0a745165f0277464d20c82719319860549dac44fd830296177f6"
+          "bytes": 792,
+          "sha256": "255d19c790ab633577bd69aa58e8b234ad90941141ec36317f2507b583a7b65e"
         },
         {
           "path": "tools/hmmer3.yaml",
-          "bytes": 540,
-          "sha256": "14b6afc6de9d1f6678ff6f703a5e7a831756bbff3cee3af28b0d370b50c7349a"
+          "bytes": 493,
+          "sha256": "cf4f632d3911e8364af8f1e12a36bbb3750e0f1c695ea1e70a4ad4d11c398ed6"
         },
         {
           "path": "tools/hocomoco-human-v11-database.yaml",
-          "bytes": 505,
-          "sha256": "b0e7e284908bc5f139bba7232b2f3b061f0dcc5ed789a6ec5312ca1d58e94979"
+          "bytes": 497,
+          "sha256": "c2f3ca5b61fdf75d1a080b93e61ada5138c4e1d399d85d6dc2123d9cc50e683f"
         },
         {
           "path": "tools/homer.yaml",
-          "bytes": 1698,
-          "sha256": "d96204ca05df8d73d3c25942bc56c73b985e10e96436cf9cc770db8389267e49"
+          "bytes": 1706,
+          "sha256": "b5f1a43b3f70aefeb6dd029a8287cf8188feddb2f9248da2b0f4ec1fd07ffd54"
         },
         {
           "path": "tools/hpeak.yaml",
-          "bytes": 931,
-          "sha256": "a9733f8cb990c7e6fe5f336595fa3af19e38e1233293d42f40f04deaf5055243"
+          "bytes": 948,
+          "sha256": "24d0c9b4b758380d7241a0291b9a9825ec14250c7bda578f86a583c34b1131d5"
         },
         {
           "path": "tools/htslib.yaml",
-          "bytes": 442,
-          "sha256": "1da294f63a86f4c5d333e595bc5bcbdfba82dcdcad7c7e09eed9091ad8ecc00a"
+          "bytes": 456,
+          "sha256": "9af8d239bed88fbe7f01d0c81676798038a67a35ed853139826cdcd0071100ab"
         },
         {
           "path": "tools/hyenadna.yaml",
-          "bytes": 594,
-          "sha256": "46f26c331aa84a46def08c3e9404c6909d416dbf3903760d81ff1eb7f7705e57"
+          "bytes": 601,
+          "sha256": "faba8deb12b8752234ef19793c5f9f791b0907d5b67b934f962eab25dc3f276a"
         },
         {
           "path": "tools/i-cistarget.yaml",
-          "bytes": 441,
-          "sha256": "d742ab9bb268a940914950f2bfe97e0cc15c4d004d0e9dacee87f8fef7f30347"
+          "bytes": 459,
+          "sha256": "0cc317827c82b482ad30d12688e0b70d52f0bd70c39849f8a793f14a1da6de17"
         },
         {
           "path": "tools/i6ma-pred.yaml",
-          "bytes": 540,
-          "sha256": "b41b992cf9eba0ed0f3955edaf4f5d980d4a4dab321da395efff5b4144760f0d"
+          "bytes": 551,
+          "sha256": "c1877c52734c52843d4c6a161fce99863f12e04f7225e8affad69528d228f1a6"
         },
         {
           "path": "tools/iced.yaml",
-          "bytes": 455,
-          "sha256": "5765670866aee2cbaab880bd8c27e729388c876c3b1f6e66520a6142c949278d"
+          "bytes": 546,
+          "sha256": "4442409f09b60a9f18d0077fd4ddee6b1570590114cc19022a4ecbced4535b59"
         },
         {
           "path": "tools/idna6ma-pseknc.yaml",
-          "bytes": 550,
-          "sha256": "61165157def8613c4cd0fcd79b0fc4a8fc5e2b12811722b38b246b317f2a50c1"
+          "bytes": 561,
+          "sha256": "d16ca2f179855b42f6486776bf626e30d7d0a5113949547b0ce48e330c0943cf"
         },
         {
           "path": "tools/iedge.yaml",
-          "bytes": 495,
-          "sha256": "f82ea7bee0a2ccab03957976ae9872ee4315d2a328464f694b01c558ce3d5979"
+          "bytes": 573,
+          "sha256": "8ffce2a002238c76b01cd1b19ffaf9d371092277bc04a6449e5c0a2021596ed6"
         },
         {
           "path": "tools/igraph.yaml",
-          "bytes": 803,
-          "sha256": "b9241cc70b0d9898bff78579f43546bd264d0b3115271b18d2ee58cfbf785718"
+          "bytes": 905,
+          "sha256": "1dfa6d783015895f6fa3f80fc84ac26229cc915d7795aa61e0db60188fc597b1"
         },
         {
           "path": "tools/igv.yaml",
-          "bytes": 1140,
-          "sha256": "2d25ad0c5315e370bcf18aad4f4a3116c9edca721eebd68463fdb633f43efd11"
+          "bytes": 1150,
+          "sha256": "e0e32c1218c0a87a46306fa5d3e111912c8941508ff50a632076ddf8020baf3f"
         },
         {
           "path": "tools/ilearnplus.yaml",
-          "bytes": 470,
-          "sha256": "ef5417c7c4c55c4f8999b4bac2da3f44772d37443a0e310f281a510c011a5726"
+          "bytes": 466,
+          "sha256": "e0b8c9da3ee783abc8c979bb33cc19b1c0ebb8ea8e4336605dbc7e80fdfe02aa"
         },
         {
           "path": "tools/illumina.yaml",
-          "bytes": 462,
-          "sha256": "6f286fdf2227300c629a7d13fdaa9fede56b8c2839a5c7e1043f58322cad72a4"
+          "bytes": 464,
+          "sha256": "d23ced54e996a54149b1944f15a09fa576819917f78b5659f7ef51e3fdbb7c20"
         },
         {
           "path": "tools/imeges.yaml",
-          "bytes": 745,
-          "sha256": "24a89efcadafddda63bd47c6ad413b86a29f1ceb8f214419c8aa615451d499e8"
+          "bytes": 762,
+          "sha256": "dc6fb8f1f146275205d9b4f0fdaddbfec070207780b00afd2f9549b3fdeb9673"
         },
         {
           "path": "tools/immune-aging-jax-org.yaml",
-          "bytes": 539,
-          "sha256": "c093ffd37e804cc8dbde6626fe6ba2393bbfc43af59a12355960c8e80fb4922f"
+          "bytes": 527,
+          "sha256": "24d46df2ca5f8c455c11675b0032208b4d9589e8730bcebb18a129b440f5db39"
         },
         {
           "path": "tools/impute.yaml",
-          "bytes": 445,
-          "sha256": "402c1a98649b3d69626ca4148f94f5ae5120c53d66ab335f6638109d3a533996"
+          "bytes": 450,
+          "sha256": "a2a63271468df5b8f17e4db15e187cb08e0bf3bda736a04316acf57a8b214461"
         },
         {
           "path": "tools/inla.yaml",
-          "bytes": 486,
-          "sha256": "8741db4134eede052fa69df5d50b400dd648d4a7ea7007d4168336de4bb2464c"
+          "bytes": 500,
+          "sha256": "8fe3c787e2ac5001dde8a143549314981d865093372d39959df22a15d9f7d35a"
         },
         {
           "path": "tools/ipro-wael.yaml",
-          "bytes": 468,
-          "sha256": "94e6dc6b03be099657a06132d9577a5f4b29a089f54f6197b8602604c7a66ede"
+          "bytes": 464,
+          "sha256": "f04d6724fe2634d0960845cc8a3ba15111583b907a721e3797c5216f16e6f645"
         },
         {
           "path": "tools/irefweb.yaml",
-          "bytes": 542,
-          "sha256": "a8b81c17dcc2c2fe2feb49aa44c268db8f2c472b26dbbb8f9a312a918a3507f5"
+          "bytes": 495,
+          "sha256": "2c25a96c4ca27dc6c2371722b31c91b94fb8d851ffbaae3bbb61c95d10c00c55"
         },
         {
           "path": "tools/is.yaml",
-          "bytes": 581,
-          "sha256": "78f5b160420447789fe971ff94453f9a57e93e20a825cd94de1a30be25cca773"
+          "bytes": 591,
+          "sha256": "01856a09e3b1e9d60850812a92cb850d3c4e13141d4fa3d9eb44d946a91c4eb4"
         },
         {
           "path": "tools/java-8.yaml",
-          "bytes": 517,
-          "sha256": "9bca9d4e590ccbae7ff2e119098768e380a7c0e6e8fe3fbfdafeb9fc4aac22d5"
+          "bytes": 529,
+          "sha256": "9a50ba5e2c9f49fc74a2b05e91acce29cc259cb0fd154022277346481a198a4d"
         },
         {
           "path": "tools/java.yaml",
-          "bytes": 1685,
-          "sha256": "542bd9aa288c84cfb716dd671e38aa50728a7a17645aeda4d9e7bd6e4f9ab9e1"
+          "bytes": 1696,
+          "sha256": "ead10e610c161a3dc41148aa573a0d85a04f5aef5bbfcea3828359e0c61856b5"
         },
         {
           "path": "tools/jbrowse.yaml",
-          "bytes": 417,
-          "sha256": "4434aee2c5a7820dde25ea937ca1a4c5f68cfa3eed7804674860762947068604"
+          "bytes": 428,
+          "sha256": "83bc302a21939e437fa6b2b099dd40d0b321321997ca2595d619a8cd94c3e4b4"
         },
         {
           "path": "tools/juicebox.yaml",
-          "bytes": 466,
-          "sha256": "052fa478cfde93eb5b76123c49e301f7a1072160451c86de25d0b36c6328a9fb"
+          "bytes": 465,
+          "sha256": "7dfe02f77be3ac9ff2ac322a5a67ad798f0076dfc8daa77fc35ea424494a5616"
         },
         {
           "path": "tools/juicer.yaml",
-          "bytes": 1455,
-          "sha256": "0ea4593970595aaf8de9500dbeb1264a5ac9f4238fa3eb80f669781884dbf0fa"
+          "bytes": 1459,
+          "sha256": "70328ec8a905db619bac9fc7f507ce62f4233fe41df168e210ebe4ad13e1229f"
         },
         {
           "path": "tools/juicertools.yaml",
-          "bytes": 541,
-          "sha256": "465567c3ea31fda88305682df1201616ced7bcea39063f544c70cf716b43bcd9"
+          "bytes": 550,
+          "sha256": "9e4c5e6ffef1ded5b7a4ae1c7541b2b24e786f18439abcbe3a279996aafc3ca4"
         },
         {
           "path": "tools/keras.yaml",
-          "bytes": 1011,
-          "sha256": "e0d36c60adeb89651a95957d3202db9507315af94db4e937d56b8cc509732765"
+          "bytes": 1129,
+          "sha256": "4a6324fca4497aeda57e508c23c173e99d38db5556e2a2db2582f8160ef8c58d"
         },
         {
           "path": "tools/kmac.yaml",
-          "bytes": 419,
-          "sha256": "98ddcc23be52795852a3a8eece6b9f8d9492cd61f580fda9b3c9094ed7c18225"
+          "bytes": 434,
+          "sha256": "cede5bfb6dacb96690c74853a56ee824cd5ae142ba6c94ecc1d5d2d9b5d6be60"
         },
         {
           "path": "tools/knime.yaml",
-          "bytes": 602,
-          "sha256": "3ded60129e107d19c4bf9555282dc33f1fcb510430103f3daec34bffb2c0cea2"
+          "bytes": 616,
+          "sha256": "e8da73ffc3d06b635b3d1098874e0dcdfe9f7d2e570dcc5f4a3b14d3054e9cd7"
         },
         {
           "path": "tools/knitr.yaml",
-          "bytes": 473,
-          "sha256": "a19a200e0fbd8a59c2a41541e8e5458ca0261076012e5e51a4bcf74bb1e0fc4d"
+          "bytes": 585,
+          "sha256": "4330c4b4e98d85cbf2b017bc430f71205019e9b9687d21aa0386c392332a9120"
         },
         {
           "path": "tools/ktrim.yaml",
-          "bytes": 525,
-          "sha256": "5197e4471105ab795a2f2c629df3acd5aa1af4e8869c305203056316f21f2809"
+          "bytes": 536,
+          "sha256": "ce20cc6e63cfef5f52df986f15a945548fedf918ed186309856c45a1378ba7bd"
         },
         {
           "path": "tools/lifelines.yaml",
-          "bytes": 497,
-          "sha256": "70f9f654ad37bebb982889b42729fb817493cee3ea9300d68168be5d5381a590"
+          "bytes": 509,
+          "sha256": "02442b426f812b8043fec700c245c6c1679d9bc2df55a9a77ec6a55b614c2f9f"
         },
         {
           "path": "tools/limma-voom.yaml",
-          "bytes": 565,
-          "sha256": "18b88703f43d4cd2096c425e94fa8b262f5ceecdbac9cb3051b7e824b17ef18c"
+          "bytes": 577,
+          "sha256": "da4f56eeeae6ee9f54153830d56075c6c1980a5cabd4e42fa553b39c0a1fae4f"
         },
         {
           "path": "tools/limma.yaml",
-          "bytes": 1123,
-          "sha256": "8a110fd0bfaeb0627c56e89957d8db22a8d7069d37d2712a38169f5d7af30837"
+          "bytes": 1215,
+          "sha256": "9b6363cd4c7bb42785869deef2b691c775f798a8c573e1e00cb648692a9f6ee3"
         },
         {
           "path": "tools/longtarget.yaml",
-          "bytes": 425,
-          "sha256": "3aea90c3cf5ed88d4b85778946b4180398b2e6dac0877389f138955bd675e113"
+          "bytes": 436,
+          "sha256": "37659657de0f01b24d8bfcc37faebaee143be0d2abc9dfd778430a749e2e7d73"
         },
         {
           "path": "tools/ls-gkm.yaml",
-          "bytes": 560,
-          "sha256": "052e5f6ac1c42156fc20e712c8204ebf9809b90c3a0604c0c82d99e4935c28c6"
+          "bytes": 569,
+          "sha256": "2f558674b17c5f2b0edcebe252cf77f560871a71d407b3e5549b36e3460e2f34"
         },
         {
           "path": "tools/maccs.yaml",
-          "bytes": 626,
-          "sha256": "28436f8a35c97ec0882401e58781e15c796d34e0fae98643caf7459f8319ec69"
+          "bytes": 627,
+          "sha256": "e69062b13fe8938d5cfdf1a348b12f6f54a478c22c7043243363398c66acc6c1"
         },
         {
           "path": "tools/macs.yaml",
-          "bytes": 1026,
-          "sha256": "c21f31eb561b43bb44b1ae104600eb8116260e40a6138da438233bd6a939a233"
+          "bytes": 1043,
+          "sha256": "8c268912e0524df39c85e4c4b2e3ef319b1d54a949bfd8b1623a67f126b57574"
         },
         {
           "path": "tools/macs2.yaml",
-          "bytes": 4223,
-          "sha256": "dd294f656fb83f9abc134f983c0e894356c082c18b22b3e532a9c9cbcad12465"
+          "bytes": 4334,
+          "sha256": "0557645bdfce9c4298bf74ba526cc76e792576b597e9dfb44dc81428a1b7ba19"
         },
         {
           "path": "tools/makelogo.yaml",
-          "bytes": 521,
-          "sha256": "8cd9fa6f6f58fcc7a77aca6e6b10db0c2f26ca2c48b7458eaada307868392bf9"
+          "bytes": 538,
+          "sha256": "2c50919e5d299f197fa88b158c3c770c049ee90a483ff1b69361f60646b8258e"
         },
         {
           "path": "tools/malign.yaml",
-          "bytes": 572,
-          "sha256": "4b91c1d90c882203352bc7c41dc8d7b0b90ab3acd3d6cac6267248e9a45a2ce3"
+          "bytes": 589,
+          "sha256": "372c2753b86c9e08600a38c4b66d4a4f2b9ea28f154d0cf9286d3a6446dcffee"
         },
         {
           "path": "tools/malin.yaml",
-          "bytes": 570,
-          "sha256": "dfddfc7ff816ace87b34a2d9c9b804008057987366489f115bd058ff5caaeea7"
+          "bytes": 587,
+          "sha256": "ed3975d12d0f61027702a85ba1edbc5442761eebeba1741671d28846025eb6c1"
         },
         {
           "path": "tools/mamba.yaml",
-          "bytes": 882,
-          "sha256": "66e6c36eda757de988efe2431f00e137f6557c8a66eb48051c7a3c1170d5c1e3"
+          "bytes": 896,
+          "sha256": "d904335268681c494448b421db9cacc03838e28484684f8e5c26107f747a84b6"
         },
         {
           "path": "tools/mango.yaml",
-          "bytes": 409,
-          "sha256": "d6ccec02bfe090990f56df76ddf9f3f68fe67c3270b6334fb28b2df55c4d3abb"
+          "bytes": 419,
+          "sha256": "54d7dce44d60263ed15cf7d97c497ab13eb1634e821045304f2f2f9149528169"
         },
         {
           "path": "tools/map-rseq.yaml",
-          "bytes": 564,
-          "sha256": "d745f841c7e1421b5bca0131c7224902a708a9f478f572243d4eac66f963cbd2"
+          "bytes": 560,
+          "sha256": "2be842bc9ffad96556e788a40a63f23f7be9e0c8f4ed4115b4a6c4305d804d07"
         },
         {
           "path": "tools/mapping-pl.yaml",
-          "bytes": 556,
-          "sha256": "daabb58555c1535cfa9b6130002f90f6d657db50e738110cc365f0012f063822"
+          "bytes": 567,
+          "sha256": "2d08c01a7efc02b22e10ebeb25d3bf02d73f562ccc5476f6821c27f2614d442a"
         },
         {
           "path": "tools/mass-r-package.yaml",
-          "bytes": 554,
-          "sha256": "584447279a2d883f5299639f0b7834e6c4cc51ac6965c2af9d46e2ef3bc2136c"
+          "bytes": 558,
+          "sha256": "92fb0ef9c6f5f72e855cebe9f9797a65e9da75a10c9352f406f31d2260c8eeca"
         },
         {
           "path": "tools/matinspector.yaml",
-          "bytes": 562,
-          "sha256": "a4b847663e0df0a7b4aec8f2b193a35e0ffbf97fa5fb289fb668e953f7f8eb92"
+          "bytes": 579,
+          "sha256": "353d3c64cebe1ef218226e440bdaefc49ea667cbd8afcd182ffcba4f5fd3bd0a"
         },
         {
           "path": "tools/matplotlib.yaml",
-          "bytes": 2063,
-          "sha256": "5724db97aa42d8fcc7fcda2e0aadff2ab4c4839385ae995831586e382726f463"
+          "bytes": 2201,
+          "sha256": "7083fcc2712697ba499459e6cecde053e4c883f16f572aa0072e5843249f82cf"
         },
         {
           "path": "tools/matrix.yaml",
-          "bytes": 1205,
-          "sha256": "92beb4e8009cadba06f21e4eae942c4d18d23aa9bbf571185ed6464861bbed93"
+          "bytes": 1284,
+          "sha256": "c52f78e72afd6b4d974ba769462610b736d6cea2e057a4a4c8fc33c5b60ee695"
         },
         {
           "path": "tools/mclust.yaml",
-          "bytes": 764,
-          "sha256": "a0c045b7cf414637dcb10e8a2f1399689ce9bedba70a72234161ce9d4cb364ef"
+          "bytes": 848,
+          "sha256": "1674d4754d2cca3cc3fdd04a3750de8611a66bffc79ba3230af0d750a484662a"
         },
         {
           "path": "tools/mdseqpos.yaml",
-          "bytes": 457,
-          "sha256": "6e2e96f2b8f3f23dfe20cbee68cd0e93ab7dd8691379e92187a3c47020a8db00"
+          "bytes": 475,
+          "sha256": "6958e5ad073d9ad2252e7309df26d41c241eb6240355147162d95fb51e32ee12"
         },
         {
           "path": "tools/medips.yaml",
-          "bytes": 585,
-          "sha256": "1d5a13439d30279e0b76883af9e2c5c2f2afab676fcc1f24633251c6a2609825"
+          "bytes": 598,
+          "sha256": "6ea802672fa49bd29e998f3104d195441ded844fa1b725653871c8fe90c80333"
         },
         {
           "path": "tools/medstrand.yaml",
-          "bytes": 613,
-          "sha256": "652844717f6a6a120c9a0a0f3c15f4d2576005af2b846ad492af1d1a84992959"
+          "bytes": 626,
+          "sha256": "916b9268d6242134d137077873812bdda08c8967fd9417eb8822a938f20cbd68"
         },
         {
           "path": "tools/meme-chip.yaml",
-          "bytes": 429,
-          "sha256": "8a4492c2953dfe1d8d6454e43e77afdbb123984573221af03fb128747d19336c"
+          "bytes": 444,
+          "sha256": "c86d62f87b71007cb7c657bc71755173433c055370ed505e36a777a2306b2f77"
         },
         {
           "path": "tools/meme-suite.yaml",
-          "bytes": 603,
-          "sha256": "65c1937bc02db22eca8c4c4357c8b444b69637f7484bd803dc39c034ad47da56"
+          "bytes": 614,
+          "sha256": "541fdd39b7ba71b300b0c44cd07a53a042b553d977220782d4e62aaea4e4e346"
         },
         {
           "path": "tools/meme.yaml",
-          "bytes": 736,
-          "sha256": "56cb80916eb792ae7ac7f835834857a241152cd66079a9ba9e6d7d91f2267aba"
+          "bytes": 747,
+          "sha256": "7bb0ddb0777d4dd00d9bc985ee81379f16ac1ff0cf419fdfc0abd05021acf681"
         },
         {
           "path": "tools/mepp.yaml",
-          "bytes": 1013,
-          "sha256": "e74f90dee1d2b2285e88f85e568cf6557efaf24e1294fd79a4e12c10e54d9079"
+          "bytes": 1081,
+          "sha256": "44ce16cfdc4cafb22e0d08519b9b0fb6ddb5de516a615fe8a1dd33d235cd0496"
         },
         {
           "path": "tools/methcoresprofiler.yaml",
-          "bytes": 436,
-          "sha256": "76f0e6c8c80bfb55b8393d468b3e4d3321ae01e776e6ee038e9a2c4657e47228"
+          "bytes": 443,
+          "sha256": "3e775660ac444b84015f2e4ecfd6b16cf8d769c5c7c37d1342ad4bd06716c35a"
         },
         {
           "path": "tools/methylcal.yaml",
-          "bytes": 939,
-          "sha256": "4be998d247c2506664997ae252c4e0fbb2a8261fac7663c2485ddc2b8e9d0481"
+          "bytes": 1021,
+          "sha256": "ca87f5320a750a9e936f56c96a6f65ce8d6b1233219a204e746a26889ab3f96a"
         },
         {
           "path": "tools/methylcalcalibrationoutlierplot.yaml",
-          "bytes": 577,
-          "sha256": "9ac229d12ea977e99ab22edbdd27c57ec8f6e4dabeb4c3bf0f32ff3d63e8b430"
+          "bytes": 591,
+          "sha256": "99f6b1df947f336a72c9e7ce5e0855006b657fbd9f18cf24bbc6341c14d56f38"
         },
         {
           "path": "tools/methylcalcalibrationplot.yaml",
-          "bytes": 521,
-          "sha256": "4bb910962492dec55558f7aed357109b4ab5b014647a63ed8f218d23db7b010e"
+          "bytes": 535,
+          "sha256": "e6d1387a5d31cff81b2772556778889280e5fe1c5b90bad849e9b4542c3322cb"
         },
         {
           "path": "tools/methylpurify.yaml",
-          "bytes": 577,
-          "sha256": "dcdfcc7c44cb86eb8ced6d57da66580a840441bcdee02b8e3925bbae741458f4"
+          "bytes": 586,
+          "sha256": "854cadaff4d3a8c06e8822d6f08f6fc8c8ec34686597bf72783353c595732f9d"
         },
         {
           "path": "tools/mgcv.yaml",
-          "bytes": 578,
-          "sha256": "dcdd41fa1de55ff1f2e9140f775649349a00bdd3cc81335606a1d56810e6a20b"
+          "bytes": 586,
+          "sha256": "8b304e849a2bdbc0241e7db552fd1c0df115b8a06e2507e149ced290d3b4accb"
         },
         {
           "path": "tools/micc.yaml",
-          "bytes": 407,
-          "sha256": "02841c4fb40c61b60568f1a3ca609751b17ab328c7a28a9c8cd059b6f4140f8c"
+          "bytes": 417,
+          "sha256": "2c5cab9db868a57aeda90caeebaa9ba91fc7b9c896628c1fa2c05c0f7d9eacc6"
         },
         {
           "path": "tools/microcket.yaml",
-          "bytes": 497,
-          "sha256": "189788d32b12a2109607cd51749894326181d65187370294f7a13d64fbc6b88e"
+          "bytes": 504,
+          "sha256": "0421d0664663ed9578619ce6ea84b8f74e799051d913ac7cc40f0feb84d8e7fa"
         },
         {
           "path": "tools/minimap2.yaml",
-          "bytes": 462,
-          "sha256": "6d4b5f224a4eef6e785b6266b1fa6887e4c1328115ca1fca05dba03002c84db5"
+          "bytes": 554,
+          "sha256": "3407b3608f0c806150dd0ef21214b5c24116ba6291b8554cf84b13598b14a03a"
         },
         {
           "path": "tools/mlpy.yaml",
-          "bytes": 561,
-          "sha256": "b5e5cd45c156655fc4f5d77c922216e8fb746afe9c045b10a6384d2e66c35165"
+          "bytes": 577,
+          "sha256": "ee5c70a3bcb8bebb943ecc0820dd5a2f0204ff63ecbf3bc3a866e160268bb671"
         },
         {
           "path": "tools/monocle-2.yaml",
-          "bytes": 508,
-          "sha256": "743cd97fadb59200656c1f48fb8d3fd054950acf17424f4005951105cdd933a2"
+          "bytes": 525,
+          "sha256": "ef6dd0556c306fa60ddfe028328dd7dfd126eeea71c1ab690e3da9d879324a04"
         },
         {
           "path": "tools/mosdi.yaml",
-          "bytes": 547,
-          "sha256": "665197b90a081cddec38b3476586d221a05d60a092db9df662d214cb6f709be4"
+          "bytes": 558,
+          "sha256": "078109e4ff5250516e73f66493934e8e6d59d38a19b559193bb986a9e7fda11c"
         },
         {
           "path": "tools/moskalev-s-cpr.yaml",
-          "bytes": 526,
-          "sha256": "758206df1e4ffc4f663935b394ef80562f5f1fed585dd7064c83764e9683499f"
+          "bytes": 540,
+          "sha256": "07c574410445107884d4e1bdb6a2876e7f042463b0a7590113654d11d5191157"
         },
         {
           "path": "tools/moskalevcalibrationplot.yaml",
-          "bytes": 514,
-          "sha256": "2c421c4a7a5f6f1d7f5a1b3eab79926a472379a760f1d8df5688274291cfb8dc"
+          "bytes": 528,
+          "sha256": "b735d30d310fb26303f8f37370734bd6a72fba591a904b7c1f18e086097f06fb"
         },
         {
           "path": "tools/motif-find-py.yaml",
-          "bytes": 477,
-          "sha256": "a7aeb4d5078c040ae894a8e8424159841d9e7ae446b630ffad240451f69f52ff"
+          "bytes": 469,
+          "sha256": "b6accb5583feba350cff05380169b3669e4abba6273d44168b7901768e4df1bb"
         },
         {
           "path": "tools/motifmatchr.yaml",
-          "bytes": 755,
-          "sha256": "0a58f9977279e6312ebfdfdc06a8db16f922a63c8469c88f56dfbfb7ee2e8ac8"
+          "bytes": 760,
+          "sha256": "971f4195972414d6930df7bc82ce50ffc8a7107af7da08ed2ef1677783d66aaa"
         },
         {
           "path": "tools/mpi-open-mpi.yaml",
-          "bytes": 691,
-          "sha256": "ef0efd09a5c99586e153aaab810d7777c185f35867debc5f2143382695df3f05"
+          "bytes": 703,
+          "sha256": "c1d7dfc3ee3ec0be356bf20345ff0701edf0f400cf903889d03c477f2716da3f"
         },
         {
           "path": "tools/mseq.yaml",
-          "bytes": 505,
-          "sha256": "adc0853c5b3f51d22893b1061135fb3336da02d8a63c67cfebd324f71d01ace3"
+          "bytes": 518,
+          "sha256": "cc497f0aaf4b1877bb056956dcb9de71c6e6df5acbf4a78bdbf772fa6221116f"
         },
         {
           "path": "tools/msuite.yaml",
-          "bytes": 428,
-          "sha256": "432cfa45dd177223e625fa840d6afb27a1f68b00f8e2d18280ed1dab6aae880a"
+          "bytes": 438,
+          "sha256": "ed40b56f7c5b249144c9fcc77a88ef1c8a5c93629efa01aa43b3080010e3bbd8"
         },
         {
           "path": "tools/mudata.yaml",
-          "bytes": 530,
-          "sha256": "4d95f284c0a2daa0c110eea6fd89e7ee520b2c1ebba11293a8d9bf86e2ef11aa"
+          "bytes": 531,
+          "sha256": "7fb6d52f67317e6d3e6284cfe0a10de4e7ed8cf58dde146d26584dea18dfef41"
         },
         {
           "path": "tools/multicoret-sne.yaml",
-          "bytes": 527,
-          "sha256": "886977b4e645d27349fca56cd075c24b1bce085f394ec7c3fb9f407ade711fe7"
+          "bytes": 537,
+          "sha256": "19b300e01bb7ca5b22fe64ff248c7f3a39cd7fa6537af18439b441ecafa437de"
         },
         {
           "path": "tools/multiqc.yaml",
-          "bytes": 1525,
-          "sha256": "2e2124cc7a4b016210c31028d27d021d1ee6921fcbf43fbc78f6b64e6c316c56"
+          "bytes": 1605,
+          "sha256": "bc3495bde1ddf7a967e2dd23a6caaf669e8c05d0e71769cba817ee3a4fc5ad8e"
         },
         {
           "path": "tools/muscat.yaml",
-          "bytes": 561,
-          "sha256": "b6dec302d56509e0ee76fc7172e4d410db03d8a5fc1cbb57391dacfcf1acbc84"
+          "bytes": 573,
+          "sha256": "13c158c26a7fc4faacd492cd9571be45d9b8a8f8f223c692c6eb055845ce1452"
         },
         {
           "path": "tools/music.yaml",
-          "bytes": 434,
-          "sha256": "0ffc6282bfe1b599a9121cd8c3f141c358c125e0ad9d9a3adfed90c42b541afe"
+          "bytes": 445,
+          "sha256": "4577a82778054c8d81c3455ebec219496a5931df35156593dd495f5c9cfc2698"
         },
         {
           "path": "tools/mviewer.yaml",
-          "bytes": 430,
-          "sha256": "0e8e4818c4f04b0b2522e0f89c443f05255a3c228451b1bc9dd4bf4785691ba6"
+          "bytes": 440,
+          "sha256": "58774b1350c95ac2a55ee0ab58b7f8156e847a127a9f2fe1b5ba41b9f9e4a2e6"
         },
         {
           "path": "tools/nanopolish.yaml",
-          "bytes": 466,
-          "sha256": "e0d011d746e336d683369d69acf3fd2555d82942e029ff980fb732bbc9ccc0e2"
+          "bytes": 468,
+          "sha256": "ca9697dea887088cbb1d02abd66b4a97be918f6364dc988d99d42f69172c7fe2"
         },
         {
           "path": "tools/nanostring.yaml",
-          "bytes": 464,
-          "sha256": "5527321722c75a2311f3f366c13e7423d59e97f5f412917db9df8d07124571b8"
+          "bytes": 477,
+          "sha256": "572874679ca2908230583cec62e36da3b250959be3e81a84247269cfd10384a7"
         },
         {
           "path": "tools/ncbi-ftp-ftp-ncbi-nlm-nih-gov.yaml",
-          "bytes": 593,
-          "sha256": "743931c2c1101368c053f9b16f84e86a6fc433b5190c671ab4c2fd110e53e5db"
+          "bytes": 609,
+          "sha256": "0454f00f8b26f0ed20eaa61e8ff0aec2bf327b0570b799f54082ce3be86d091b"
         },
         {
           "path": "tools/neat.yaml",
-          "bytes": 695,
-          "sha256": "190fe575e44a3caede0e782d42da7f4cfff42286015eb6f3d31e32d16f3b45d1"
+          "bytes": 708,
+          "sha256": "26c49ab8af12ea8d345826c8b1339aaa7864c082bfe7bdbd6ec34ecc7706e65c"
         },
         {
           "path": "tools/nextflow.yaml",
-          "bytes": 907,
-          "sha256": "7a6329ebf3f80e981d2d6d4da1338b4579dbbd46075d743b355b9f4bc5a4cb8b"
+          "bytes": 1012,
+          "sha256": "51b5afa052070039b5e3f1f5b8e89e709f335fbc9fbf177153991adb77fdacbc"
         },
         {
           "path": "tools/nmf.yaml",
-          "bytes": 622,
-          "sha256": "853962899ff1316ae70c424a16ffc001c14057473b795d8e385908562ede377f"
+          "bytes": 627,
+          "sha256": "70551e24778afb5637afc7fc96bb06972064340f1cfb6af2f5144a143b12aca3"
         },
         {
           "path": "tools/normalizepval.yaml",
-          "bytes": 595,
-          "sha256": "034577665afb994773b0147871cc5916af0ad2395b5926a9f36ebf817e0285b4"
+          "bytes": 608,
+          "sha256": "34c70670f5f400e87eda978378a4537ca8064a50dc53ffefabb3837b92fa6c56"
         },
         {
           "path": "tools/nucleoatac.yaml",
-          "bytes": 461,
-          "sha256": "69ff43191e84080b9ef06e09f0468584178e799c36a49b675dc74c5f7154d785"
+          "bytes": 470,
+          "sha256": "e572c83a09ff26a3bbcecd47f3b87412780d6d61d5f6624c3088a90035e0aa6e"
         },
         {
           "path": "tools/nullranges.yaml",
-          "bytes": 707,
-          "sha256": "060404e8d4122b3125bdb5e26af4449968e4a63af41f40bc7cbcfc46326ac189"
+          "bytes": 811,
+          "sha256": "9a27eb024933e8d51399c68e5289a6abade1a45bc11cb6b54dadba0c63bf116f"
         },
         {
           "path": "tools/numpy-utils.yaml",
-          "bytes": 508,
-          "sha256": "0154ea0870f833e0d3911a6145818b70c8ffb4cee1860228e61eb0f9deeb2859"
+          "bytes": 515,
+          "sha256": "695ab23d63bfc760168b447d7154c0d9e3afe291887edce783ad885685b84a8e"
         },
         {
           "path": "tools/numpy.yaml",
-          "bytes": 3024,
-          "sha256": "2c82a9a207a999a451e57c1262bf3cfbd340532d114e206fc7e994c6fbe9c70c"
+          "bytes": 3129,
+          "sha256": "000949e67df826dac361aefcf5eb9c086fc440f03447ea278dbe4978a8c6ddb8"
         },
         {
           "path": "tools/opencl.yaml",
-          "bytes": 579,
-          "sha256": "1cfd691db967e7add14ff081d6046eefc35c104623bbfc8783eb4249a8b80e32"
+          "bytes": 590,
+          "sha256": "748b6399c8f117c4909ab173c2822ea92bb2f17a9bc106748e58bc799f78c159"
         },
         {
           "path": "tools/oxford-nanopore-technology-ont.yaml",
-          "bytes": 460,
-          "sha256": "a7d2bfd4d2dd0798651400fd2ef946b82c1bcf5945bbe55738f551bd7c9fdd0b"
+          "bytes": 469,
+          "sha256": "b65b2f281ad09f8467a3a9f9d7035d13776a68055e827d9ce713c4c88d7fe859"
         },
         {
           "path": "tools/oxford-nanopore.yaml",
-          "bytes": 476,
-          "sha256": "3e74acb38dc637c62356f1cd3ee49e330770cd2c2a3ab075eaf7d163c52014b8"
+          "bytes": 478,
+          "sha256": "8727cc778934729397b2d45e35c73667283f709e539c55026509680be41934fd"
         },
         {
           "path": "tools/pacbio-smrt.yaml",
-          "bytes": 420,
-          "sha256": "9678c60b7f03589ac2c18b60341825d5946052804108573bc54072d4060bdf14"
+          "bytes": 429,
+          "sha256": "9c5c756b2e2c321b0358ffba4e61b9646ad4eb1ccbeaaab058a862a70040639b"
         },
         {
           "path": "tools/pandas.yaml",
-          "bytes": 3647,
-          "sha256": "0eddc01d299d1f9c2f518079b24d7b6764f0101a87a929e68bf949885bf48d00"
+          "bytes": 3760,
+          "sha256": "133a3a2e8252ac2d051f40ef8537b2df74100b678d00943016d6f6bab430fa3c"
         },
         {
           "path": "tools/pastaa.yaml",
-          "bytes": 543,
-          "sha256": "2c792fc7ffba45382da5190a582446606211d3d59b8e6573939d3d4244af11be"
+          "bytes": 535,
+          "sha256": "f069897e4f01071dab8221b8fc826996adda9ad7097c47f810acf88515793dd9"
         },
         {
           "path": "tools/peakachu.yaml",
-          "bytes": 1210,
-          "sha256": "d1756494bf19e5c39ffcb1dbadee629a50ee63f225c2cf7d642da6935e76274b"
+          "bytes": 1285,
+          "sha256": "8f98b71ef1fab7dc36cceb8e8b349c6a57ecd4d515f944f40eb67d9e3273be0c"
         },
         {
           "path": "tools/peakfinder.yaml",
-          "bytes": 441,
-          "sha256": "b2649100360586f1f69740fbe6e59f66e51fa2ec03dbc79f55d9430bda4c6713"
+          "bytes": 458,
+          "sha256": "efcc8ecdaf58f492f9df2cd48dd039b7beeddcf548ecdfbed383d6d8d033d1c4"
         },
         {
           "path": "tools/pear.yaml",
-          "bytes": 410,
-          "sha256": "240a8a63789ddd88a5db17c2c912293f77affe5d53b398d267db5354efad6ba8"
+          "bytes": 417,
+          "sha256": "2494e9d2d6c6c936dda45c7398d6f971e1d180709a067178d97fa8540a0e5794"
         },
         {
           "path": "tools/perl.yaml",
-          "bytes": 631,
-          "sha256": "3b4d8c90af6087ef52182fee2fbf572fd55b2aa3ddd6f5ce1ecd3b3a39af0387"
+          "bytes": 737,
+          "sha256": "3861902b3e682b497f97e7721338dd95c4fd57d28c8c999ec86dd158bc2ece57"
         },
         {
           "path": "tools/pfam.yaml",
-          "bytes": 536,
-          "sha256": "e36aee9b2da91269b7c4a1e65fbcf5248558f33d652f94fe269e389920e94d0e"
+          "bytes": 489,
+          "sha256": "ded7fe0fdd0527c752f1e8d3eec44f4a930a246ba9e55f469fd8c0a31991d532"
         },
         {
           "path": "tools/picard.yaml",
-          "bytes": 652,
-          "sha256": "f9074607ede31fbd0a49fcc818e7e8e4b5d00730a67776f260a800ac276a5b40"
+          "bytes": 665,
+          "sha256": "ec91fecb54042f3263f5e6398452fa8f58497635ca3776adf008f1746f0d9503"
         },
         {
           "path": "tools/pip.yaml",
-          "bytes": 745,
-          "sha256": "06c0f9fc56724c83bcfe9994bda9719ecc84fac12a1ea52dc5e367d2e029deb9"
+          "bytes": 819,
+          "sha256": "c539f47cc557fd7bfa7bcde3f8f551dd24106619d8bca4269ccf5f7cc2b9c4e2"
         },
         {
           "path": "tools/piranha.yaml",
-          "bytes": 448,
-          "sha256": "b86c2454e7de8edd953c1c523b30cfe25457476cc53299dde4f7975f0b951076"
+          "bytes": 463,
+          "sha256": "437304515ca7c507205ac99cfc6b7871e6ee601d1cf3a3dab04ee0e6f44f594f"
         },
         {
           "path": "tools/plotdensitypval.yaml",
-          "bytes": 541,
-          "sha256": "46a005fbd47b081973d3d43824c411d68178c00ffc0612892788f86b8d48480c"
+          "bytes": 554,
+          "sha256": "d18732ecdbde615b6836811874ffc9904e967c8810afa2be7d523360b62d8fdd"
         },
         {
           "path": "tools/postre-multisv.yaml",
-          "bytes": 430,
-          "sha256": "e7ee854e01b9ec8a7a7434957cd3ee6fb17b4a949f8e88b42791a7e691571652"
+          "bytes": 444,
+          "sha256": "c0cba95825e619204a2847acf2ee9e1ec49876efe25cda7ab6cba52d2a6edb8e"
         },
         {
           "path": "tools/postre.yaml",
-          "bytes": 412,
-          "sha256": "b6b15996fece4869fa63d6d9eee18bea588f1d62d99dcd5157a967a54ca827fc"
+          "bytes": 491,
+          "sha256": "035c30d37e31baf5738ad97cb8a4bc5168b519d26bffc372197b283ffdc8d0be"
         },
         {
           "path": "tools/powsimr.yaml",
-          "bytes": 563,
-          "sha256": "cb4762eea3845cd9f5b0cf4b8ff5482cd2923cfbaba08a9896ea6eb9a3d48375"
+          "bytes": 575,
+          "sha256": "e2ab26b1d1a34fa3ec7cba0c0d7c102543bc125f07a2002af997cbbcf938d087"
         },
         {
           "path": "tools/predict-binary-multi.yaml",
-          "bytes": 494,
-          "sha256": "17f35b695e047ae5e4955ebdff0f209be6a15244ea05351a0a8f53d9930f121f"
+          "bytes": 503,
+          "sha256": "f5a134efbda3b4ee7a649a1316b448b67c2a2ec5dab4fe262afd72b9e16b06a7"
         },
         {
           "path": "tools/prinseq.yaml",
-          "bytes": 416,
-          "sha256": "e42023af924d04c9ab255379b2930e7ca4e68f71f67ca9a71e7215e3f6fc1f4c"
+          "bytes": 423,
+          "sha256": "41fdbf13026952464e51208a24c7455d1f95f098ea1deaae67f23d1ccfd78fc3"
         },
         {
           "path": "tools/proc.yaml",
-          "bytes": 417,
-          "sha256": "c41772506ce066be3949f01ba7b2c02afc234e8b0314ed51da09ae25ebfa6e9d"
+          "bytes": 496,
+          "sha256": "fd62dfcedceb46a7b540f3797b1a503eaa50eec816487be525a73c11ed25366b"
         },
         {
           "path": "tools/pybedtools.yaml",
-          "bytes": 1407,
-          "sha256": "27ac8ea51240ebb6ea4381e0e870c7ec070dd5e43809cc12cdbc91e6f2038ea0"
+          "bytes": 1490,
+          "sha256": "fa7c24c1254e9f7c0a85376133bbc6dc05831eb39ff619247a984f06e26d1eaf"
         },
         {
           "path": "tools/pybigwig.yaml",
-          "bytes": 787,
-          "sha256": "b20ec6b588dfdda8c187d85f9e49c1fbd2a59fe91f8c19e735c7e0fac3e62bd4"
+          "bytes": 740,
+          "sha256": "05f6e781403b4784d7087ba5da634ad952eb247d7ef77e0e501656310dd5f7b2"
         },
         {
           "path": "tools/pycallingcards.yaml",
-          "bytes": 1029,
-          "sha256": "2e932f811e24b35254144a1b369ac4bb0423c9a034e3d060dab2ac3d9e6d298c"
+          "bytes": 1116,
+          "sha256": "3edf6536cf27c4de020a94cfeaf4c6c962fc75ba23f0ec352c6e30309d33ff46"
         },
         {
           "path": "tools/pygenometracks.yaml",
-          "bytes": 461,
-          "sha256": "6f5e9b4851c586a3a52a2bddfb32cecb8ebe491573af8c90e92c9df3884b0b5b"
+          "bytes": 569,
+          "sha256": "8451c78b6d331f56475b61c62ec98c84686121d5ee7e4478810f65613804844c"
         },
         {
           "path": "tools/pysam.yaml",
-          "bytes": 461,
-          "sha256": "9fb33186c0b39cf81b338e9c7353d47a78df932ce3db93beffbe74f89efc0737"
+          "bytes": 574,
+          "sha256": "ad70f5f388b82c12450918fe0b433bd8538a5ffdd3a4a477c233762597a9afd9"
         },
         {
           "path": "tools/python-2-7.yaml",
-          "bytes": 476,
-          "sha256": "5aafd66bf9a359db90484532a38ea65dd2ce319c167b0f3cdef585fbc731c5b2"
+          "bytes": 563,
+          "sha256": "b0f3f5ff05a06d24b2241cae5fe692ac9e53099cff79cef74ad06f41c19b4ef2"
         },
         {
           "path": "tools/python-3-6.yaml",
-          "bytes": 771,
-          "sha256": "4d5955f075daa21e62f83290af4e5c4824c190289291ab263e33f8f3a2734cc2"
+          "bytes": 875,
+          "sha256": "5d7bb741fe4d0e34bf23f2d03b7064cbe102fbb0e4ab8edb5be644c4aba54bea"
         },
         {
           "path": "tools/python-3.yaml",
-          "bytes": 526,
-          "sha256": "dc84ac4014b85758e7d88d345fbfa04e72cffcf10dc43792bcfb9d52e99cfc54"
+          "bytes": 636,
+          "sha256": "70a5ef95c8cfd91885dcbbcca3d827061d571525e3587c851fb6af8e00df4de8"
         },
         {
           "path": "tools/python-scikit.yaml",
-          "bytes": 586,
-          "sha256": "7464bec2b36b0789930f6dd2b3c8fe94f3df89a3208a697ccffc0a4a42baff42"
+          "bytes": 603,
+          "sha256": "4e54ac527f954407ea9dc68a84b95e1ec608a756bca9e3f36adc6bdeb6b0db51"
         },
         {
           "path": "tools/python.yaml",
-          "bytes": 6981,
-          "sha256": "6d36321aa394daed052f47f56eb49f70b6dea0c1d1d7327c18208e14fb6c9409"
+          "bytes": 7083,
+          "sha256": "44e2f4aeead0b8a5c391e18eed6c930f68f7fe7d0d30bfc4fac8ec22ee3f35ed"
         },
         {
           "path": "tools/python3.yaml",
-          "bytes": 1030,
-          "sha256": "e6d8bec355cb2dd91a1e16c37d62f2df9ca4364ecdbd89a92dd8c741d7b73c1f"
+          "bytes": 1141,
+          "sha256": "efe70600a79ac5a7cc98186ea35632c443c2eb01ad3297df98bf3aa3b67597c1"
         },
         {
           "path": "tools/pytorch.yaml",
-          "bytes": 1243,
-          "sha256": "5a3d99fcd1259aaf5b51c3430a97a812cd176a61ef89f11eb4539958e5ccac74"
+          "bytes": 1351,
+          "sha256": "d1a5bef4fbdc739f79ba90027dceda4e8a372a253cd294aee203913b5d626b1b"
         },
         {
           "path": "tools/qcplots-r.yaml",
-          "bytes": 417,
-          "sha256": "7ae94ebde1a6c1bfa9cd83f866f932311b78200ddd5ffc45c700e96e65b5250a"
+          "bytes": 427,
+          "sha256": "b3f39e83cb7c67b523f887e7590b5b1f610f2c4e45a941b34c31dcdeef6d8efb"
         },
         {
           "path": "tools/qorts.yaml",
-          "bytes": 623,
-          "sha256": "48dac61574a4fd8168bb553312f32c46d14b0caf43a4a3334d76a7da76d424a1"
+          "bytes": 619,
+          "sha256": "4c5830c3c8ca38760e6528f799158737b9242e5e9d13354d659f4f83664a4220"
         },
         {
           "path": "tools/qsea.yaml",
-          "bytes": 623,
-          "sha256": "815565724e31e08369e37c77e6d8df2c580708dcde54f69e63260a0c424ddcdd"
+          "bytes": 636,
+          "sha256": "1cd27e93d17f9ba4a8d24923712dd75e5203ff88e90784b4c4a8da72bc8c33e5"
         },
         {
           "path": "tools/quadron.yaml",
-          "bytes": 599,
-          "sha256": "77f4ff93797cd7d1912655e187353104744d9478fce9538e516fb1d58fa79689"
+          "bytes": 596,
+          "sha256": "51516d96891ca3bc1dbfbe649587ff7f63e840d3f0d45e7a5c45a8897dfc8b6f"
         },
         {
           "path": "tools/quast.yaml",
-          "bytes": 579,
-          "sha256": "c5b5ed2867aedac757c4d9a0f53ba51f76b97ec331e9de9309ce1890b95fb8dd"
+          "bytes": 687,
+          "sha256": "6c93c021e8e09b0c25f0a0574e68472077b59bde70123d89a202a17676da2f39"
         },
         {
           "path": "tools/r-3-4-0.yaml",
-          "bytes": 477,
-          "sha256": "9533fff1d8286414816524fcbe842ca6af9cb027b491cce48da77245c7645a9e"
+          "bytes": 491,
+          "sha256": "f3ca800c948bc9ac908a5abb6301ff3ef8088341f0467c71581a64777e15a47d"
         },
         {
           "path": "tools/r-shiny.yaml",
-          "bytes": 557,
-          "sha256": "804c3e2fc7e89168ad8eaabc17fa8f9af88b46316c9189489781e5afa47bb73e"
+          "bytes": 545,
+          "sha256": "2f7bdda870ebdc7de752184a1350a2a8eb3108c5720515958826638a678fff66"
         },
         {
           "path": "tools/r.yaml",
-          "bytes": 11093,
-          "sha256": "f783837168249d959ee43fff911920fb5455f1c0ec8b1b4d39a1610dd5dd06ab"
+          "bytes": 11156,
+          "sha256": "f2636ce3bbe05195f87d2a527ba85051035838e6b9ad746cbb4a350a2f9dd184"
         },
         {
           "path": "tools/randomforest.yaml",
-          "bytes": 690,
-          "sha256": "1d2f558db1b1b078ec928b6b311ece400fae991a8e39b6028d06c35e157bc71e"
+          "bytes": 686,
+          "sha256": "9a4afda9c9dddabfc5a406507af25aa0d2d0f4b61fcc44bb9d906d280302e467"
         },
         {
           "path": "tools/rcistarget.yaml",
-          "bytes": 462,
-          "sha256": "6c86671f7f8e1fb2c9f8cd89f7826db0b7c9016f146b9f08c3dfc234fa841698"
+          "bytes": 545,
+          "sha256": "92fa6794ef74c312231f2a8a00756bbbcfe19f802e73cd3c139151c6b1739bf6"
         },
         {
           "path": "tools/rcpp.yaml",
-          "bytes": 487,
-          "sha256": "2c1a0f70499edd7b86297f382ffc3b5018fde4551dda8d538af79e44f516dfbe"
+          "bytes": 563,
+          "sha256": "5e51ce5cdfa19e8d7eb068e07967d1b604b92741c16b995def0e8876f76a0837"
         },
         {
           "path": "tools/re.yaml",
-          "bytes": 632,
-          "sha256": "5d87c0961221ff369919d8c97dee6e2267846a0d19dc5dab6b0f99ad0357a1af"
+          "bytes": 648,
+          "sha256": "0b546b264ecf5b94d340b3515e0586a8744a89dbf9223e207e2dfefce2ec69a4"
         },
         {
           "path": "tools/readr.yaml",
-          "bytes": 536,
-          "sha256": "cad35e1ae84fecdd7f536662e67bd3142c0f7cab2a0995c692d1b23a3bc6b778"
+          "bytes": 610,
+          "sha256": "f8392cb572460b087d965c48f4b7db18864279214974cd8b4d65dd6fcc749754"
         },
         {
           "path": "tools/recognicer.yaml",
-          "bytes": 444,
-          "sha256": "5c32ddf7ec3ae7bd6bbde5ac60555f1eca9619fedc8b31a734c128311534917a"
+          "bytes": 527,
+          "sha256": "522bb4587175bb12f8dc6a4d80b368e11404d046454d3f699c0ae4049126271c"
         },
         {
           "path": "tools/refhap.yaml",
-          "bytes": 410,
-          "sha256": "e941b3765e4e95e5c5bcf4d03e3541319de184c31be01fa89e251e642b17ee89"
+          "bytes": 419,
+          "sha256": "2c8e9d13527913278bc2aae29e4d4f4a73e9ae04c955afa49e664d59f70b2bc8"
         },
         {
           "path": "tools/rephine.yaml",
-          "bytes": 775,
-          "sha256": "330b1967e091b9903e27f8eb6dd4fc13af41a602e84739176c3ffd0490955ace"
+          "bytes": 790,
+          "sha256": "1a693aaf19ac791587db7fb0ff653d716cfa946cd386b0cd52f4b8ff532eee06"
         },
         {
           "path": "tools/requests.yaml",
-          "bytes": 470,
-          "sha256": "453b8e979275d10ee22b5a3d002a1e641ed24394583a184f0516c91c03463464"
+          "bytes": 547,
+          "sha256": "b19c2d1879071be889a590877b277447323d85e05623a1b16b777e9c90c5715c"
         },
         {
           "path": "tools/rgreat.yaml",
-          "bytes": 411,
-          "sha256": "6ac7b6c8b07a9749723001ff49f1adc46608f1f158467b7ccd77ba4d71463ee1"
+          "bytes": 423,
+          "sha256": "af01e1a2223cec16280047ab092b89e2f47f43fe9c433fef590c32ddfe9da9e6"
         },
         {
           "path": "tools/ri.yaml",
-          "bytes": 505,
-          "sha256": "1e4661612caf2f89d35e5def7a4c2b6fa647fb084390f75a1962e745a41fa311"
+          "bytes": 522,
+          "sha256": "b1becce4da16c45063103b2ea8472d030f364a000e74309fae5f0f58c1fa6233"
         },
         {
           "path": "tools/rims-seq-pl.yaml",
-          "bytes": 585,
-          "sha256": "090f108a4843569e794dd3aaf3e340bbea6f2772c9e96db9809b0f5998ac49fb"
+          "bytes": 596,
+          "sha256": "1d6003f99cc4dc0e6d81ed26165a058b23256af948f6df77dfcfadf30b6d7172"
         },
         {
           "path": "tools/rmarkdown.yaml",
-          "bytes": 705,
-          "sha256": "a77401ac774b58c64f79606d211c9af017ed08dad3c236e3ef43dde0afa8a609"
+          "bytes": 810,
+          "sha256": "2e96f4aad88be2aef4d67b6a7a4674b4224e782eab59e11f46a936c6650600d3"
         },
         {
           "path": "tools/rnaplfold.yaml",
-          "bytes": 423,
-          "sha256": "59c380406a9052caa2c1ed13fe2e4a91d1fbfe986ce50a5c5da9c133367c67d7"
+          "bytes": 434,
+          "sha256": "2a30114b2d77fab8a582433b51c77a738bd41d56fccef7618a7b21bb501d056b"
         },
         {
           "path": "tools/robocop.yaml",
-          "bytes": 455,
-          "sha256": "b947070ae29880c0d743a0edacfd112cba53b0b50e7a6cda82776dc7a8367492"
+          "bytes": 464,
+          "sha256": "54e9648afd369ba21158d958ec6fd7ca84e22cad9e0bff25de85ee2c506b3706"
         },
         {
           "path": "tools/rose.yaml",
-          "bytes": 566,
-          "sha256": "72e7a9869a663177b935289fda576d62ec1359b22363ac0f4fdbf230e79d370e"
+          "bytes": 631,
+          "sha256": "c5e9aad4ab04003803a6de3a44a402746a887d67565a07bea278600ba456ba18"
         },
         {
           "path": "tools/rseg.yaml",
-          "bytes": 773,
-          "sha256": "a6a7c86659a151a1040df4b8bfb2861ea2c558a0b4c199d7da6195a0d2d682cf"
+          "bytes": 777,
+          "sha256": "e3983abd2db8a00d6be79e776038bb84fe2a6e801d89b5e8d85e2310df8f3160"
         },
         {
           "path": "tools/rsem.yaml",
-          "bytes": 895,
-          "sha256": "57c35d93ddd7231dce8a1948fb78ed61a757ac3244ab4524a45372d07da4f19a"
+          "bytes": 902,
+          "sha256": "7192395d361b9f61c968f95bb231532f0e115cd63d1bcd1e0973446eda50b215"
         },
         {
           "path": "tools/rseq.yaml",
-          "bytes": 513,
-          "sha256": "155235e41efe5071b7bed095b1b634170b5d7484ae5cd1ef892336b4bb4475fc"
+          "bytes": 530,
+          "sha256": "41bf3ede0bf8d08d8c7d1d310695558207d046ab8be53dd7b89e959d9222d26b"
         },
         {
           "path": "tools/rspectra.yaml",
-          "bytes": 542,
-          "sha256": "e989a4f1b2e276ffb06dec16fe116c8d7906f253c29696cb2d2399aa3b9f14b1"
+          "bytes": 546,
+          "sha256": "3dd19f7adee6ebc630ae889ba3c30ff36a8ab97424b453cd556175c06009207b"
         },
         {
           "path": "tools/rstudio.yaml",
-          "bytes": 549,
-          "sha256": "fb5cbc5ede30e4857b54f3e3df05fd366762083c4a42494fbdf04385c755296f"
+          "bytes": 649,
+          "sha256": "d738bc02c821ecb87d7a5bd6bb6aa68e3f484bd9dc22d5c0a826303af4d130c6"
         },
         {
           "path": "tools/rtracklayer.yaml",
-          "bytes": 942,
-          "sha256": "93105b6785f1e78db2e1788cebdfb9468b5bc908399f045ae4623b68f27e8b56"
+          "bytes": 951,
+          "sha256": "04c7edce01415b0cb1fca865019568c256ec1d780840cf146680cf5e257ff7f2"
         },
         {
           "path": "tools/rtsne.yaml",
-          "bytes": 409,
-          "sha256": "1b51ce3b60c92883eacc86d9b74e2cbbe99d5d7fdc0c82367c433256a3714c70"
+          "bytes": 421,
+          "sha256": "8a8c1192794aa9f877da81ccbd1a76d5180d2fa1457f4acb06ce2f825b671e23"
         },
         {
           "path": "tools/runmacs.yaml",
-          "bytes": 536,
-          "sha256": "28363b54b0eb8061a61fc5e1a5e4d60637cec1538349fef3155882fb76b49849"
+          "bytes": 550,
+          "sha256": "094fb1b6875e9c99d7635ba1766bdeb68b9798ff0b9dee8b7273828357b24261"
         },
         {
           "path": "tools/ruvseq.yaml",
-          "bytes": 576,
-          "sha256": "42cebcf7114da59d253afe8f74af7904326d259aed2223b4f7d2bede352af8a2"
+          "bytes": 572,
+          "sha256": "06c8f9a7422fea92e3fa4288c317c9eb97f2f57c67fe7e452164edd28f37644d"
         },
         {
           "path": "tools/samtools-mpileup.yaml",
-          "bytes": 636,
-          "sha256": "ba84d8a813dace853b0126dbe1b30fa1c5dc12114f6dec9e37b9fa85c778d224"
+          "bytes": 647,
+          "sha256": "90947d6ca6176ca557ae87856a47430698ac9c5617bff58a270188b26b9355a8"
         },
         {
           "path": "tools/samtools.yaml",
-          "bytes": 3693,
-          "sha256": "0111507bb8289798c10311ae85ca13babc5888886b274a3eb964494668df7a3f"
+          "bytes": 3801,
+          "sha256": "02d1bd7a579a739196f619c1ba58c98d17e68416e2993bb1088f7e1d317fdffb"
         },
         {
           "path": "tools/sangeranalyser.yaml",
-          "bytes": 653,
-          "sha256": "90cebce3d513beb517fcd8217ee9f787d8084a67b93cd5b07d699a2eb3f6ef22"
+          "bytes": 785,
+          "sha256": "3af5a706d7cef86f268c07c16543d36122b9bd9b0aca0fbc09e7e3d70775ef8d"
         },
         {
           "path": "tools/scabc.yaml",
-          "bytes": 544,
-          "sha256": "a2afa67daac18af1d5bea1aa4d6e8e7d30cf810b274853a0a2db7fe69785b1b2"
+          "bytes": 561,
+          "sha256": "4a06b062665359502f4321f205fd962a15ae6820ee2574ef00cb7818ea2faa84"
         },
         {
           "path": "tools/scale.yaml",
-          "bytes": 774,
-          "sha256": "da997f5a8e7e3ec4499c728ece2a65177da44687787c133b6ad9bf3d0dc748ee"
+          "bytes": 791,
+          "sha256": "ad2b8649be81d654d7b0b1f033f9f43f3ae69c84e2ff1c5bba4de3edb3c25717"
         },
         {
           "path": "tools/scanpy.yaml",
-          "bytes": 1719,
-          "sha256": "2d4a48b39cc6222ae6f79520169650a5bd59935115f00e1afd8b4f594cb2a664"
+          "bytes": 1819,
+          "sha256": "1e7cb70012ed954ac43148e759455ff6ca6fa96cd37fae87306b7b41170c2bf0"
         },
         {
           "path": "tools/sccatch.yaml",
-          "bytes": 438,
-          "sha256": "473cce841c33ea04366d02e2d7b8124a1a24c03aaf3d0009104ca9f1792d07d6"
+          "bytes": 537,
+          "sha256": "516f2d8c7d55867ae526dd11b9277c0092a7ee54227336bec161ace7f9b2dd6b"
         },
         {
           "path": "tools/schicluster.yaml",
-          "bytes": 638,
-          "sha256": "b09a20ca33b6976eefa8e01397f97c66ed7e7e4acc695c91a969092211acc624"
+          "bytes": 648,
+          "sha256": "ab91ffc47f9439ba1347ffb0bed9b512083869964c234ead23c50655fda03c29"
         },
         {
           "path": "tools/scikit-learn-extratrees.yaml",
-          "bytes": 571,
-          "sha256": "6645df9056e5a3c41ffeaa9aa743663940fd14adc35d43658a4d3ce603bf45ed"
+          "bytes": 583,
+          "sha256": "5261c6b96f99b73b79fae581269c84f6f6ca99e19de0a6d248f978d36c498b66"
         },
         {
           "path": "tools/scikit-learn.yaml",
-          "bytes": 2868,
-          "sha256": "056add6aa6016419f1042fb407cc1a8aebbcac5790514ccda0ca82114a205677"
+          "bytes": 2996,
+          "sha256": "9571b9ee5dc1b9256d191a82532ccb55ef98e7e9c6a1b00d745d69167b47a9c8"
         },
         {
           "path": "tools/scipy.yaml",
-          "bytes": 1979,
-          "sha256": "11319c20db6280614ca00738387dd6676aadf0366281c9c14ffe843946d9f796"
+          "bytes": 2084,
+          "sha256": "1f83c3d5870401a8bf95991ba91a203d43a37ff2ad2f59f3de6afc3e1563f833"
         },
         {
           "path": "tools/scmap.yaml",
-          "bytes": 434,
-          "sha256": "87544f785dc51b8737b64bceeb7fdc9798ddc17d88020e0186fd8cb85099675e"
+          "bytes": 517,
+          "sha256": "80c567c66b30b7fd7035b1c3fd6def4922d9459d5c3fe42a445dc8b75811e93a"
         },
         {
           "path": "tools/scpower.yaml",
-          "bytes": 1021,
-          "sha256": "29188b183238aab3ce2e1bdebeae4db84e865bb60d8835d613fce326b90723ce"
+          "bytes": 1033,
+          "sha256": "b353071756a90c5be4c834ac1e4b8848c2350a542351224444087ac743528246"
         },
         {
           "path": "tools/scran.yaml",
-          "bytes": 598,
-          "sha256": "296dedcbef07be1a94e0ba1a0de3596a26fc6be07db6686077f43ba9d372d0e7"
+          "bytes": 665,
+          "sha256": "b67e2288d08e0c923ecb3e25699f4043951ecabe6a9470d522612db9f5790664"
         },
         {
           "path": "tools/scvi.yaml",
-          "bytes": 656,
-          "sha256": "45abd89f1d7975dde3a8bb22d46ab8fad64bec34b383218af76d7fe1555782bd"
+          "bytes": 780,
+          "sha256": "6bf7a4bd18be75c1cb83fc949398db428428889a85734c1dbb9074d47abaf0e1"
         },
         {
           "path": "tools/seaborn.yaml",
-          "bytes": 530,
-          "sha256": "17cbd620a8b3b2de8ff55d747ff4fe8d37b57ea745644ddaae69100f1c8b59f8"
+          "bytes": 527,
+          "sha256": "814ae84f4e5bcffae7860fd565d9d8f2574009c870c37b071edc31a78f2a0ba8"
         },
         {
           "path": "tools/seqcode.yaml",
-          "bytes": 1189,
-          "sha256": "31d496d74f22be7caf18fe52be0821c8479abb6ea5fef2e358c715bbaf030caa"
+          "bytes": 1269,
+          "sha256": "f30b1b0cb9bb478d5d139570395e1efdda07dbb162aeac3498bedbd607ec7a5a"
         },
         {
           "path": "tools/seqtk.yaml",
-          "bytes": 483,
-          "sha256": "29a1eee84004ab87076a073c05206b7b789382374abdb0df8526f8b0a8533a0c"
+          "bytes": 566,
+          "sha256": "60a2cd6294b25312bdea43d9f87722d3d99ffdda1d585e152699e9cbd93eb030"
         },
         {
           "path": "tools/seurat.yaml",
-          "bytes": 1132,
-          "sha256": "4ee2cc32cf791b5e0a23a5946c304dd96044caec007186970219adb57e1334d4"
+          "bytes": 1239,
+          "sha256": "f80657f291b920f432e49cee70463e9816ea6b96e54ab60dc943f4b951ed703b"
         },
         {
           "path": "tools/shap.yaml",
-          "bytes": 459,
-          "sha256": "b9a5d927c1049016c659ae36769e4c937305fa3e80891bf86b1a1ccaebfa3750"
+          "bytes": 451,
+          "sha256": "b9ce4fff557dc39fe8fd2ed120b6e0a06aad0112e091fb992b90df98ce99a3a4"
         },
         {
           "path": "tools/sherman-script.yaml",
-          "bytes": 444,
-          "sha256": "821b657a7a67794a75195a0b54a7b3b0b76a26a26a7628bc3c3eb901c704f421"
+          "bytes": 454,
+          "sha256": "5759232484b8e8f56bae256a57790d9930cc3af1d3e13390327520afc4b329f1"
         },
         {
           "path": "tools/sherman.yaml",
-          "bytes": 509,
-          "sha256": "efeda4264c9d0cb2e258ac42a20fb63a57c93d416099a42b3fb63866a0046141"
+          "bytes": 520,
+          "sha256": "6b85685097ef6fcad409d3bde44a2664668c73ac05b33170389e38aa46cddc8f"
         },
         {
           "path": "tools/shiny.yaml",
-          "bytes": 1283,
-          "sha256": "581193133a4da62e67b3db6fe5014cc544039ee9d3784106222bd93f615a9f5b"
+          "bytes": 1370,
+          "sha256": "231da5aeba8356463030246bda672e48638375932017e02472267b219527514a"
         },
         {
           "path": "tools/sicer.yaml",
-          "bytes": 775,
-          "sha256": "2d536aca5ce5fb9350b4db02b7b400770e76d13d94186ad32e0b0d829ebf0365"
+          "bytes": 779,
+          "sha256": "d630606cd42ca853f2c2fbab83aa671fbd1b27d1f987e093067279cb7a251341"
         },
         {
           "path": "tools/signac.yaml",
-          "bytes": 821,
-          "sha256": "79b86b2ece383859594b993897b817ecc2dc23b40cabf9506f0491a1d77775df"
+          "bytes": 830,
+          "sha256": "a7dd933778f92e61556d212318cf1b8a655685cc332c792f055e8f27ed6f7978"
         },
         {
           "path": "tools/singler.yaml",
-          "bytes": 438,
-          "sha256": "ceae86aa80dfece76226d40b3ef48888856fe6611cf8a8c230d7e43cdc93340e"
+          "bytes": 523,
+          "sha256": "157856d3c2695588e98784c5ca2b7a9a16e2214fc8ea76c45881ce582784dcb7"
         },
         {
           "path": "tools/singularity.yaml",
-          "bytes": 1175,
-          "sha256": "e44b9345e964fa9cb1d17254702e66a27c9910bd64dfc20c0a586523f0077517"
+          "bytes": 1303,
+          "sha256": "5bfdc51759974ec29e3a595cf4cf17a96e26c467a65e5c27382620b7bce96a37"
         },
         {
           "path": "tools/sissrs.yaml",
-          "bytes": 433,
-          "sha256": "ed2a19fcc84d9c772673ab76cd78fae983391ddfc44187602ff044794d6fc4da"
+          "bytes": 450,
+          "sha256": "8830883613d4bdc20a790053cdf1ae99e48321104b28243026e52bda6157fcf3"
         },
         {
           "path": "tools/skipper.yaml",
-          "bytes": 488,
-          "sha256": "4833160f1eca8f8726584e76fa526c401ef709efe903bb40979b44d76af4a019"
+          "bytes": 503,
+          "sha256": "dbc9b1e589770835bdcc43e4897c81974244e60de14bbb9a42b58b3d7697eed1"
         },
         {
           "path": "tools/sklearn.yaml",
-          "bytes": 464,
-          "sha256": "9e4d3a430e809fc5499f997b097c26109779cfa3142afb2d70f9ca9a38c98396"
+          "bytes": 581,
+          "sha256": "884feda71814bd0c130bd6bcd47d2f29b9678043196ace045c450d9a5e903fbe"
         },
         {
           "path": "tools/slurm.yaml",
-          "bytes": 771,
-          "sha256": "5124a590e3601bec12cbbd1b5c49e6f2d695fe123ca65a4e054349b713374547"
+          "bytes": 784,
+          "sha256": "5be10b47de4a3a5a3de3e75fe194edae80632369dde87505d8c133974145728f"
         },
         {
           "path": "tools/smite.yaml",
-          "bytes": 727,
-          "sha256": "aed57d0258dcd7ed15e657ff2a962c6e614d4d3f24e94769c658f88db21b8d40"
+          "bytes": 831,
+          "sha256": "3b84de147b538fbf705ba0c03a3e6cf8095d27422f96e40d4f728959f8ff1a3a"
         },
         {
           "path": "tools/snakemake-executor-plugin-slurm.yaml",
-          "bytes": 497,
-          "sha256": "e26c347418fd88b1eea1789e569eb4f0602584b5b13b9f6170223a1ec9860a5a"
+          "bytes": 512,
+          "sha256": "03ef5afec9bacbc792a87c878c3412ec2f12c9a3bfffa3a55ce90ec1392acd5f"
         },
         {
           "path": "tools/snakemake.yaml",
-          "bytes": 1540,
-          "sha256": "b593c13d7067ee1ed6c8c37b9cc1c0a27b773af64f11dc40d31d2e378bfe49ab"
+          "bytes": 1656,
+          "sha256": "0d0742336fcbef3bbc1bcd5343614e4b5269d3572fa3cd68fa1276ecdaf1123d"
         },
         {
           "path": "tools/snapatac.yaml",
-          "bytes": 1384,
-          "sha256": "327baffd4d471b46b2fab30d2c7f67b1b215cb28904ce5c5c419a1479612ad8e"
+          "bytes": 1450,
+          "sha256": "6b1346aebf3dd96a60088ee38ae92168244816c7388203396f4f2f91230cc851"
         },
         {
           "path": "tools/snapfish.yaml",
-          "bytes": 686,
-          "sha256": "97469d6c67f25c052d25e41dd87bf6c86dd6453f81051db438f931f6756bae5c"
+          "bytes": 767,
+          "sha256": "55995c3bf835a0e883a60bb002ab6c0c04f925f2e4eed086a090f126fad897f2"
         },
         {
           "path": "tools/snaphic.yaml",
-          "bytes": 835,
-          "sha256": "7d56bc4fedc1c2848a73a4391f01cff3f9c984486e6ceaf4139d80240b5ab0a9"
+          "bytes": 915,
+          "sha256": "8d17ad9d972e22899143ebc189a41a3012c85f050196d98d738cda63ae8c76c7"
         },
         {
           "path": "tools/snaptools.yaml",
-          "bytes": 643,
-          "sha256": "9ae869e64724b46b8c258cfd78c9109f86e38f97aed3951a71fbb5e35d3b8366"
+          "bytes": 656,
+          "sha256": "7fc1ea7b48dfc59a510f2fb59a03f8d8ae2445d6ad9482e9cd1d83e575ac792c"
         },
         {
           "path": "tools/spades.yaml",
-          "bytes": 884,
-          "sha256": "5a25b57fe33bfb996358c329895b1cfb15ffe3becd35e831fc4b0713fdd88d97"
+          "bytes": 996,
+          "sha256": "c0ca58095270b44c681b6343272d95ddeab0dd7140f7d975853bdaa6803915f1"
         },
         {
           "path": "tools/sparseinv.yaml",
-          "bytes": 524,
-          "sha256": "46eb6a301ba0f331243a7737cecfb45862cc522931b8ff2ea4fbf424fa487bb4"
+          "bytes": 532,
+          "sha256": "05c098f8b66754693657ab45324c50315b9022d0c3a0e5d62a77f466184520d0"
         },
         {
           "path": "tools/spechap.yaml",
-          "bytes": 412,
-          "sha256": "1495e4a5df52ed16ae712850aea60ae9fb594fd64ee2c4d968056cb52dd0a523"
+          "bytes": 483,
+          "sha256": "5f247e140f25e47161de77b1e51ee9f18109647e8a5e13f80353377febdb5cfd"
         },
         {
           "path": "tools/spectraltad.yaml",
-          "bytes": 625,
-          "sha256": "ceb7833a45a265ec612696c8071679b34236ebf4da6292e086a75053903bfb39"
+          "bytes": 726,
+          "sha256": "846290ab852515ced79777516e0f90e2f187fbf081dd639e35a95d5aaf800197"
         },
         {
           "path": "tools/spikchip.yaml",
-          "bytes": 443,
-          "sha256": "d41e9a2eb3b95ba97357768e2f90225726d3a4237fb2d2391d221d87f3817e9e"
+          "bytes": 524,
+          "sha256": "1b556f58cfba1adce6366488f54d207073a78654461c97b35f7c481c770506d6"
         },
         {
           "path": "tools/split-mapped-reads-pl.yaml",
-          "bytes": 958,
-          "sha256": "f4407139dd242402d5988c6f57f8eb5210dfb5bd2a67614885feb85f980b8ffc"
+          "bytes": 969,
+          "sha256": "99508224288aa15e6da57449230474bd4e939f808500e848399cf0260504f546"
         },
         {
           "path": "tools/spp.yaml",
-          "bytes": 514,
-          "sha256": "12d3a2f578f659f8553a6640c3da91a1744d755e6834d1fea19fafd552b16ee3"
+          "bytes": 527,
+          "sha256": "b4a283cfafba85747d83d719c51c94ccdc2651b37bd0ba0439a89b74bf6f3ac9"
         },
         {
           "path": "tools/sriq.yaml",
-          "bytes": 407,
-          "sha256": "7690a07b8155cf7af879e5467f1b9dfdea4039a232ce8095195fe3c182ea52f6"
+          "bytes": 423,
+          "sha256": "cea48ffdc6e2b3372f65e403c6d0dab004fbcd80912be53c5045e279df58d684"
         },
         {
           "path": "tools/sriqpreprocess-jar.yaml",
-          "bytes": 435,
-          "sha256": "c33b54984c4ba2fcc70a9582914af868b469e3ff93e8d7127e07fc89c0816103"
+          "bytes": 451,
+          "sha256": "51f0d42fd215863cbe761e3a6cbdbad8ea0182b6347d18df34cb1f2d41fe6714"
         },
         {
           "path": "tools/star.yaml",
-          "bytes": 1632,
-          "sha256": "c64d652a9346588c591050607d2c3f21af2fb8edc6d0b308b1b8c8c7222e86f4"
+          "bytes": 1740,
+          "sha256": "36a03087a54c10f90740afe41075c7f6b7d99a94d22929ce0864b1010b66ff75"
         },
         {
           "path": "tools/statsmodels.yaml",
-          "bytes": 525,
-          "sha256": "b2b1f38af7e778ae25ab9182f92fc64609e1e7645c3268f9bd5600d00c763603"
+          "bytes": 536,
+          "sha256": "5b97fb1e57fbc79aab89790806cd2f9cf1929471a369b93684c4766e04e6670c"
         },
         {
           "path": "tools/stitchit.yaml",
-          "bytes": 580,
-          "sha256": "d25945633bd31811e8849924fb3905372351f21e5116a8f242b58ee2783ba4d6"
+          "bytes": 589,
+          "sha256": "6e6207c60c485aa94e767f88c7727656ccb40412fbbffa1482fb6b35edc55312"
         },
         {
           "path": "tools/stringtie.yaml",
-          "bytes": 627,
-          "sha256": "f6c5532647cbabf5e06d34212714bc2695501f98ca5a21c5ee63b692030b7b6a"
+          "bytes": 623,
+          "sha256": "115582b6552c64cfff1f7b9e37010807c651965b7f5dd9484b39cc989f669982"
         },
         {
           "path": "tools/strvctvre.yaml",
-          "bytes": 418,
-          "sha256": "aabd03cea13835206775d6cb5779d4abe6ca8de87248100105d9349145238742"
+          "bytes": 511,
+          "sha256": "34d3d3d937f988c96c1d522c610a6bd5672e7856a9f355fc5711442b4a332d72"
         },
         {
           "path": "tools/summarizedexperiment.yaml",
-          "bytes": 470,
-          "sha256": "1724c3c8388034e103ad8ae2c0dbeef835d31db3d29509fc21c31a408a125634"
+          "bytes": 564,
+          "sha256": "dcb29d9f8d1a9b05038c73a4014dbc8e2bfffff416042701dd5977b2d157b5cd"
         },
         {
           "path": "tools/superlu.yaml",
-          "bytes": 741,
-          "sha256": "93ee48f95b26a1945cf04cb24d19ea631b11ebd63b805b019228bb4e89a08afd"
+          "bytes": 749,
+          "sha256": "adc6370b9f8720315994312819007272199c36c358b23be795828a9b069f3756"
         },
         {
           "path": "tools/svscore.yaml",
-          "bytes": 414,
-          "sha256": "d9b2f9606157a1cad2c72fc710c3a13e96572e78384f07a75a738b941e9849ef"
+          "bytes": 428,
+          "sha256": "80a6e5b15f2a6bc4bd298555b16c7823127a0c4d65a46837483e11c1d48bf39c"
         },
         {
           "path": "tools/systempiper.yaml",
-          "bytes": 668,
-          "sha256": "06f2fe621ae27a13e64769f9fca5d86157a944d300a16b99bb32117727b50b91"
+          "bytes": 774,
+          "sha256": "a90204b52d4c356e191a775d8444044cbada52ca534fee7d5365feb538e5286b"
         },
         {
           "path": "tools/tabix.yaml",
-          "bytes": 572,
-          "sha256": "425cec4734aa7a8680077ba55d74724b578a2ae87ee38f9de090e34436723f46"
+          "bytes": 585,
+          "sha256": "3ac8b9929b06dd59a55527ed180a30356991dbfb1251ada6f7dff54657c3b973"
         },
         {
           "path": "tools/tada.yaml",
-          "bytes": 408,
-          "sha256": "773ff9427105bd026e3c6e6b400824863dd77f6c569226f3ad42211151a35ae6"
+          "bytes": 422,
+          "sha256": "9a6fbce0c07c042d9ee7f9f25cea15626b755a6b3851188adb0ac5e87540f279"
         },
         {
           "path": "tools/tadeus2.yaml",
-          "bytes": 414,
-          "sha256": "7d6b6f73f24a03633765d114c30652611673a4dd12d547bbb11b56b8db4e94db"
+          "bytes": 428,
+          "sha256": "1b02417b0d2a88d5225b47b1af91250bcfce050d32d6fa4e28712022fdb8d602"
         },
         {
           "path": "tools/targetfinder.yaml",
-          "bytes": 539,
-          "sha256": "5f8c9e22c39e2d25552ae414ee4892fc5756109d6e52a913f67a202d36ee269e"
+          "bytes": 547,
+          "sha256": "0e7b95cac5008b66daffae4c9192735b8f32e1c63f936ab604e1c1bd0a32bce3"
         },
         {
           "path": "tools/tcga-gdc-portal.yaml",
-          "bytes": 511,
-          "sha256": "4e0e48e5474b23be5338820dcce9b51c6a9a6a845f6126708502137308ff14be"
+          "bytes": 523,
+          "sha256": "2b16c9e64f8797d7ad07827344614004fe26480a54e3ddca9ac90aac0555d9a8"
         },
         {
           "path": "tools/tcseq.yaml",
-          "bytes": 534,
-          "sha256": "3f32e93288d35ac77cbeb72f93fdfb98fc1aa290177e3fc6571e279edabed841"
+          "bytes": 611,
+          "sha256": "76cfbd37d2ddcdba24b242a8a975b3e10e66adc48c320761910549b3e27ae760"
         },
         {
           "path": "tools/tensorflow.yaml",
-          "bytes": 2575,
-          "sha256": "c06c53c0f3b38cf48f476dd6334978c686496ff0798b8c224c9ceaf3e9c2ba18"
+          "bytes": 2701,
+          "sha256": "9c04132c251e4567184aa4b191e2bfe67e20641d7ce4bec4b34dfbfb703d92f2"
         },
         {
           "path": "tools/tfbstools.yaml",
-          "bytes": 448,
-          "sha256": "3ebdee21d5a9c8f02639c6b71f62e89a8a6802bd7582e241a2e8a8392d4b1e30"
+          "bytes": 551,
+          "sha256": "3c00ea43f0fcd2be5520a40ace33b1c51f12074493b69a6870ce299a643626e1"
         },
         {
           "path": "tools/tfea.yaml",
-          "bytes": 508,
-          "sha256": "4082787ac02684857bc8cfb0d63d4f0c71c62b29732f739f032cf951ab08054b"
+          "bytes": 524,
+          "sha256": "69c8bb595cbe40fc6187683175d16ca0e915a0403ceedf9ef6548c214df226a6"
         },
         {
           "path": "tools/tivan-indel.yaml",
-          "bytes": 942,
-          "sha256": "e04838012831f4089f81a6a2a7cb94a3a53188dc9063fdf2404cab984b5b1756"
+          "bytes": 1028,
+          "sha256": "416d4ac85b05940cd7de3834042a8aa27541e0ea8f6f22b9034224f19599a3aa"
         },
         {
           "path": "tools/toast.yaml",
-          "bytes": 448,
-          "sha256": "97cd854b4b7e121bdb2dfb4b1f81dcc8e92d4cc12f181373679a34f4938751f1"
+          "bytes": 464,
+          "sha256": "c861b5338df1580fb8b75e83f3841e4772da20690aa6710dc871bfcb16fbf9fd"
         },
         {
           "path": "tools/tombo.yaml",
-          "bytes": 646,
-          "sha256": "558a1549a529190f5e6940f8890a040b2275844ca6fc73bbcbc7bc3686a344c2"
+          "bytes": 748,
+          "sha256": "edd7a0ebbbe0f18967c1f93c088cfe61dddba47d309da31ea2c029dbdde17f9e"
         },
         {
           "path": "tools/tomtom.yaml",
-          "bytes": 423,
-          "sha256": "4ee6830a4084a41835a95ed1a087286ec2e9b298d5ac374643f4dc88f2a98639"
+          "bytes": 438,
+          "sha256": "de27726bf589f396a1dafac194d1700c3029e83aa3d1328e0e3f01d8b3304596"
         },
         {
           "path": "tools/tools-call-motif.yaml",
-          "bytes": 511,
-          "sha256": "de18d56b73320b394b8e23bb1c396537940067ba08e7d8805235d6689d5d4a2e"
+          "bytes": 512,
+          "sha256": "7b3916c3257cc37930a70a32d948d7c1e68d56e1145f334626938b2cb7d876c1"
         },
         {
           "path": "tools/tools-compare-motif.yaml",
-          "bytes": 520,
-          "sha256": "8fda6609820cee264c3e7779919b775700c1d04b64965d8a279a07f6b26c87d9"
+          "bytes": 521,
+          "sha256": "a42ccad5658fe97d8b6cc589a2c54073feeb4c7847e90da8b5bf9eb2163ebf6f"
         },
         {
           "path": "tools/topdom.yaml",
-          "bytes": 450,
-          "sha256": "add2f8ce81001ddc55ee05dd8869ef869d84efc4252b1eba72d399aa679ef82d"
+          "bytes": 466,
+          "sha256": "6172a7743021d49e5a95ae40f426394274743938a292abc30967aaabee37d421"
         },
         {
           "path": "tools/tophat.yaml",
-          "bytes": 924,
-          "sha256": "94884b700d8eac44a588661e26be0127eb230e244a34c81b7278426ccdfe813f"
+          "bytes": 937,
+          "sha256": "de5befb5bbd33d503836ac2705acb9ca82310a9a099e4b80319ed145606ce420"
         },
         {
           "path": "tools/torch7.yaml",
-          "bytes": 611,
-          "sha256": "0822a8a3a09814dd84b274be49d02a76c04ce530a8f25d0bdf8f98a03198714c"
+          "bytes": 626,
+          "sha256": "fe1db6550cec8567d3415547ab25355d9cb8648a1218fcc8eba2415dd68ea7a0"
         },
         {
           "path": "tools/trap.yaml",
-          "bytes": 567,
-          "sha256": "01dc933a95bb3bf419a36c90a00825e2ba88f66910d7a2b07f031e91f9faeafa"
+          "bytes": 576,
+          "sha256": "b9bc21e8463ef87970fa1b9dad53b3ce700dab6f6c972f3b3c383bc1ddef1b18"
         },
         {
           "path": "tools/treeexplainer.yaml",
-          "bytes": 605,
-          "sha256": "1f4a0657cb3035106a9a6d7d1304a2164b9eef6828ea2ab0ccd2408dfed1c176"
+          "bytes": 615,
+          "sha256": "f706714eee33f4295add8eb3a2c4d38af8b4e3145da0de601db7bcf2814bc294"
         },
         {
           "path": "tools/trim-galore.yaml",
-          "bytes": 892,
-          "sha256": "49e4fedb2faa97a1e0d516cf788a9b56e3f6431fd8236204be5649d32bfacecb"
+          "bytes": 995,
+          "sha256": "3a7530ffb9e122c55b015646295dea2e1116c54f6c499237ba8a12314ff0ecaa"
         },
         {
           "path": "tools/trimmomatic.yaml",
-          "bytes": 911,
-          "sha256": "2b5d800a7feeb1599bf236ec5225f5f88f830e2983ade6e7386dd871b8772dc4"
+          "bytes": 1015,
+          "sha256": "82ab88eec8b04736d2310cc5de809f6876fc39ec0ae11b954fed1a3eb01a2ea8"
         },
         {
           "path": "tools/triplexaligner.yaml",
-          "bytes": 433,
-          "sha256": "d73b9c4cf34c150212fd43d3767782d4cc2011fd3854e2cacc1376d27d58e07e"
+          "bytes": 444,
+          "sha256": "f53d4d68640c8ebca2a7b2b2231ed30ad146ad26b53ae809d6e18fd7bdee5765"
         },
         {
           "path": "tools/triplexator.yaml",
-          "bytes": 427,
-          "sha256": "47470808923d5fef6f1c5bac6a210df1a18cd676a5a9bd24201bc2fbddd750a9"
+          "bytes": 438,
+          "sha256": "31876f0878e0924321ba7e4d755cb85131ad49cab8d6c6304b42edbaa3ee391a"
         },
         {
           "path": "tools/triplexfpp.yaml",
-          "bytes": 471,
-          "sha256": "859c4c22383f28382cf4dd18d885c40d3010889bcfdc10c755a2898b0f472d1b"
+          "bytes": 554,
+          "sha256": "fead29874d9a23e7b30c631415b4b5b0852f749de0b1ff1bbfc46580b160f954"
         },
         {
           "path": "tools/truncatedsvd.yaml",
-          "bytes": 582,
-          "sha256": "5ac49d3ea1c80f7a43e290a0580bc1eb91f1998c73ef31970baf124499019b93"
+          "bytes": 592,
+          "sha256": "d0844ca3857714e01bad4cb2bd047523f245e33bc0c1a9e4b40c773d70969d71"
         },
         {
           "path": "tools/tsminer.yaml",
-          "bytes": 522,
-          "sha256": "ae0b0ad0577aab39d0e757b2ab44372c0ab45b9e89cfa92c568d9d08ada82a62"
+          "bytes": 524,
+          "sha256": "9c3b78ecd69d6bb8b71694ef555628f9e8329ce48ba95c50a8efb8f2ec96a184"
         },
         {
           "path": "tools/ucsc-genome-browser.yaml",
-          "bytes": 1003,
-          "sha256": "bc7ac67da9acba95702ba468284b634f45ff82d04090e43ac02cd6df73681903"
+          "bytes": 1019,
+          "sha256": "05f16b6678f94a2608bd216879d7a7a99c37c89adf001320559d135ed9800bcc"
         },
         {
           "path": "tools/ucsc-liftover.yaml",
-          "bytes": 669,
-          "sha256": "96c8b2e89392ec0be058d67ca9bb4e1128ea820cbb5aa5d1878f2234ed751750"
+          "bytes": 757,
+          "sha256": "fe3ac1a9ff0904681466f96c1862b4468fd01ce4335f2d63cfe0acb42264a135"
         },
         {
           "path": "tools/umap.yaml",
-          "bytes": 407,
-          "sha256": "8a4d12919b8b08fa3373459ad83cd1a6058ccd625a0d9ee381d1b34880dd39f1"
+          "bytes": 419,
+          "sha256": "5bce735e7d909b3eb4f25f1bcce8e541ba5911bd0d6e20157c0ee11d69567e32"
         },
         {
           "path": "tools/umi-tools.yaml",
-          "bytes": 853,
-          "sha256": "ea1f015785f3d93f38b6857cb2e5efb6fdd2bcc82f2d6ed756201cc65d68ba83"
+          "bytes": 866,
+          "sha256": "5248c2ae00b7a244c78f452324547a14b37f559eaeb400001ce9c39599f1ca8d"
         },
         {
           "path": "tools/uniprot.yaml",
-          "bytes": 542,
-          "sha256": "024944c2688827e3d8598185a78856fc3d14301960f3e8d06a4a592658ad903c"
+          "bytes": 495,
+          "sha256": "0340b453ced36e362e413e92a00031912f44759a8dde8aa9e0c4151f1260b057"
         },
         {
           "path": "tools/vgam.yaml",
-          "bytes": 442,
-          "sha256": "73ae8f7daaaca982c55431f233ca66d0db72180ede89a670269c32518c37cca1"
+          "bytes": 457,
+          "sha256": "9fd3fb00595aa3e8d026684cc2ce1fa23522aa7ec6eff8a64a92e6dc22a4a8c9"
         },
         {
           "path": "tools/viennarna.yaml",
-          "bytes": 423,
-          "sha256": "4f6ef966ee76a6af32ac03c7fa30484e79edc9a241f795e3207aa92074dc9130"
+          "bytes": 434,
+          "sha256": "e38993e8b8d1451d2ef031feec1337a6e4fb9620caacd558c711c053450e0512"
         },
         {
           "path": "tools/viridis.yaml",
-          "bytes": 446,
-          "sha256": "3226716d07e152dbd021132bf0c1fdcb59f45926563a1f39a6278c494f7e7af4"
+          "bytes": 460,
+          "sha256": "15db08fa71b047518b287e74234182ed49229b3e901f31fe15b4120bd4aec275"
         },
         {
           "path": "tools/warneckecalibrationplot.yaml",
-          "bytes": 533,
-          "sha256": "ba2cd4ecd434b76ffcabd0971f2a97da5ba2173eae3d9ed98ad0b74915caa34a"
+          "bytes": 547,
+          "sha256": "7f2efa83c2b319dc5b28186338a363cf24853c8d273472e30ee048443926f08a"
         },
         {
           "path": "tools/watchdog-jar.yaml",
-          "bytes": 517,
-          "sha256": "775d1d941bf916f3a22f0603a07b711539b4bc0039149d1ae39a9d45dee46bbf"
+          "bytes": 531,
+          "sha256": "18c7415a94166d9190bf02d3f4033c42a179eb39b4b244f7d660792d2db5477c"
         },
         {
           "path": "tools/watchdog.yaml",
-          "bytes": 616,
-          "sha256": "ec04340afe31f02f0a95628316fa5cb7c4647666ade3d65628225e0c2bbdd900"
+          "bytes": 697,
+          "sha256": "b62b903ed3b5624fad1678059f495d616034eeb0614729724245e0b959b3bb89"
         },
         {
           "path": "tools/whichtf.yaml",
-          "bytes": 433,
-          "sha256": "71c597aa973366638080ff7aa714e7db5985569dadd66c3cdc4d9aa4a2a201fd"
+          "bytes": 451,
+          "sha256": "eac5e20ded48024f45d6147420af33ea6cd082d4cd27ee9a82ad2be28712ddd1"
         },
         {
           "path": "tools/wigcorrelate.yaml",
-          "bytes": 439,
-          "sha256": "c848bb50a0bff12e173f50f34eabd3c66a9a93ff2128076ec14e5df61d94b8b0"
+          "bytes": 457,
+          "sha256": "f6ab6012efd02e82d49610143cd890150528e79c6f9fa1c5fdbbb76995d460a4"
         },
         {
           "path": "tools/workflowvalidator-jar.yaml",
-          "bytes": 561,
-          "sha256": "b7af92053e3ff9ef2985dc7ff80e9458c2bdf40d94206250a764f048d136dd31"
+          "bytes": 575,
+          "sha256": "56fe4039c9576f9cb23d5ae1923bbc120a8d25c4871f0030736778be7f9cfa6e"
         },
         {
           "path": "tools/xgboost.yaml",
-          "bytes": 2137,
-          "sha256": "5fed70b66b8818750018dbfd40fd17607d7c5009ed8c1c3f561c706e250b363f"
+          "bytes": 2247,
+          "sha256": "0c7836547c7da6fc22657366eacaf64e7325f66daa31eb6a3edbfebf9857e3f7"
         },
         {
           "path": "tools/xml.yaml",
-          "bytes": 552,
-          "sha256": "d5a2af4659803d42fa0db9a503754a8029ba8d32c81748d5191af8663428d466"
+          "bytes": 566,
+          "sha256": "99af7151d0943808bdf1146b25e3f9acb1a42711cef6e005d6c1c2fbc09942e1"
         },
         {
           "path": "tools/zinba.yaml",
-          "bytes": 481,
-          "sha256": "f38e51d159f59b1d7acd7df0ab56e917d4bbc39ba25b478c996419e24a9cafb5"
+          "bytes": 485,
+          "sha256": "f29168133a31efbff98c6150b9a584e577c1ca954a6c5596aacb9a7cea7c0b16"
         },
         {
           "path": "tools_index.json",
-          "bytes": 597098,
-          "sha256": "6a37899a4cb21e05a49e849ef18b0f458304bc6e03fbb7c396cc297a7e492dc4"
+          "bytes": 689333,
+          "sha256": "74b90428334a98cf095ed352162f1baa69d5afad0aab23c60a34a620992f7f78"
         },
         {
           "path": "workflows",
@@ -23807,7 +23812,7 @@
       "scope": "payload files",
       "required": true,
       "counts": {
-        "checked": 2846,
+        "checked": 2847,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -23894,5 +23899,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "9302b2514c826f6515bec3bcc0a865b66d9430af5cdf504dcbc9338622714e29"
+  "receipt_sha256": "88f72f26367b75ee52468c3e2f388782bcb3a0612131dbba38994915c19516ba"
 }

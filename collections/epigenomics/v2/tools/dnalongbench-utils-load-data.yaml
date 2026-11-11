@@ -10,8 +10,10 @@ source_repos:
 - https://github.com/ma-compbio/DNALONGBENCH
 - https://github.com/ma-compbio/DNALONGBENCH.git
 schema_version: 0.2.0
+entry_kind: artefact
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/ma-compbio/DNALONGBENCH
+license_evidence: null
+repo_url: null
