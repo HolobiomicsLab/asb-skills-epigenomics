@@ -2,19 +2,12 @@
 
 | Stage | Done at | Repository commit | Digests |
 |---|---|---|---|
-| gate | 2026-11-09T14:56:08Z | ae9feed1efbe760d5d4afda0bde54eac177b80b2 | `{"candidate_tree": "sha256:10b457f5276ded5de273e1132842ac6ecedbd6f5756bac6bd1b2c2da4d50c472", "gate_report": "0ba1136af2fea47554ef1b37f17fb69446cce1977a49ae14bd7cc8425b986b9a"}` |
-| deposit-plan | 2026-11-09T14:56:09Z | ae9feed1efbe760d5d4afda0bde54eac177b80b2 | `{"archive_sha256": "def189e660101d0aac7cb9256b4802bc7735d082d740372c3e5119476d4ee5fc"}` |
-| deposit-draft | 2026-11-09T21:06:03Z | ae9feed1efbe760d5d4afda0bde54eac177b80b2 | `{"archive_sha256": "def189e660101d0aac7cb9256b4802bc7735d082d740372c3e5119476d4ee5fc"}` |
-| record-doi | 2026-11-10T10:48:44Z | ae9feed1efbe760d5d4afda0bde54eac177b80b2 | `{"CITATION.cff": "b9581d28d9b74c5ba7ee2e71eb6681bd59dd457157934341af53325b73cfe88c", "README.md": "f049bd7de1da8956dd0fa3b313ba56c5e4bcb51e5bf84b8d697ce0aafa495e24", "RELEASE.yaml": "59ffc807b96ef09ee6be2d74ef93146f86c3890efcadb95fc1ba4be5f98a1551", "marketplace.json": "02bb3ffb9c597848ead4d5f638ed428693f7c276f1c49f541721e4cfd15fbb43", "plugin.json": "7aeec0fdf56801398c2d138ccf33cd33a92138b0d50dfbc43e0ba6dd9bf7f513"}` |
-| receipt | 2026-11-10T10:50:08Z | ae9feed1efbe760d5d4afda0bde54eac177b80b2 | `{"receipt": "38c9d20ce876dd65ec1a081f63e61669affc936d8248d2cca9078d845a4c70e6"}` |
-| manifest | 2026-11-10T10:53:25Z | 24c1d327df19b74925912d97819a4c8d898f69f2 | `{"catalogue_jsonld": "5c3ba62d8e9923f33d1077df5ec4c8b28c6e71d6b7cac5d12c21b106dbf24fcd", "collections_yaml": "27af56507609be96aab1e12ff643fcb2a7c8dcad8dc1097a1e07110745061ac3"}` |
-| tag | 2026-11-10T11:06:57Z | 24c1d327df19b74925912d97819a4c8d898f69f2 | `{}` |
+| gate | 2026-11-10T16:56:33Z | 0528a96adb34b6ef4a1d1dec8dada0c06e5bf396 | `{"candidate_tree": "sha256:04d1c12e19daa64e2bcf3744cf77c110a949f5390d0f3acc5ec8830779d8a79f", "gate_report": "7324803612799362054771ed4bc7f2deef62fb6713e444a58435164694688f79"}` |
+| deposit-plan | 2026-11-10T16:56:33Z | 0528a96adb34b6ef4a1d1dec8dada0c06e5bf396 | `{"archive_sha256": "3d67ac83bf27625ec95a6a2691e46d810d7f9ae879112ea7ddf617ed6a258162"}` |
+| deposit-draft | 2026-11-11T00:08:17Z | 0528a96adb34b6ef4a1d1dec8dada0c06e5bf396 | `{"archive_sha256": "3d67ac83bf27625ec95a6a2691e46d810d7f9ae879112ea7ddf617ed6a258162"}` |
+| record-doi | 2026-11-11T00:30:04Z | 0528a96adb34b6ef4a1d1dec8dada0c06e5bf396 | `{"CITATION.cff": "6ca680713658479117b65605fbe2b8d1e6b5231eaf03bb014e5cdcab6224b88e", "README.md": "b79d5caf03634c550aaeb8b3a43f0e77d916a79b1d25482170041a453188fcdd", "RELEASE.yaml": "7096beeaa0f401f1cd6085333a63735161b4a428cdcbfa496e5b8772dfdaa139", "marketplace.json": "a5a8caf5d79403372690ab6790ae13b61e77d1e1923f92560be1075b7ac8e718", "plugin.json": "b3dcd186ab054e1fcb10992a0632e030b0c0c630ab89c55ed46f9aeb4bf36f34"}` |
+| receipt | 2026-11-11T00:31:43Z | 0528a96adb34b6ef4a1d1dec8dada0c06e5bf396 | `{"receipt": "a40877572d59d7deebd942398d18439b05ce212894937e8388466242c661322c"}` |
 
 ## Owner actions
 
-- OWNER: publish the reviewed Zenodo draft at https://zenodo.org/deposit/24093107; publishing mints both the version DOI and the concept DOI
-- OWNER: run record-doi --doi <version DOI>, then manifest --concept-doi <concept DOI>
-- OWNER: git tag epigenomics-v2.0.0 24c1d327df19b74925912d97819a4c8d898f69f2
-- OWNER: git push origin epigenomics-v2.0.0
-- OWNER: git tag epigenomics-v2.0.0 24c1d327df19b74925912d97819a4c8d898f69f2
-- OWNER: git push origin epigenomics-v2.0.0
+- OWNER: publish the reviewed Zenodo draft at https://zenodo.org/deposit/24122116, then run record-doi --doi <version DOI>
