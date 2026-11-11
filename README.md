@@ -31,7 +31,7 @@ This repository holds the epigenomics skill collection of AgenticScienceBuilder 
 | Path | Title | Skills | Tools | Released | DOI |
 |---|---|---|---|---|---|
 | `collections/epigenomics/v1` | ASB Epigenomics Skill Collection v1 (legacy) | 203 | 68 | 2026-06-15 | not deposited |
-| `collections/epigenomics/v2` | ASB Epigenomics Skill Collection v2 | 2295 | 532 | 2026-11-09 | [10.5281/zenodo.24093107](https://doi.org/10.5281/zenodo.24093107) |
+| `collections/epigenomics/v2` | ASB Epigenomics Skill Collection v2 | 2295 | 532 | 2026-11-10 | [10.5281/zenodo.24122116](https://doi.org/10.5281/zenodo.24122116) |
 
 ## Status
 
