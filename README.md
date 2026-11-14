@@ -31,11 +31,11 @@ This repository holds the epigenomics skill collection of AgenticScienceBuilder 
 | Path | Title | Skills | Tools | Released | DOI |
 |---|---|---|---|---|---|
 | `collections/epigenomics/v1` | ASB Epigenomics Skill Collection v1 (legacy) | 203 | 68 | 2026-06-15 | not deposited |
-| `collections/epigenomics/v2` | ASB Epigenomics Skill Collection v2 | 2295 | 532 | 2026-11-10 | [10.5281/zenodo.24122116](https://doi.org/10.5281/zenodo.24122116) |
+| `collections/epigenomics/v2` | ASB Epigenomics Skill Collection v2 | 2295 | 532 | 2026-11-14 | [10.5281/zenodo.24224653](https://doi.org/10.5281/zenodo.24224653) |
 
 ## Status
 
-Collection `v2`, built from corpus cut `d7359e4dd5f0`, is released on `main` at tag `epigenomics-v2.0.0` and archived on Zenodo under the version DOI [10.5281/zenodo.24093107](https://doi.org/10.5281/zenodo.24093107). The earlier flat-layout collection `v1` stays in the repository as a legacy collection; it is not part of this release.
+Collection `v2`, built from corpus cut `d7359e4dd5f0`, is released on `main` at tag `epigenomics-v2.1.0` and archived on Zenodo under the version DOI [10.5281/zenodo.24224653](https://doi.org/10.5281/zenodo.24224653). The earlier flat-layout collection `v1` stays in the repository as a legacy collection; it is not part of this release.
 
 | Item | State |
 |---|---|
@@ -43,7 +43,7 @@ Collection `v2`, built from corpus cut `d7359e4dd5f0`, is released on `main` at 
 | Plugin manifests | `claude plugin validate` passes for `.claude-plugin/marketplace.json` and for `collections/epigenomics/v2` |
 | Collection IRI | `https://w3id.org/holobiomicslab/asb-skill/collection/epigenomics/v2` |
 | IRI resolution (2026-11-14) | Registered at w3id.org. It redirects (HTTP 302) to the collection landing page in the asb-skill-collections registry (HTTP 200), which names this repository and the Zenodo record. |
-| DOI | [10.5281/zenodo.24093107](https://doi.org/10.5281/zenodo.24093107) (this version). The Zenodo deposit metadata is in [`.zenodo.json`](.zenodo.json). |
+| DOI | [10.5281/zenodo.24224653](https://doi.org/10.5281/zenodo.24224653) (this version). The Zenodo deposit metadata is in [`.zenodo.json`](.zenodo.json). |
 | Concept DOI | [10.5281/zenodo.24093106](https://doi.org/10.5281/zenodo.24093106) (all versions) |
 
 ## What is inside
@@ -141,7 +141,7 @@ Each leaf names its source paper in `provenance.source_papers` (2,295 of 2,295 l
 
 ## Citation
 
-Cite the collection with [`CITATION.cff`](CITATION.cff). Cite also the source paper of each skill you use: its DOI is in `provenance.source_papers` in the skill's front matter. The collection's version DOI is [10.5281/zenodo.24093107](https://doi.org/10.5281/zenodo.24093107); its concept DOI, which covers all versions, is [10.5281/zenodo.24093106](https://doi.org/10.5281/zenodo.24093106).
+Cite the collection with [`CITATION.cff`](CITATION.cff). Cite also the source paper of each skill you use: its DOI is in `provenance.source_papers` in the skill's front matter. The collection's version DOI is [10.5281/zenodo.24224653](https://doi.org/10.5281/zenodo.24224653); its concept DOI, which covers all versions, is [10.5281/zenodo.24093106](https://doi.org/10.5281/zenodo.24093106).
 
 ## Licence
 
