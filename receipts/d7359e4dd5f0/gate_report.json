@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-14T21:24:30.300442+00:00",
+  "generated_at": "2026-11-15T16:45:44.622166+00:00",
   "collection_dir": "collections/epigenomics/v2",
   "corpus_path": "collections/epigenomics/v2/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "754ee3c27c6aabf9a167688da5e7689e78e81ee2a455e3e2019ce87165cc54ce",
+      "sha256": "5c10781f2f7253754c5d9a567bc076dc9def3ca7339b8ddd4dfc1140bdb62c4c",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -67,8 +67,8 @@
         },
         {
           "path": ".zenodo.json",
-          "bytes": 2545,
-          "sha256": "b2c35d24288cd399f6c73b0c666bd53c513ff2baf1509e9c8acdc4395a931db2"
+          "bytes": 2696,
+          "sha256": "73b9963d0722254bee941496e7bfdab1f3ffbaa461d08a4551116f0bfac90b4b"
         },
         {
           "path": "CITATION.cff",
@@ -81,8 +81,8 @@
         },
         {
           "path": "bin/report_issue.py",
-          "bytes": 44558,
-          "sha256": "91a8606109067b015cd6d1af497b12f82149cc2b4aa9fcdabb67984201eee197"
+          "bytes": 44518,
+          "sha256": "fc5f56dc586aa6bb28d4930ce4170204633cdcc0f70ade2221b3c1db79ae5d4d"
         },
         {
           "path": "bin/search_skills.py",
@@ -20778,8 +20778,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 4299,
-          "sha256": "5b01e51e0c9e9ffb72f075e9cdee806763094ed0198e8a8bded8a629f725caa0"
+          "bytes": 4291,
+          "sha256": "150eb9fca85dd2cc982eb9dce99485ff945e7a062e9c166cbb03a780b13d9bf0"
         },
         {
           "path": "skills_index.json",
@@ -23470,8 +23470,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 4733,
-          "sha256": "d15ffaf08d22316250c85c1a99270370d38e975588db8ff202a45927bb1f58f5"
+          "bytes": 4725,
+          "sha256": "2e7dcbc3c5c919ebcc2d4ad06c11386d81cc88a653789a1af1206cf06d430302"
         },
         {
           "path": "workflows/bisulfite-dmr-analysis",
@@ -23904,5 +23904,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "ef15beeb9a875f6e4f1048c88f64c7b367dbdb08c91d3f8ced59574f3c79813d"
+  "receipt_sha256": "7c557c7828c25f255f18357b1c14dc7bea68a346be9ef70bbe201fb0ce789da9"
 }
