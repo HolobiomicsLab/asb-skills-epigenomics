@@ -10,7 +10,7 @@
       "name": "epigenomics",
       "source": "./collections/epigenomics/v2",
       "description": "ASB Epigenomics Skill Collection v2: 2295 evidence-grounded skills over 532 tools.",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "author": {
         "name": "Holobiomics Lab",
         "url": "https://github.com/HolobiomicsLab"
